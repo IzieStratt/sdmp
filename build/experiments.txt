@@ -90,7 +90,6 @@ agentic_ia
 agentic_ia_activity_conversations
 agentic_ia_agent_dm_peek
 agentic_ia_agent_dm_sessions_tab
-agentic_ia_agent_tray
 agentic_ia_browse_toolbar_search
 agentic_ia_day_glance
 agentic_ia_experimental
@@ -110,7 +109,6 @@ agentic_ia_translations
 agentic_ia_visual_refresh
 agentic_ia_you_page
 agents_dms_header_status
-agents_in_canvas_interaction
 agents_in_channels_improvements
 agents_in_dm_sidebar
 agents_in_dm_sidebar_pref
@@ -980,6 +978,7 @@ sidebar_sweeper_mute_channels
 sidebar_text_filter
 sidebar_text_filter_m2
 sidebar_text_filter_m3
+sidebar_thread_prefetch_telemetry
 sidebar_visual_updates_nux
 sidekicks
 sidekicks_admin

@@ -445,9 +445,9 @@ ai-features	agent_tasks_tab_coachmark_eligible_dm_opened	2026-11-20
 ai-features	agent_thread	2026-11-10		
 ai-features	agent_title	2026-11-10		
 ai-features	agent_topics_in_profile	2026-11-10	2026-11-11	2026-11-11
-ai-features	agent_tray	2026-11-10		
-ai-features	agent_tray_tab_preview	2026-11-10		
-ai-features	agent_tray_tile	2026-11-10		
+ai-features	agent_tray	2026-11-10	2026-11-21	2026-11-21
+ai-features	agent_tray_tab_preview	2026-11-10	2026-11-21	2026-11-21
+ai-features	agent_tray_tile	2026-11-10	2026-11-21	2026-11-21
 ai-features	agent_turn_end_reason	2026-11-11		
 ai-features	agent_turn_notifications	2026-11-10		
 ai-features	agent_turn_quote_updated_ts	2026-11-13		
@@ -503,7 +503,7 @@ ai-features	agentic_ia_agenda	2026-11-10
 ai-features	agentic_ia_agenda_peek	2026-11-10		
 ai-features	agentic_ia_agent_dm_peek	2026-11-10		
 ai-features	agentic_ia_agent_dm_sessions_tab	2026-11-10		
-ai-features	agentic_ia_agent_tray	2026-11-10		
+ai-features	agentic_ia_agent_tray	2026-11-10	2026-11-21	2026-11-21
 ai-features	agentic_ia_browse	2026-11-10		
 ai-features	agentic_ia_browse_toolbar_search	2026-11-11		
 ai-features	agentic_ia_day_glance	2026-11-10		
@@ -564,9 +564,9 @@ ai-features	agentic_sidebar_kept_threads_fetch	2026-11-10
 ai-features	agentic_sidebar_latest_replies_fetch	2026-11-10		
 ai-features	agentic_sidebar_session_row	2026-11-10		
 ai-features	agentic_sidebar_slackbot_peek	2026-11-10		
-ai-features	agentic_tray_menu	2026-11-10		
-ai-features	agentic_tray_peek	2026-11-10		
-ai-features	agentic_tray_tile	2026-11-10		
+ai-features	agentic_tray_menu	2026-11-10	2026-11-21	2026-11-21
+ai-features	agentic_tray_peek	2026-11-10	2026-11-21	2026-11-21
+ai-features	agentic_tray_tile	2026-11-10	2026-11-21	2026-11-21
 ai-features	agentic_workspace_filter_banner	2026-11-10		
 ai-features	agentic_workspace_filter_banner_remove	2026-11-10		
 ai-features	agents	2026-11-10		
@@ -580,7 +580,7 @@ ai-features	agents_dms_header_status	2026-11-10
 ai-features	agents_dms_nux_header_name_glow	2026-11-11		
 ai-features	agents_featured_grid	2026-11-10		
 ai-features	agents_filters	2026-11-10		
-ai-features	agents_in_canvas_interaction	2026-11-10		
+ai-features	agents_in_canvas_interaction	2026-11-10	2026-11-21	2026-11-21
 ai-features	agents_in_channel_banner_hidden	2026-11-10		
 ai-features	agents_in_channels_improvements	2026-11-10		
 ai-features	agents_in_dm_list	2026-11-10		
@@ -608,7 +608,7 @@ ai-features	agents_tabs	2026-11-10
 ai-features	agents_tools_coachmark	2026-11-20		
 ai-features	agents_view	2026-11-10		
 ai-features	ai_action_items	2026-11-10		
-ai-features	ai_agent_selection_menu	2026-11-10		
+ai-features	ai_agent_selection_menu	2026-11-10	2026-11-21	2026-11-21
 ai-features	ai_alt_text	2026-11-10		
 ai-features	ai_analytics_all	2026-11-10		
 ai-features	ai_analytics_all_search	2026-11-10		
@@ -972,7 +972,7 @@ ai-features	canvas_ai_cancel_button	2026-11-10
 ai-features	canvas_ai_content_creation_input	2026-11-10		
 ai-features	canvas_ai_content_creation_overlay	2026-11-10		
 ai-features	canvas_ai_copy_button	2026-11-10		
-ai-features	canvas_ai_default	2026-11-10		
+ai-features	canvas_ai_default	2026-11-10	2026-11-21	2026-11-21
 ai-features	canvas_ai_disabled_for_user	2026-11-10		
 ai-features	canvas_ai_discard_button	2026-11-10		
 ai-features	canvas_ai_disclaimer	2026-11-10		
@@ -1741,10 +1741,11 @@ ai-features	show_agentforce_feedback	2026-11-10
 ai-features	show_ai_apps	2026-11-10		
 ai-features	show_as_agent	2026-11-10		
 ai-features	show_slackbot_nav	2026-11-10		
-ai-features	sidebar_agent_tray_tile	2026-11-10		
+ai-features	sidebar_agent_tray_tile	2026-11-10	2026-11-21	2026-11-21
+ai-features	sidebar_arrange_discard_prompt	2026-11-21		
 ai-features	sidebar_create_agent_chat	2026-11-10		
 ai-features	sidebar_create_slackbot_chat	2026-11-10		
-ai-features	sidebar_editor_ask_slackbot	2026-11-20		
+ai-features	sidebar_editor_ask_slackbot	2026-11-20	2026-11-21	2026-11-21
 ai-features	sidebar_management_agent	2026-11-10		
 ai-features	sidebar_slackbot_collapse	2026-11-10		
 ai-features	signin_to_salesforce_prompt	2026-11-10		
@@ -5107,7 +5108,7 @@ analytics-events	component: slackforce_email_file_attachment_download_toast	2026
 analytics-events	component: slackforce_email_file_viewer_actions	2026-11-10		
 analytics-events	component: slackforce_email_modal	2026-11-10		
 analytics-events	component: slackforce_ephemeral_entity_add_to_sidebar_banner	2026-11-10		
-analytics-events	component: slackforce_sales_hub	2026-11-20		
+analytics-events	component: slackforce_sales_hub	2026-11-20	2026-11-21	2026-11-21
 analytics-events	component: slackforce_sales_tracker_board	2026-11-10		
 analytics-events	component: slackforce_sales_tracker_onboarding	2026-11-10		
 analytics-events	component: slackforce_sales_tracker_sidebar	2026-11-10		
@@ -13861,6 +13862,7 @@ api-methods-upstream	solutions.update	2026-11-10
 api-methods-upstream	stars.add	2026-11-10		
 api-methods-upstream	stars.list	2026-11-10		
 api-methods-upstream	stars.remove	2026-11-10		
+api-methods-upstream	stocks.earnings.info	2026-11-21		
 api-methods-upstream	stocks.metrics.info	2026-11-21		
 api-methods-upstream	stocks.quotes.lookup	2026-11-21		
 api-methods-upstream	subscriptions.thread.add	2026-11-10		
@@ -38285,7 +38287,7 @@ experiments	agentic_ia	2026-10-23
 experiments	agentic_ia_activity_conversations	2026-11-04		
 experiments	agentic_ia_agent_dm_peek	2026-10-23		
 experiments	agentic_ia_agent_dm_sessions_tab	2026-10-23		
-experiments	agentic_ia_agent_tray	2026-10-23		
+experiments	agentic_ia_agent_tray	2026-10-23	2026-11-21	2026-11-21
 experiments	agentic_ia_browse_toolbar_search	2026-11-11		
 experiments	agentic_ia_day_glance	2026-10-30		
 experiments	agentic_ia_experimental	2026-10-30		
@@ -38308,7 +38310,7 @@ experiments	agentic_ia_you_page	2026-11-11
 experiments	agents_channel_placeholder	2026-10-23	2026-10-29	2026-10-29
 experiments	agents_channel_placeholder_input_viewable	2026-10-23	2026-10-29	2026-10-29
 experiments	agents_dms_header_status	2026-11-04		
-experiments	agents_in_canvas_interaction	2026-10-23		
+experiments	agents_in_canvas_interaction	2026-10-23	2026-11-21	2026-11-21
 experiments	agents_in_channels_improvements	2026-10-23		
 experiments	agents_in_dm_sidebar	2026-10-23		
 experiments	agents_in_dm_sidebar_pref	2026-10-23		
@@ -39351,6 +39353,7 @@ experiments	sidebar_sweeper_mute_channels	2026-10-23
 experiments	sidebar_text_filter	2026-10-23		
 experiments	sidebar_text_filter_m2	2026-10-23		
 experiments	sidebar_text_filter_m3	2026-10-23		
+experiments	sidebar_thread_prefetch_telemetry	2026-11-21		
 experiments	sidebar_visual_updates_nux	2026-10-23		
 experiments	sidekicks	2026-10-23		
 experiments	sidekicks_admin	2026-10-23		
@@ -39998,7 +40001,7 @@ experiments-upstream	agentic_ia: on	2026-11-10
 experiments-upstream	agentic_ia_activity_conversations: on	2026-11-10		
 experiments-upstream	agentic_ia_agent_dm_peek: on	2026-11-10		
 experiments-upstream	agentic_ia_agent_dm_sessions_tab: on	2026-11-10		
-experiments-upstream	agentic_ia_agent_tray: on	2026-11-10		
+experiments-upstream	agentic_ia_agent_tray: on	2026-11-10	2026-11-21	2026-11-21
 experiments-upstream	agentic_ia_browse_toolbar_search: on	2026-11-11		
 experiments-upstream	agentic_ia_day_glance: on	2026-11-10		
 experiments-upstream	agentic_ia_experimental: on	2026-11-10		
@@ -40019,7 +40022,7 @@ experiments-upstream	agentic_ia_translations: on	2026-11-10
 experiments-upstream	agentic_ia_visual_refresh: on	2026-11-20		
 experiments-upstream	agentic_ia_you_page: on	2026-11-11		
 experiments-upstream	agents_dms_header_status: on	2026-11-10		
-experiments-upstream	agents_in_canvas_interaction: on	2026-11-10		
+experiments-upstream	agents_in_canvas_interaction: on	2026-11-10	2026-11-21	2026-11-21
 experiments-upstream	agents_in_channels_improvements: on	2026-11-10		
 experiments-upstream	agents_in_dm_sidebar: on	2026-11-10		
 experiments-upstream	agents_in_dm_sidebar_pref: on	2026-11-10		
@@ -40947,6 +40950,7 @@ experiments-upstream	sidebar_sweeper_mute_channels: on	2026-11-10
 experiments-upstream	sidebar_text_filter: on	2026-11-10		
 experiments-upstream	sidebar_text_filter_m2: on	2026-11-10		
 experiments-upstream	sidebar_text_filter_m3: on	2026-11-10		
+experiments-upstream	sidebar_thread_prefetch_telemetry: on	2026-11-21		
 experiments-upstream	sidebar_visual_updates_nux: on	2026-11-10		
 experiments-upstream	sidekicks: on	2026-11-10		
 experiments-upstream	sidekicks_admin: on	2026-11-10		

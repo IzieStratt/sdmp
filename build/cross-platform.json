@@ -1,13 +1,13 @@
 {
  "schemaVersion": 1,
- "coverage": {"web":{"apiMethods":1690,"featureFlags":1871},"desktop":{"apiMethods":2,"featureFlags":null},"android":{"apiMethods":635,"featureFlags":593},"ios":{"apiMethods":null,"featureFlags":null}},
+ "coverage": {"web":{"apiMethods":1690,"featureFlags":1870},"desktop":{"apiMethods":2,"featureFlags":null},"android":{"apiMethods":635,"featureFlags":593},"ios":{"apiMethods":null,"featureFlags":null}},
  "notes": {
    "web": "api-methods.txt; flags: feature-flags.txt (prefix dropped) and experiments.txt",
    "desktop": "only the Electron shell's own API calls; the app runs the web client for everything else, which is not repeated here. No flag list is mined.",
    "android": "api-methods.txt; flags: android_* feature flags and the web flag names the app also reads (shared-flags.txt)",
    "ios": "not mined: App Store binaries are FairPlay-encrypted, only store metadata is available. Absent from a row means unknown, not missing."
  },
- "summary": {"apiMethods":{"web":1161,"web+android":529,"android":106,"desktop":2},"featureFlags":{"web":1848,"android":570,"web+android":23}},
+ "summary": {"apiMethods":{"web":1161,"web+android":529,"android":106,"desktop":2},"featureFlags":{"web":1847,"android":570,"web+android":23}},
  "apiMethods": {
   "activity.archive": ["web","android"],
   "activity.badgeCounts": ["android"],
@@ -1931,7 +1931,6 @@
   "agentic_ia_activity_conversations": ["web"],
   "agentic_ia_agent_dm_peek": ["web"],
   "agentic_ia_agent_dm_sessions_tab": ["web"],
-  "agentic_ia_agent_tray": ["web"],
   "agentic_ia_browse_toolbar_search": ["web"],
   "agentic_ia_day_glance": ["web"],
   "agentic_ia_experimental": ["web"],
@@ -1951,7 +1950,6 @@
   "agentic_ia_visual_refresh": ["web"],
   "agentic_ia_you_page": ["web"],
   "agents_dms_header_status": ["web"],
-  "agents_in_canvas_interaction": ["web"],
   "agents_in_channels_improvements": ["web"],
   "agents_in_dm_sidebar": ["web"],
   "agents_in_dm_sidebar_pref": ["web"],
@@ -3695,6 +3693,7 @@
   "sidebar_text_filter": ["web"],
   "sidebar_text_filter_m2": ["web"],
   "sidebar_text_filter_m3": ["web"],
+  "sidebar_thread_prefetch_telemetry": ["web"],
   "sidebar_visual_updates_nux": ["web"],
   "sidekicks": ["web"],
   "sidekicks_admin": ["web"],

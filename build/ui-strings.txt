@@ -822,7 +822,6 @@ A list item you saved was deleted. Remove it from Saved?
 A list item you saved was not found. Remove it from Saved?
 A list of your priorities from across Slack, email and calendar sent every morning.
 A list that\u2019s waiting for you to dive in.
-A little bit of everything
 A little hello
 A little more you.
 A little room to breathe.
@@ -889,6 +888,7 @@ A safe space for early work. Ask Harry to join.
 A sales rep tagged you in #AI Customer App - New Product Launch with a question on segment targeting for the enterprise tier.
 A scan found potentially unsafe instructions in this skill. Review the full instructions carefully before making a copy.
 A second user requested one workspace key; caching is off for it
+A section made for you
 A selector must be created from a string; found 
 A shared look at a lead
 A shared look at a lead\u2019s details :eyes:
@@ -1557,6 +1557,7 @@ Add a personal note to your invitation
 Add a personal touch
 Add a personalized message (optional)
 Add a photo
+Add a preconfigured section
 Add a profile
 Add a profile photo
 Add a profile pic
@@ -1574,6 +1575,7 @@ Add a resource
 Add a saved canvas section to redux and call the API
 Add a saved list record to redux and call the API
 Add a screenshot of your note in the meeting chat.
+Add a section
 Add a shared skill
 Add a short business justification
 Add a single space between lines
@@ -1824,6 +1826,7 @@ Add number
 Add objects
 Add one from the top of this tab, or start from a recommendation below.
 Add one from the top of this tab.
+Add one of your custom sections
 Add option
 Add or remove the people you want to see DMs, group messages and mentions from at the top of your channel list.
 Add or update the last ephemeral message of a certain type
@@ -2017,6 +2020,7 @@ Add {name} to conversation. Use arrows to navigate suggestions.
 Add {numChannels, plural, =0 {Channels} =1 {# Channel} other {# Channels}}
 Add {provider_name} to this workspace
 Add {provider_name} to this workspace before you add this file as a tab.
+Add {section}
 Add {serverName}
 Add {subject} to {laneTitle}
 Add {total, plural, =1 {# Contact} other {# Contacts}}
@@ -2198,6 +2202,7 @@ After a number of huddles
 After a set number of occurrences
 After a specific date
 After hours, {firstName}? I\u2019m here for it
+After market close
 After the app is installed:
 After you connect, you can choose to save emails with contacts and leads to the matching records.
 After {dateString}
@@ -2249,7 +2254,6 @@ Agent responds automatically
 Agent responds to @mentions
 Agent response
 Agent scopes have been updated to enable various Slack Actions. Please reinstall the agent to accept the updated scopes.
-Agent selection
 Agent session
 Agent sessions
 Agent stopped
@@ -2514,7 +2518,6 @@ All workspaces
 All workspaces are enabled for Slack Connect. You can change this in Slack Connect Settings.
 All write tools access
 All you have to do is ask
-All your DMs, recent files and what\u2019s unread
 All your conversations
 All your files together in Slack
 All your files, one spot
@@ -2847,6 +2850,8 @@ An unknown error occurred
 An unknown error occurred.
 An unknown error occurred. Please try again.
 An unlimited archive lets you see and search all of your team's public messages and files.
+An upcoming earnings date for {symbol} isn\u2019t available.
+An upcoming earnings date isn\u2019t available right now.
 An upcoming event
 Analytics
 AnalyticsAgent: Running in manual mode (tracking 
@@ -3309,6 +3314,8 @@ Arizona
 Arkansas
 Arm the Sales Tracker extraction nudge on entering the manual import flow
 Armenia
+Arrange sections
+Arrange your sections
 Arrow key
 ArrowLeft ArrowRight
 ArrowUp ArrowDown Backspace Delete
@@ -3956,6 +3963,7 @@ Because this lead status has been deleted, you can no longer move records to thi
 Because this opportunity stage has been deleted, you can no longer move records to this column.
 Before
 Before You Share\u2026
+Before market open
 Before our design review, collect the designs shared in this channel since the last review, the feedback still open on each, and the decisions we need to make.
 Before you accept this invitation\u2026
 Before {dateString}
@@ -3971,7 +3979,6 @@ Belize
 Below
 Benchmark complete, results are in the console and can be re-shown with benchmarkResults()
 Benin
-Berkshire Hathaway
 Bermuda
 Bernard MT Condensed
 Best Value
@@ -4372,7 +4379,6 @@ By priority
 By registering, you confirm that you agree to the processing of your personal data by Salesforce as described in the Privacy Statement.
 By request only
 By submitting this form, you acknowledge and agree that your personal data may be transferred to, stored, and processed on servers located outside of the People
-By type
 By {author} on {service}.
 By {author}.
 By {developerName}
@@ -6067,6 +6073,7 @@ Code channel views
 Code channels
 Code channels are a multiplayer coding environment designed for everyone, not just developers.
 Code channels created by workflows are always public.
+Code channels you\u2019re in
 Code comment: append to the channel draft
 Code copied to clipboard.
 Code formatting
@@ -6739,7 +6746,6 @@ Contributors: {userList}
 Control
 Control (entity)
 Control ID
-Control could not be created
 Control strip
 Control which IP addresses or ranges can access your organization in Slack. Only approved IPs will be able to connect.
 Controller Collab Autocomplete Handler
@@ -6783,7 +6789,9 @@ Conversations
 Conversations in this catch-up
 Conversations in this project
 Conversations in this section will move back to the Channels section of your Home sidebar.
+Conversations in your {section} section
 Conversations to pin
+Conversations you opened lately
 Conversations you star in Slack will appear here.
 Conversations you start in this project will show up here.
 Conversations {count}
@@ -7324,6 +7332,7 @@ Couldn\u2019t open that item. Try again.
 Couldn\u2019t open this activity. Try again.
 Couldn\u2019t open this reply. Dismiss the update to get back to Slackbot.
 Couldn\u2019t open this version.
+Couldn\u2019t open your sections. Try again.
 Couldn\u2019t reach the agent. Try again.
 Couldn\u2019t reach the agent. Your draft is saved here.
 Couldn\u2019t reach the agent. Your message wasn\u2019t sent.
@@ -7896,7 +7905,6 @@ DM with {channelName}
 DM with {name}
 DMs
 DMs and group DMs
-DMs and recent files
 DMs can have up to {maxCount} people (including you).
 DMs now show up in Activity, too.
 DMs results loaded successfully
@@ -8429,7 +8437,6 @@ Describe what AI should do and how it should respond.
 Describe what this skill set does
 Describe what you are looking for
 Describe what you want AI to write
-Describe what you want Agent to write
 Describe what you want this step to do
 Describe what you want to write or how to edit your text and AI will handle a fast first draft.
 Describe what you want your skill to do and Slackbot will create it for you
@@ -8648,6 +8655,7 @@ Discard this activity?
 Discard thread open traces of threads a navigation left
 Discard unsaved changes?
 Discard unsaved field?
+Discard your changes?
 Discarding changes\u2026
 Disclaimer copied to clipboard
 Disclaimer: Generative AI can produce inaccurate or harmful responses. Make sure people review the output for accuracy and safety. They assume responsibility for how the outcomes of this agent are applied.
@@ -9065,6 +9073,7 @@ Drag files, canvases, and lists in here to keep things nice and organized (it\u2
 Drag files, canvases, and lists in here too!
 Drag or add files, lists, and canvases to keep things organized.
 Drag to move
+Drag to move it, or press Space, then the arrow keys
 Drag to reorder slide
 Drag to reposition
 Drag to share
@@ -9142,6 +9151,7 @@ Duration
 Duration (s)
 Duration parsed from mp4 should be greater than zero
 Duration:
+During market hours
 During your first hour using a new Windows operating system, you won\u2019t receive any notifications.
 Dutch
 Dynamic Client Registration
@@ -9180,7 +9190,6 @@ Each organization\u2019s messages will live in their respective data regions.
 Each pair must have its own sequence indicator
 Each task gets a private code channel. Write your task in the input; the agent will ask if it needs you.
 Each variable can have only one type. You can revisit and edit existing variables types anytime.
-Each workspace keeps its current permissions until someone there reinstalls {appName}. You can limit access to specific groups, people or channels.
 Earlier
 Earlier changes
 Earliest date created
@@ -10197,6 +10206,7 @@ Everything
 Everything assigned to you
 Everything but the Bagel Sesame Seasoning Blend
 Everything else
+Everything else that\u2019s unread
 Everything in Free, and:
 Everything in Pro, and:
 Everything in Pro, plus\u2026
@@ -10358,6 +10368,7 @@ Expected block to have an id
 Expected channelId to be a String
 Expected count to be a Number.
 Expected drag drop context
+Expected earnings for {symbol} loaded.
 Expected migrationIds to be an Array
 Expected sections to have parent
 Expected sourceIds to be registered.
@@ -10367,6 +10378,7 @@ Expected targetIds to be unique in the passed array.
 Expected tensor to be at least 1D, but received a 0D tensor (scalar).
 Expected userIds to be an Array of Strings
 Expected value
+Expected {date} \xb7 {session}
 Experience AI, CRM, and advanced security
 Experience the premium AI features of Business+ for {costPerMonth} per person/month.
 Experiment name
@@ -11300,6 +11312,7 @@ Files Changed
 Files Uploaded
 Files and Organization
 Files and Snippets
+Files and canvases you opened lately
 Files and links
 Files are disabled by your admin
 Files are still uploading. Your draft is saved here.
@@ -11596,7 +11609,6 @@ Finished by August 27, 2001. Its findings aren
 Finished loading of essential VideoFxProcessor assets.
 Finishing setup first makes their onboarding better.
 Finland
-Finnhub \xb7 As of {date}
 Finnish
 Fire Phone $1
 Fire a telemetry call if the current user has a screenreader enabled
@@ -12862,8 +12874,6 @@ Head here if you want to add other sections, leave inactive channels, or otherwi
 Head to preferences to edit defaults.
 Header
 Header Icon
-Header image is not supported.
-Header image repositioning is not supported.
 Heading
 Heading 1
 Heading 1 style
@@ -15535,6 +15545,7 @@ Loading conversations
 Loading conversations\u2026
 Loading dashboard\u2026
 Loading diff
+Loading earnings date\u2026
 Loading editor
 Loading error
 Loading file details
@@ -17556,6 +17567,7 @@ Move {label} down
 Move {label} up
 Move {ruleName} rule one row down
 Move {ruleName} rule one row up
+Move {section}
 Move {stepTitle} down
 Move {stepTitle} step down
 Move {stepTitle} step up
@@ -18143,6 +18155,7 @@ Next channel or DM
 Next chart
 Next comment
 Next day
+Next earnings
 Next email
 Next entity has out-of-order or duplicate position
 Next image
@@ -19328,8 +19341,6 @@ Once disabled, members using older Slack app versions will no longer be prompted
 Once imported, contacts will be stored in Salesforce.
 Once imported, leads will be stored in Salesforce.
 Once included, it can\u2019t be undone.
-Once installed, it can be added to selected workspaces, and you can limit it to specific groups, people or channels.
-Once installed, you can limit it to specific groups, people or channels.
 Once it\u2019s connected, I\u2019ll show your day right here.
 Once on {date} at {time} {timezone}
 Once on {date} between {startTime} and {endTime} {timezone}
@@ -19530,7 +19541,6 @@ Only visible to Team Owners
 Only visible to you
 Only visible to you and <others>{count, plural, =1 {# other} other {# others}}</others>
 Only visible to your organization
-Only what\u2019s important
 Only workflow managers can find and use this workflow
 Only you
 Only you can open
@@ -20620,7 +20630,6 @@ Pin this view
 Pin to Projects
 Pin to channel
 Pin to this conversation
-Pin to tray
 Pin to your sidebar
 Pin what\u2019s most important to the top
 Pin {name} to top bar
@@ -20630,7 +20639,6 @@ PingFang TC
 Pinned
 Pinned Views
 Pinned agent conversations
-Pinned agents
 Pinned by admin
 Pinned by private user, 
 Pinned by private user.
@@ -20985,7 +20993,6 @@ President and COO, until the merger closes; then to become an executive vice pre
 Press + or =
 Press -
 Press Ctrl twice to reopen Singer
-Press Down Arrow for more options
 Press Enter to activate top result.
 Press R
 Press Right Arrow to ask in thread
@@ -21106,7 +21113,6 @@ Previously approved
 Previously connected to {domain}
 Previously denied
 Price the 2002 collar before anything else with TEP; the ISDA follows credit.
-Prices may be delayed
 Prices may be delayed. Quotes may stay unchanged after market close. This snapshot doesn\u2019t refresh automatically.
 Pricing
 Primary (green)
@@ -22414,6 +22420,7 @@ Remove {name} from this folder?
 Remove {name} from this list?
 Remove {name} from this template?
 Remove {objectLabel}
+Remove {section}
 Remove {skillName}
 Remove {skillName} from message
 Remove {skillSetName}
@@ -23478,7 +23485,6 @@ Save a message to keep it here.
 Save a reminder for later
 Save a search query to the user
 Save a sunroof user pref, undoing the local change and telling the user if the save fails
-Save and ask Slackbot
 Save anyway
 Save anyways
 Save as Draft
@@ -23716,6 +23722,7 @@ Search PDFs
 Search Results
 Search SalesForce objects by query
 Search Slack for any additional context that might help me make a more informed approval decision.
+Search Slack for {cashtag}
 Search Slackbot conversations
 Search Workspace
 Search \u2014 for anything, anywhere in Slack
@@ -25906,7 +25913,6 @@ Slack - Huddle Preview
 Slack 101
 Slack 6 Preview
 Slack AI
-Slack AI (default)
 Slack AI Feedback
 Slack AI Summary
 Slack AI can\u2019t summarize certain kinds of content, like images or app messages.
@@ -26178,7 +26184,6 @@ Slackbot cannot search the web.
 Slackbot conversations
 Slackbot conversations will notify in Activity and Threads
 Slackbot couldn\u2019t check your Slack admin\u2019s settings, so it didn\u2019t load this record. Try again in a few minutes.
-Slackbot couldn\u2019t check your admin\u2019s settings, so it didn\u2019t load this record. Try again in a few minutes.
 Slackbot couldn\u2019t finish this catch-up. These stay unread.
 Slackbot couldn\u2019t respond. Give it another try.
 Slackbot couldn\u2019t write a draft. Your message is still here.
@@ -27610,7 +27615,6 @@ Switch Now
 Switch Org
 Switch Salesforce Org
 Switch Salesforce Org for {agentName}
-Switch agent
 Switch avatar
 Switch back to classic Slack
 Switch back to production assets
@@ -27632,6 +27636,7 @@ Switch to card
 Switch to dev build
 Switch to enhanced text output?
 Switch to text output?
+Switch to the focused sidebar
 Switch to this device
 Switch to this huddle?
 Switch to {workspace}?
@@ -29575,6 +29580,7 @@ Threads older than 14 days
 Threads older than {days} days
 Threads only
 Threads type
+Threads you follow with new replies
 Threads you\u2019re involved in will be collected right here.
 Threads, {totalUnreadReplies, plural, =0 {no new replies} =1 {# new reply} other {# new replies}}
 ThreadsFlexpane componentDidCatch
@@ -29606,6 +29612,7 @@ Time Unit
 Time check
 Time for data to travel between participants
 Time for virtual standup! What are you working on this week? Any key milestones reached or blockers you need help resolving?
+Time not provided
 Time of day
 Time off
 Time out a stuck calendar events window fetch
@@ -30110,7 +30117,6 @@ Trash
 Travel & Places
 Traveling this week in Asia
 Travis McCullough
-Tray is full
 Trending
 Trial
 Trial Tester
@@ -30501,6 +30507,7 @@ URL to open in the host
 URL view
 URL-64-ume kodita karaktraro
 URL: {url}
+US market date. Schedule may change.
 UTC compact
 UTC date
 UTC date and time
@@ -30905,7 +30912,6 @@ Unpausing queue, back online
 Unpin
 Unpin a view for the current user
 Unpin from channel
-Unpin from tray
 Unpin from your sidebar
 Unpin participant
 Unpin this view
@@ -30928,18 +30934,20 @@ Unrated
 Unrated list
 Unread
 Unread DMs
-Unread DMs, threads and important conversations first
 Unread Messages
 Unread Slack activity
 Unread activity counts
 Unread comments
 Unread conversations
+Unread conversations that matter most
+Unread conversations that mention you
 Unread conversations, plus your Starred section
 Unread direct messages for you
 Unread items
 Unread mention
 Unread mentions
 Unread mentions for you
+Unread messages from people
 Unread messages from your manager
 Unread only
 Unread thread
@@ -31124,8 +31132,6 @@ Update opportunity field map?
 Update or insert one or more app action associated with a channelId
 Update organization name for all enterprise teams of the organization
 Update our customer records based on this message: {permalink}
-Update pending
-Update pending for 
 Update record details
 Update records
 Update reply data for a given Quip comment ID
@@ -32762,10 +32768,11 @@ What will the workflow be able to do?
 What would you like to do with this list?
 What would you like to do?
 What would you like to flag?
-What would you like to see?
 What would you like to work on?
 What would you like us to know?
 What you and Slackbot say will show up here.
+What you know about {title}
+What you pinned, always first
 What {name} can do
 What {serverName} can do
 What\u2019s New
@@ -34364,7 +34371,6 @@ Your Slack is set up!
 Your Slack onboarding checklist
 Your Slack persona
 Your Slack personality
-Your Slack workspace know it all
 Your Slack. A little closer.
 Your Slackbot history lives here
 Your Slackbot preview ended.
@@ -34401,7 +34407,6 @@ Your activity failed to save. Here is the error we received from Salesforce:
 Your activity will appear here.
 Your admin denied approval for this app to act on your behalf.
 Your admin doesn\u2019t allow AI-generated content in this step, so it won\u2019t run
-Your admin doesn\u2019t allow Slackbot to read Salesforce records for you. Ask a Slack admin to change this.
 Your admin has alt text reminders turned on for this workspace
 Your admin has blocked access to your email account
 Your admin has declined a request for this MCP, so it can\u2019t be added to your workspace. Contact your admin if you think this is a mistake.
@@ -34576,6 +34581,7 @@ Your last 7 days summary is ready.
 Your latest edits to this clip weren
 Your latest edits to this clip weren\u2019t saved. If you discard them, they\u2019ll be lost and the editor will close.
 Your latest mentions
+Your latest messages with people
 Your latest thread replies
 Your leads list is ready to go.
 Your live view as of today at {time}
@@ -34702,15 +34708,15 @@ Your sales pipeline, all in one view
 Your sales pipeline, in one view
 Your search experience
 Your search query will be included with your survey responses to help Slack improve search.
+Your sections
 Your server connected, but the default settings weren\u2019t saved.
 Your sessions
-Your setup
+Your sidebar changed somewhere else. Saving replaces that change.
 Your sidebar is filtered to the 
 Your sidebar is tidy
 Your sidebar is tucked away while you work side by side. Bring it back anytime with this button.
 Your sidebar is your own.
 Your sidebar looks tidy
-Your sidebar was changed somewhere else while this was open. Saving replaces those changes.
 Your sign-in was saved for future tasks.
 Your signature emoji
 Your skills
@@ -38963,7 +38969,6 @@ necklace
 necktie
 nectarine
 needle
-needs your input
 negative
 negative_squared_cross_mark
 neptune
@@ -42277,8 +42282,6 @@ zzz
 {count, plural, other {# objects are outside the Objects setting above.}}
 {count, plural, other {#+ messages}}
 {count, plural, other {And # more}}
-{count, plural, other {No matching updates in your # most recent}}
-{count, plural, other {Showing your # most recent updates}}
 {count, plural, other {Teammates are discussing {topic} in # channels}}
 {countConfigs} configurations were removed
 {countdown}, {action}
@@ -42641,6 +42644,8 @@ zzz
 {label}, Folder
 {label}, List
 {label}, New
+{label}, canvas
+{label}, list
 {label}, not available to guests
 {label}, posting is restricted in this channel
 {label}, read only
@@ -43139,7 +43144,6 @@ zzz
 {people} {remainingPeople, plural, =0 {} =1 {and # other} other {and # others}}
 {percentComplete} percent
 {percentage}% available
-{percent} from previous close
 {percent}% done
 {periodNum, plural, one {Day} other {Days}}
 {periodNum, plural, one {Fiscal quarter} other {Fiscal quarters}}
@@ -43268,6 +43272,12 @@ zzz
 {seconds} {seconds, plural, =1 {second} other {seconds}}
 {sectionName}, huddle in session. Press {keyboardShortcut} to join huddle
 {section_style} Section Menu
+{section} added
+{section} dropped
+{section} moved to {position} of {count}
+{section} picked up. Use the arrow keys to move it, then Space to drop it
+{section} removed
+{section} settings
 {section}, {count, plural, one {# unread chat} other {# unread chats}}
 {selectedCustomExpiration}
 {selectedDataLabel} (multiple)
@@ -43626,7 +43636,6 @@ zzz
 {viewName}, {viewCount}
 {viewName}, {viewCount}, selected
 {viewed} / {count, plural, one {# file} other {# files}} viewed
-{view}, with your changes
 {visible} of {total} Agents
 {weekNum} {day} of the month
 {weekday}

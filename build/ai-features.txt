@@ -264,9 +264,6 @@ agent_tasks__write
 agent_tasks_tab_coachmark_eligible_dm_opened
 agent_thread
 agent_title
-agent_tray
-agent_tray_tab_preview
-agent_tray_tile
 agent_turn_end_reason
 agent_turn_notifications
 agent_turn_quote_updated_ts
@@ -318,7 +315,6 @@ agentic_ia_agenda
 agentic_ia_agenda_peek
 agentic_ia_agent_dm_peek
 agentic_ia_agent_dm_sessions_tab
-agentic_ia_agent_tray
 agentic_ia_browse
 agentic_ia_browse_toolbar_search
 agentic_ia_day_glance
@@ -379,9 +375,6 @@ agentic_sidebar_kept_threads_fetch
 agentic_sidebar_latest_replies_fetch
 agentic_sidebar_session_row
 agentic_sidebar_slackbot_peek
-agentic_tray_menu
-agentic_tray_peek
-agentic_tray_tile
 agentic_workspace_filter_banner
 agentic_workspace_filter_banner_remove
 agents
@@ -395,7 +388,6 @@ agents_dms_header_status
 agents_dms_nux_header_name_glow
 agents_featured_grid
 agents_filters
-agents_in_canvas_interaction
 agents_in_channel_banner_hidden
 agents_in_channels_improvements
 agents_in_dm_list
@@ -423,7 +415,6 @@ agents_tabs
 agents_tools_coachmark
 agents_view
 ai_action_items
-ai_agent_selection_menu
 ai_alt_text
 ai_analytics_all
 ai_analytics_all_search
@@ -785,7 +776,6 @@ canvas_ai_cancel_button
 canvas_ai_content_creation_input
 canvas_ai_content_creation_overlay
 canvas_ai_copy_button
-canvas_ai_default
 canvas_ai_disabled_for_user
 canvas_ai_discard_button
 canvas_ai_disclaimer
@@ -1539,10 +1529,9 @@ show_agentforce_feedback
 show_ai_apps
 show_as_agent
 show_slackbot_nav
-sidebar_agent_tray_tile
+sidebar_arrange_discard_prompt
 sidebar_create_agent_chat
 sidebar_create_slackbot_chat
-sidebar_editor_ask_slackbot
 sidebar_management_agent
 sidebar_slackbot_collapse
 signin_to_salesforce_prompt

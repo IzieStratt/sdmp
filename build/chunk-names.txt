@@ -1639,7 +1639,7 @@ shared-js_projects_shared-sales-home-workflow-builder_components_feed_feed-item_
 shared-js_projects_workflow-builder_segments_triggers_external_form_components_datasource_tsx-1897d3
 shared-node_modules_mediapipe_tasks-vision_lazy_recursive-js_modern_utility_video-effects_mas-9e13bb
 shortcuts-local-actions
-sidebar-editor-dialog
+sidebar-arrange-panel
 signals
 singer-ask-lazy
 singer-card-code-app
@@ -1873,7 +1873,6 @@ vendors-node_modules_d3-path_src_path_js-node_modules_d3-scale_src_index_js
 vendors-node_modules_dagre-d3-es_src_dagre_index_js
 vendors-node_modules_echarts_core_js-node_modules_echarts_lib_chart_bar_install_js-node_modul-26c1b4
 vendors-node_modules_es-toolkit_dist_compat_array_uniqBy_mjs
-vendors-node_modules_es-toolkit_dist_predicate_isNil_mjs-js_modern_generated_types_api_method-c09f6d
 vendors-node_modules_es-toolkit_dist_predicate_isNil_mjs-js_modern_generated_types_api_method-f58e91
 vendors-node_modules_fflate_esm_browser_js
 vendors-node_modules_formik_dist_formik_esm_js

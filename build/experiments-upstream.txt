@@ -78,7 +78,6 @@ agentic_ia: on
 agentic_ia_activity_conversations: on
 agentic_ia_agent_dm_peek: on
 agentic_ia_agent_dm_sessions_tab: on
-agentic_ia_agent_tray: on
 agentic_ia_browse_toolbar_search: on
 agentic_ia_day_glance: on
 agentic_ia_experimental: on
@@ -99,7 +98,6 @@ agentic_ia_translations: on
 agentic_ia_visual_refresh: on
 agentic_ia_you_page: on
 agents_dms_header_status: on
-agents_in_canvas_interaction: on
 agents_in_channels_improvements: on
 agents_in_dm_sidebar: on
 agents_in_dm_sidebar_pref: on
@@ -956,6 +954,7 @@ sidebar_sweeper_mute_channels: on
 sidebar_text_filter: on
 sidebar_text_filter_m2: on
 sidebar_text_filter_m3: on
+sidebar_thread_prefetch_telemetry: on
 sidebar_visual_updates_nux: on
 sidekicks: on
 sidekicks_admin: on

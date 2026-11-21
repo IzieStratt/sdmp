@@ -158,8 +158,8 @@
    ],
    "modules": [
     "QlNt:0c19abee",
-    "Rh4q:32a12d31",
-    "Rh4q:86b29545"
+    "Rh4q:86b29545",
+    "jyBY:19a21367"
    ]
   },
   "byMeta:getActiveHuddleChannelId": {
@@ -168,8 +168,8 @@
    ],
    "modules": [
     "QlNt:0c19abee",
-    "Rh4q:32a12d31",
-    "Rh4q:86b29545"
+    "Rh4q:86b29545",
+    "jyBY:19a21367"
    ]
   },
   "byMeta:jumpToReply": {
@@ -177,9 +177,9 @@
     "meta"
    ],
    "modules": [
-    "JhVT:26d9136d",
     "JhVT:530dc6a9",
-    "dVs1:d6e5afa8"
+    "dVs1:d6e5afa8",
+    "dn1i:7ce6a3ca"
    ]
   },
   "byMeta:openModal": {
@@ -197,9 +197,9 @@
     "meta"
    ],
    "modules": [
-    "Rh4q:32a12d31",
     "Rh4q:86b29545",
-    "T4mj:13c0d195"
+    "T4mj:13c0d195",
+    "mXAk:a4ac46a2"
    ]
   },
   "byMeta:setLocalDraft": {
@@ -209,7 +209,7 @@
    "modules": [
     "+D+d:30d3a18d",
     "wGZd:005c0656",
-    "wmAi:70561d9c"
+    "wmAi:9b4e7377"
    ]
   },
   "byName:AudioVideoFacadeSubscriber": {
@@ -248,7 +248,6 @@
    ],
    "modules": [
     "8AvF:02f00991",
-    "8AvF:3a9cab59",
     "meKk:44d8f725"
    ]
   },
@@ -288,8 +287,8 @@
    ],
    "modules": [
     "5Sel:ca50de0c",
-    "5Sel:d03ed552",
-    "n3uu:b4a75667"
+    "n3uu:b4a75667",
+    "qsPD:fd296dd7"
    ]
   },
   "byName:convertContentsToStringForDisplay": {
@@ -408,7 +407,6 @@
    ],
    "modules": [
     "iub5:69afc7e5",
-    "iub5:7109e910",
     "yrA4:a7a3ed7e"
    ]
   },
@@ -439,7 +437,7 @@
    "modules": [
     "2WtI:2a15da4f",
     "FRUJ:b3172609",
-    "Fbwy:3218a65c"
+    "Fbwy:bb6d54bf"
    ]
   },
   "byName:isInputRegistered": {
@@ -553,9 +551,8 @@
     "displayName"
    ],
    "modules": [
-    "ClT6:34360bd2",
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "ZvfH:fb331cb1",
+    "mbtF:71ac3dc6"
    ]
   },
   "component:BaseMessageSender": {
@@ -605,8 +602,8 @@
    ],
    "modules": [
     "+JEQ:0bd33418",
-    "+JEQ:865bbf92",
-    "BdSd:38a7019d"
+    "BdSd:38a7019d",
+    "U6FE:5bc8c8de"
    ]
   },
   "component:EditAudioButton": {
@@ -644,8 +641,7 @@
     "displayName"
    ],
    "modules": [
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "mbtF:71ac3dc6"
    ]
   },
   "component:HuddleBaseEvent": {
@@ -731,7 +727,7 @@
     "displayName"
    ],
    "modules": [
-    "RwAt:6bcc3bb1",
+    "RwAt:90483cde",
     "p2nR:936ccd94",
     "p2nR:d5072587"
    ]
@@ -742,7 +738,7 @@
     "displayName"
    ],
    "modules": [
-    "RwAt:6bcc3bb1",
+    "RwAt:90483cde",
     "p2nR:936ccd94",
     "p2nR:d5072587"
    ]
@@ -752,9 +748,8 @@
     "displayName"
    ],
    "modules": [
-    "ClT6:34360bd2",
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "ZvfH:fb331cb1",
+    "mbtF:71ac3dc6"
    ]
   },
   "component:MessageBackground": {
@@ -785,7 +780,6 @@
     "displayName"
    ],
    "modules": [
-    "2ZH/:5f112682",
     "2ZH/:b5af7783",
     "vL6Q:539858c9"
    ]
@@ -883,7 +877,7 @@
    ],
    "modules": [
     "b6W9:a18c6c72",
-    "tTq3:a8c6f519"
+    "tTq3:04962043"
    ]
   },
   "component:ShortcutsMenuTriggerButton": {
@@ -891,9 +885,8 @@
     "displayName"
    ],
    "modules": [
-    "ClT6:34360bd2",
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "ZvfH:fb331cb1",
+    "mbtF:71ac3dc6"
    ]
   },
   "component:TextyButtonOverflow": {
@@ -903,7 +896,7 @@
    "modules": [
     "5c9Q:3858bfb3",
     "5c9Q:87fc1aaf",
-    "aiGo:cdaae212"
+    "aiGo:41728fba"
    ]
   },
   "component:TextyButtons": {
@@ -913,7 +906,7 @@
    "modules": [
     "5c9Q:3858bfb3",
     "5c9Q:87fc1aaf",
-    "aiGo:cdaae212"
+    "aiGo:41728fba"
    ]
   },
   "component:ThreadFlexpaneAdminTools": {
@@ -932,7 +925,7 @@
    ],
    "modules": [
     "b6W9:a18c6c72",
-    "tTq3:a8c6f519"
+    "tTq3:04962043"
    ]
   },
   "component:ThreadSenderAndTimestampGeneric": {
@@ -980,8 +973,8 @@
     "function"
    ],
    "modules": [
-    "ClT6:34360bd2",
-    "WSwB:a3542e85"
+    "WSwB:a3542e85",
+    "ZvfH:fb331cb1"
    ]
   },
   "component:WysiwygContainer": {
@@ -990,7 +983,7 @@
     "function"
    ],
    "modules": [
-    "2LvR:8101717d",
+    "2LvR:9def2717",
     "5c9Q:3858bfb3",
     "5c9Q:87fc1aaf"
    ]
@@ -1001,8 +994,8 @@
    ],
    "modules": [
     "QlNt:0c19abee",
-    "Rh4q:32a12d31",
-    "Rh4q:86b29545"
+    "Rh4q:86b29545",
+    "jyBY:19a21367"
    ]
   },
   "fn:getActiveHuddleChannelId": {
@@ -1011,8 +1004,8 @@
    ],
    "modules": [
     "QlNt:0c19abee",
-    "Rh4q:32a12d31",
-    "Rh4q:86b29545"
+    "Rh4q:86b29545",
+    "jyBY:19a21367"
    ]
   },
   "fn:getAllExperimentAssignments": {
@@ -1050,8 +1043,7 @@
    ],
    "modules": [
     "MgA+:8991d92d",
-    "esJb:4c48741e",
-    "io3b:5db2a070"
+    "esJb:4c48741e"
    ]
   },
   "rtm:message": {
@@ -1069,9 +1061,8 @@
     "string"
    ],
    "modules": [
-    "ClT6:34360bd2",
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "ZvfH:fb331cb1",
+    "mbtF:71ac3dc6"
    ]
   },
   "thunk:addAndUploadPendingFile": {
@@ -1121,7 +1112,7 @@
    "modules": [
     "GxXJ:14e97ee8",
     "GxXJ:f10d2847",
-    "jGtm:a93bc9b7"
+    "jGtm:fdcc4418"
    ]
   },
   "thunk:chatDeleteFetcher": {
@@ -1139,9 +1130,9 @@
     "meta"
    ],
    "modules": [
-    "+fn4:8a668ce1",
     "+fn4:9358d653",
-    "EI6c:d058c6af"
+    "EI6c:d058c6af",
+    "ITzR:6655b18d"
    ]
   },
   "thunk:commitMessageEdit": {
@@ -1249,8 +1240,8 @@
    ],
    "modules": [
     "BE5i:88bd34e1",
-    "ClT6:34360bd2",
-    "Ng9S:251c92f9"
+    "Ng9S:8f27efcf",
+    "ZvfH:fb331cb1"
    ]
   },
   "thunk:getMemberContextMenuTemplate": {
@@ -1269,8 +1260,8 @@
    ],
    "modules": [
     "/DkI:cec605c4",
-    "LtEM:624f4158",
-    "LtEM:c5b6b47d"
+    "LtEM:c5b6b47d",
+    "SNI0:7f0ae6cd"
    ]
   },
   "thunk:initializeUserPrefs": {
@@ -1279,8 +1270,7 @@
    ],
    "modules": [
     "0lwJ:1bc79d25",
-    "mbtF:3514dd04",
-    "mbtF:f49f9cc0"
+    "mbtF:71ac3dc6"
    ]
   },
   "thunk:joinChannel": {
@@ -1308,9 +1298,9 @@
     "meta"
    ],
    "modules": [
-    "C00Z:3a13476c",
     "C00Z:3d149bb6",
-    "FLFT:e800077a"
+    "FLFT:e800077a",
+    "dGMV:3d194441"
    ]
   },
   "thunk:maybeFetchBackgrounds": {
@@ -1347,8 +1337,7 @@
     "meta"
    ],
    "modules": [
-    "q9dl:9680c996",
-    "q9dl:ad60713f"
+    "q9dl:9680c996"
    ]
   },
   "thunk:saveMessageEdit": {
@@ -1386,8 +1375,8 @@
    ],
    "modules": [
     "AHtM:7cdbca94",
-    "N0Kh:83c3b9c7",
-    "N0Kh:a5ac6356"
+    "N0Kh:a5ac6356",
+    "z05X:b335e4f1"
    ]
   },
   "thunk:setUserPrefFetcher": {
@@ -1397,7 +1386,7 @@
    "modules": [
     "3Y7p:6eb1b8a3",
     "Nu4c:8b32fcf1",
-    "Nu4c:dcc97caf"
+    "i/8f:b6bdc62d"
    ]
   },
   "thunk:showNotification": {
@@ -1455,9 +1444,9 @@
     "meta"
    ],
    "modules": [
-    "FGXB:12d344a4",
     "FGXB:66b7999b",
-    "HDBh:454daeff"
+    "HDBh:454daeff",
+    "uAWn:0719543c"
    ]
   },
   "thunk:uploadFiles": {
