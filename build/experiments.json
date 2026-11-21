@@ -963,9 +963,6 @@
  "channel_tabs_v5_i18n": [
   "on"
  ],
- "channel_topic_purpose_setting_restrict_to_channel_managers": [
-  "on"
- ],
  "clear_notifications": [
   "on"
  ],
@@ -1084,9 +1081,6 @@
   "on"
  ],
  "composer_dictation": [
-  "on"
- ],
- "composer_smart_symbols": [
   "on"
  ],
  "composer_type_time_smart_quotes": [
@@ -2198,9 +2192,6 @@
  "marketplace_testing_info_save_fixes": [
   "on"
  ],
- "mcp_ai_channel_exclusions": [
-  "on"
- ],
  "mcp_message_badging": [
   "on"
  ],
@@ -2361,9 +2352,6 @@
  "ncea_custom_prompt_instructions": [
   "on"
  ],
- "ncea_multi_channel_support": [
-  "on"
- ],
  "ncea_progressive_updates_in_response": [
   "on"
  ],
@@ -2393,13 +2381,6 @@
  ],
  "omni_filter_autoslug": [
   "on"
- ],
- "omni_merged_all_follow_ups": [
-  "on"
- ],
- "omni_merged_follow_ups": [
-  "treatment_no_dynamic_nav",
-  "treatment_other_follow_ups"
  ],
  "omni_slackbot_mode": [
   "on"
@@ -3210,7 +3191,6 @@
  "slack_idp": [
   "on"
  ],
- "slack_kit_carousel": [],
  "slack_kit_v2_button": [
   "on"
  ],
@@ -3663,9 +3643,6 @@
   "on"
  ],
  "slackcrm_onboarding_translations": [
-  "on"
- ],
- "slackcrm_pipeline_refresh_banner": [
   "on"
  ],
  "slackforce_a11y_translations": [
@@ -4450,9 +4427,6 @@
   "on"
  ],
  "wfb_types_defaults": [
-  "on"
- ],
- "wfb_users_discover_simple_automations": [
   "on"
  ],
  "wfb_webhook_to_fifty": [

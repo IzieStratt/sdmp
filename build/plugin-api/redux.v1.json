@@ -2,7 +2,7 @@
  "$schema": "../../packages/slack-client-surface/schema/redux.v1.schema.json",
  "schemaVersion": 1,
  "kind": "redux",
- "build": "f60500bf8a94",
+ "build": "328aab7bac95",
  "capturedDate": "2026-11-21",
  "count": 8384,
  "redux": {

@@ -1,6 +1,6 @@
 {
  "accessibility": {
-  "count": 8,
+  "count": 7,
   "labels": [
    "Accessibility",
    "Display",
@@ -21,7 +21,7 @@
   "labels": [],
   "snippets": [
    ",nz.A)(_r,\"addBotIconByItself__ufLb6\"),children:(0,eE.jsx)(ia.Ah,{name:\"add-bot\",size:\"20\"})}):(0,eE.jsx)(\"div\",{className:_r,children:(0,eE.jsx)(hi.A,{ariaHidden:!0,size:20,image:p??void 0})})})}),j=",
-   ",nK.A)(_p,\"addBotIconByItself__ufLb6\"),children:(0,eL.jsx)(si.Ah,{name:\"add-bot\",size:\"20\"})}):(0,eL.jsx)(\"div\",{className:_p,children:(0,eL.jsx)(hc.A,{ariaHidden:!0,size:20,image:p??void 0})})})}),j="
+   ",nz.A)(_r,\"addBotIconByItself__ufLb6\"),children:(0,eE.jsx)(ia.Ah,{name:\"add-bot\",size:\"20\"})}):(0,eE.jsx)(\"div\",{className:_r,children:(0,eE.jsx)(hi.A,{ariaHidden:!0,size:20,image:p??void 0})})})}),j="
   ]
  },
  "add-branch": {
@@ -31,12 +31,12 @@
    "Add a branch"
   ],
   "snippets": [
-   "nt_addBranch_btn\",dataId:\"segment_addBranch_btn\",svgIconProps:{name:\"add-branch\",size:\"20\"},autoClogProps:i.autoClogProps}]:[]],getNextStepActionSubtitle=e=>{switch(e){case s6:return(0,r.jsx)(\"span\",{",
-   "|!p,autoClogProps:n3,\"aria-label\":t,children:[(0,r.jsx)(eo.Ah,{name:\"add-branch\",inline:!0,size:\"16\"}),(0,r.jsxs)(\"span\",{children:[n6.t(\"Add a branch\"),\" \"]})]}),i=a;return p?g?i=(0,r.jsx)(ed.Ay,{tip"
+   "nt_addBranch_btn\",dataId:\"segment_addBranch_btn\",svgIconProps:{name:\"add-branch\",size:\"20\"},autoClogProps:i.autoClogProps}]:[]],getNextStepActionSubtitle=e=>{switch(e){case s9:return(0,r.jsx)(\"span\",{",
+   "|!p,autoClogProps:oe,\"aria-label\":t,children:[(0,r.jsx)(eo.Ah,{name:\"add-branch\",inline:!0,size:\"16\"}),(0,r.jsxs)(\"span\",{children:[n9.t(\"Add a branch\"),\" \"]})]}),i=a;return p?g?i=(0,r.jsx)(ed.Ay,{tip"
   ]
  },
  "add-channel-canvas": {
-  "count": 17,
+  "count": 16,
   "labels": [
    "Create Canvas",
    "Create\\u2026",
@@ -55,7 +55,7 @@
   "snippets": []
  },
  "add-comment": {
-  "count": 14,
+  "count": 13,
   "labels": [
    "More actions",
    "Add Comment"
@@ -74,7 +74,7 @@
   ]
  },
  "add-reaction": {
-  "count": 22,
+  "count": 21,
   "labels": [
    "Add Emoji"
   ],
@@ -84,7 +84,7 @@
   ]
  },
  "agentforce": {
-  "count": 26,
+  "count": 25,
   "labels": [
    "New conversation",
    "All agents"
@@ -100,12 +100,12 @@
    "Unavailable"
   ],
   "snippets": [
-   "r?(0,n.jsx)(l.Ah,{inline:!0,\"data-qa\":\"agentforce-icon\",name:\"agentforce-filled\",size:t}):\"builtins_ai_answer\"===r?(0,n.jsx)(i.o,{inline:!0,\"data-qa\":\"slack-ai-icon-unfilled\",type:\"sparkles\",size:t}):",
-   "profile_restriction__svg_icon\",children:(0,n.jsx)(m.Ah,{name:\"agentforce-filled\",inline:!0})}),(0,n.jsx)(\"span\",{className:\"p-member_profile_restriction__text\",children:(0,l.uz)(er)&&er?.name?er.name:"
+   "profile_restriction__svg_icon\",children:(0,n.jsx)(m.Ah,{name:\"agentforce-filled\",inline:!0})}),(0,n.jsx)(\"span\",{className:\"p-member_profile_restriction__text\",children:(0,l.uz)(er)&&er?.name?er.name:",
+   "e:\"20\",inline:!0});case g.e.Agent:return(0,n.jsx)(m.Ah,{name:\"agentforce-filled\",color:G,size:\"20\",inline:!0});case g.e.Canvas:return(0,n.jsx)(m.Ah,{name:\"canvas-content-filled\",color:G,size:\"20\",inli"
   ]
  },
  "ai-agents": {
-  "count": 38,
+  "count": 35,
   "labels": [
    "Embed third-party agents and modern AI apps to work alongside you in Slack.",
    "Unlimited app integrations",
@@ -137,7 +137,7 @@
   ]
  },
  "ai-deep-research": {
-  "count": 9,
+  "count": 8,
   "labels": [],
   "snippets": [
    "earch_indicator\",\"aria-label\":l,children:(0,i.jsx)(v.Ah,{name:\"ai-deep-research\",size:\"20\",\"aria-hidden\":\"true\"})})}):null};DeepResearchButton.displayName=\"DeepResearchButton\";let iM=new p.Ay(\"slackbo",
@@ -145,7 +145,7 @@
   ]
  },
  "ai-file-summary": {
-  "count": 30,
+  "count": 29,
   "labels": [
    "AI search",
    "SAML-based single sign-on",
@@ -154,8 +154,8 @@
    "AI workflow generation"
   ],
   "snippets": [
-   "with smart AI summaries of files shared in Slack.\"),icon:{name:\"ai-file-summary\"},cta:{title:f.t(\"Summarize files\"),subtitle:f.t(\"Get the key points of bulky files quickly\")},helpArticle:{id:0x16ceab4",
-   "i-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}]}:e===H."
+   "i-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}]}:e===H.",
+   "with smart AI summaries of files shared in Slack.\"),icon:{name:\"ai-file-summary\"},cta:{title:f.t(\"Summarize files\"),subtitle:f.t(\"Get the key points of bulky files quickly\")},helpArticle:{id:0x16ceab4"
   ]
  },
  "ai-huddle-summary": {
@@ -175,7 +175,7 @@
   "snippets": []
  },
  "ai-search": {
-  "count": 43,
+  "count": 39,
   "labels": [
    "AI search",
    "SAML-based single sign-on",
@@ -189,13 +189,13 @@
   ]
  },
  "ai-skills": {
-  "count": 64,
+  "count": 55,
   "labels": [
    "Skills",
-   "Apps",
    "Tip",
-   "Tasks",
-   "Manage skills"
+   "Apps",
+   "Manage skills",
+   "slackbot_manage_skills"
   ],
   "snippets": [
    "x)(\"span\",{className:\"margin_right_25\",children:(0,a.jsx)(p.Ah,{name:\"ai-skills\",size:\"16\"})}),t]})]})]})})}SkillsPopupBanner.displayName=\"SkillsPopupBanner\";var C=l(\"J7Sy\"),S=l(\"mM05\"),h=l.n(S),g=l(\"",
@@ -208,13 +208,13 @@
   "snippets": []
  },
  "ai-sparkle": {
-  "count": 88,
+  "count": 87,
   "labels": [
    "Advanced AI features",
    "Summarize your busiest channels",
-   "Privacy & visibility",
-   "Slack AI",
-   "Open AI menu"
+   "Open AI menu",
+   "Write with AI",
+   "The all-new Slackbot"
   ],
   "snippets": [
    "ced AI features\"),shortDescription:\"\",longDescription:\"\",icon:{name:\"ai-sparkle\"},cta:{title:i7?u.t(\"Summarize your busiest channels\"):u.t(\"Advanced AI features\"),subtitle:i7?u.t(\"Advanced AI summarie",
@@ -241,7 +241,7 @@
   ]
  },
  "ai-sparkle-filled": {
-  "count": 56,
+  "count": 54,
   "labels": [
    "Edit with AI",
    "Get up to speed in any channel or thread with one click.",
@@ -320,13 +320,13 @@
   ]
  },
  "ai-workflow": {
-  "count": 82,
+  "count": 76,
   "labels": [
    "AI workflow generation",
    "AI conversation summaries",
    "AI search",
-   "Tasks",
-   "Easily create workflows with natural language prompts."
+   "Easily create workflows with natural language prompts.",
+   "Build workflows from a single prompt with the power of AI and Workflow Builder."
   ],
   "snippets": [
    "gle prompt with the power of AI and Workflow Builder.\"),icon:{name:\"ai-workflow\"},cta:{title:$.t(\"AI Workflow generation\"),subtitle:$.t(\"Give AI a prompt to instantly create a workflow template\")},ass",
@@ -347,12 +347,11 @@
   "snippets": []
  },
  "align-left": {
-  "count": 2,
+  "count": 1,
   "labels": [
    "Add a channel"
   ],
   "snippets": [
-   "sx)(\"span\",{className:eI.detailFVIcon,children:(0,n.jsx)(w.Ah,{name:\"align-left\",size:\"20\"})}),(0,n.jsx)(\"span\",{className:(0,j.A)({[eZ.A.privacyBlurredInteractive]:d}),children:(0,n.jsx)(eV.b,{descri",
    "sx)(\"span\",{className:eI.detailFVIcon,children:(0,n.jsx)(w.Ah,{name:\"align-left\",size:\"20\"})}),(0,n.jsx)(\"span\",{className:(0,j.A)({[eZ.A.privacyBlurredInteractive]:d}),children:(0,n.jsx)(eV.b,{descri"
   ]
  },
@@ -385,7 +384,7 @@
   ]
  },
  "apps": {
-  "count": 70,
+  "count": 69,
   "labels": [
    "Unlimited app integrations",
    "Unlimited message history",
@@ -399,7 +398,7 @@
   ]
  },
  "archive": {
-  "count": 28,
+  "count": 26,
   "labels": [
    "Archiving channel",
    "Archive inactive channel",
@@ -433,7 +432,7 @@
   ],
   "snippets": [
    "ition_button\",\"aria-label\":k,children:g?(0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":tQ.t(\"Huddle primary actions\"),class",
-   "ition_button\",\"aria-label\":w,children:g?(0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":t$.t(\"Huddle primary actions\"),class"
+   "ition_button\",\"aria-label\":k,children:g?(0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":tQ.t(\"Huddle primary actions\"),class"
   ]
  },
  "arrow-bottom-right": {
@@ -450,13 +449,13 @@
   ]
  },
  "arrow-down": {
-  "count": 86,
+  "count": 79,
   "labels": [
-   "Next item",
    "Sort ascending",
    "Sort descending",
    "Compare all features",
-   "Jump to the bottom of the list"
+   "Next item",
+   "Latest messages"
   ],
   "snippets": [
    "p\":default:return{name:\"arrow-up\",size:\"18\"};case\"down\":return{name:\"arrow-down\",size:\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallba",
@@ -472,17 +471,17 @@
   ]
  },
  "arrow-down-right": {
-  "count": 70,
+  "count": 68,
   "labels": [
    "Explain my upgrade options",
    "Upgrade Now",
    "Help me respond",
-   "Follow up",
-   "Ask Slackbot about your trial"
+   "Write your own prompt",
+   "Follow up"
   ],
   "snippets": [
-   "()=>({canUserPurchase:n}),[n]),T=(0,o.useMemo)(()=>({iconName:\"arrow-down-right\"}),[]),x=_?F.t(\"Explain my upgrade options\"):\"Explain my upgrade options\",renderHeaderText=()=>(0,r.jsxs)(\"div\",{classNa",
-   "t:K,onClick:N},secondaryCta:{text:F,onClick:B,iconProps:{name:\"arrow-down-right\"}}}:void 0,[B,F,N,U,K]),W=I?A?{title:M,trialEndSize:\"small\"}:{title:H,body:U?D:E,trialEndSize:\"large\"}:{title:j};return "
+   "t:O,onClick:P},secondaryCta:{text:S,onClick:k,iconProps:{name:\"arrow-down-right\"}}}:void 0,[k,S,P,T,O]),R=N.rt(\"Adding unlimited apps, including AI apps, is a paid feature available with your free tri",
+   "()=>({canUserPurchase:n}),[n]),T=(0,o.useMemo)(()=>({iconName:\"arrow-down-right\"}),[]),x=_?F.t(\"Explain my upgrade options\"):\"Explain my upgrade options\",renderHeaderText=()=>(0,r.jsxs)(\"div\",{classNa"
   ]
  },
  "arrow-expand": {
@@ -491,7 +490,7 @@
   "snippets": []
  },
  "arrow-expand-full": {
-  "count": 9,
+  "count": 8,
   "labels": [
    "Search table"
   ],
@@ -501,7 +500,7 @@
   ]
  },
  "arrow-left": {
-  "count": 74,
+  "count": 70,
   "labels": [
    "Back in history",
    "Back",
@@ -515,7 +514,7 @@
   ]
  },
  "arrow-right": {
-  "count": 181,
+  "count": 169,
   "labels": [
    "Forward in history",
    "Go to feature",
@@ -529,7 +528,7 @@
   ]
  },
  "arrow-right-channel": {
-  "count": 9,
+  "count": 6,
   "labels": [
    "View in Slack"
   ],
@@ -558,17 +557,17 @@
   ],
   "snippets": [
    "0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":tQ.t(\"Huddle primary actions\"),className:(0,s.A)(\"p-huddle_miniplayer_header ",
-   "0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":t$.t(\"Huddle primary actions\"),className:(0,i.A)(\"p-huddle_miniplayer_header "
+   "0,a.jsx)(F.Ah,{name:\"arrow-bottom-left\"}):(0,a.jsx)(F.Ah,{name:\"arrow-top-right\"})})});return(0,a.jsxs)(em.A,{\"aria-label\":tQ.t(\"Huddle primary actions\"),className:(0,s.A)(\"p-huddle_miniplayer_header "
   ]
  },
  "arrow-up": {
-  "count": 77,
+  "count": 67,
   "labels": [
    "Import",
-   "Previous item",
    "Sort ascending",
    "Group options",
-   "Insert item"
+   "Insert item",
+   "Send to Slackbot"
   ],
   "snippets": [
    "s.useCallback)((e,a=\"trash\")=>{switch(e){case\"up\":default:return{name:\"arrow-up\",size:\"18\"};case\"down\":return{name:\"arrow-down\",size:\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return",
@@ -580,7 +579,7 @@
   "labels": [],
   "snippets": [
    "\",{className:\"content__ILLlY\",children:[(0,tJ.jsx)(tX.Ah,{name:\"arrow-up-circle\",size:\"20\"}),(0,tJ.jsx)(\"div\",{className:\"title__qQUoF\",children:o3.t(\"You added {numOfVip, plural, =1 {# person} other ",
-   "\",{className:\"content__ILLlY\",children:[(0,tY.jsx)(tJ.Ah,{name:\"arrow-up-circle\",size:\"20\"}),(0,tY.jsx)(\"div\",{className:\"title__qQUoF\",children:oG.t(\"You added {numOfVip, plural, =1 {# person} other "
+   "\",{className:\"content__ILLlY\",children:[(0,tJ.jsx)(tX.Ah,{name:\"arrow-up-circle\",size:\"20\"}),(0,tJ.jsx)(\"div\",{className:\"title__qQUoF\",children:o3.t(\"You added {numOfVip, plural, =1 {# person} other "
   ]
  },
  "arrow-up-circle-filled": {
@@ -596,19 +595,19 @@
   "labels": [],
   "snippets": [
    "k:v,\"data-singer-card-control\":!0,children:[(0,m.jsx)(N.Ah,{name:\"arrow-up-left\",size:\"inherit\"}),(0,m.jsx)(\"span\",{className:\"fromTitle__QIqtV\",children:_.title})]}),l>1&&(0,m.jsxs)(\"div\",{className:",
-   "k:v,\"data-singer-card-control\":!0,children:[(0,g.jsx)(N.Ah,{name:\"arrow-up-left\",size:\"inherit\"}),(0,g.jsx)(\"span\",{className:\"fromTitle__QIqtV\",children:_.title})]}),l>1&&(0,g.jsxs)(\"div\",{className:"
+   "k:v,\"data-singer-card-control\":!0,children:[(0,m.jsx)(N.Ah,{name:\"arrow-up-left\",size:\"inherit\"}),(0,m.jsx)(\"span\",{className:\"fromTitle__QIqtV\",children:_.title})]}),l>1&&(0,m.jsxs)(\"div\",{className:"
   ]
  },
  "arrow-up-right": {
-  "count": 43,
+  "count": 42,
   "labels": [
-   "Open conversation",
    "Personal Slackbot preferences",
+   "Open conversation",
    "Browse skills in Slack"
   ],
   "snippets": [
    "assName:\"completeLinkIcon__aTSqD\",children:(0,s.jsx)(k.Ah,{name:\"arrow-up-right\",inline:!0,\"aria-hidden\":\"true\"})})]})]})]})]})});let T=[\"button__jNHOi\",S?\"pulsing__CnkRH\":\"\"].filter(Boolean).join(\" \"",
-   ",onClick:b,onFocus:A,onBlur:C,children:[i,(0,y.jsx)(e7.Ah,{name:\"arrow-up-right\",size:\"18\"})]}):null]})]})};MeetingHuddleHeader.displayName=\"MeetingHuddleHeader\";let EI=new A.Ay(\"files\"),getMeetingGro"
+   ",onClick:b,onFocus:A,onBlur:C,children:[i,(0,y.jsx)(e7.Ah,{name:\"arrow-up-right\",size:\"18\"})]}):null]})]})};MeetingHuddleHeader.displayName=\"MeetingHuddleHeader\";let EE=new A.Ay(\"files\"),getMeetingGro"
   ]
  },
  "aspect-ratio": {
@@ -656,7 +655,7 @@
   "labels": [],
   "snippets": [
    "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,m.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,m.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,m.jsx)(uI.Provider,{valu",
-   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,g.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,g.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,g.jsx)(uG.Provider,{valu"
+   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,m.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,m.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,m.jsx)(uI.Provider,{valu"
   ]
  },
  "blocks-filled": {
@@ -685,7 +684,7 @@
   "snippets": []
  },
  "bolt": {
-  "count": 64,
+  "count": 63,
   "labels": [
    "Workflow",
    "Automate everyday tasks",
@@ -705,12 +704,12 @@
    "TEMPLATE"
   ],
   "snippets": [
-   "a.jsx)(I.A,{entityState:S.wF.enabled,children:(0,a.jsx)(c.Ah,{name:\"bolt-filled\",size:\"20\"})})}),[d,u?.icons]),m=(0,i.useMemo)(()=>(0,a.jsx)(j.A,{className:\"title__VHmox\",children:t??u?.title}),[t,u?.",
-   "jsx)(Mu.A,{entityState:C.wF.enabled,children:(0,y.jsx)(e7.Ah,{name:\"bolt-filled\",size:\"20\"})})}),[l,o?.icons]),d=(0,u.useMemo)(()=>(0,y.jsx)(YU.A,{className:\"title__VHmox\",children:t??o?.title}),[t,o?"
+   "jsx)(Mm.A,{entityState:C.wF.enabled,children:(0,y.jsx)(e7.Ah,{name:\"bolt-filled\",size:\"20\"})})}),[l,o?.icons]),d=(0,u.useMemo)(()=>(0,y.jsx)(YW.A,{className:\"title__VHmox\",children:t??o?.title}),[t,o?",
+   "a.jsx)(I.A,{entityState:S.wF.enabled,children:(0,a.jsx)(c.Ah,{name:\"bolt-filled\",size:\"20\"})})}),[d,u?.icons]),m=(0,i.useMemo)(()=>(0,a.jsx)(j.A,{className:\"title__VHmox\",children:t??u?.title}),[t,u?."
   ]
  },
  "book": {
-  "count": 20,
+  "count": 17,
   "labels": [
    "Remove skill set"
   ],
@@ -720,7 +719,7 @@
   ]
  },
  "bookmark": {
-  "count": 59,
+  "count": 57,
   "labels": [
    "Add to-do",
    "View all your downloads",
@@ -746,7 +745,7 @@
   ]
  },
  "bot": {
-  "count": 20,
+  "count": 17,
   "labels": [
    "Go to app",
    "All sidekicks",
@@ -759,7 +758,7 @@
   ]
  },
  "branch": {
-  "count": 15,
+  "count": 14,
   "labels": [
    "PR open",
    "PR blocked",
@@ -906,8 +905,8 @@
    "OneDrive & SharePoint"
   ],
   "snippets": [
-   "includes(\"google_drive\"),focusable:!0,data:{iconName:\"brand-google-drive-filled\",label:e,isSelected:({primaryViewType:e})=>e===J.D.BrowseUnifiedFilesGoogleDrive}},{id:J.D.BrowseUnifiedFilesOnedrive,ty",
-   ",icon:(0,n.jsx)(\"div\",{children:(0,n.jsx)(m.Ah,{name:\"brand-google-drive-filled\",size:\"20\"})}),autoClogProps:clogProps(\"google_drive\"),click:eS},o={label:ep,icon:(0,n.jsx)(\"div\",{className:eh.A.add_ta"
+   ",icon:(0,n.jsx)(\"div\",{children:(0,n.jsx)(m.Ah,{name:\"brand-google-drive-filled\",size:\"20\"})}),autoClogProps:clogProps(\"google_drive\"),click:eS},o={label:ep,icon:(0,n.jsx)(\"div\",{className:eh.A.add_ta",
+   "includes(\"google_drive\"),focusable:!0,data:{iconName:\"brand-google-drive-filled\",label:e,isSelected:({primaryViewType:e})=>e===J.D.BrowseUnifiedFilesGoogleDrive}},{id:J.D.BrowseUnifiedFilesOnedrive,ty"
   ]
  },
  "brand-google-filled": {
@@ -1146,7 +1145,7 @@
   "snippets": []
  },
  "bug": {
-  "count": 7,
+  "count": 6,
   "labels": [
    "Show reasoning trace"
   ],
@@ -1161,7 +1160,7 @@
   "snippets": []
  },
  "building": {
-  "count": 21,
+  "count": 20,
   "labels": [
    "This person isn\\u2019t in your workspace.",
    "1-10",
@@ -1175,7 +1174,7 @@
   ]
  },
  "buildings": {
-  "count": 51,
+  "count": 48,
   "labels": [
    "Unlimited message history",
    "Unlimited app integrations",
@@ -1199,7 +1198,7 @@
   ],
   "snippets": [
    "ep.t(\"Workspace settings\"),href:eT(\"admin/settings\"),iconName:\"buildings-filled\"},EditWorkspace:{label:ep.t(\"Edit workspace\")},AdvancedSecurity:{label:ep.t(\"Set up advanced security\"),onClick:eI,autoC",
-   ".t(\"External\"),id:b.H.External,svgIcon:C===b.H.External?{name:\"buildings-filled\"}:{name:\"buildings\"},content:e?void 0:(0,t.jsx)(g.A,{})},{title:A.t(\"Invitations\"),id:b.H.Invitations,svgIcon:C===b.H.In"
+   "profile__external_photo_badge\",children:(0,n.jsx)(ey.Ah,{name:\"buildings-filled\"})})]}),(0,n.jsx)(eA.T,{className:\"p-edit_profile__column_secondary_control\",switchPane:l,audience:\"external\",type:\"outl"
   ]
  },
  "bulleted-list": {
@@ -1232,7 +1231,7 @@
   "snippets": []
  },
  "calendar": {
-  "count": 201,
+  "count": 193,
   "labels": [
    "Date",
    "Add date",
@@ -1254,7 +1253,7 @@
   ]
  },
  "call": {
-  "count": 31,
+  "count": 30,
   "labels": [
    "Leave Huddle",
    "Leave",
@@ -1287,8 +1286,8 @@
    "1-800-522-7997"
   ],
   "snippets": [
-   "xs)(iI.A,{href:\"tel:+18005227997\",children:[(0,eE.jsx)(ia.Ah,{name:\"call-filled\",inline:!0}),\" \",IP.t(\"1-800-522-7997\")]})]}),(0,eE.jsx)(\"div\",{children:(0,eE.jsx)(at.lV,{type:\"primary\",onClick:B,load",
-   "sxs)(e0.A,{href:\"tel:+18005227997\",children:[(0,y.jsx)(e7.Ah,{name:\"call-filled\",inline:!0}),\" \",qB.t(\"1-800-522-7997\")]})]}),(0,y.jsx)(\"div\",{children:(0,y.jsx)(e8.lV,{type:\"primary\",onClick:G,loadin"
+   "sxs)(e0.A,{href:\"tel:+18005227997\",children:[(0,y.jsx)(e7.Ah,{name:\"call-filled\",inline:!0}),\" \",qU.t(\"1-800-522-7997\")]})]}),(0,y.jsx)(\"div\",{children:(0,y.jsx)(e8.lV,{type:\"primary\",onClick:G,loadin",
+   "xs)(iI.A,{href:\"tel:+18005227997\",children:[(0,eE.jsx)(ia.Ah,{name:\"call-filled\",inline:!0}),\" \",IP.t(\"1-800-522-7997\")]})]}),(0,eE.jsx)(\"div\",{children:(0,eE.jsx)(at.lV,{type:\"primary\",onClick:B,load"
   ]
  },
  "call-handset": {
@@ -1320,7 +1319,7 @@
   "snippets": []
  },
  "camera": {
-  "count": 12,
+  "count": 11,
   "labels": [],
   "snippets": [
    "0,n.jsx)(u.Ay,{className:\"top_margin\",type:\"boxed\",level:\"warning\",icon:\"camera\",align:\"left\",children:r}),!a&&(0,n.jsx)(u.Ay,{className:\"top_margin\",type:\"boxed\",level:\"warning\",icon:\"screen-share\",a",
@@ -1351,7 +1350,7 @@
   "snippets": []
  },
  "canvas": {
-  "count": 61,
+  "count": 59,
   "labels": [
    "Canvas",
    "Convert to canvas",
@@ -1365,13 +1364,13 @@
   ]
  },
  "canvas-browser": {
-  "count": 33,
+  "count": 31,
   "labels": [
    "Canvas",
    "OneDrive, meet Slack",
    "Due date",
    "Completed",
-   "Files"
+   "Huddle icon"
   ],
   "snippets": [
    "me:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"canvas-browser\",size:\"20\"})}),enabled:R,autoClogProps:eM(\"add_file_tab_item\"),click:ew},{label:(0,t.jsxs)(\"span\",{className:pL.add_tab_",
@@ -1384,7 +1383,7 @@
   "snippets": []
  },
  "canvas-content": {
-  "count": 70,
+  "count": 66,
   "labels": [
    "Canvas",
    "Write and organize content",
@@ -1404,7 +1403,7 @@
   ],
   "snippets": [
    "bumpDetails({fileShareDetails:t}),N=(0,c.jsx)(p.Ah,{name:\"canvas-content-filled\",inline:!0}),M=(0,h.A)(e),L=M?(0,g.q)(M):S.t(\"this canvas\"),R=S.rt(\"Share this in {formattedCanvasTitle}?\",{formattedCan",
-   "n.jsx)(\"div\",{className:os,children:(0,n.jsx)(u.Ah,{name:\"canvas-content-filled\"})}),(0,n.jsx)(\"div\",{className:os,children:(0,n.jsx)(u.Ah,{name:\"lists-filled\"})}),(0,n.jsx)(\"div\",{className:os,childr"
+   "bumpDetails({fileShareDetails:t}),E=(0,d.jsx)(p.Ah,{name:\"canvas-content-filled\",inline:!0}),M=(0,h.A)(e),R=M?(0,_.q)(M):w.t(\"this canvas\"),P=w.rt(\"Share this in {formattedCanvasTitle}?\",{formattedCan"
   ]
  },
  "canvas-filled": {
@@ -1418,13 +1417,13 @@
   ]
  },
  "caret-down": {
-  "count": 302,
+  "count": 283,
   "labels": [
-   "Older result",
-   "Newer result",
    "Open calendar",
+   "Who can use it",
    "Bookmark icon",
-   "Text emphasis formatting options"
+   "Text emphasis formatting options",
+   "Previous comment"
   ],
   "snippets": [
    "e:\"p-explorer_controls__button_caret\",children:(0,l.jsx)(j.Ah,{name:\"caret-down\",inline:!0,size:\"18\"})})]}),[e,r,n?.label]),p=(0,t.useMemo)(()=>(0,l.jsx)(\"div\",{className:\"errorAlert__unz1u\",children:",
@@ -1440,13 +1439,13 @@
   ]
  },
  "caret-down-full": {
-  "count": 57,
+  "count": 32,
   "labels": [
-   "Any",
    "Hide message",
-   "Select options\\u2026",
    "You\\u2019re hiding messages from this person.",
-   "Show anyway"
+   "Show anyway",
+   "Any",
+   "Select options\\u2026"
   ],
   "snippets": [
    ":!0,children:[nx.t(\"Hide message\"),\"\\xa0\",(0,n.jsx)(Y.Ah,{name:\"caret-down-full\",inline:!0})]})})]}):(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(\"div\",{className:\"contents__QTe_c\",children:nx.t(\"You\\u2",
@@ -1459,7 +1458,7 @@
   "snippets": []
  },
  "caret-dropdown": {
-  "count": 30,
+  "count": 28,
   "labels": [
    "Add percent",
    "Select option",
@@ -1478,7 +1477,7 @@
   "snippets": []
  },
  "caret-left": {
-  "count": 69,
+  "count": 66,
   "labels": [
    "Back",
    "Close",
@@ -1492,14 +1491,14 @@
   ]
  },
  "caret-left-double-full": {
-  "count": 6,
+  "count": 5,
   "labels": [
    "Next year",
    "Previous year"
   ],
   "snippets": [
    " renderPreviousYearButton(){return r?renderButton({icon:\"caret-left-double-full\",onClick:r,\"aria-label\":c.t(\"Previous year\"),\"data-qa\":\"cal_header_previous_year_btn\",disabled:h}):null}renderButton.dis",
-   "\":f,backgroundStyle:\"dark\",className:\"icon__5jPAJ\",icon:\"caret-left-double-full\",onClick:b,size:\"small\"})})]})}BaseSlackbotSidebarHeaderControls.displayName=\"BaseSlackbotSidebarHeaderControls\";let e6="
+   " renderPreviousYearButton(){return r?renderButton({icon:\"caret-left-double-full\",onClick:r,\"aria-label\":d.t(\"Previous year\"),\"data-qa\":\"cal_header_previous_year_btn\",disabled:h}):null}renderButton.dis"
   ]
  },
  "caret-left-filled": {
@@ -1508,7 +1507,7 @@
   "snippets": []
  },
  "caret-left-full": {
-  "count": 69,
+  "count": 64,
   "labels": [
    "Back",
    "Previous month",
@@ -1522,7 +1521,7 @@
   ]
  },
  "caret-right": {
-  "count": 234,
+  "count": 224,
   "labels": [
    "Next",
    "Compare plans",
@@ -1531,8 +1530,8 @@
    "See all activity"
   ],
   "snippets": [
-   "ck)(()=>{t(a)},[t,a]),b=(0,r.useCallback)(()=>(0,i.jsx)(T.Ah,{name:\"caret-right\",size:\"20\"}),[]),S=(0,r.useMemo)(()=>{let e=\"\";return a===e4.b.People?e=\"canvas_share_dialog_people\":a===e4.b.Channels?e",
-   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n("
+   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n(",
+   "div\",{className:_K.A.listItemActions,children:(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\",\"aria-hidden\":!0})})]})}return(0,t.jsx)(IntegrationListItem,{id:e.id,server:e.item.server,status:e.item.statu"
   ]
  },
  "caret-right-double-full": {
@@ -1547,7 +1546,7 @@
   ]
  },
  "caret-right-filled": {
-  "count": 14,
+  "count": 13,
   "labels": [],
   "snippets": [
    "n?(0,i.jsx)(l.Ah,{...e.collapsedIcon}):(0,i.jsx)(l.Ah,{name:\"caret-right-filled\"})})}),(0,i.jsxs)(\"div\",{className:(0,s.A)(\"display_flex flex_direction_column\",{[g]:!!g}),children:[F(e.header,e.isExpa",
@@ -1555,7 +1554,7 @@
   ]
  },
  "caret-right-full": {
-  "count": 22,
+  "count": 21,
   "labels": [
    "Show anyway",
    "Previous month",
@@ -1569,13 +1568,13 @@
   ]
  },
  "caret-up": {
-  "count": 30,
+  "count": 28,
   "labels": [
-   "Older result",
    "Previous comment",
+   "Older result",
    "Newer result",
    "Collapse thread",
-   "Previous result"
+   "Collapse"
   ],
   "snippets": [
    "new p.Ay(\"table\"),H={NOT_SORTED:{name:\"caret-up-down\"},SORT_ASC:{name:\"caret-up\"},SORT_DESC:{name:\"caret-down\"}},j=\"data_table_column_header\";function table_column_header_getHeaderAriaLabel({dataKey:e",
@@ -1621,13 +1620,13 @@
   "snippets": []
  },
  "channel": {
-  "count": 180,
+  "count": 168,
   "labels": [
    "Join all channels",
    "Channels",
-   "Channel",
    "Advanced channel permissions",
-   "Say who can manage and post in channels"
+   "Say who can manage and post in channels",
+   "You don\\u2019t have permission to change this."
   ],
   "snippets": [
    "xt:l,ariaLabel:as.t(\"People with access\")},[e4.b.Channels]:{icon:{name:\"channel\"},title:as.t(\"Channels\"),getSubText:d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},ti",
@@ -1635,7 +1634,7 @@
   ]
  },
  "channel-add": {
-  "count": 11,
+  "count": 9,
   "labels": [
    "Profile",
    "user",
@@ -1672,18 +1671,18 @@
    "rocket"
   ],
   "snippets": [
-   "l_sidebar__channel_icon_prefix\",children:(0,tJ.jsx)(tX.Ah,{name:\"channel-filled\",size:\"16\"})}),[]);return(0,tJ.jsx)(t4.N,{id:\"sidebar-unjoined-mention\",label:n||o,icon:m,hasUnreads:!0,displayAsBold:!0",
-   "eam:!1}),!s&&(0,y.jsxs)(\"span\",{children:[(0,y.jsx)(e7.Ah,{name:\"channel-filled\",inline:!0}),(0,y.jsx)(\"span\",{className:\"margin_left_50\",children:e?.name})]})]}),(0,y.jsx)(\"div\",{className:\"record_ch"
+   "eam:!1}),!s&&(0,y.jsxs)(\"span\",{children:[(0,y.jsx)(e7.Ah,{name:\"channel-filled\",inline:!0}),(0,y.jsx)(\"span\",{className:\"margin_left_50\",children:e?.name})]})]}),(0,y.jsx)(\"div\",{className:\"record_ch",
+   "l_sidebar__channel_icon_prefix\",children:(0,tJ.jsx)(tX.Ah,{name:\"channel-filled\",size:\"16\"})}),[]);return(0,tJ.jsx)(t4.N,{id:\"sidebar-unjoined-mention\",label:n||o,icon:m,hasUnreads:!0,displayAsBold:!0"
   ]
  },
  "channel-search": {
-  "count": 12,
+  "count": 11,
   "labels": [
+   "Channels",
    "Invited you",
    "Start collaborating",
    "Join team channels",
-   "Browse the topics your team has started.",
-   "Channels"
+   "Browse the topics your team has started."
   ],
   "snippets": [
    "return{name:\"user-directory\"};case\"share-other-alt\":return{name:\"channel-search\"};case\"dm\":return{name:\"direct-messages\"};case\"paper-plane-alt\":return{name:\"send\"};case\"bell-o\":return{name:\"notificati",
@@ -1715,7 +1714,7 @@
   "snippets": []
  },
  "check": {
-  "count": 361,
+  "count": 345,
   "labels": [
    "Link copied to clipboard",
    "Keep",
@@ -1729,7 +1728,7 @@
   ]
  },
  "check-add": {
-  "count": 19,
+  "count": 18,
   "labels": [
    "Save for later",
    "Add to-do",
@@ -1741,41 +1740,41 @@
   ]
  },
  "check-circle": {
-  "count": 246,
+  "count": 234,
   "labels": [
-   "Completed",
-   "Mark as read",
    "Yes",
    "Upgrade Requested",
-   "Email address copied to clipboard."
+   "Completed",
+   "Email address copied to clipboard.",
+   "Mark as read"
   ],
   "snippets": [
-   "ck:{enableClogAction:!0}},es=new r.Ay(\"slack_first_crm\"),ed={name:\"check-circle\"},SetupForwardingPane=({title:e,forwardingEmail:a,channelId:i,onNext:r})=>{let l=(0,t.wA)(),s=(0,_.d4)(e=>(0,eo.oJ)(e,i,",
-   ".jsx)(L.Ay,{position:\"bottom-right\",offsetY:70,svgIconProps:{name:\"check-circle\"},svgIconClassName:\"sk_lilypad_green\",children:(0,t.jsxs)(\"div\",{\"data-qa\":\"channel_email_customize_toast\",children:[\" \""
+   ".jsx)(L.Ay,{position:\"bottom-right\",offsetY:70,svgIconProps:{name:\"check-circle\"},svgIconClassName:\"sk_lilypad_green\",children:(0,t.jsxs)(\"div\",{\"data-qa\":\"channel_email_customize_toast\",children:[\" \"",
+   "lEmailAddress\"};let Z=new i.Ay(\"channel-email-addresses\"),$={name:\"check-circle\"},Y={name:\"warning\"},BaseDeleteChannelEmailAddressModal=({channel:e,showToast:a,channelDisplayName:n,deleteEmailAddress:"
   ]
  },
  "check-circle-filled": {
-  "count": 157,
+  "count": 154,
   "labels": [
    "Connected",
-   "Completed",
    "Saving to Salesforce",
    "Changes saved",
+   "Completed",
    "Thanks for your feedback!"
   ],
   "snippets": [
    "icator\",\"aria-hidden\":\"true\",children:(0,i.jsx)(m.Ah,{name:\"check-circle-filled\",size:\"16\"})}):\"connecting\"===e?(0,i.jsx)(\"span\",{className:\"spinnerWrapper__NJ1hX\",\"data-qa\":\"auth-provider-connecting-",
-   "s(),t((0,p.M)({element:(0,a.jsx)(l.A,{svgIconProps:n?{name:\"check-circle-filled\"}:{name:\"paper-plane\"},children:(0,a.jsx)(\"span\",{children:n??h.t(\"Success! Your request will be shared with your team o"
+   "className:\"sk_lilypad_green\",children:(0,t.jsx)(u.Ah,{name:\"check-circle-filled\",inline:!0})})]}),E=(0,t.jsxs)(\"div\",{className:\"p-admin_channel_modal__copy_members\",children:[j,(h.shouldShow&&\"names\""
   ]
  },
  "check-filled": {
-  "count": 82,
+  "count": 78,
   "labels": [
-   "Channel content cannot be used by AI features outside of this channel.",
-   "Guests are not allowed in this channel.",
-   "Sharing and downloading are not allowed in this channel.",
    "Feature available",
-   "Feature unavailable"
+   "Feature unavailable",
+   "Automation tools",
+   "Ungrouped",
+   "Channel content cannot be used by AI features outside of this channel."
   ],
   "snippets": [
    "span\",{className:\"padding_right_50\",children:(0,t.jsx)(u.Ah,{name:\"check-filled\",color:(0,en.Sh)(\"color.content.hgl.2\"),inline:!0})}),(0,t.jsx)(\"span\",{children:ev.t(\"Channel content can be used by AI",
@@ -1783,13 +1782,13 @@
   ]
  },
  "check-list": {
-  "count": 15,
+  "count": 13,
   "labels": [
-   "Bulk manage conversations",
    "Rich text composer",
    "Dropdown",
    "Multiple choice",
-   "Checkboxes"
+   "Checkboxes",
+   "Bulk manage conversations"
   ],
   "snippets": [
    "MultiSelect:{questionType:\"staticMultiSelect\",baseType:\"array\",icon:\"check-list\"},staticMultiSelectWithCheckboxes:{questionType:\"staticMultiSelectWithCheckboxes\",baseType:\"array\",icon:\"checkbox\"},user",
@@ -1797,7 +1796,7 @@
   ]
  },
  "checkbox": {
-  "count": 22,
+  "count": 21,
   "labels": [
    "Files",
    "Checkbox",
@@ -1822,13 +1821,13 @@
   ]
  },
  "clear": {
-  "count": 33,
+  "count": 31,
   "labels": [
    "lists",
    "Clear history",
-   "Clean up your channel list",
    "Actions",
-   "Reminder"
+   "Reminder",
+   "Clean up your channel list"
   ],
   "snippets": [
    ",s=(0,i.jsx)(g.Ay,{tip:A.t(\"Clear history\"),children:(0,i.jsx)(p.A,{icon:\"clear\",size:\"medium\",\"aria-label\":\"clear\",className:\"p-modal_more_history_menu__clear\",onClick:n})}),r=(0,a.useMemo)(()=>{let ",
@@ -1836,13 +1835,13 @@
   ]
  },
  "clock": {
-  "count": 156,
+  "count": 148,
   "labels": [
    "Created time",
    "Last edited time",
-   "Availability",
    "Message",
-   "History"
+   "Approved",
+   "Assigned"
   ],
   "snippets": [
    "t_modal__member_profile_section_item_icon\",children:(0,t.jsx)(u.Ah,{name:\"clock\",size:\"20\"})}),(0,t.jsx)(\"span\",{children:u0.t(\"{time} local time\",{time:g})})]}),C&&(0,t.jsxs)(\"div\",{className:\"p-abou",
@@ -1855,34 +1854,33 @@
   "snippets": []
  },
  "close": {
-  "count": 801,
+  "count": 764,
   "labels": [
    "Close",
    "Dismiss",
    "Remove from huddle",
-   "Hide thread",
-   "close"
+   "close",
+   "Decline"
   ],
   "snippets": [
-   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share",
-   "o.jsx)(u.EY,{color:h.Q.CoreContentTertiary,children:(0,o.jsx)(c.Ah,{name:\"close\"})})})})]});BusinessPlusAdminEntryPointBanner.displayName=\"BusinessPlusAdminEntryPointBanner\"},\"8YNJ\"(e,n,l){l.d(n,{A:()"
+   "Close\"),className:\"c-dialog__close\",onClick:this.onCloseButtonClick,icon:\"close\"}),(0,t.jsx)(\"div\",{className:\"align_center\",children:(0,t.jsx)(d.A,{className:\"p-app_permission_dialog__app_icon\",src:e",
+   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share"
   ]
  },
  "close-circle": {
-  "count": 7,
+  "count": 6,
   "labels": [
-   "Close",
    "Denied",
    "Canceled",
-   "Ask your admin"
+   "Close"
   ],
   "snippets": [
    "),\"aria-label\":W,title:W,onClick:c,children:(0,A.jsx)(el.Ah,{name:\"close-circle\",size:e?\"20\":\"16\",\"aria-hidden\":!0})})]}),w&&!e&&(0,A.jsx)(es.A,{className:(0,z.A)(ak,!i&&ax),\"aria-label\":U,title:U,onC",
-   "Name:d.A.closeButton,\"aria-label\":t,children:(0,s.jsx)(r.Ah,{name:\"close-circle\",size:\"16\"})})})}CloseButton.displayName=\"CloseButton\",n.d(t,{},{J:CloseButton})}),SdST:(function(e,t,n){n.d(t,{MeetingD"
+   ")(n.Fragment,{children:[\"Denied for \",e]})},cancelled:{icon:{name:\"close-circle\",className:\"neutralIcon__cO6EF\"},timestampKey:\"resolved\",getLabel:e=>e?M.t(\"Canceled\"):\"Canceled\",getTeamLabel:(e,t)=>t?"
   ]
  },
  "close-circle-filled": {
-  "count": 42,
+  "count": 40,
   "labels": [
    "Clear text",
    "Folder name can\\u2019t be longer than 256 characters.",
@@ -1896,7 +1894,7 @@
   ]
  },
  "close-filled": {
-  "count": 58,
+  "count": 55,
   "labels": [
    "Remove",
    "Remove link preview",
@@ -1955,17 +1953,17 @@
    "Bring in external files"
   ],
   "snippets": [
-   "ription:i$.t(\"Bring in external files\"),icon:(0,l.jsx)(p.Ah,{name:\"cloud-upload\",size:\"20\"}),click:eG,autoClogProps:{eventId:300323,onClick:{enableClogAction:!0},uiComponentVariant:H?\"files_tab_nux_ve",
-   "dren:(0,n.jsxs)(\"div\",{className:K,children:[(0,n.jsx)(k.Ah,{name:\"cloud-upload\",size:\"16\",\"aria-hidden\":\"true\"}),tv.t(\"Upload\")]})})]}),(0,n.jsxs)(v.A,{children:[(0,n.jsx)(f.A,{type:\"outline\",\"aria-l"
+   "dren:(0,n.jsxs)(\"div\",{className:K,children:[(0,n.jsx)(k.Ah,{name:\"cloud-upload\",size:\"16\",\"aria-hidden\":\"true\"}),tv.t(\"Upload\")]})})]}),(0,n.jsxs)(v.A,{children:[(0,n.jsx)(f.A,{type:\"outline\",\"aria-l",
+   "ription:i$.t(\"Bring in external files\"),icon:(0,l.jsx)(p.Ah,{name:\"cloud-upload\",size:\"20\"}),click:eG,autoClogProps:{eventId:300323,onClick:{enableClogAction:!0},uiComponentVariant:H?\"files_tab_nux_ve"
   ]
  },
  "code": {
-  "count": 128,
+  "count": 127,
   "labels": [
    "App activity",
+   "Create a code channel from thread",
    "API documentation for audit logs",
-   "Learn more about these notifications",
-   "Create a code channel from thread"
+   "Learn more about these notifications"
   ],
   "snippets": [
    "n\",title:gX.t(\"API documentation for audit logs\"),renderTitleIcon:o({name:\"code\"}),href:`${(0,g$.LP)()}/admins/audit-logs-anomaly`},{key:\"hc_btn\",title:gX.t(\"Learn more about these notifications\"),ren",
@@ -2049,10 +2047,10 @@
   "snippets": []
  },
  "compose": {
-  "count": 42,
+  "count": 36,
   "labels": [
-   "New Chat",
    "Start new conversation",
+   "New Chat",
    "New message",
    "Done",
    "Close"
@@ -2063,7 +2061,7 @@
   ]
  },
  "copy": {
-  "count": 98,
+  "count": 91,
   "labels": [
    "Copy",
    "Copy table",
@@ -2072,8 +2070,8 @@
    "Copy markdown"
   ],
   "snippets": [
-   "_}),A?(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(HeaderActionButton,{icon:\"copy\",label:S.copyChart,onClick:v}),(0,i.jsx)(HeaderActionButton,{icon:\"share-message\",label:S.shareChart,onClick:x})]}):null",
-   "ew-window\"}),ed=(0,i.jsx)(u.Ah,{name:\"download\"}),eu=(0,i.jsx)(u.Ah,{name:\"copy\"}),ep=(0,i.jsx)(u.Ah,{name:\"image\"}),eg=(0,i.jsx)(u.Ah,{name:\"share-message\"}),em=(0,i.jsx)(u.Ah,{name:\"arrow-expand-ful"
+   "0,t.jsx)(\"span\",{className:\"margin_left_25\",children:(0,t.jsx)(u.Ah,{name:\"copy\",inline:!0})})})}),(0,t.jsx)(lU.A,{assertive:!0,message:r?p:\"\",uuid:d})]})}DebugDataText.displayName=\"DebugDataText\";var",
+   "_}),A?(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(HeaderActionButton,{icon:\"copy\",label:S.copyChart,onClick:v}),(0,i.jsx)(HeaderActionButton,{icon:\"share-message\",label:S.shareChart,onClick:x})]}):null"
   ]
  },
  "copy-filled": {
@@ -2143,7 +2141,7 @@
   "snippets": []
  },
  "direct-messages": {
-  "count": 115,
+  "count": 113,
   "labels": [
    "Unlimited message history",
    "Unlimited app integrations",
@@ -2165,13 +2163,13 @@
   ]
  },
  "disable": {
-  "count": 89,
+  "count": 82,
   "labels": [
    "Some content wasn\\u2019t pasted because this table reached its cell limit.",
    "Recalled",
    "Rejected",
    "Withdrawn",
-   "What will change:"
+   "This table has reached the maximum number of cells allowed in a canvas."
   ],
   "snippets": [
    "lls allowed in a canvas.\");return this.showToast(e,{svgIconProps:{name:\"disable\"},targetWindow:t}),!0}case 3:{let e=e_.t(\"Some content wasn\\u2019t pasted because this table reached its cell limit.\");r",
@@ -2195,7 +2193,7 @@
   ]
  },
  "document": {
-  "count": 16,
+  "count": 15,
   "labels": [
    "Open in calendar"
   ],
@@ -2205,7 +2203,7 @@
   ]
  },
  "download": {
-  "count": 82,
+  "count": 78,
   "labels": [
    "Download table",
    "Download",
@@ -2239,17 +2237,17 @@
   "snippets": []
  },
  "edit": {
-  "count": 311,
+  "count": 295,
   "labels": [
    "Edit",
-   "Remove",
    "More actions",
+   "Remove",
    "Start workflow",
    "Edit section"
   ],
   "snippets": [
-   ":\"comment\",size:\"20\"})}]:[],{accessLabel:j.Edit,icon:(0,i.jsx)(T.Ah,{name:\"edit\",size:\"20\"})}].find(a=>a.accessLabel===e.label)||{accessLabel:\"\",subtext:\"\",icon:\"\"},n=e.isDisabled?{tip:P,zIndex:\"menu_",
-   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>"
+   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>",
+   "l.displayName=\"ImportMemoriesModal\";let gF=new d.Ay(\"assistant\"),gB={name:\"edit\"},gq={name:\"trash\"},MemoryActionsToolbar=({onEdit:e,onRemove:a,children:n})=>{let s=gF.t(\"Edit\"),l=gF.t(\"Remove\");return"
   ]
  },
  "edit-disabled": {
@@ -2288,7 +2286,7 @@
   "snippets": []
  },
  "ellipsis-horizontal-filled": {
-  "count": 89,
+  "count": 86,
   "labels": [
    "More actions",
    "Other options",
@@ -2302,31 +2300,31 @@
   ]
  },
  "ellipsis-vertical-filled": {
-  "count": 393,
+  "count": 359,
   "labels": [
    "More actions",
    "More options",
-   "Workflow Actions",
    "Edit",
-   "More list actions"
+   "More list actions",
+   "Expand"
   ],
   "snippets": [
-   "1),children:(0,i.jsx)(el.A,{icon:(0,i.jsx)(u.Ah,{name:\"ellipsis-vertical-filled\"}),label:$,\"aria-label\":$})})]}):null;return(0,i.jsx)(\"div\",{className:(0,o.A)(S?\"sizedContainer__ZgisS\":\"scrollContaine",
-   "position:\"bottom-right\",children:(0,t.jsx)(l5.A,{icon:\"ellipsis-vertical-filled\",\"aria-label\":c?l3.t(\"More options for {name}\",{name:d}):`More options for ${d}`})}):null,[l,n.length,m,c,d]),u=(0,s.use"
+   "position:\"bottom-right\",children:(0,t.jsx)(l5.A,{icon:\"ellipsis-vertical-filled\",\"aria-label\":c?l3.t(\"More options for {name}\",{name:d}):`More options for ${d}`})}):null,[l,n.length,m,c,d]),u=(0,s.use",
+   "position:\"bottom-right\",children:(0,t.jsx)(l5.A,{icon:\"ellipsis-vertical-filled\",\"aria-label\":dn.t(\"More options\")})});if(!i.isChannelMember&&a){let e=dn.t(\"Add to channel\");return(0,t.jsx)(g.Ay,{tip:"
   ]
  },
  "email": {
-  "count": 84,
+  "count": 76,
   "labels": [
    "Add time",
    "Add date and time",
    "Add email",
    "Add record",
-   "Support email"
+   "Send Email"
   ],
   "snippets": [
-   "5\",children:[(0,o.jsxs)(\"li\",{className:D,children:[(0,o.jsx)(c.Ah,{name:\"email\",size:\"20\"}),(0,o.jsxs)(\"div\",{children:[(0,o.jsx)(P.EY,{as:\"strong\",weight:\"bold\",children:R.t(\"Send email without leav",
-   "A,{htmlFor:p,text:Z.t(\"Support email\"),children:(0,n.jsx)(L.A,{id:p,name:\"email\",type:\"email\",value:b,onChange:$,placeholder:\"support@example.com\",size:\"medium\",autoComplete:\"email\",isDisabled:c,error"
+   "t_modal__member_profile_section_item_icon\",children:(0,t.jsx)(u.Ah,{name:\"email\",size:\"20\"})}),(0,t.jsx)(e2.A,{href:`mailto:${d}`,children:d})]})]})})}):null};MemberProfileSection.displayName=\"MemberP",
+   "5\",children:[(0,o.jsxs)(\"li\",{className:D,children:[(0,o.jsx)(c.Ah,{name:\"email\",size:\"20\"}),(0,o.jsxs)(\"div\",{children:[(0,o.jsx)(P.EY,{as:\"strong\",weight:\"bold\",children:R.t(\"Send email without leav"
   ]
  },
  "email-down": {
@@ -2360,8 +2358,8 @@
    "Invitations"
   ],
   "snippets": [
-   ",[T,A]),W=(0,i.useMemo)(()=>[{label:m,icon:(0,tJ.jsx)(tX.Ah,{name:\"email-invite\",size:\"20\"}),click:()=>{T.clickNewMessageMenuEmail(),E(\"sidebar_message_by_email\"),O(\"new_message_menu\")}},{...R,label:f",
-   "ead__MtGj1:S&&!j}),children:(0,tJ.jsx)(tX.Ah,{size:\"inherit\",name:\"email-invite\"})})}),(0,tJ.jsx)(\"span\",{ref:y,className:\"p-channel_sidebar__name\",children:b}),S&&_&&(0,tJ.jsx)(\"span\",{className:\"off"
+   "(0,y.jsx)(e7.Ah,{name:\"comment\",size:\"20\"}):(0,y.jsx)(e7.Ah,{name:\"email-invite\",size:\"20\"}),[o]),A=pD.t(\"Message\"),C=o?A:g,k=(0,u.useMemo)(()=>(0,y.jsx)(eC.A,{size:\"medium\"}),[]);return c?(0,y.jsx)(m",
+   ",[T,A]),W=(0,i.useMemo)(()=>[{label:m,icon:(0,tJ.jsx)(tX.Ah,{name:\"email-invite\",size:\"20\"}),click:()=>{T.clickNewMessageMenuEmail(),E(\"sidebar_message_by_email\"),O(\"new_message_menu\")}},{...R,label:f"
   ]
  },
  "email-reply": {
@@ -2375,7 +2373,7 @@
   ]
  },
  "email-up": {
-  "count": 10,
+  "count": 9,
   "labels": [],
   "snippets": [
    "ssName:\"p-integrations__icon\",children:(0,t.jsx)(u.Ah,{inline:!0,name:\"email-up\",size:\"20\"})})})}renderEmailIcon.displayName=\"renderEmailIcon\";let SendEmailsToChannelButton=({channel:e,showChannelEmai",
@@ -2383,13 +2381,13 @@
   ]
  },
  "emoji": {
-  "count": 66,
+  "count": 64,
   "labels": [
    "Emoji",
    "What\\u2019s your status?",
    "Emoji menu",
-   "Videos",
-   "Reactions"
+   "Explore some productivity boosters.",
+   "Which emoji best represents my work?"
   ],
   "snippets": [
    "e\"stacked-cards\":case\"sun\":case\"user\":return{name:e};default:return{name:\"emoji\"}}},[e,o]);return(0,n.jsx)(\"span\",{className:s,\"data-qa\":e,children:(0,n.jsx)(S.Ah,{size:\"16\",inline:!0,...l})})};Sideba",
@@ -2402,11 +2400,11 @@
   "snippets": []
  },
  "emoji-celebration": {
-  "count": 13,
+  "count": 10,
   "labels": [
    "What\\u2019s new",
-   "Celebration",
    "Won stage",
+   "Celebration",
    "See what you can do"
   ],
   "snippets": [
@@ -2455,7 +2453,7 @@
   "snippets": []
  },
  "emoji-objects": {
-  "count": 21,
+  "count": 19,
   "labels": [
    "Invite someone else to help you build out the workspace.",
    "Tip",
@@ -2487,29 +2485,25 @@
   "snippets": []
  },
  "emoji-travel": {
-  "count": 2,
+  "count": 1,
   "labels": [
    "Traveling this week in Asia"
   ],
   "snippets": [
-   "\"span\",{className:\"margin_right_50\",children:(0,s.jsx)(M.Ah,{name:\"emoji-travel\",size:\"20\"})}),(0,s.jsx)(\"span\",{children:ew.t(\"Traveling this week in Asia\")})]})}),(0,s.jsx)(\"div\",{className:\"margin_",
    "\"span\",{className:\"margin_right_50\",children:(0,s.jsx)(M.Ah,{name:\"emoji-travel\",size:\"20\"})}),(0,s.jsx)(\"span\",{children:ew.t(\"Traveling this week in Asia\")})]})}),(0,s.jsx)(\"div\",{className:\"margin_"
   ]
  },
  "enter": {
-  "count": 2,
+  "count": 1,
   "labels": [],
   "snippets": [
-   "ssName:\"p-unreads_view__empty__enter_icon\",children:(0,a.jsx)(_.Ah,{name:\"enter\"})}):(0,a.jsx)(\"b\",{children:t});return i18nrtCallback.displayName=\"i18nrtCallback\",(0,a.jsx)(\"div\",{\"data-qa\":\"unreads_",
    "ssName:\"p-unreads_view__empty__enter_icon\",children:(0,a.jsx)(_.Ah,{name:\"enter\"})}):(0,a.jsx)(\"b\",{children:t});return i18nrtCallback.displayName=\"i18nrtCallback\",(0,a.jsx)(\"div\",{\"data-qa\":\"unreads_"
   ]
  },
  "eraser": {
-  "count": 26,
+  "count": 25,
   "labels": [
-   "Clear all before\\u2026",
-   "Clear",
-   "Edit"
+   "Clear all before\\u2026"
   ],
   "snippets": [
    "eN=a(\"tMno\");let eR=new c.Ay(\"saved_for_later\"),ej=(0,n.jsx)(A.Ah,{name:\"eraser\"}),eE=(0,n.jsx)(A.Ah,{name:\"trash\"}),eO=(0,u.jB)((e,{ts:t,channelId:a})=>{if(!(0,eN.tj)(e))return null;let n=(0,M.Ld)(e,",
@@ -2560,7 +2554,7 @@
   ]
  },
  "eye-closed": {
-  "count": 48,
+  "count": 47,
   "labels": [
    "Hide fields",
    "Group by",
@@ -2574,7 +2568,7 @@
   ]
  },
  "eye-open": {
-  "count": 64,
+  "count": 62,
   "labels": [
    "View reasoning trace",
    "Only admins can see this setting",
@@ -2608,13 +2602,13 @@
   "snippets": []
  },
  "file": {
-  "count": 50,
+  "count": 45,
   "labels": [
    "File",
    "Link",
+   "Remove attached files",
    "After\\u2026",
-   "Range\\u2026",
-   "File type"
+   "Range\\u2026"
   ],
   "snippets": [
    "ing\",icon:\"radio-button\"},file:{questionType:\"file\",baseType:\"array\",icon:\"file\"}},createQuestion=({questionType:e=\"text\",label:t=\"\",is_required:a=!0,name:i,description:r=\"\",previousOptions:n=[],title",
@@ -2634,7 +2628,7 @@
   ],
   "snippets": [
    "case\"gn-menu\":return{name:\"apps\"};case\"all-files-alt\":return{name:\"file-browser\"};case\"team-directory\":case\"unified-directory\":return{name:\"user-directory\"};case\"share-other-alt\":return{name:\"channel-",
-   "b&&!k&&a.push((0,n.jsx)(B.Dr,{label:(0,n.jsx)(MenuItemLabel,{icon:\"file-browser\",label:oY.t(\"Files\")}),onSelected:V({type:iN}),disabled:!1},\"select-file-entity\")),v&&b&&!x&&a.push((0,n.jsx)(B.Dr,{labe"
+   "case\"gn-menu\":return{name:\"apps\"};case\"all-files-alt\":return{name:\"file-browser\"};case\"team-directory\":case\"unified-directory\":return{name:\"user-directory\"};case\"share-other-alt\":return{name:\"channel-"
   ]
  },
  "file-browser-filled": {
@@ -2651,7 +2645,7 @@
   "snippets": []
  },
  "file-download": {
-  "count": 4,
+  "count": 2,
   "labels": [
    "Export un-migrated users list"
   ],
@@ -2691,7 +2685,7 @@
   "snippets": []
  },
  "file-upload": {
-  "count": 32,
+  "count": 28,
   "labels": [
    "Upload File",
    "Drop to upload",
@@ -2719,7 +2713,7 @@
    "Recent Files"
   ],
   "snippets": [
-   "s.title??s.url}))}});let A=[];return h&&A.push({label:E$.t(\"Files\"),icon:\"files\",galleryType:EB}),p&&A.push({label:E$.t(\"Media\"),icon:\"image\",galleryType:EF}),_&&A.push({label:E$.t(\"Links\"),icon:\"link",
+   "s.title??s.url}))}});let A=[];return h&&A.push({label:EY.t(\"Files\"),icon:\"files\",galleryType:EU}),p&&A.push({label:EY.t(\"Media\"),icon:\"image\",galleryType:EB}),_&&A.push({label:EY.t(\"Links\"),icon:\"link",
    "l}}],[s.$.Attachment,{value:s.$.Attachment,label:o.t(\"Files\"),icon:{name:\"files\"},description:\"Attachments allow you to add images, documents, or other files which can then be viewed or downloaded.\"}]"
   ]
  },
@@ -2729,13 +2723,13 @@
   "snippets": []
  },
  "filters": {
-  "count": 37,
+  "count": 34,
   "labels": [
    "Edit view",
    "Advanced options",
-   "Filters",
    "Channels",
-   "Manage"
+   "Manage",
+   "Manage Guest Channels"
   ],
   "snippets": [
    "_left_50\",children:E.t(\"Advanced options\")}),icon:(0,n.jsx)(u.Ah,{name:\"filters\",size:\"20\"}),onSelected:ec,autoClogProps:G(\"more_options\"),description:ea})]}),!a&&(0,n.jsxs)(n.Fragment,{children:[(0,n",
@@ -2743,7 +2737,7 @@
   ]
  },
  "flag": {
-  "count": 15,
+  "count": 14,
   "labels": [
    "Report this app (opens in new window)",
    "Report this app",
@@ -2760,11 +2754,11 @@
   "labels": [],
   "snippets": [
    "n: ${t}`),(0,eE.jsx)(eR.A,{position:\"top-right\",svgIconProps:{name:\"flag-filled\"},svgIconClassName:\"sk_raspberry_red\",duration:3e4,children:n})}function getForceFailApisParam(){return(0,F.P3)(\"force_f",
-   "n: ${t}`),(0,eL.jsx)(eO.A,{position:\"top-right\",svgIconProps:{name:\"flag-filled\"},svgIconClassName:\"sk_raspberry_red\",duration:3e4,children:n})}function getForceFailApisParam(){return(0,H.P3)(\"force_f"
+   "n: ${t}`),(0,eE.jsx)(eR.A,{position:\"top-right\",svgIconProps:{name:\"flag-filled\"},svgIconClassName:\"sk_raspberry_red\",duration:3e4,children:n})}function getForceFailApisParam(){return(0,F.P3)(\"force_f"
   ]
  },
  "folder": {
-  "count": 77,
+  "count": 72,
   "labels": [
    "Move to section",
    "Folder",
@@ -2778,7 +2772,7 @@
   ]
  },
  "folder-filled": {
-  "count": 4,
+  "count": 3,
   "labels": [
    "You don\\u2019t have access to this folder."
   ],
@@ -2801,8 +2795,8 @@
   "count": 6,
   "labels": [],
   "snippets": [
-   "\",{className:tG,children:[(0,n.jsx)(u.Ah,{inline:!0,\"data-qa\":\"form\",name:\"form\",size:\"24\"}),(0,n.jsx)(\"span\",{className:\"radioInputImageArrow__GeNpN\",children:(0,n.jsx)(u.Ah,{inline:!0,\"data-qa\":\"arr",
-   "ng\",children:[(0,n.jsx)(\"span\",{className:T,children:(0,n.jsx)(A.Ah,{name:\"form\",size:\"16\",\"aria-hidden\":!0})}),(0,n.jsx)(\"span\",{className:\"headingTitle__eP9ZJ\",children:o}),r.hideLink]}):o}function "
+   "ng\",children:[(0,n.jsx)(\"span\",{className:T,children:(0,n.jsx)(A.Ah,{name:\"form\",size:\"16\",\"aria-hidden\":!0})}),(0,n.jsx)(\"span\",{className:\"headingTitle__eP9ZJ\",children:o}),r.hideLink]}):o}function ",
+   "D0\",children:[(0,n.jsx)(\"span\",{className:T,children:(0,n.jsx)(A.Ah,{name:\"form\",size:\"16\",\"aria-hidden\":!0})}),(0,n.jsx)(\"span\",{className:\"pendingCount__b7W1Z\",children:f})]}),(0,n.jsx)(b.A,{ref:C,o"
   ]
  },
  "form-filled": {
@@ -2811,7 +2805,7 @@
   "snippets": []
  },
  "formatting": {
-  "count": 19,
+  "count": 18,
   "labels": [
    "Text emphasis formatting options",
    "Open formatting menu",
@@ -2840,11 +2834,11 @@
   ],
   "snippets": [
    ",{className:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"gauge\",size:\"20\"})}),autoClogProps:eM(\"add_surface_tab_item\"),enabled:_&&!e_},...e,{type:\"separator\",enabled:U},n])))},[eC,ex,",
-   "nClick:()=>e((0,A.o)((0,v.FN)())),visible:!0,focusable:!0,data:{iconName:\"gauge\",label:R.t(\"Dashboard\"),isSelected:({primaryViewType:e})=>e===m.D.SalesHome,autoClogProps:{elementName:\"dashboard\",onCli"
+   "className:e3.A.add_tab_menu_list_item_icon,children:(0,n.jsx)(m.Ah,{name:\"gauge\",size:\"20\"})}),autoClogProps:tS(\"add_surface_tab_item\"),enabled:O&&!th},...e,{type:\"separator\",enabled:ev},a])))},[tf,tg"
   ]
  },
  "gauge-filled": {
-  "count": 10,
+  "count": 9,
   "labels": [],
   "snippets": [
    "eIcon__o0JPs\"),\"aria-hidden\":\"true\",children:(0,i.jsx)(r.Ah,{name:\"gauge-filled\",size:t})})}SurfaceIcon.displayName=\"SurfaceIcon\"},OmYT(e,t,n){\"use strict\";var i=n(\"nKUr\"),a=n(\"6T3v\"),r=n(\"H7xb\"),s=n(",
@@ -2881,12 +2875,12 @@
   "snippets": []
  },
  "globe": {
-  "count": 50,
+  "count": 44,
   "labels": [
-   "Language & region",
-   "Language",
    "Choose the region where your global team\\u2019s data are stored.",
    "Choose a data residency",
+   "Language & region",
+   "Language",
    "Something went wrong. Please try again."
   ],
   "snippets": [
@@ -2903,7 +2897,7 @@
   ]
  },
  "govslack-filled": {
-  "count": 3,
+  "count": 2,
   "labels": [],
   "snippets": [
    ":\"p-team_sidebar__govslack_icon\",children:(0,n.jsx)(S.Ah,{name:\"govslack-filled\"})})]}),(0,n.jsxs)(\"div\",{children:[(0,n.jsx)(\"div\",{className:\"p-account_switcher__row_name p-account_switcher_peeks-ca",
@@ -2945,12 +2939,12 @@
   ]
  },
  "headphones": {
-  "count": 189,
+  "count": 179,
   "labels": [
    "Unlimited message history",
    "Group meetings",
-   "Huddle",
    "Unlimited app integrations",
+   "Huddle",
    "AI conversation summaries"
   ],
   "snippets": [
@@ -2983,13 +2977,13 @@
   "snippets": []
  },
  "help": {
-  "count": 110,
+  "count": 100,
   "labels": [
-   "See how they work",
    "Who are my admins?",
    "Unable to accept this invitation",
    "In progress",
-   "Suspended"
+   "Suspended",
+   "Unknown"
   ],
   "snippets": [
    "itle:gX.t(\"Learn more about these notifications\"),renderTitleIcon:o({name:\"help\"}),href:`https://${(0,aB.Xk)()}/help/articles/37506096763283`}],[l,r,o]);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx",
@@ -2997,7 +2991,7 @@
   ]
  },
  "help-filled": {
-  "count": 3,
+  "count": 2,
   "labels": [
    "Messaging defaults",
    "About notifications"
@@ -3047,7 +3041,7 @@
   "snippets": []
  },
  "history": {
-  "count": 59,
+  "count": 57,
   "labels": [
    "Unlimited message and file history",
    "Search the way you speak",
@@ -3061,13 +3055,13 @@
   ]
  },
  "home": {
-  "count": 42,
+  "count": 38,
   "labels": [
    "Open in home",
    "Home",
+   "open_in_slackbot",
    "Connected accounts settings",
-   "Home settings",
-   "Notifications"
+   "Home settings"
   ],
   "snippets": [
    " n=a(\"BHTM\"),i=a(\"8zwG\"),s=a(\"RKIV\"),r=a(\"S3MW\");let o={[r.k6.Home]:{name:\"home\"},[r.k6.DMs]:{name:\"direct-messages\"},[r.k6.Activity]:{name:\"notifications\"},[r.k6.ActivityInbox]:{name:\"notifications\"}",
@@ -3127,13 +3121,13 @@
   ]
  },
  "image": {
-  "count": 56,
+  "count": 54,
   "labels": [
    "Media",
-   "\\u2728 Effects",
-   "Effects",
    "Files",
-   "Links"
+   "Links",
+   "Upload an image.",
+   "Add an image"
   ],
   "snippets": [
    "me:\"download\"}),eu=(0,i.jsx)(u.Ah,{name:\"copy\"}),ep=(0,i.jsx)(u.Ah,{name:\"image\"}),eg=(0,i.jsx)(u.Ah,{name:\"share-message\"}),em=(0,i.jsx)(u.Ah,{name:\"arrow-expand-full\"}),DataVisualizationBlock=({bloc",
@@ -3196,7 +3190,7 @@
   ],
   "snippets": [
    "iv\",{className:\"p-context_bar_v2__icon\",children:(0,i.jsx)(g.Ah,{name:\"inactive\"})}):e===nd.mg.huddlesUserNonVisibleThread?(0,i.jsx)(ContextBarHuddlesUserNonVisibleThreadIcon,{channel:t}):e===nd.mg.sl",
-   "profile_card__deactivated_banner_icon\",children:(0,y.jsx)(e7.Ah,{name:\"inactive\",inline:!0})}),(0,y.jsx)(\"span\",{className:\"p-app_profile_card__deactivated_banner_text\",children:Kt.t(\"Unavailable\")})]"
+   "profile_card__deactivated_banner_icon\",children:(0,y.jsx)(e7.Ah,{name:\"inactive\",inline:!0})}),(0,y.jsx)(\"span\",{className:\"p-app_profile_card__deactivated_banner_text\",children:Ka.t(\"Unavailable\")})]"
   ]
  },
  "inactive-filled": {
@@ -3230,7 +3224,7 @@
   "snippets": []
  },
  "info": {
-  "count": 336,
+  "count": 326,
   "labels": [
    "Only you can open this list view.",
    "Open profile",
@@ -3239,12 +3233,12 @@
    "Learn more about guests"
   ],
   "snippets": [
-   ":[(0,n.jsx)(\"span\",{className:\"icon__xtTMy\",children:(0,n.jsx)(i.Ah,{name:\"info\"})}),(0,n.jsx)(\"span\",{children:a})]}),[a]),l=(0,o.useMemo)(()=>(0,n.jsx)(\"img\",{className:\"image__Pty3D\",src:e?m:g,alt:",
-   "t.jsx)(G.A,{id:e},e)),{react:!0});return(0,t.jsx)(c.Ay,{type:\"boxed\",icon:\"info\",className:\"margin_top_125\",children:aH.rt(\"Since this channel was previously shared with {previouslyConnectedOrgs}, you"
+   "t.jsx)(G.A,{id:e},e)),{react:!0});return(0,t.jsx)(c.Ay,{type:\"boxed\",icon:\"info\",className:\"margin_top_125\",children:aH.rt(\"Since this channel was previously shared with {previouslyConnectedOrgs}, you",
+   "793158c2e93,forceOpenInBrowser:!0,onClick:m,children:(0,t.jsx)(u.Ah,{name:\"info\",inline:!0})})]}),[m]),getMemberProfileCard=e=>{let a=(0,t.jsx)(w.A,{onClick:a=>{a.stopPropagation(),d((0,iY.b)({memberI"
   ]
  },
  "info-filled": {
-  "count": 13,
+  "count": 11,
   "labels": [
    "Prompts that start with a slash command can\\u2019t be shared",
    "To share this prompt, add a space before the slash \\u201C/\\u201D.",
@@ -3341,10 +3335,9 @@
   "snippets": []
  },
  "keyboard": {
-  "count": 2,
+  "count": 1,
   "labels": [],
   "snippets": [
-   "[(0,a.jsx)(m.Ay,{tip:y,position:\"bottom\",children:(0,a.jsx)(u.A,{icon:\"keyboard\",onClick:k,autoClogProps:ta,\"aria-label\":C,className:(0,n.A)({hidden:l?.params?.categoryId})})}),(0,a.jsx)(m.Ay,{tip:tl.",
    "[(0,a.jsx)(m.Ay,{tip:y,position:\"bottom\",children:(0,a.jsx)(u.A,{icon:\"keyboard\",onClick:k,autoClogProps:ta,\"aria-label\":C,className:(0,n.A)({hidden:l?.params?.categoryId})})}),(0,a.jsx)(m.Ay,{tip:tl."
   ]
  },
@@ -3364,13 +3357,13 @@
   "snippets": []
  },
  "laptop": {
-  "count": 17,
+  "count": 13,
   "labels": [
+   "Link",
+   "Upload file",
+   "Google Drive",
    "Dark",
-   "Operating System",
-   "Language & region",
-   "Accessibility",
-   "Select File"
+   "Operating System"
   ],
   "snippets": [
    "nge:_}],y=[{inlineText:n0.rt(\"{icon} System\",{icon:(0,n.jsx)(S.Ah,{name:\"laptop\",size:\"18\"})}),\"aria-label\":n0.t(\"Operating System\"),radioValue:\"os\",onChange:f}],x=l?b.concat(y):b;return(0,n.jsx)(D.A,",
@@ -3391,11 +3384,11 @@
   ]
  },
  "life-ring": {
-  "count": 5,
+  "count": 4,
   "labels": [
-   "Explore help topics",
    "Support has a new home",
-   "Track cases and access support resources on the Salesforce Help site."
+   "Track cases and access support resources on the Salesforce Help site.",
+   "Explore help topics"
   ],
   "snippets": [
    "dren:[l?(0,n.jsxs)(\"div\",{className:K,children:[(0,n.jsx)(E.Ah,{name:\"life-ring\",size:\"20\",inline:!0,\"aria-hidden\":\"true\"}),(0,n.jsx)(T.A,{href:l,target:\"_blank\",\"data-qa\":\"about_page_support_link\",ch",
@@ -3408,21 +3401,21 @@
   "snippets": []
  },
  "link": {
-  "count": 307,
+  "count": 286,
   "labels": [
    "Copy link",
    "Copy Link",
    "Link",
-   "Link copied to clipboard",
-   "Copy link to template"
+   "Copy link to template",
+   "More actions"
   ],
   "snippets": [
-   "s)(\"div\",{className:\"display_flex gap_25\",children:[(0,n.jsx)(ee.Ah,{name:\"link\",size:\"20\"}),es.t(\"Copy\")]})})]}),(0,n.jsx)(q.A,{articleId:0x2d1f406b3b93,skipCloseModal:!0,forceOpenInBrowser:!0,childr",
-   "k_modal_copy_link_button\",autoClogProps:ab,children:[(0,t.jsx)(u.Ah,{name:\"link\",size:\"20\"}),(0,t.jsx)(\"span\",{className:\"margin_left_25\",children:ag.t(\"Copy Link\")})]})})})})]})};CopyShareLinkModalCo"
+   "k_modal_copy_link_button\",autoClogProps:ab,children:[(0,t.jsx)(u.Ah,{name:\"link\",size:\"20\"}),(0,t.jsx)(\"span\",{className:\"margin_left_25\",children:ag.t(\"Copy Link\")})]})})})})]})};CopyShareLinkModalCo",
+   "ection_share_link_button\",autoClogProps:aN,children:[(0,t.jsx)(u.Ah,{name:\"link\"}),(0,t.jsx)(\"span\",{className:\"p-channel_details__slack_connect_ctas_button_text margin_left_25\",children:aj.t(\"Share L"
   ]
  },
  "list-item": {
-  "count": 13,
+  "count": 10,
   "labels": [
    "Untitled item",
    "view",
@@ -3430,7 +3423,7 @@
   ],
   "snippets": [
    "x)(\"span\",{className:x.A.inlineTagIcon,children:(0,n.jsx)(d.Ah,{name:\"list-item\",inline:!0,\"aria-hidden\":!0})}),B.content]}),P=f.rt(\"Item in {name}\",{name:F}),M=(0,m.g)({isTombstoned:C,savedItem:e,ite",
-   "leBlockText=e=>(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(i.Ah,{name:\"list-item\",inline:!0}),\" \",renderRecordName(e)]}),HeaderSubtitlePermalink=({permalink:e,recordNameBlocks:t})=>(0,a.jsx)(n.A,{lines"
+   "leBlockText=e=>(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(a.Ah,{name:\"list-item\",inline:!0}),\" \",renderRecordName(e)]}),HeaderSubtitlePermalink=({permalink:e,recordNameBlocks:t})=>(0,i.jsx)(d.A,{lines"
   ]
  },
  "list-item-filled": {
@@ -3449,7 +3442,7 @@
   ]
  },
  "lists": {
-  "count": 78,
+  "count": 74,
   "labels": [
    "List",
    "Track projects or gather feedback",
@@ -3466,8 +3459,8 @@
   "count": 10,
   "labels": [],
   "snippets": [
-   "(\"div\",{className:l$.source_icon,children:l??(0,n.jsx)(u.Ah,{name:\"lists-filled\",size:\"20\"})}),(0,n.jsxs)(\"div\",{className:l$.source_info,children:[(0,n.jsx)(\"span\",{className:l$.source_name,children:",
-   "\"})}),(0,n.jsx)(\"div\",{className:os,children:(0,n.jsx)(u.Ah,{name:\"lists-filled\"})}),(0,n.jsx)(\"div\",{className:os,children:(0,n.jsx)(u.Ah,{name:\"pdf-file\"})})]})}EntityIcons.displayName=\"EntityIcons\""
+   "le:{height:36,width:36,minWidth:36},children:(0,n.jsx)(o.Ah,{name:\"lists-filled\",size:\"20\"})})}),[]),A=(0,i.useCallback)(()=>a&&a.title?(0,n.jsxs)(n.Fragment,{children:[a.list_metadata?.icon&&(0,n.jsx",
+   ":G,size:\"20\",inline:!0});case g.e.List:return(0,n.jsx)(m.Ah,{name:\"lists-filled\",color:G,size:\"20\",inline:!0});case g.e.Agent:return(0,n.jsx)(m.Ah,{name:\"agentforce-filled\",color:G,size:\"20\",inline:!0"
   ]
  },
  "location": {
@@ -3486,27 +3479,27 @@
   "snippets": []
  },
  "lock": {
-  "count": 153,
+  "count": 151,
   "labels": [
    "Request sent",
    "Compare plans",
    "Private channel",
-   "Private workspace",
-   "This app"
+   "Private Workflow",
+   "This surface was not found."
   ],
   "snippets": [
-   "me:\"c-inline_channel_icon--space\",children:(0,i.jsx)(T.Ah,{inline:!0,name:\"lock\",size:\"16\"})}),(0,i.jsx)(\"span\",{className:\"c-file_entity__text\",children:eJ.t(\"{count} {count, plural, =1 {other channe",
-   "eCallback)(e=>{let a=[{accessLabel:j.Restricted,icon:(0,i.jsx)(T.Ah,{name:\"lock\",size:\"20\"})},{accessLabel:j.Viewer,icon:(0,i.jsx)(T.Ah,{name:\"eye-open\",size:\"20\"})},...j.Commenter?[{accessLabel:j.Com"
+   "n\",{className:\"privateWorkspaceIcon__hcA4n\",children:(0,t.jsx)(u.Ah,{name:\"lock\",size:\"inherit\"})}),(0,t.jsx)(\"span\",{className:\"margin_right_50\",children:a?cL.t(\"Private workspace\"):\"Private workspac",
+   "id:onValidNameEntered,onInvalid:onInvalidNameEntered,focusOnMount:!0,icon:\"lock\",shouldSanitizeChannelName:!0,nameNeedsChecking:M&&!!S,allowMpdmNameCollisions:M,experimentMpdmBringCustomNameToPrivateM"
   ]
  },
  "lock-filled": {
-  "count": 84,
+  "count": 80,
   "labels": [
-   "Locked by an Admin",
    "Limited access channel",
    "Salesforce channel",
-   "Admin setting",
-   "Slack Connect discoverability"
+   "Locked by an Admin",
+   "private channel",
+   "Admin setting"
   ],
   "snippets": [
    "ame:\"p-enforced_setting_badge__icon\",children:(0,n.jsx)(S.Ah,{name:\"lock-filled\",inline:!0})}),oC.t(\"Admin setting\")]})}),(0,n.jsx)(\"span\",{className:\"offscreen\",children:e})]})};EnforcedSettingBadge.",
@@ -3543,7 +3536,7 @@
   ],
   "snippets": [
    "ariaLabel:i.t(\"View as list\")},map:{type:\"map\",label:i.t(\"Map\"),icon:{name:\"map\"},ariaLabel:i.t(\"View as map\")},record:{type:\"record\",label:i.t(\"Record\"),icon:{name:\"workspace\"},ariaLabel:i.t(\"View as",
-   "con(e,i):t===u.Dd?(0,n.jsx)(l.Ah,{inline:!0,\"data-qa\":\"discover-icon\",name:\"map\",size:i}):\"agents\"===t?(0,n.jsx)(l.Ah,{inline:!0,\"data-qa\":\"agents-icon\",name:\"ai-agents\",size:i}):t===d.M.Service||\"app"
+   "ariaLabel:n.t(\"View as list\")},map:{type:\"map\",label:n.t(\"Map\"),icon:{name:\"map\"},ariaLabel:n.t(\"View as map\")},record:{type:\"record\",label:n.t(\"Record\"),icon:{name:\"workspace\"},ariaLabel:n.t(\"View as"
   ]
  },
  "mark-as-important": {
@@ -3572,7 +3565,7 @@
   ]
  },
  "mark-as-read": {
-  "count": 44,
+  "count": 43,
   "labels": [
    "Mark as read",
    "Mark all as read",
@@ -3601,7 +3594,7 @@
   "snippets": []
  },
  "mark-as-unread": {
-  "count": 29,
+  "count": 28,
   "labels": [
    "Mark as unread",
    "Always show in the sidebar:"
@@ -3646,7 +3639,7 @@
   "snippets": []
  },
  "mentions": {
-  "count": 37,
+  "count": 36,
   "labels": [
    "Mentions",
    "View all your saved items",
@@ -3662,11 +3655,11 @@
   "labels": [],
   "snippets": [
    "h,{name:\"threads-filled\",size:\"16\"}),e>0&&(0,a.jsx)(r.Ah,{name:\"mentions-filled\",size:\"16\"})]})]}):\"dot_hover_total_count\"===p?(0,a.jsx)(s.Ex,{count:t,className:o.b,shape:\"dot\",style:\"themed\",displayA",
-   "h,{name:\"threads-filled\",size:\"16\"}),e>0&&(0,a.jsx)(r.Ah,{name:\"mentions-filled\",size:\"16\"})]})]}):\"dot_hover_total_count\"===p?(0,a.jsx)(i.Ex,{count:t,className:o.b,shape:\"dot\",style:\"themed\",displayA"
+   "h,{name:\"threads-filled\",size:\"16\"}),e>0&&(0,a.jsx)(r.Ah,{name:\"mentions-filled\",size:\"16\"})]})]}):\"dot_hover_total_count\"===p?(0,a.jsx)(s.Ex,{count:t,className:o.b,shape:\"dot\",style:\"themed\",displayA"
   ]
  },
  "menu": {
-  "count": 8,
+  "count": 7,
   "labels": [
    "Dense",
    "Detailed",
@@ -3680,7 +3673,7 @@
   ]
  },
  "message": {
-  "count": 72,
+  "count": 67,
   "labels": [
    "Message",
    "Productivity and collaboration tools",
@@ -3708,7 +3701,7 @@
   ],
   "snippets": [
    "sName:\"messageIcon__UqSz2\",children:[(0,n.jsx)(H.Ah,{name:\"message-notification\"}),cs.t(\"Thread\")]}),(0,n.jsx)(\"span\",{children:(0,n.jsx)(cn.A,{timestamp:e})})]})})}ThreadHeader.displayName=\"ThreadHea",
-   "sName:\"messageIcon__UqSz2\",children:[(0,i.jsx)(H.Ah,{name:\"message-notification\"}),dU.t(\"Thread\")]}),(0,i.jsx)(\"span\",{children:(0,i.jsx)(dW.A,{timestamp:e})})]})})}ThreadHeader.displayName=\"ThreadHea"
+   "sName:\"messageIcon__UqSz2\",children:[(0,n.jsx)(H.Ah,{name:\"message-notification\"}),cn.t(\"Thread\")]}),(0,n.jsx)(\"span\",{children:(0,n.jsx)(ca.A,{timestamp:e})})]})})}ThreadHeader.displayName=\"ThreadHea"
   ]
  },
  "microphone": {
@@ -3740,7 +3733,7 @@
   ],
   "snippets": [
    "\"dictation_status_bar_cancelled\",children:[(0,i.jsx)(v.Ah,{name:\"microphone-off\"}),(0,i.jsx)(\"span\",{className:tu,children:F})]}),!X&&(0,i.jsx)(C.Ay,{tip:ee,position:eU.yX.Top,offsetY:-7,delay:500,chi",
-   "assName:\"micMutedWarning__WXLA_\",children:[(0,s.jsx)(x.Ah,{name:\"microphone-off\",size:\"16\"}),eT]}),y&&(0,s.jsx)(\"span\",{className:\"error__DZ8nz\",children:y}),(0,s.jsx)(\"div\",{className:\"footer__dMvJa\""
+   "troubleshooting_page__content\",children:[(0,n.jsx)(Header,{icon:\"microphone-off\",text:eE.t(\"No one can hear me\")}),(0,n.jsx)(MicrophoneIssuesTips,{}),(0,n.jsx)(Microphone,{}),(0,n.jsx)(Speaker,{})]})}"
   ]
  },
  "microphone-off-filled": {
@@ -3749,7 +3742,7 @@
   "snippets": []
  },
  "minus": {
-  "count": 75,
+  "count": 72,
   "labels": [
    "Collapse",
    "None",
@@ -3774,7 +3767,7 @@
   ]
  },
  "mobile": {
-  "count": 3,
+  "count": 2,
   "labels": [
    "Desktop notifications",
    "Mobile notifications"
@@ -3800,7 +3793,7 @@
   "snippets": []
  },
  "moon": {
-  "count": 5,
+  "count": 4,
   "labels": [
    "Light",
    "Dark"
@@ -3828,7 +3821,7 @@
   ]
  },
  "move-to-split-view": {
-  "count": 119,
+  "count": 117,
   "labels": [
    "Open in split view",
    "Open in new window",
@@ -3932,7 +3925,7 @@
   "snippets": []
  },
  "navigation-tabs-vertical": {
-  "count": 6,
+  "count": 4,
   "labels": [
    "Navigation",
    "Email forwarding",
@@ -3959,7 +3952,7 @@
   "snippets": []
  },
  "new-window": {
-  "count": 419,
+  "count": 403,
   "labels": [
    "Open in new window",
    "Open in Salesforce",
@@ -3968,8 +3961,8 @@
    "View your organization\\u2019s policies."
   ],
   "snippets": [
-   "ren:(0,i.jsxs)(\"span\",{className:C,children:[e?(0,i.jsx)(m.Ah,{name:\"new-window\"}):null,l?w.t(\"Connect\",{}):\"Connect\"]})}),e?(0,i.jsx)(\"span\",{id:p,hidden:!0,children:_}):null]})}function ProviderAcce",
-   "he App on GitHub\"):\"Install the App on GitHub\",(0,a.jsx)(h.Ah,{name:\"new-window\",size:\"16\"})]})})]}),(0,a.jsx)(AddInstallationForm,{host:N,installations:t,isTranslationOn:m,onAdded:M})]})};GithubInsta"
+   "he App on GitHub\"):\"Install the App on GitHub\",(0,a.jsx)(h.Ah,{name:\"new-window\",size:\"16\"})]})})]}),(0,a.jsx)(AddInstallationForm,{host:N,installations:t,isTranslationOn:m,onAdded:M})]})};GithubInsta",
+   "ren:(0,i.jsxs)(\"span\",{className:C,children:[e?(0,i.jsx)(m.Ah,{name:\"new-window\"}):null,l?w.t(\"Connect\",{}):\"Connect\"]})}),e?(0,i.jsx)(\"span\",{id:p,hidden:!0,children:_}):null]})}function ProviderAcce"
   ]
  },
  "next": {
@@ -3983,13 +3976,13 @@
   "snippets": []
  },
  "notifications": {
-  "count": 84,
+  "count": 78,
   "labels": [
    "Notifications",
    "Threads only",
-   "Activity",
    "What needs my attention today?",
-   "Get up to speed on your team\\u2019s activity."
+   "Get up to speed on your team\\u2019s activity.",
+   "Identify my most important tasks."
   ],
   "snippets": [
    "home\"},[r.k6.DMs]:{name:\"direct-messages\"},[r.k6.Activity]:{name:\"notifications\"},[r.k6.ActivityInbox]:{name:\"notifications\"},[r.k6.ActivityInboxSidebarPrototype]:{name:\"notifications\"},[r.k6.Search]:",
@@ -4002,7 +3995,7 @@
   "snippets": []
  },
  "notifications-check": {
-  "count": 3,
+  "count": 4,
   "labels": [],
   "snippets": [
    "{className:\"notify__OoQdx\",children:[(0,s.jsx)(eY.Ah,{name:\"notifications-check\",size:\"20\",\"aria-hidden\":!0}),C]})]})]})}AppRequestDetails.displayName=\"AppRequestDetails\";var si=a(\"qpZ2\"),sc=a(\"oWmC\")",
@@ -4033,7 +4026,7 @@
   "snippets": []
  },
  "notifications-off": {
-  "count": 57,
+  "count": 56,
   "labels": [
    "Mute channel",
    "Take a break from getting notified about new messages",
@@ -4052,7 +4045,7 @@
   "snippets": []
  },
  "number": {
-  "count": 36,
+  "count": 34,
   "labels": [
    "Number",
    "Add amount",
@@ -4082,7 +4075,7 @@
   ]
  },
  "open-in-main-view": {
-  "count": 40,
+  "count": 38,
   "labels": [
    "Open in main view",
    "Open in Slackbot",
@@ -4101,7 +4094,7 @@
   "snippets": []
  },
  "open-in-window": {
-  "count": 229,
+  "count": 225,
   "labels": [
    "Open in new window",
    "Open in split view",
@@ -4125,7 +4118,7 @@
   "snippets": []
  },
  "paintbrush": {
-  "count": 6,
+  "count": 4,
   "labels": [
    "Appearance",
    "/slackfont custom fonts are not officially supported by Slack",
@@ -4139,15 +4132,14 @@
   ]
  },
  "paintbrush-filled": {
-  "count": 2,
+  "count": 1,
   "labels": [],
   "snippets": [
-   "lect search results density\",children:[(0,r.jsx)(eC.Ah,{name:\"paintbrush-filled\"}),(0,r.jsx)(\"span\",{children:\"SRP Density Mode\"})]})})}):null}SearchResultsCardDensitySwitcher.displayName=\"SearchResul",
    "lect search results density\",children:[(0,r.jsx)(eC.Ah,{name:\"paintbrush-filled\"}),(0,r.jsx)(\"span\",{children:\"SRP Density Mode\"})]})})}):null}SearchResultsCardDensitySwitcher.displayName=\"SearchResul"
   ]
  },
  "paper-plane": {
-  "count": 87,
+  "count": 85,
   "labels": [
    "Success! Your request will be shared with your team owner.",
    "Enter full email to add manually",
@@ -4181,7 +4173,7 @@
   ]
  },
  "pause-filled": {
-  "count": 9,
+  "count": 8,
   "labels": [],
   "snippets": [
    "se:D.play,type:\"button\",children:C.isPlaying?(0,i.jsx)(d.Ah,{name:\"pause-filled\",size:\"20\"}):(0,i.jsx)(\"span\",{className:\"playIconOpticalCenter__E244b\",children:(0,i.jsx)(d.Ah,{name:\"play-filled\",size",
@@ -4205,7 +4197,7 @@
   ]
  },
  "percent": {
-  "count": 6,
+  "count": 5,
   "labels": [
    "Add amount",
    "Add number",
@@ -4215,7 +4207,7 @@
   ],
   "snippets": [
    "\"number\"}};case W.C.Percent:return{text:ei.t(\"Add percent\"),icon:{name:\"percent\"}};case W.C.Picklist:return{text:ei.t(\"Select option\"),icon:{name:\"caret-dropdown\"}};case W.C.MultiPicklist:return{text:",
-   "nClick:C,className:s===y.g0.RelativeChangeValuePercentScale?ep:\"\",icon:\"percent\"})]})]})};RelativeChangeField.displayName=\"RelativeChangeField\";var ef=t(\"oCE+\"),eT=t(\"inp9\");let ey=new r.Ay(\"workflow_"
+   ":\"number\"}};case x.C.Percent:return{text:j.t(\"Add percent\"),icon:{name:\"percent\"}};case x.C.Picklist:return{text:j.t(\"Select option\"),icon:{name:\"caret-dropdown\"}};case x.C.MultiPicklist:return{text:j"
   ]
  },
  "php": {
@@ -4226,7 +4218,7 @@
   ]
  },
  "pin": {
-  "count": 40,
+  "count": 38,
   "labels": [
    "Unpin",
    "Pinned agent conversations"
@@ -4237,7 +4229,7 @@
   ]
  },
  "pin-filled": {
-  "count": 33,
+  "count": 29,
   "labels": [
    "Pinned by your admin",
    "Ready to use",
@@ -4249,13 +4241,13 @@
   ]
  },
  "play": {
-  "count": 108,
+  "count": 104,
   "labels": [
    "Add a workflow",
    "Cancel",
    "Start workflow",
-   "Start Workflow",
-   "Try Again"
+   "Try Again",
+   "Start Workflow"
   ],
   "snippets": [
    "x,children:(0,t.jsx)(ht.A,{position:\"inset\",children:(0,t.jsx)(hn.A,{icon:\"play\",onClick:y,tooltip:f,\"aria-label\":f,autoClogProps:ho,\"data-qa\":`channel-details-run-action-${e.id}`,ariaDescribedById:`w",
@@ -4265,10 +4257,10 @@
  "play-filled": {
   "count": 23,
   "labels": [
-   "Resume",
-   "Pause",
    "Video",
-   "carousel"
+   "carousel",
+   "Resume",
+   "Pause"
   ],
   "snippets": [
    "-label\":f,onClick:e,autoClogProps:T,children:[(0,i.jsx)(u.Ah,{name:\"play-filled\",size:\"20\"}),(0,i.jsx)(\"div\",{className:\"p-video_overlay__label\",children:_})]})}),t&&(0,i.jsxs)(\"div\",{className:\"p-vid",
@@ -4276,7 +4268,7 @@
   ]
  },
  "plug": {
-  "count": 75,
+  "count": 69,
   "labels": [
    "Connected accounts",
    "Your account details will be used to:",
@@ -4295,7 +4287,7 @@
   "snippets": []
  },
  "plus": {
-  "count": 351,
+  "count": 319,
   "labels": [
    "Add group",
    "Add a Source",
@@ -4309,13 +4301,13 @@
   ]
  },
  "plus-filled": {
-  "count": 78,
+  "count": 69,
   "labels": [
    "Add form",
-   "Add Task",
    "Learn more",
-   "Add Field",
-   "Add Subtask"
+   "Add related channel",
+   "Add Task",
+   "Compare plans"
   ],
   "snippets": [
    "rm_button\",onClick:n,type:\"outline\",children:[(0,i.jsx)(T.Ah,{name:\"plus-filled\"}),(0,i.jsx)(\"div\",{className:\"bold\",children:am.t(\"Add form\")})]}),[n]);return(0,i.jsx)(eC.A,{className:\"p-share_dialog",
@@ -4333,7 +4325,7 @@
   "snippets": []
  },
  "pop-into-slack": {
-  "count": 4,
+  "count": 3,
   "labels": [
    "Open in Main Window"
   ],
@@ -4451,7 +4443,7 @@
   "snippets": []
  },
  "quick-switch": {
-  "count": 20,
+  "count": 21,
   "labels": [
    "Search in channel",
    "Search in conversation"
@@ -4492,13 +4484,13 @@
   ]
  },
  "radio-button": {
-  "count": 25,
+  "count": 22,
   "labels": [
    "Radio Buttons",
    "Record meeting notes",
    "Checkboxes",
-   "Meeting assistant",
-   "Multiple choice"
+   "Multiple choice",
+   "File upload"
   ],
   "snippets": [
    "xt-snippet\"},boolean:{questionType:\"text\",baseType:\"boolean\",icon:\"radio-button\"},integer:{questionType:\"integer\",baseType:\"integer\",icon:\"number\"},number:{questionType:\"number\",baseType:\"number\",icon",
@@ -4511,13 +4503,13 @@
   "snippets": []
  },
  "reaction": {
-  "count": 25,
+  "count": 23,
   "labels": [
    "Emoji reactions",
    "Search members",
    "Channels",
-   "API timestamp of the reacted message",
-   "The channel where the reacted message is in"
+   "File type",
+   "My reaction"
   ],
   "snippets": [
    "e channel where the reacted message is in\"},\"{{data.reaction}}\":{name:\"reaction\",type:s.TE.String,title:\"The reaction used\"},\"{{data.message_link}}\":{name:\"message_link\",type:s.TE.String,title:\"Link t",
@@ -4577,13 +4569,13 @@
   ]
  },
  "refine": {
-  "count": 50,
+  "count": 46,
   "labels": [
    "Filter",
    "Sort",
    "None available",
    "Type",
-   "Reset Filters"
+   "Filter Sources"
   ],
   "snippets": [
    "eFromScreenReader:!0,children:(0,t.jsx)(l5.A,{\"aria-label\":a&&n||e,icon:\"refine\",\"data-qa\":\"ia-details-popover-members-filter-select\"})})})})}let N=(0,i.A)(\"margin_left_50\",\"p-ia_details_popover__filt",
@@ -4591,13 +4583,13 @@
   ]
  },
  "refresh": {
-  "count": 98,
+  "count": 95,
   "labels": [
    "Reload data",
    "Refresh",
    "Set Up",
-   "Are you sure you want to set your verbosity settings to default?",
-   "Refresh list"
+   "Refresh list",
+   "Refresh to see changes"
   ],
   "snippets": [
    "\")})]})]}),(0,o.jsxs)(\"li\",{className:D,children:[(0,o.jsx)(c.Ah,{name:\"refresh\",size:\"20\"}),(0,o.jsxs)(\"div\",{children:[(0,o.jsx)(P.EY,{as:\"strong\",weight:\"bold\",children:R.t(\"Automatically log inter",
@@ -4661,7 +4653,7 @@
   ]
  },
  "rocket": {
-  "count": 86,
+  "count": 84,
   "labels": [
    "Upgrade Now",
    "Request Upgrade",
@@ -4670,22 +4662,21 @@
    "Upgrade Plan"
   ],
   "snippets": [
-   "abel:an.t(\"See Upgrade Options\"),cancelButtonLabel:an.t(\"Not Now\"),icon:\"rocket\",onCancel:e,onContinue:eE,onContinueAfterTrialStart:ef.noop,reason:\"channel_invite_modal_speedbump\",context:n1.M.channel",
-   "\");let C=\"cta__YiZ70\",P=new l.Ay(\"pnp_salesforce_embed_growth\"),y={name:\"rocket\"},A={},RequestToPurchaseCtaBase=({type:e=\"button\",requestButtonClassName:t,requestedButtonClassName:a,buttonSize:r=\"medi"
+   "\");let C=\"cta__YiZ70\",P=new l.Ay(\"pnp_salesforce_embed_growth\"),y={name:\"rocket\"},A={},RequestToPurchaseCtaBase=({type:e=\"button\",requestButtonClassName:t,requestedButtonClassName:a,buttonSize:r=\"medi",
+   "an\",{className:\"upgradeRocketIcon__rrknv\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),ee.t(\"Upgrade Now\")]});case t:return(0,a.jsxs)(\"div\",{className:\"trialEligibleCellContainer__No8Xm\",children:[(0,a."
   ]
  },
  "rotate": {
-  "count": 2,
+  "count": 1,
   "labels": [
    "Restart slideshow"
   ],
   "snippets": [
-   ",\"data-qa\":\"slackiversary-restart-button\",children:(0,s.jsx)(m.Ah,{name:\"rotate\",size:\"16\"})})}),!y&&(0,s.jsx)(\"div\",{className:\"progressPips__y5N2N\",\"data-qa\":\"slackiversary-progress-pips\",children:e",
-   ",\"data-qa\":\"slackiversary-restart-button\",children:(0,s.jsx)(u.Ah,{name:\"rotate\",size:\"16\"})})}),!y&&(0,s.jsx)(\"div\",{className:\"progressPips__y5N2N\",\"data-qa\":\"slackiversary-progress-pips\",children:e"
+   ",\"data-qa\":\"slackiversary-restart-button\",children:(0,s.jsx)(m.Ah,{name:\"rotate\",size:\"16\"})})}),!y&&(0,s.jsx)(\"div\",{className:\"progressPips__y5N2N\",\"data-qa\":\"slackiversary-progress-pips\",children:e"
   ]
  },
  "sales": {
-  "count": 36,
+  "count": 35,
   "labels": [
    "Look up and view any Salesforce record directly inside of Slack.",
    "Make changes to any piece of CRM data directly inside of Slack.",
@@ -4715,7 +4706,7 @@
   "snippets": []
  },
  "save": {
-  "count": 6,
+  "count": 3,
   "labels": [
    "Download Image",
    "Share Persona"
@@ -4726,13 +4717,13 @@
   ]
  },
  "schedule-send": {
-  "count": 14,
+  "count": 12,
   "labels": [
-   "Schedule message",
    "Reschedule message",
-   "Delete draft",
-   "Edit draft",
-   "Cancel schedule and save to drafts"
+   "Schedule message",
+   "Cancel schedule and save to drafts",
+   "Delete message",
+   "Edit message"
   ],
   "snippets": [
    "=s(\"o4hX\"),eF=s(\"TmmS\");let eM=new i.Ay(\"share-dialog\"),eP={name:\"schedule-send\"};function ScheduleForwardToast(){return(0,n.jsx)(eF.A,{position:\"bottom-right\",shouldAutoFade:!0,svgIconProps:eP,childr",
@@ -4740,13 +4731,13 @@
   ]
  },
  "screen": {
-  "count": 35,
+  "count": 31,
   "labels": [
    "Browser",
    "Desktop app",
-   "Remove attached window",
    "Stop recording",
-   "Close"
+   "Close",
+   "Detach window"
   ],
   "snippets": [
    "ser\"),showDivider:!0}),(0,s.jsx)(MessageActivityViewsByDevice,{iconName:\"screen\",views:l,label:U.t(\"Desktop app\"),showDivider:!0}),(0,s.jsx)(MessageActivityViewsByDevice,{iconName:\"tablet\",views:o,lab",
@@ -4781,11 +4772,11 @@
   "labels": [],
   "snippets": [
    ",{className:\"icon__WdVQ2\",children:(0,s.jsx)(c.Ah,{name:\"screen-share-collab-on\",size:\"16\"})}),(0,s.jsx)(\"div\",{className:\"textContent__XS_HH\",children:_.t(\"Drag files, canvases, and lists in here to ",
-   ",className:\"statusDone__xpQOH\"}:\"not_enabled\"===e?{icon:\"screen-share-collab-on\",className:\"statusEnable__Nddua\"}:\"not_connected\"===e||\"connection_expired\"===e||\"needs_reinstall\"===e?{icon:\"warning\",c"
+   "{className:\"icon__SlPRA\",children:(0,y.jsx)(e7.Ah,{name:\"screen-share-collab-on\",size:\"20\"})}),(0,y.jsx)(\"div\",{className:\"title__kU1io\",children:e}),(0,y.jsx)(\"div\",{className:\"description__E0vZN\",ch"
   ]
  },
  "search": {
-  "count": 215,
+  "count": 195,
   "labels": [
    "Expand",
    "Filter by field\\u2026",
@@ -4812,12 +4803,12 @@
   "count": 4,
   "labels": [],
   "snippets": [
-   "{className:\"searchBarIcon__Pq_Fa\",children:(0,n.jsx)(ec.Ah,{name:\"search-filled\",size:\"20\"})}),(0,n.jsx)(\"input\",{className:\"searchBarInput__dzMtf\",id:\"typeaheadInputId\",autoComplete:\"off\",\"aria-contr",
-   "\"\\u2318F\":\"Ctrl+F\"}),tabIndex:-1,children:[(0,O.jsx)(ta.Ah,{name:\"search-filled\",inline:!0}),nn.rt(\"Search messages in this channel {shortcut}\",{shortcut:(0,O.jsxs)(\"div\",{className:\"p-message_pane__s"
+   "\"\\u2318F\":\"Ctrl+F\"}),tabIndex:-1,children:[(0,O.jsx)(ta.Ah,{name:\"search-filled\",inline:!0}),nn.rt(\"Search messages in this channel {shortcut}\",{shortcut:(0,O.jsxs)(\"div\",{className:\"p-message_pane__s",
+   "{className:\"searchBarIcon__Pq_Fa\",children:(0,n.jsx)(ec.Ah,{name:\"search-filled\",size:\"20\"})}),(0,n.jsx)(\"input\",{className:\"searchBarInput__dzMtf\",id:\"typeaheadInputId\",autoComplete:\"off\",\"aria-contr"
   ]
  },
  "section": {
-  "count": 41,
+  "count": 40,
   "labels": [
    "Move to section",
    "Starred",
@@ -4836,7 +4827,7 @@
   "snippets": []
  },
  "security": {
-  "count": 19,
+  "count": 20,
   "labels": [
    "Manage Tool Permissions",
    "Slack is committed to security and privacy",
@@ -4859,13 +4850,13 @@
   "snippets": []
  },
  "send": {
-  "count": 24,
+  "count": 21,
   "labels": [
    "Send message",
    "Edit draft",
+   "Reschedule message",
    "Schedule message",
-   "Send this notification",
-   "Reschedule message"
+   "Send this notification"
   ],
   "snippets": [
    "case\"dm\":return{name:\"direct-messages\"};case\"paper-plane-alt\":return{name:\"send\"};case\"bell-o\":return{name:\"notifications\"};case\"small-reply\":return{name:\"threads\"};case\"shared-channels-outline\":retur",
@@ -4873,13 +4864,13 @@
   ]
  },
  "send-filled": {
-  "count": 32,
+  "count": 29,
   "labels": [
    "Send on behalf",
    "Collapse thread",
    "Show more",
-   "VIP",
-   "Create"
+   "Create",
+   "Send"
   ],
   "snippets": [
    "lfSection(){return{id:\"send_on_behalf\",label:\"Send on behalf\",icon:\"send-filled\",subSections:[{id:\"send-on-behalf-content\",label:\"Send on behalf\",description:()=>(0,n.jsx)(SendOnBehalfDescription,{}),",
@@ -4897,17 +4888,17 @@
   ]
  },
  "settings": {
-  "count": 135,
+  "count": 122,
   "labels": [
    "Settings",
-   "Advanced",
-   "Use advanced conditions",
    "Advanced Settings",
-   "Edit Agent Settings"
+   "Advanced",
+   "Edit Agent Settings",
+   "View Message History"
   ],
   "snippets": [
-   "d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},title:as.t(\"Advanced Settings\"),getSubText:h,ariaLabel:as.t(\"Advanced Settings\")}}),[l,d,h]),m=`${a}_meta`,p=(0,r.useC",
-   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\""
+   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\"",
+   "m\"),_Y=n(\"N2Mm\");let _X=new d.Ay(\"channel_details_apps_tab\"),_0={name:\"settings\"},_1={name:\"plus\"};function IntegrationListItem({id:e,server:a,status:n,statusLabel:l,isCardBottom:i,onSelect:r,onConnec"
   ]
  },
  "settings-filled": {
@@ -4950,17 +4941,17 @@
   ]
  },
  "sf-cloud": {
-  "count": 92,
+  "count": 88,
   "labels": [
    "Salesforce",
-   "Disconnect from Salesforce record",
    "Work securely with external organizations",
    "Unlimited message and file history",
+   "Disconnect from Salesforce record",
    "Salesforce organizations status"
   ],
   "snippets": [
-   ":\"ai\",icon:\"sparkles\",title:e_,subtitle:ef}]:[],{id:\"salesforce\",icon:\"sf-cloud\",title:ek,subtitle:eS}],[ew,eg,e_,ef,ek,eS,_,f]),eC=c?getHandraiseDisclaimer(ed,o):getDisclaimer(ed,o),eb=!c,eN=eu.t(\"Un",
-   "=>(0,t.jsx)(\"div\",{className:e,children:(0,t.jsx)(u.Ah,{inline:a,name:\"sf-cloud\",size:\"20\"})}),title:ls.t(\"Disconnect from Salesforce record\"),autoClogProps:lg}),d&&(0,t.jsx)(eE,{id:e,disabled:k,onClo"
+   "=>(0,t.jsx)(\"div\",{className:e,children:(0,t.jsx)(u.Ah,{inline:a,name:\"sf-cloud\",size:\"20\"})}),title:ls.t(\"Disconnect from Salesforce record\"),autoClogProps:lg}),d&&(0,t.jsx)(eE,{id:e,disabled:k,onClo",
+   ":\"ai\",icon:\"sparkles\",title:e_,subtitle:ef}]:[],{id:\"salesforce\",icon:\"sf-cloud\",title:ek,subtitle:eS}],[ew,eg,e_,ef,ek,eS,_,f]),eC=c?getHandraiseDisclaimer(ed,o):getDisclaimer(ed,o),eb=!c,eN=eu.t(\"Un"
   ]
  },
  "sf-cloud-check": {
@@ -5078,7 +5069,7 @@
   ]
  },
  "sf-record": {
-  "count": 17,
+  "count": 15,
   "labels": [
    "Record details"
   ],
@@ -5150,7 +5141,7 @@
   "snippets": []
  },
  "share-message": {
-  "count": 211,
+  "count": 197,
   "labels": [
    "Share",
    "Share record",
@@ -5217,7 +5208,7 @@
   ]
  },
  "sidebar": {
-  "count": 36,
+  "count": 33,
   "labels": [
    "Open",
    "Open tab in secondary view",
@@ -5244,12 +5235,12 @@
    "Declutter your channel list to find stuff faster."
   ],
   "snippets": [
-   "Ah,{name:\"sidebar-left-filled\",size:\"20\"}):(0,eE.jsx)(ia.Ah,{name:\"sidebar-left\",size:\"20\"})})})})};WorkspaceSwitcherToggleButton.displayName=\"WorkspaceSwitcherToggleButton\";var mc=n(\"kcX+\"),mu=n(\"7Ms",
-   "e,className:t,\"data-qa\":\"slackbot-standalone-sidebar-toggle\",icon:\"sidebar-left\",onClick:l,size:\"smedium\"})})};SlackbotStandaloneSidebarToggle.displayName=\"SlackbotStandaloneSidebarToggle\";let Slackbo"
+   "(\"Remove field\"),renderFreezeColumnIcon=()=>(0,y.jsx)(e7.Ah,{name:\"sidebar-left\",inline:!0,size:\"20\"}),renderRemoveColumnIcon=()=>(0,y.jsx)(e7.Ah,{name:\"trash\",inline:!0,size:\"20\"});return(0,y.jsxs)(\"",
+   "Ah,{name:\"sidebar-left-filled\",size:\"20\"}):(0,eE.jsx)(ia.Ah,{name:\"sidebar-left\",size:\"20\"})})})})};WorkspaceSwitcherToggleButton.displayName=\"WorkspaceSwitcherToggleButton\";var mc=n(\"kcX+\"),mu=n(\"7Ms"
   ]
  },
  "sidebar-left-filled": {
-  "count": 9,
+  "count": 8,
   "labels": [
    "Darker sidebars"
   ],
@@ -5307,7 +5298,7 @@
   "snippets": []
  },
  "slack-logo": {
-  "count": 44,
+  "count": 42,
   "labels": [
    "Built by Slack",
    "Your templates",
@@ -5325,9 +5316,9 @@
   "labels": [
    ":rocket:",
    "By Slack",
-   "Help",
    "Salesforce",
-   "Slack user"
+   "Slack user",
+   "Help"
   ],
   "snippets": [
    "AAutoClogProps:A,primaryCTAAutoClogProps:P,chipIcons:m=[{name:\"slack-logo-color\"}],renderCustomHeaderIcon:b,disclaimer:h,carouselContainerHeight:N,carouselContainerMinHeight:S,onClose:T,error:L,backgr",
@@ -5365,7 +5356,7 @@
   ]
  },
  "sort": {
-  "count": 26,
+  "count": 24,
   "labels": [
    "Sort",
    "Hide fields",
@@ -5408,13 +5399,13 @@
   ]
  },
  "sound-medium": {
-  "count": 11,
+  "count": 10,
   "labels": [
    "Account Executive"
   ],
   "snippets": [
-   ",s.jsx)(ev.A,{\"aria-label\":\"\",disabled:!0,\"aria-disabled\":!0,icon:\"sound-medium\"})})]}),(0,s.jsx)(\"div\",{className:\"p-r_member_profile__subtitle\",children:ew.t(\"Account Executive\")}),(0,s.jsx)(\"div\",{",
-   "leId:e.id,uiComponentName:\"name_pronunciation_audio_player\"},icon:\"sound-medium\",className:\"p-r_member_profile_name_pronunciation--unstyled_button\"},y={...f,className:\"p-r_member_profile--animated-sou"
+   "leId:e.id,uiComponentName:\"name_pronunciation_audio_player\"},icon:\"sound-medium\",className:\"p-r_member_profile_name_pronunciation--unstyled_button\"},y={...f,className:\"p-r_member_profile--animated-sou",
+   ":!0,icon:\"sound-down\"}),(0,n.jsx)(r.A,{...y,\"aria-hidden\":!0,icon:\"sound-medium\"}),(0,n.jsx)(r.A,{...y,\"aria-hidden\":!0,icon:\"sound-up\"})]}):(0,n.jsx)(s.Ay,{tip:a.playNamePronunciation,position:\"top\","
   ]
  },
  "sound-medium-filled": {
@@ -5463,17 +5454,17 @@
   "snippets": []
  },
  "sparkles": {
-  "count": 84,
+  "count": 76,
   "labels": [
-   "Surprise me",
    "Found in profile",
    "Stay protected with SAML SSO, SCIM, and security controls your team needs",
    "Request These Features",
-   "Request sent"
+   "Request sent",
+   "Compare plans"
   ],
   "snippets": [
-   "ent\",icon:\"user-groups\",title:ew,subtitle:eg},...!_&&f?[{id:\"ai\",icon:\"sparkles\",title:e_,subtitle:ef}]:[],{id:\"salesforce\",icon:\"sf-cloud\",title:ek,subtitle:eS}],[ew,eg,e_,ef,ek,eS,_,f]),eC=c?getHand",
-   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"sparkles\",size:\"20\"})}),autoClogProps:eM(\"organize_channel_files\"),enabled:M},{label:p?pR.t(\"Email import\"):\"Email import\",click:"
+   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"sparkles\",size:\"20\"})}),autoClogProps:eM(\"organize_channel_files\"),enabled:M},{label:p?pR.t(\"Email import\"):\"Email import\",click:",
+   "ent\",icon:\"user-groups\",title:ew,subtitle:eg},...!_&&f?[{id:\"ai\",icon:\"sparkles\",title:e_,subtitle:ef}]:[],{id:\"salesforce\",icon:\"sf-cloud\",title:ek,subtitle:eS}],[ew,eg,e_,ef,ek,eS,_,f]),eC=c?getHand"
   ]
  },
  "sparkles-filled": {
@@ -5485,7 +5476,7 @@
   ],
   "snippets": [
    "\",{className:\"iconMargin__cjq3m\",children:(0,i.jsx)(u.Ah,{name:\"sparkles-filled\",inline:!0,size:\"20\"})}),[]);return(0,i.jsxs)(l.Ay,{type:\"boxed\",level:\"info\",customIcon:E,className:\"container__n_wJr\",",
-   "\",{className:\"iconMargin__cjq3m\",children:(0,a.jsx)(u.Ah,{name:\"sparkles-filled\",inline:!0,size:\"20\"})}),[]);return(0,a.jsxs)(l.Ay,{type:\"boxed\",level:\"info\",customIcon:E,className:\"container__n_wJr\","
+   "ame:\"p-field_group__banner_icon\",children:(0,n.jsx)(l.Ah,{name:\"sparkles-filled\",inline:!0})})]})]}):null}FieldGroup.displayName=\"FieldGroup\",a.d(t,{},{M:FieldGroup})}),NI0N:(function(e,t,a){\"use stri"
   ]
  },
  "spiral": {
@@ -5518,7 +5509,7 @@
   ]
  },
  "stacked-cards": {
-  "count": 22,
+  "count": 21,
   "labels": [
    "AI Prompt writer",
    "Prompt Examples",
@@ -5541,13 +5532,13 @@
   ]
  },
  "star": {
-  "count": 60,
+  "count": 59,
   "labels": [
    "Star channel",
-   "Move to section",
    "Move channel",
-   "Move to Section",
-   "View as timeline"
+   "Move to section",
+   "View as timeline",
+   "Calendar"
   ],
   "snippets": [
    ",o.jsx)(\"span\",{className:\"margin_right_25\",children:(0,o.jsx)(h.Ah,{name:\"star\",size:\"16\"})}),L.t(\"Move to Section\")]}),B=L.t(\"Move to section\"),z=L.t(\"Move to section\");else if(T)H=(0,o.jsxs)(\"div\",",
@@ -5555,7 +5546,7 @@
   ]
  },
  "star-filled": {
-  "count": 24,
+  "count": 23,
   "labels": [
    "Starred"
   ],
@@ -5606,7 +5597,7 @@
   ],
   "snippets": [
    "_AOzWv\":\"suffixIcon__VDW5_\",children:(0,a.jsx)(m.Ah,{name:\"status-member-filled\",size:\"16\"})}):null}function MessageTitle({channelId:e,threadTs:t}){let n=(0,v.d4)(n=>e?(0,M.Ld)(n,e,t,!1):null);return ",
-   "\",{className:\"icon__nI92L\",children:(0,r.jsx)(eo.Ah,{name:\"status-member-filled\",size:\"20\"})})}function ParentExecutionLink({activityBreadCrumb:e,detailViewEvent:t,onClick:a}){return 0===e.length||!t|"
+   ",n.jsx)(\"span\",{className:m,children:(0,n.jsx)(s.Ah,{name:\"status-member-filled\",size:\"inherit\",inline:!0,\"aria-hidden\":\"true\"})}),(0,n.jsx)(\"span\",{className:r,children:(0,l.c)(e.count)})]});case o.I"
   ]
  },
  "status-mobile-dnd": {
@@ -5664,7 +5655,7 @@
   ]
  },
  "stop-filled": {
-  "count": 31,
+  "count": 30,
   "labels": [
    "Previous slide",
    "Next slide",
@@ -5714,7 +5705,7 @@
   "snippets": []
  },
  "sun": {
-  "count": 13,
+  "count": 12,
   "labels": [
    "Get a daily briefing",
    "Artifacts",
@@ -5727,7 +5718,7 @@
   ]
  },
  "sun-filled": {
-  "count": 3,
+  "count": 2,
   "labels": [
    "Light"
   ],
@@ -5747,18 +5738,18 @@
   "snippets": []
  },
  "surface": {
-  "count": 30,
+  "count": 29,
   "labels": [
    "Dock to corner",
    "Dock to Corner"
   ],
   "snippets": [
    ":t,\"aria-label\":n,onClick:r,disabled:!!i,children:(0,a.jsx)(Z.Ah,{name:\"surface\"})})})}MediaViewerPipButton.displayName=\"MediaViewerPipButton\";let X=MediaViewerPipButton,Q=new _.Ay(\"stories_av\");funct",
-   ",4.5,7)}),MaterialDynamicColors.surface=DynamicColor.fromPalette({name:\"surface\",palette:_=>_.neutralPalette,tone:_=>_.isDark?6:98,isBackground:!0}),MaterialDynamicColors.surfaceDim=DynamicColor.fromP"
+   ".A)(`${n}__controls_overlay_pip`,W.h[a]),onClick:e,\"aria-label\":r,icon:\"surface\",backgroundStyle:\"dark\",size:t})})}PipButton.displayName=\"PipButton\";var V=n(\"Wsdp\"),K=n(\"sJvG\"),G=n(\"lbz6\"),$=n(\"hN5r\")"
   ]
  },
  "table": {
-  "count": 17,
+  "count": 16,
   "labels": [
    "Detailed",
    "Dense",
@@ -5772,7 +5763,7 @@
   ]
  },
  "tablet": {
-  "count": 3,
+  "count": 2,
   "labels": [
    "Browser",
    "Desktop app",
@@ -5812,7 +5803,7 @@
   "snippets": []
  },
  "text": {
-  "count": 28,
+  "count": 27,
   "labels": [
    "Tell us details about your feedback",
    "What would you like us to know?",
@@ -5841,7 +5832,7 @@
   "snippets": []
  },
  "text-snippet": {
-  "count": 47,
+  "count": 43,
   "labels": [
    "Add email",
    "Add record",
@@ -5855,13 +5846,13 @@
   ]
  },
  "threads": {
-  "count": 130,
+  "count": 121,
   "labels": [
-   "Messages & media",
    "All Threads",
-   "Threads only",
+   "Messages & media",
    "Reply in a thread",
-   "Real-time messaging"
+   "Real-time messaging",
+   "Threads only"
   ],
   "snippets": [
    "ediaSection(){return{id:\"messages_media\",label:\"Messages & media\",icon:\"threads\",subSections:[{id:\"theme\",label:\"Theme\",hideLegend:!0,items:[{id:\"message-theme\",label:\"Message theme\",render:()=>i.crea",
@@ -5904,7 +5895,7 @@
   "snippets": []
  },
  "thumbs-up": {
-  "count": 38,
+  "count": 37,
   "labels": [
    "Good",
    "Good response",
@@ -5923,8 +5914,8 @@
    "Got it. We won\\u2019t ask again."
   ],
   "snippets": [
-   "Click:()=>{n(),a({element:(0,eE.jsx)(eR.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:jl.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:n,id:a,showSendAMessageCoac",
-   "nClick:()=>{a(),n({element:(0,y.jsx)(tH.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:Gd.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:a,id:n,showSendAMessageCoac"
+   "nClick:()=>{a(),n({element:(0,y.jsx)(tH.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:Gu.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:a,id:n,showSendAMessageCoac",
+   "Click:()=>{n(),a({element:(0,eE.jsx)(eR.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:jl.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:n,id:a,showSendAMessageCoac"
   ]
  },
  "ticket": {
@@ -5940,7 +5931,7 @@
   "snippets": []
  },
  "tools": {
-  "count": 28,
+  "count": 27,
   "labels": [
    "Templates",
    "Add template to channel",
@@ -5967,7 +5958,7 @@
   "snippets": []
  },
  "transcript": {
-  "count": 10,
+  "count": 9,
   "labels": [],
   "snippets": [
    "transcriptButton,i,{[ei.disabled]:h}),\"aria-label\":_,onClick:s,icon:\"transcript\",backgroundStyle:t,\"aria-disabled\":h})})})};MediaViewerTranscriptButton.displayName=\"MediaViewerTranscriptButton\";var ea",
@@ -5975,7 +5966,7 @@
   ]
  },
  "trash": {
-  "count": 299,
+  "count": 285,
   "labels": [
    "Remove",
    "Remove variable",
@@ -5998,7 +5989,7 @@
   "labels": [],
   "snippets": [
    "b=(0,n.jsx)(m.Ah,{name:\"archive\",size:\"16\"}),ev=(0,n.jsx)(m.Ah,{name:\"unarchive\",size:\"16\"}),eA=(0,P.Ay)(\"Loads a saved reply\\u2019s channel to tell whether it is a file channel\",async(e,t,{channelId:",
-   "f=(0,n.jsx)(m.Ah,{name:\"archive\",size:\"16\"}),ey=(0,n.jsx)(m.Ah,{name:\"unarchive\",size:\"16\"}),eb=(0,R.Ay)(\"Loads a saved reply\\u2019s channel to tell whether it is a file channel\",async(e,t,{channelId:"
+   "b=(0,n.jsx)(m.Ah,{name:\"archive\",size:\"16\"}),ev=(0,n.jsx)(m.Ah,{name:\"unarchive\",size:\"16\"}),eA=(0,P.Ay)(\"Loads a saved reply\\u2019s channel to tell whether it is a file channel\",async(e,t,{channelId:"
   ]
  },
  "unarchive-filled": {
@@ -6012,7 +6003,7 @@
   "snippets": []
  },
  "undo": {
-  "count": 33,
+  "count": 32,
   "labels": [
    "lists",
    "Canceled",
@@ -6046,10 +6037,10 @@
   "snippets": []
  },
  "user": {
-  "count": 166,
+  "count": 156,
   "labels": [
-   "Includes me",
    "Profile",
+   "Includes me",
    "Last edited time",
    "Created by",
    "Last edited by"
@@ -6060,12 +6051,12 @@
   ]
  },
  "user-add": {
-  "count": 79,
+  "count": 67,
   "labels": [
    "Invite people to collaborate",
    "Invite teammates",
-   "Add Channel Managers",
    "Invite coworkers",
+   "Add Channel Managers",
    "Sign in to another workspace"
   ],
   "snippets": [
@@ -6093,7 +6084,7 @@
   ]
  },
  "user-directory-add": {
-  "count": 8,
+  "count": 7,
   "labels": [
    "Log Activity",
    "People",
@@ -6134,13 +6125,13 @@
   ]
  },
  "user-groups": {
-  "count": 106,
+  "count": 100,
   "labels": [
    "People",
    "Request These Features",
    "Request sent",
    "Compare plans",
-   "All these features are included with your current plan"
+   "All channels"
   ],
   "snippets": [
    "ls and more\"),ey=(0,r.useMemo)(()=>[{id:\"customer-management\",icon:\"user-groups\",title:ew,subtitle:eg},...!_&&f?[{id:\"ai\",icon:\"sparkles\",title:e_,subtitle:ef}]:[],{id:\"salesforce\",icon:\"sf-cloud\",tit",
@@ -6159,13 +6150,13 @@
   ]
  },
  "user-hide": {
-  "count": 30,
+  "count": 29,
   "labels": [
    "Name hidden",
+   "Unhide this person",
+   "Unhide This Person",
    "VIP",
-   "Unhide",
-   "Hide",
-   "Unhide this person"
+   "Unhide"
   ],
   "snippets": [
    "e\",size:\"small\",autoClogProps:D?bq:bB,children:[(0,t.jsx)(u.Ah,{name:\"user-hide\"}),\" \\xa0\",D?bP.t(\"Unhide\"):bP.t(\"Hide\")]}),(0,t.jsx)(br,{channelId:e,useIaDetailsStyle:!0,onStartHuddleCallback:an,hudd",
@@ -6188,7 +6179,7 @@
   "snippets": []
  },
  "verified-filled": {
-  "count": 17,
+  "count": 18,
   "labels": [
    "Verified by your admin"
   ],
@@ -6235,13 +6226,13 @@
   "snippets": []
  },
  "vip": {
-  "count": 16,
+  "count": 15,
   "labels": [
    "VIP",
-   "Slack AI",
    "Remove from VIP",
    "Add to VIP",
-   "VIP List"
+   "VIP List",
+   "VIP Notifications"
   ],
   "snippets": [
    ":e=!1,showNotificationSoundLink:t=!1}={}){return{id:\"vip\",label:\"VIP\",icon:\"vip\",subSections:[{id:\"vip-notifications\",label:\"VIP Notifications\",items:[{id:\"vip-dnd-override\",label:\"Always allow notifi",
@@ -6254,13 +6245,13 @@
   "snippets": []
  },
  "warning": {
-  "count": 528,
+  "count": 505,
   "labels": [
    "Something went wrong",
-   "this",
    "Microphone permission denied",
-   "This app is no longer available.",
-   "Invite Declined"
+   "this",
+   "Invite Declined",
+   "Your request has already been submitted."
   ],
   "snippets": [
    "s.add\");var z=n(\"LKZ6\");let N=new o.Ay(\"enterprise_dashboard\"),G={name:\"warning\"},AddInstallationForm=({host:e,installations:t,isTranslationOn:n,onAdded:s})=>{let o=(0,l.wA)(),[h,u]=(0,i.useState)(\"\")",
@@ -6268,7 +6259,7 @@
   ]
  },
  "warning-filled": {
-  "count": 102,
+  "count": 100,
   "labels": [
    "Authentication with Salesforce failed. Try signing in again.",
    "Undo",
@@ -6293,8 +6284,8 @@
    "Show mini window"
   ],
   "snippets": [
-   "et&&!er&&t.push({id:\"keep-in-island\",label:I.keepInIsland,icon:\"window-contract\",group:\"act\",run:et}),t.push({id:\"pin\",label:K,icon:e.pinned?\"pin-filled\":\"pin\",group:\"act\",run:ea}),es&&\"tucked\"!==e.pl",
-   "n}),er&&et&&(0,m.jsx)(HeaderControl,{label:I.keepInIsland,icon:\"window-contract\",onClick:et,keepsInIsland:!0}),L&&p&&\"tucked\"!==e.place&&!C&&(0,m.jsx)(HeaderControl,{label:$,icon:P?\"reduce-diagonal\":\""
+   "=(0,n.jsx)(m.Ah,{name:\"window-expand\"}),K=(0,n.jsx)(m.Ah,{name:\"window-contract\"});return(0,n.jsx)(_.A,{entrypoint:L?\"MINI_WINDOW\":\"\",onClick:F,children:(0,n.jsx)(p.Ay,{tip:V,position:\"bottom\",childre",
+   "n:\"top\",children:(0,n.jsx)(y.A,{onClick:w,\"aria-label\":ek,icon:\"window-contract\",size:\"small\",\"data-qa\":\"gpt_live_call_minimize\"})}):null,I?(0,n.jsx)(C.Ay,{tip:ex,position:\"top\",children:(0,n.jsx)(y.A"
   ]
  },
  "window-contract-filled": {
@@ -6319,7 +6310,7 @@
   "snippets": []
  },
  "window-gradient": {
-  "count": 9,
+  "count": 7,
   "labels": [
    "Window gradient"
   ],
@@ -6329,7 +6320,7 @@
   ]
  },
  "workspace": {
-  "count": 56,
+  "count": 55,
   "labels": [
    "Group by",
    "View as map",
@@ -6358,7 +6349,7 @@
   ],
   "snippets": [
    ";return e===s.dx.PLUS?[t,{iconName:\"sign-out\",title:U,text:G},{iconName:\"wrench\",title:F,text:z},{iconName:\"message\",title:H,text:K}]:e===s.dx.PLUS_TRIAL?[{iconName:\"ai-sparkle\",title:Y,text:V},{iconN",
-   "?.length&&(0,i.jsxs)(\"div\",{className:eI,children:[(0,i.jsx)(f.Ah,{name:\"wrench\",size:\"20\",inline:!0}),(0,i.jsxs)(\"span\",{children:[eN.t(\"Managed by\"),\" \",(0,i.jsx)(es.K,{shortcutInfo:e})]})]}),A&&(0,"
+   "tType:2,onClick:{enableClogAction:!0}}:void 0}),s&&(0,n.jsx)(eC.A,{icon:\"wrench\",onClick:F,tooltip:\"Draft info\"}),ea&&!T&&eg]})]});return(0,n.jsxs)(\"div\",{className:\"p-drafts_page__draft_container\",ch"
   ]
  },
  "wrench-filled": {
@@ -6371,7 +6362,7 @@
   "labels": [],
   "snippets": [
    "otifications\"})},{id:\"agentic_ia_sidebar_agenda\",icon:(0,a.jsx)(u.Ah,{name:\"you\"})},{id:\"agentic_ia_sidebar_browse\",icon:(0,a.jsx)(u.Ah,{name:\"quick-switch\"})}],nS={top_list:\"filterTopList__HdtcN\",bot",
-   "otifications\"})},{id:\"agentic_ia_sidebar_agenda\",icon:(0,a.jsx)(u.Ah,{name:\"you\"})},{id:\"agentic_ia_sidebar_browse\",icon:(0,a.jsx)(u.Ah,{name:\"quick-switch\"})}],nW={top_list:\"filterTopList__HdtcN\",bot"
+   "otifications\"})},{id:\"agentic_ia_sidebar_agenda\",icon:(0,a.jsx)(u.Ah,{name:\"you\"})},{id:\"agentic_ia_sidebar_browse\",icon:(0,a.jsx)(u.Ah,{name:\"quick-switch\"})}],nQ={top_list:\"filterTopList__HdtcN\",bot"
   ]
  },
  "you-filled": {

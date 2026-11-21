@@ -828,7 +828,6 @@ channel_agent_not_installed
 channel_agent_proactive_replies_instructions
 channel_agent_sessions
 channel_agent_who_can_enable_proactive_replies
-channel_ai_excluded
 channel_canvas_update_ai_message_copy_change
 channel_ctx_menu_agent_dm_tasks
 channel_ctx_menu_agents_in_dm_list
@@ -1160,7 +1159,6 @@ manage_ai_permissions
 manage_skills
 manage_skills_modal_label_id
 mcp
-mcp_ai_channel_exclusions
 mcp_app
 mcp_app_block
 mcp_app_block_load_
@@ -2451,6 +2449,7 @@ workflow_ai_step_response_changed
 workflow_ai_step_response_updated
 workflow_builder_activity_diagnose_with_slackbot
 workflow_builder_ai_generate_prompt_analysis
+workflow_builder_ai_prompt
 workflow_builder_ai_step
 workflow_permissions_prompt_modal
 workflows_ai_step_default_modal

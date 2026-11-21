@@ -700,7 +700,6 @@ Frontline members
 Generally, no one is under a statutory or contractual obligation to provide any Customer Data or Other Information. However, certain Information is collected automatically and, if some Information is not provided, the functionality of the Services may be limited.
 Generate a different password
 Generate a temporary password
-Generating CSV…
 Get a quick view of people from external orgs
 Get notified about new servers
 Get started on Slack
@@ -1103,7 +1102,6 @@ Org-Wide Channels Table
 Org-wide channel analytics
 Org-wide channel data not available yet
 Org-wide channels
-Organization overview
 Organization search
 Organizations Table
 Other Personal Information that Slack Collects and Receives
@@ -1350,7 +1348,6 @@ Select Channel Guest
 Select a Salesforce org to use
 Select a role
 Select a rule type
-Select a time range to view analytics for
 Select an account to get started
 Select an organization
 Select at least one member or user group, then try again.
