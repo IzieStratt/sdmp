@@ -30141,7 +30141,7 @@ desktop/ipc-channels	redux-action	2026-11-14
 desktop/platform-only	linux: cli-switches: enable-crashpad	2026-11-14		
 desktop/platform-only	linux: env-vars: XDG_CURRENT_DESKTOP	2026-11-14		
 desktop/platform-only	linux: env-vars: XDG_DOWNLOAD_DIR	2026-11-14		
-desktop/platform-only	macos+windows: enums: UNIVERSAL_LINK=11	2026-11-20		
+desktop/platform-only	macos+windows: enums: UNIVERSAL_LINK=11	2026-11-20	2026-11-21	2026-11-21
 desktop/platform-only	macos: accelerators: Command+Control+F	2026-11-14		
 desktop/platform-only	macos: accelerators: Command+[	2026-11-14		
 desktop/platform-only	macos: accelerators: Command+]	2026-11-14		
