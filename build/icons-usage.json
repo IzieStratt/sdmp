@@ -479,7 +479,7 @@
   ],
   "snippets": [
    "t:O,onClick:P},secondaryCta:{text:S,onClick:k,iconProps:{name:\"arrow-down-right\"}}}:void 0,[k,S,P,T,O]),R=N.rt(\"Adding unlimited apps, including AI apps, is a paid feature available with your free tri",
-   "t:K,onClick:N},secondaryCta:{text:F,onClick:B,iconProps:{name:\"arrow-down-right\"}}}:void 0,[B,F,N,U,K]),W=I?A?{title:M,trialEndSize:\"small\"}:{title:H,body:U?D:E,trialEndSize:\"large\"}:{title:j};return "
+   "()=>({canUserPurchase:n}),[n]),T=(0,o.useMemo)(()=>({iconName:\"arrow-down-right\"}),[]),x=_?F.t(\"Explain my upgrade options\"):\"Explain my upgrade options\",renderHeaderText=()=>(0,r.jsxs)(\"div\",{classNa"
   ]
  },
  "arrow-expand": {
@@ -583,7 +583,7 @@
   "labels": [],
   "snippets": [
    ",{className:\"icon__zhFAF\",children:(0,r.jsx)(c.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})};WorkspaceMenuBannerCard.displayName=\"WorkspaceMenuBannerCard\";let NewYearPromo27WorkspaceMenuBann",
-   "\"div\",{className:f.A.icon,children:(0,s.jsx)(d.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};AdminPeekFooterUpsellBanner.displayName=\"AdminPeekFooterUpsellBanner\";var x=a(\"vT5P\"),C=a(\"L4/s"
+   "\"div\",{className:g.A.icon,children:(0,t.jsx)(l.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};PlusTrialOfferAdminMenuBottomBanner.displayName=\"PlusTrialOfferAdminMenuBottomBanner\",a.d(n,{},"
   ]
  },
  "arrow-up-left": {
@@ -1439,8 +1439,8 @@
    "Select options\\u2026"
   ],
   "snippets": [
-   ":!0,children:[nx.t(\"Hide message\"),\"\\xa0\",(0,n.jsx)(Y.Ah,{name:\"caret-down-full\",inline:!0})]})})]}):(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(\"div\",{className:\"contents__QTe_c\",children:nx.t(\"You\\u2",
-   "n:!0,children:[y.t(\"Hide message\"),\"\\xa0\",(0,i.jsx)(c.Ah,{name:\"caret-down-full\",inline:!0})]}):(0,i.jsxs)(l.A,{onClick:this.onShowMessageClick,renderAsSpan:!0,children:[y.t(\"Show anyway\"),\"\\xa0\",(0,i"
+   "n:!0,children:[y.t(\"Hide message\"),\"\\xa0\",(0,i.jsx)(c.Ah,{name:\"caret-down-full\",inline:!0})]}):(0,i.jsxs)(l.A,{onClick:this.onShowMessageClick,renderAsSpan:!0,children:[y.t(\"Show anyway\"),\"\\xa0\",(0,i",
+   ":!0,children:[nx.t(\"Hide message\"),\"\\xa0\",(0,n.jsx)(Y.Ah,{name:\"caret-down-full\",inline:!0})]})})]}):(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(\"div\",{className:\"contents__QTe_c\",children:nx.t(\"You\\u2"
   ]
  },
  "caret-down-up": {
@@ -1521,8 +1521,8 @@
    "Show Advanced Filters"
   ],
   "snippets": [
-   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n(",
-   "div\",{className:_K.A.listItemActions,children:(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\",\"aria-hidden\":!0})})]})}return(0,t.jsx)(IntegrationListItem,{id:e.id,server:e.item.server,status:e.item.statu"
+   "ck)(()=>{t(a)},[t,a]),b=(0,r.useCallback)(()=>(0,i.jsx)(T.Ah,{name:\"caret-right\",size:\"20\"}),[]),S=(0,r.useMemo)(()=>{let e=\"\";return a===e4.b.People?e=\"canvas_share_dialog_people\":a===e4.b.Channels?e",
+   "# pending requests to join}}\",{count:r}):\"\"}),(0,t.jsx)(u.Ah,{name:\"caret-right\",size:\"16\"})]})}):null};ChannelJoinRequestsEntryPoint.displayName=\"ChannelJoinRequestsEntryPoint\";var rd=n(\"gLPf\"),rc=n("
   ]
  },
  "caret-right-double-full": {
@@ -1555,7 +1555,7 @@
   ],
   "snippets": [
    "e_activity_next_message_button\",children:(0,s.jsx)(V.Ah,{name:\"caret-right-full\"})})]})}MessageSnippetNavButtons.displayName=\"MessageSnippetNavButtons\";var e_=t(\"mF84\"),eg=t(\"jwXr\");let eu=(0,t(\"Utcx\"",
-   ":!1,children:[nx.t(\"Show anyway\"),\"\\xa0\",(0,n.jsx)(Y.Ah,{name:\"caret-right-full\",inline:!0})]})})]}):s};WorkObjectHiddenCommentBody.displayName=\"WorkObjectHiddenCommentBody\";var nf=a(\"TuMz\"),ny=a(\"LKZ"
+   "}function renderNextMonthButton(){return n?renderButton({icon:\"caret-right-full\",onClick:n,className:\"c-calendar_view_header__next_month_btn\",\"aria-label\":c.t(\"Next month\"),\"data-qa\":\"cal_header_next_"
   ]
  },
  "caret-up": {
@@ -1621,7 +1621,7 @@
   ],
   "snippets": [
    "xt:l,ariaLabel:as.t(\"People with access\")},[e4.b.Channels]:{icon:{name:\"channel\"},title:as.t(\"Channels\"),getSubText:d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},ti",
-   "ren:(0,r.jsxs)(F.v,{style:\"informative\",children:[(0,r.jsx)(m.Ah,{name:\"channel\"}),(0,r.jsx)(\"span\",{className:\"missingText__S2Vun\",children:(0,r.jsx)(P.a,{showTooltip:!1,width:\"medium\",showHash:!0,ap"
+   "els, like those used for announcements, distraction-free.\"),icon:{name:\"channel\"},cta:{title:l.t(\"Advanced channel permissions\"),subtitle:l.t(\"Say who can manage and post in channels\")},helpArticle:{i"
   ]
  },
  "channel-add": {
@@ -1648,7 +1648,7 @@
   "labels": [],
   "snippets": [
    "x)(r.Ah,{name:\"open-in-main-view\"}),P=(0,n.jsx)(r.Ah,{name:\"channel-arrow-right\"}),F=(0,n.jsx)(r.Ah,{name:\"lists\"}),B=(0,n.jsx)(r.Ah,{name:\"open-in-canvas\"}),U=(0,f.eI)((e,{ts:t,channelId:a,messageCon",
-   "\",size:\"20\"},e7={name:\"open-in-window\",size:\"20\"},te={name:\"channel-arrow-right\",size:\"20\"},tt=new m.Ay(\"work-objects\"),WorkObjectFlexpaneAdditionalButtons=({appName:e,isLoading:t,hasValidOAuth:a,isSy"
+   "reen\"===e?{name:\"window-expand\"}:\"view-in-slack\"===e?{name:\"channel-arrow-right\"}:\"open-in-detached-window\"===e?{name:\"open-in-window\"}:\"open-in-new-window\"===e?{name:\"new-window\"}:\"slackhorizontalrul"
   ]
  },
  "channel-disconnected": {
@@ -1754,8 +1754,8 @@
    "Thanks for your feedback!"
   ],
   "snippets": [
-   "className:\"sk_lilypad_green\",children:(0,t.jsx)(u.Ah,{name:\"check-circle-filled\",inline:!0})})]}),E=(0,t.jsxs)(\"div\",{className:\"p-admin_channel_modal__copy_members\",children:[j,(h.shouldShow&&\"names\"",
-   "icator\",\"aria-hidden\":\"true\",children:(0,i.jsx)(m.Ah,{name:\"check-circle-filled\",size:\"16\"})}):\"connecting\"===e?(0,i.jsx)(\"span\",{className:\"spinnerWrapper__NJ1hX\",\"data-qa\":\"auth-provider-connecting-"
+   "icator\",\"aria-hidden\":\"true\",children:(0,i.jsx)(m.Ah,{name:\"check-circle-filled\",size:\"16\"})}):\"connecting\"===e?(0,i.jsx)(\"span\",{className:\"spinnerWrapper__NJ1hX\",\"data-qa\":\"auth-provider-connecting-",
+   "className:\"sk_lilypad_green\",children:(0,t.jsx)(u.Ah,{name:\"check-circle-filled\",inline:!0})})]}),E=(0,t.jsxs)(\"div\",{className:\"p-admin_channel_modal__copy_members\",children:[j,(h.shouldShow&&\"names\""
   ]
  },
  "check-filled": {
@@ -1854,8 +1854,8 @@
    "Hide thread"
   ],
   "snippets": [
-   "Close\"),className:\"c-dialog__close\",onClick:this.onCloseButtonClick,icon:\"close\"}),(0,t.jsx)(\"div\",{className:\"align_center\",children:(0,t.jsx)(d.A,{className:\"p-app_permission_dialog__app_icon\",src:e",
-   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share"
+   "ialog_share_locations__revoke_button_icon\",children:(0,i.jsx)(T.Ah,{name:\"close\",inline:!0})})]})})})}ShareDialogRevokeUnknownButton.displayName=\"ShareDialogRevokeUnknownButton\";let eJ=new y.Ay(\"share",
+   "Close\"),className:\"c-dialog__close\",onClick:this.onCloseButtonClick,icon:\"close\"}),(0,t.jsx)(\"div\",{className:\"align_center\",children:(0,t.jsx)(d.A,{className:\"p-app_permission_dialog__app_icon\",src:e"
   ]
  },
  "close-circle": {
@@ -2237,8 +2237,8 @@
    "Edit section"
   ],
   "snippets": [
-   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>",
-   "l.displayName=\"ImportMemoriesModal\";let gF=new d.Ay(\"assistant\"),gB={name:\"edit\"},gq={name:\"trash\"},MemoryActionsToolbar=({onEdit:e,onRemove:a,children:n})=>{let s=gF.t(\"Edit\"),l=gF.t(\"Remove\");return"
+   ":\"comment\",size:\"20\"})}]:[],{accessLabel:j.Edit,icon:(0,i.jsx)(T.Ah,{name:\"edit\",size:\"20\"})}].find(a=>a.accessLabel===e.label)||{accessLabel:\"\",subtext:\"\",icon:\"\"},n=e.isDisabled?{tip:P,zIndex:\"menu_",
+   ":\"18\"};case\"visibility\":return{name:a,size:\"18\"};case\"rename\":return{name:\"edit\",size:\"18\"}}},[]),ee=(0,s.useCallback)(e=>()=>w(e),[]),ea=(0,s.useCallback)(e=>()=>f(e),[]),en=(0,s.useCallback)(e=>()=>"
   ]
  },
  "edit-disabled": {
@@ -2517,7 +2517,7 @@
   ],
   "snippets": [
    "{ref:i,onClick:r,\"aria-label\":ep.t(\"Expand\"),size:\"small\",icon:\"expand-diagonal\"})})]})]}));var eg=n(\"G5fU\"),ev=n(\"OzOk\");let EmailComposerSkeleton=()=>{let e=(0,r.useRef)(null),[t,n]=(0,r.useState)(4",
-   ")=>({name:\"threads\",size:\"20\"}),[]),C=(0,r.useMemo)(()=>({name:\"expand-diagonal\",size:\"20\"}),[]),v=(0,r.useCallback)(e=>()=>i(e),[i]),w=j?eh.t(\"App\"):\"App\",g=h||w,A=(0,r.useCallback)(e=>(0,n.jsx)(H.Ay"
+   "lassName:\"viewTablePill__LZlfe\",children:[(0,r.jsx)(u.Ah,{name:\"expand-diagonal\"}),g.t(\"Open full table\")]})});ViewTablePill.displayName=\"ViewTablePill\";var f=n(\"KllZ\"),_=n(\"VI9Z\"),y=n(\"V33e\"),v=n(\"34"
   ]
  },
  "explore": {
@@ -3478,8 +3478,8 @@
    "This app"
   ],
   "snippets": [
-   "n\",{className:\"privateWorkspaceIcon__hcA4n\",children:(0,t.jsx)(u.Ah,{name:\"lock\",size:\"inherit\"})}),(0,t.jsx)(\"span\",{className:\"margin_right_50\",children:a?cL.t(\"Private workspace\"):\"Private workspac",
-   "id:onValidNameEntered,onInvalid:onInvalidNameEntered,focusOnMount:!0,icon:\"lock\",shouldSanitizeChannelName:!0,nameNeedsChecking:M&&!!S,allowMpdmNameCollisions:M,experimentMpdmBringCustomNameToPrivateM"
+   "me:\"c-inline_channel_icon--space\",children:(0,i.jsx)(T.Ah,{inline:!0,name:\"lock\",size:\"16\"})}),(0,i.jsx)(\"span\",{className:\"c-file_entity__text\",children:eJ.t(\"{count} {count, plural, =1 {other channe",
+   "eCallback)(e=>{let a=[{accessLabel:j.Restricted,icon:(0,i.jsx)(T.Ah,{name:\"lock\",size:\"20\"})},{accessLabel:j.Viewer,icon:(0,i.jsx)(T.Ah,{name:\"eye-open\",size:\"20\"})},...j.Commenter?[{accessLabel:j.Com"
   ]
  },
  "lock-filled": {
@@ -3817,8 +3817,8 @@
    "Ctrl Alt Click"
   ],
   "snippets": [
-   "pan\",{className:\"icon__RJBTp\",children:(0,s.jsx)(k.Ah,{name:\"move-to-split-view\",inline:!0,\"aria-hidden\":\"true\"})})]})})};SuggestedPromptsButton.displayName=\"SuggestedPromptsButton\";var tB=n(\"zjEm\");l",
-   "ndow\",size:\"18\"},U={name:\"share-message\",size:\"18\"},q={name:\"move-to-split-view\",size:\"18\"},PageBlockCard=({fileId:e,appId:t,fallbackText:a,hasAiGeneratedContent:l})=>{let y=(0,s.wA)(),{channelId:Q,ts"
+   "ndow\",size:\"18\"},U={name:\"share-message\",size:\"18\"},q={name:\"move-to-split-view\",size:\"18\"},PageBlockCard=({fileId:e,appId:t,fallbackText:a,hasAiGeneratedContent:l})=>{let y=(0,s.wA)(),{channelId:Q,ts",
+   "pan\",{className:\"icon__RJBTp\",children:(0,s.jsx)(k.Ah,{name:\"move-to-split-view\",inline:!0,\"aria-hidden\":\"true\"})})]})})};SuggestedPromptsButton.displayName=\"SuggestedPromptsButton\";var tB=n(\"zjEm\");l"
   ]
  },
  "multiparty-dm-10-filled": {
@@ -3949,7 +3949,7 @@
   ],
   "snippets": [
    "he App on GitHub\"):\"Install the App on GitHub\",(0,a.jsx)(h.Ah,{name:\"new-window\",size:\"16\"})]})})]}),(0,a.jsx)(AddInstallationForm,{host:N,installations:t,isTranslationOn:m,onAdded:M})]})};GithubInsta",
-   "hildren:eN.t(\"Learn about Salesforce lists\")}),(0,l.jsx)(j.Ah,{name:\"new-window\",inline:!0,size:\"20\"})]}),secondaryActionHref:(0,z.v)(q.EN)}:void 0},role:\"presentation\"}),[]),ai=(0,t.useCallback)(({te"
+   "ren:(0,i.jsxs)(\"span\",{className:C,children:[e?(0,i.jsx)(m.Ah,{name:\"new-window\"}):null,l?w.t(\"Connect\",{}):\"Connect\"]})}),e?(0,i.jsx)(\"span\",{id:p,hidden:!0,children:_}):null]})}function ProviderAcce"
   ]
  },
  "next": {
@@ -4232,8 +4232,8 @@
    "Add a workflow",
    "Cancel",
    "Start workflow",
-   "Start Workflow",
-   "Try Again"
+   "Try Again",
+   "Start Workflow"
   ],
   "snippets": [
    "x,children:(0,t.jsx)(ht.A,{position:\"inset\",children:(0,t.jsx)(hn.A,{icon:\"play\",onClick:y,tooltip:f,\"aria-label\":f,autoClogProps:ho,\"data-qa\":`channel-details-run-action-${e.id}`,ariaDescribedById:`w",
@@ -4263,8 +4263,8 @@
    "Apps"
   ],
   "snippets": [
-   "e;let t=g?{type:\"action-row\",id:\"browse-apps\",label:N,subtitle:w,iconName:\"plug\",onClick:m,dataQa:\"browse-apps-row\"}:null,s=b?{type:\"action-row\",id:_3,label:j,subtitle:k,iconName:\"plus\",onClick:h,data",
-   ":j,children:(0,i.jsxs)(\"span\",{className:C,children:[(0,i.jsx)(m.Ah,{name:\"plug\"}),y]})}),N]});let D=h?w.t(\"More options for {provider_name}\",{provider_name:a}):\"More options\";return(0,i.jsxs)(\"div\",{"
+   ":j,children:(0,i.jsxs)(\"span\",{className:C,children:[(0,i.jsx)(m.Ah,{name:\"plug\"}),y]})}),N]});let D=h?w.t(\"More options for {provider_name}\",{provider_name:a}):\"More options\";return(0,i.jsxs)(\"div\",{",
+   "e;let t=g?{type:\"action-row\",id:\"browse-apps\",label:N,subtitle:w,iconName:\"plug\",onClick:m,dataQa:\"browse-apps-row\"}:null,s=b?{type:\"action-row\",id:_3,label:j,subtitle:k,iconName:\"plus\",onClick:h,data"
   ]
  },
  "plug-filled": {
@@ -4647,8 +4647,8 @@
    "Upgrade Plan"
   ],
   "snippets": [
-   "abel:an.t(\"See Upgrade Options\"),cancelButtonLabel:an.t(\"Not Now\"),icon:\"rocket\",onCancel:e,onContinue:eE,onContinueAfterTrialStart:ef.noop,reason:\"channel_invite_modal_speedbump\",context:n1.M.channel",
-   "an\",{className:\"upgradeRocketIcon__rrknv\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),ee.t(\"Upgrade Now\")]});case t:return(0,a.jsxs)(\"div\",{className:\"trialEligibleCellContainer__No8Xm\",children:[(0,a."
+   "\");let C=\"cta__YiZ70\",P=new l.Ay(\"pnp_salesforce_embed_growth\"),y={name:\"rocket\"},A={},RequestToPurchaseCtaBase=({type:e=\"button\",requestButtonClassName:t,requestedButtonClassName:a,buttonSize:r=\"medi",
+   "abel:an.t(\"See Upgrade Options\"),cancelButtonLabel:an.t(\"Not Now\"),icon:\"rocket\",onCancel:e,onContinue:eE,onContinueAfterTrialStart:ef.noop,reason:\"channel_invite_modal_speedbump\",context:n1.M.channel"
   ]
  },
  "rotate": {
@@ -4882,8 +4882,8 @@
    "View Message History"
   ],
   "snippets": [
-   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\"",
-   "m\"),_Y=n(\"N2Mm\");let _X=new d.Ay(\"channel_details_apps_tab\"),_0={name:\"settings\"},_1={name:\"plus\"};function IntegrationListItem({id:e,server:a,status:n,statusLabel:l,isCardBottom:i,onSelect:r,onConnec"
+   "d,ariaLabel:as.t(\"Channels with access\")},[e4.b.Settings]:{icon:{name:\"settings\"},title:as.t(\"Advanced Settings\"),getSubText:h,ariaLabel:as.t(\"Advanced Settings\")}}),[l,d,h]),m=`${a}_meta`,p=(0,r.useC",
+   "lassName:pL.add_tab_menu_list_item_icon,children:(0,t.jsx)(u.Ah,{name:\"settings\",size:\"20\"})})},{type:\"separator\"},{type:\"header\",label:(0,t.jsxs)(\"div\",{className:\"display_flex flex_direction_column\""
   ]
  },
  "settings-filled": {
@@ -5135,8 +5135,8 @@
    "Share thread\\u2026"
   ],
   "snippets": [
-   "q.t(\"Share\");r.push({onClick:$,\"aria-label\":t,svgIconProps:{name:\"share-message\",size:\"16\"},tooltipLabel:t,tooltipPosition:p.yX.Top,autoClogProps:{onClick:{enableClogAction:!0},elementName:\"share_reco",
-   "re item\");if(r.push({onClick:$,\"aria-label\":a,svgIconProps:{name:\"share-message\",size:\"16\"},tooltipLabel:a,tooltipPosition:p.yX.Top,autoClogProps:{onClick:{enableClogAction:!0},elementName:\"share_reco"
+   "label:S.copyChart,onClick:v}),(0,i.jsx)(HeaderActionButton,{icon:\"share-message\",label:S.shareChart,onClick:x})]}):null,C?(0,i.jsx)(HeaderActionButton,{icon:\"new-window\",label:S.openInNewWindow,onClic",
+   "opy\"}),ep=(0,i.jsx)(u.Ah,{name:\"image\"}),eg=(0,i.jsx)(u.Ah,{name:\"share-message\"}),em=(0,i.jsx)(u.Ah,{name:\"arrow-expand-full\"}),DataVisualizationBlock=({blockId:e,title:t,size:a,chart:r,previewImages"
   ]
  },
  "share-message-filled": {
@@ -6251,8 +6251,8 @@
    "Processing your file\\u2026"
   ],
   "snippets": [
-   "iv\",{className:\"display_flex\",children:[e&&(0,t.jsx)(u.Ah,{name:\"warning-filled\",inline:!0}),(0,t.jsx)(\"span\",{id:this.shortDescriptionId,className:\"p-oauth_scope_info__scope_description flex_one\",chi",
-   "r-indicator\",\"aria-hidden\":\"true\",children:(0,i.jsx)(m.Ah,{name:\"warning-filled\",size:\"16\"})}):null}function ProviderDescription({status:e,description:n,connectedIdentity:t,connectedContext:r,hasAuthU"
+   "r-indicator\",\"aria-hidden\":\"true\",children:(0,i.jsx)(m.Ah,{name:\"warning-filled\",size:\"16\"})}):null}function ProviderDescription({status:e,description:n,connectedIdentity:t,connectedContext:r,hasAuthU",
+   "iv\",{className:\"display_flex\",children:[e&&(0,t.jsx)(u.Ah,{name:\"warning-filled\",inline:!0}),(0,t.jsx)(\"span\",{id:this.shortDescriptionId,className:\"p-oauth_scope_info__scope_description flex_one\",chi"
   ]
  },
  "webhook": {

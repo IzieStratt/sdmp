@@ -1,11 +1,11 @@
 {
- "buildNumber": "36d315d11944",
+ "buildNumber": "9f450b8ad3db",
  "capturedDate": "2026-11-22",
  "entryScripts": 26,
  "entryFetched": 26,
  "cdn": "https://a.slack-edge.com/bv1-13-br/",
  "manifestUrl": "https://a.slack-edge.com/bv1-13-br/webpack.manifest.b1b2bfc419347e1d.min.js",
- "versionHash": "36d315d11944a1a1ac161ddb024437eb9cea56c2",
+ "versionHash": "9f450b8ad3db2e0efb3bb9d8d274d101c8409db3",
  "versionTs": null,
  "discovered": 3082,
  "fetched": 3070,
