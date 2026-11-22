@@ -29809,6 +29809,7 @@ singer-window-conversation.f5b75cc: Review the proposed edit before applying it.
 singer.001094f: This version of Slack can’t attach to your meeting window.
 singer.00544f7: Bad response
 singer.009068e: Ask Singer
+singer.00e2696: Back to card
 singer.018514a: Timeline
 singer.01d1180: Look at you go.
 singer.0203cb9: Copy link for {title}
@@ -30017,12 +30018,14 @@ singer.310efbc: Ask Slackbot
 singer.31bbe88: 30 minutes
 singer.31f2ce0: Tell me about this window.
 singer.32c30b7: Draft added. Review it before sending.
+singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.3326258: Invited guest
 singer.3386d02: Open in Slack
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
 singer.33ce417: Loading…
 singer.33d3063: Waiting
 singer.340a84f: {pixels}px
+singer.342972e: Switched to Ask Singer
 singer.345f223: Workspace Owner
 singer.3466a48: Blast
 singer.347aaa7: Dismiss error
@@ -30033,7 +30036,6 @@ singer.34dbefa: Note copied. Now paste it in the meeting chat and press Send.
 singer.352af95: Use the arrow keys to move between items, and Enter to ask about one.
 singer.355bcc5: Finished
 singer.3562777: Ask
-singer.35a1c83: Your VIPs in Slack will appear here.
 singer.35f483e: Away, notifications snoozed
 singer.35f49dc: Sent
 singer.35f7092: This file was deleted.
@@ -30138,7 +30140,6 @@ singer.4ed1c68: {title}: {state}
 singer.4f28623: Slack checks the chat on this Mac. Nothing from the meeting window is saved or sent.
 singer.4f936b7: Check Tasks
 singer.4fae892: Away
-singer.4fb3393: Search activity
 singer.502b0d6: Search skills
 singer.50bbeb6: {count, plural, =1 {# change applied} other {# changes applied}}
 singer.50e19fd: Image
@@ -30173,7 +30174,6 @@ singer.56a2285: Saving…
 singer.56e2f5d: Later
 singer.56e3bad: Refresh
 singer.5777d36: Browser settings couldn’t be updated. Try again.
-singer.57c9dc8: Couldn’t mark as read. Try again.
 singer.57d3278: Can’t find your note in this screenshot
 singer.57e831c: In 1 hour
 singer.57f9ee9: lamps.example
@@ -30186,6 +30186,7 @@ singer.58c6143: Remove meeting transcript
 singer.58de145: Message preview
 singer.58fabfa: Sample
 singer.58fce01: Code tasks
+singer.597e22c: That transcript is no longer available. Try attaching the meeting again.
 singer.5a0d343: Quiet for {minutes} min
 singer.5a25103: Dates — Oct 14–15
 singer.5a2f5ac: Nothing to chart yet
@@ -30196,10 +30197,10 @@ singer.5b0f71c: Hidden while you’re in control
 singer.5b1c8a4: Activity dismissed. Messages stay unread.
 singer.5b99997: Take Over
 singer.5c4f644: Screenshot, needs attention
+singer.5c83ee8: Switched to Slackbot
 singer.5ce2e6f: Agent
 singer.5d1932a: Help me draft a reply.
 singer.5d1f475: 4.7★ and dimmable, the best pick under $60.
-singer.5d398ce: Mark as read, thread in {conversation} from {date}
 singer.5d398ce: image__WDpA8
 singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.5e1e06d: Attach, needs attention
@@ -30324,6 +30325,7 @@ singer.78aaebc: Copy member ID
 singer.794d8bc: Your mic is in use
 singer.797dfd0: {time} local time
 singer.7a5ce8e: All set here.
+singer.7a823cf: Window detached.
 singer.7ac0677: Hide voice call controls
 singer.7acaa14: Dismiss meeting notes
 singer.7ada587: Your chat, recap and notes go to a thread in your DM with Slackbot. Only you can see it until you share.
@@ -30406,7 +30408,6 @@ singer.8af56de: you
 singer.8af7d0d: That’s everything here.
 singer.8b02f3d: Not connected
 singer.8b41273: Talk to Slackbot is using your mic.
-singer.8b808d1: {count, plural, =0 {No conversations found} one {# conversation found} other {# conversations found}}
 singer.8b8ec14: Make me a kanban board of my open asks in Slack
 singer.8c2d9db: Ready for review
 singer.8c9f5ff: Couldn’t finish meeting notes
@@ -30420,7 +30421,6 @@ singer.8e5c333: Activity’s spotless.
 singer.8e7d0d0: You can’t send messages here. Open in Slack to check access.
 singer.8eb277d: Stop talking
 singer.8f48ec2: Nice flying.
-singer.8f66c88: Loading conversations…
 singer.8fce852: Hearing computer audio only
 singer.8ffff94: (ɔ◔‿◔)ɔ ♥
 singer.901fca9: Stop and Make Notes
@@ -30444,7 +30444,6 @@ singer.94e0fd8: Open {task}
 singer.952f375: Start
 singer.9566c9b: {title} kept in the island
 singer.957dbe9: No mic right now? Type it instead.
-singer.95b51aa: Filter Slack activity
 singer.95bf7a4: Active, notifications snoozed
 singer.95caac6: Draft PR
 singer.962101f: Stop and hide
@@ -30491,6 +30490,7 @@ singer.9d8d380: System default
 singer.9db046b: A draft for {name}
 singer.9db6d76: Couldn’t finish notes. The recording didn’t upload.
 singer.9dce5fd: What’s this channel about?
+singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.9e21872: Getting your mic and computer audio ready. If macOS asks, allow Slack.
 singer.9e25347: Stop
 singer.9e8a752: React with eyes
@@ -30578,7 +30578,6 @@ singer.afe14d1: Pull request merged
 singer.afeaf6f: This preview isn’t available in this workspace.
 singer.aff666f: Escalated
 singer.b0194a7: Your notes are saved in a Slack canvas.
-singer.b03a54d: Your conversations with Slackbot will appear here.
 singer.b03d2ec: Pause Notifications
 singer.b04189a: At risk
 singer.b0d2ef9: Step {step} of {total}
@@ -30629,7 +30628,6 @@ singer.ba4e722: Forward
 singer.bab2d26: Create Canvas
 singer.bb12e8a: Threads
 singer.bb1a479: Forget…
-singer.bba47e1: No conversations match. Try a different name or phrase.
 singer.bbbfbe6: Attach, current step
 singer.bbfa773: Close
 singer.bc17c1f: Video
@@ -30705,7 +30703,6 @@ singer.cb00c9e: You’ll see a capsule whenever Slackbot is listening, even when
 singer.cb02233: Nothing to see here
 singer.cb2812d: {hours}h
 singer.cb8caea: You look nice today
-singer.cbbeb47: Conversations you star in Slack will appear here.
 singer.cc1ebdd: Idle
 singer.cc4ede9: This file is hidden by your workspace’s storage limit.
 singer.cc58f4d: Check draft request
@@ -30809,7 +30806,6 @@ singer.e054b40: That didn’t go through. Try again.
 singer.e09212c: Skills
 singer.e0d4218: Couldn’t attach that meeting. Try again.
 singer.e0d7314: Join
-singer.e122b79: Channels, DMs and threads you visit in Slack will appear here.
 singer.e14b960: Crisp and upbeat.
 singer.e176200: New Slackbot conversation
 singer.e1949a5: Slackbot can’t tell when your note was sent, so confirm everyone knows before you start.
@@ -30823,7 +30819,6 @@ singer.e2723ca: Forward to {name}
 singer.e29a79f: Review
 singer.e2b6b0a: Previous day
 singer.e2b6f61: Still respects Slack’s Do Not Disturb and VIP settings.
-singer.e3080a7: Couldn’t load recent threads.
 singer.e3834e9: Single-Channel Guest
 singer.e38c67b: {count, plural, =1 {# more live status} other {# more live statuses}}
 singer.e3a65d7: You’re all done here.
@@ -30850,7 +30845,6 @@ singer.e9a5edc: If anyone can, it’s you
 singer.e9b450d: Done
 singer.ea01184: Sample resumed.
 singer.ea8f0d0: Merge
-singer.eb6771e: No unread conversations in this view.
 singer.eb78686: Percent of total
 singer.eb9a4bc: Date
 singer.eb9f4e4: Check your mic, or stop and try again.
