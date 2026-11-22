@@ -651,7 +651,7 @@
    ],
    "modules": [
     "/3MM:6c226996",
-    "ChU6:9dc5c288"
+    "ChU6:d593b54d"
    ]
   },
   "component:HuddleMetaEvent": {
@@ -661,7 +661,7 @@
    ],
    "modules": [
     "/3MM:6c226996",
-    "ChU6:9dc5c288"
+    "ChU6:d593b54d"
    ]
   },
   "component:HuddlesAlertBannerBase": {
@@ -670,7 +670,7 @@
     "function"
    ],
    "modules": [
-    "ChU6:9dc5c288",
+    "ChU6:d593b54d",
     "brWj:80a5ad0a"
    ]
   },
@@ -1308,7 +1308,7 @@
     "meta"
    ],
    "modules": [
-    "ChU6:9dc5c288",
+    "ChU6:d593b54d",
     "jTvn:f3d36fd2"
    ]
   },
