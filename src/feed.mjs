@@ -57,7 +57,8 @@ function buildItem(base, head) {
   if (!base || base === head) return null;
   // build/*.txt (web client) and build/platforms/<target>/*.txt (desktop, android, ios, release-notes; named "<target>/<category>")
   const files = git('ls-tree', '-r', '--name-only', 'HEAD', 'build/').split('\n').filter((f) => (!f.slice(6).includes('/') || f.startsWith('build/platforms/')) && /\.(txt|json)$/.test(f) && !/(meta|icons|health|components|redux|taut-presence|cross-platform)\.json$/.test(f));
-  let html = '', total = 0;
+  let html = '', total = 0, renames = 0;
+  const log = []; // per-category counts, printed so a run can be checked from the workflow log
   const hits = []; // values matching src/watch-keywords.txt in any category, so a themed rollout is not buried in a long list
   const build = (JSON.parse(show('HEAD', 'build/meta.json') ?? '{}')).buildNumber;
   for (const f of files) {
@@ -75,6 +76,7 @@ function buildItem(base, head) {
     }
     if (fresh && f.startsWith('build/platforms/')) { // a new native-client category: thousands of values on day one, so just the count
       total += added.length;
+      log.push(`${name} new-category=${added.length}`);
       html += `<details open><summary><strong>${esc(name)}: new category (${added.length})</strong></summary>${platformNote(f.replace(/^build\/platforms\//, '').replace(/\.txt$/, ''), added.length)}</details>`;
       continue;
     }
@@ -82,6 +84,8 @@ function buildItem(base, head) {
     for (const [list, sign] of [[added, '+ '], [removed, '− '], [extra, '']]) for (const x of list) if (WATCH.test(x)) hits.push(`${sign}${name}: ${x}`);
     // renamed values stay in the new/gone lists (and the counts) too, so readers of the older shape miss nothing
     const renamed = fresh || NO_RENAMES.has(name) ? [] : detectRenames(added, removed).map(renameLine);
+    renames += renamed.length;
+    if (added.length || removed.length || extra.length) log.push(`${name} +${added.length} -${removed.length}${extra.length ? ` ~${extra.length}` : ''}${renamed.length ? ` renamed=${renamed.length}` : ''}`);
     html += section(`${name}: ${fresh ? 'new category' : 'new'}`, added, '+ ') + section(`${name}: gone`, removed, '− ') + section(`${name}: new groups`, extra, '') + section(`${name}: likely renamed`, renamed, '');
   }
   // methods on both sides whose parameters changed, from build/api-args.txt. state/params.json (observed call sites) is not used here:
@@ -89,9 +93,13 @@ function buildItem(base, head) {
   const sigs = signatureChanges([[parseArgsLines(show(base, 'build/api-args.txt')), parseArgsLines(show('HEAD', 'build/api-args.txt'))]]);
   total += sigs.length;
   html += section('api-methods: signature changed', sigs, '');
+  if (sigs.length) log.push(`api-methods signatures=${sigs.length}`);
+  console.log(`feed: base ${base} head ${head} build ${build}: ${total} changes, ${renames} likely renames, ${hits.length} watch hits${log.length ? `\n  ${log.join('\n  ')}` : ''}`);
   if (!total) return null;
+  // each likely rename is counted twice above (once new, once gone); say how much of the headline that is
+  const renameNote = renames ? `<p>${2 * renames} of these are ${renames} likely renames (minifier churn, counted as new and gone): ${total - 2 * renames} excluding them.</p>` : '';
   const date = new Date().toISOString().slice(0, 10);
-  return { id: `${url}/#${date}`, date, base, title: `Slack client changes ${date} (build ${build})`, html: `<p>${total} changes since ${base.slice(0, 7)}.</p>${section('watch: keyword matches', hits, '')}${html}` };
+  return { id: `${url}/#${date}`, date, base, title: `Slack client changes ${date} (build ${build})`, html: `<p>${total} changes since ${base.slice(0, 7)}.</p>${renameNote}${section('watch: keyword matches', hits, '')}${html}` };
 }
 
 // "New" row at the top: the latest item's additions flattened to chips, read back from its stored html so older items work too
