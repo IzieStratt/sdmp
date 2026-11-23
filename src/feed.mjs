@@ -56,7 +56,7 @@ const NO_RENAMES = new Set(['api-args', 'api-errors', 'chunk-names', 'ui-strings
 function buildItem(base, head) {
   if (!base || base === head) return null;
   // build/*.txt (web client) and build/platforms/<target>/*.txt (desktop, android, ios, release-notes; named "<target>/<category>")
-  const files = git('ls-tree', '-r', '--name-only', 'HEAD', 'build/').split('\n').filter((f) => (!f.slice(6).includes('/') || f.startsWith('build/platforms/')) && /\.(txt|json)$/.test(f) && !/(meta|icons|health|components|redux|taut-presence|cross-platform)\.json$/.test(f));
+  const files = git('ls-tree', '-r', '--name-only', 'HEAD', 'build/').split('\n').filter((f) => (!f.slice(6).includes('/') || f.startsWith('build/platforms/')) && /\.(txt|json)$/.test(f) && !/(meta|icons|icons-usage|health|components|redux|taut-presence|cross-platform)\.json$/.test(f));
   let html = '', total = 0, renames = 0;
   const log = []; // per-category counts, printed so a run can be checked from the workflow log
   const hits = []; // values matching src/watch-keywords.txt in any category, so a themed rollout is not buried in a long list
