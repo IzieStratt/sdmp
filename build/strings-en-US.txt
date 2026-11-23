@@ -5940,7 +5940,6 @@ channel_sidebar.501e012: Latest activity, unreads first
 channel_sidebar.53543e7: Notifications set to just mentions
 channel_sidebar.5490ce9: Unpin from your sidebar
 channel_sidebar.5616c87: Search options
-channel_sidebar.56b751c: Switch to the focused sidebar
 channel_sidebar.56e3bad: Refresh
 channel_sidebar.571a71c: Thread with {name}
 channel_sidebar.578665f: More session channels
@@ -6131,7 +6130,6 @@ channel_sidebar.bd2cb05: Get Started
 channel_sidebar.bdc61e9: {resultCount, plural, =1 {# conversation} other {# conversations}} found
 channel_sidebar.bee54c9: Something went wrong.
 channel_sidebar.c04921f: No messages yet
-channel_sidebar.c0668b8: Switch back to the classic sidebar
 channel_sidebar.c0a3ef6: Move to…
 channel_sidebar.c0d6db0: You can find muted channels in the section {icon} menu. Want to bring them back? <a>Change your preferences</a>
 channel_sidebar.c11adfd: @you, @channel, @here
@@ -16316,6 +16314,7 @@ files.67fbdff: Aubergine
 files.6827ea8: Are you sure you want to delete this post permanently?
 files.687c04c: Share folder
 files.687c828: Documents
+files.690497d: Date and reminder options
 files.6988b16: Reconnect
 files.69bd4ef: View
 files.6a35b7e: Attach an email
@@ -23935,6 +23934,7 @@ page_pricing.31b9d2e: Illinois
 page_pricing.33db135: New Brunswick
 page_pricing.3dddf7f: New York
 page_pricing.3de75cf: North Dakota
+page_pricing.4320576: Work email
 page_pricing.48303ff: Kansas
 page_pricing.48faa2a: Sorry! Something went wrong. Please try again.
 page_pricing.4a275f9: 90 days of message history
@@ -23952,14 +23952,18 @@ page_pricing.59a057a: Nova Scotia
 page_pricing.59faf25: Saskatchewan
 page_pricing.5d00be2: Indiana
 page_pricing.60590f7: Minnesota
+page_pricing.69cc521: Select a country
 page_pricing.7288f7f: Alaska
 page_pricing.7311e71: Please enter your first name.
+page_pricing.73f43de: +1 (555) 555-5555
 page_pricing.7448ca3: CXO
 page_pricing.754843b: SAML-based single sign-on
 page_pricing.75dd53a: Oops! That looks like an invalid email address.
 page_pricing.7a0a9bd: Contact Sales
 page_pricing.7a19949: Company
 page_pricing.7a8cf79: Please select your role.
+page_pricing.7b31777: How big is your team?
+page_pricing.7cfb9fe: Select your company size
 page_pricing.7e568a9: First name
 page_pricing.7e835f6: Get more information on <a1>billing at Slack</a1> and <a2>Slackbot Plan limits</a2>.
 page_pricing.7fc1be7: 16 - 100
@@ -23995,6 +23999,7 @@ page_pricing.bb062e3: Or give us a call
 page_pricing.bf963a0: Yes, I would like to receive marketing communications about the Salesforce family of companies' products, services, and events. I can unsubscribe at any time.
 page_pricing.c08e1ad: Please enter a valid phone number.
 page_pricing.c1a3864: Manitoba
+page_pricing.c234150: Select a state
 page_pricing.c3f104d: Role
 page_pricing.c5d072a: Prince Edward Island
 page_pricing.c61a2c3: Please provide an email.
@@ -24034,6 +24039,7 @@ page_pricing.f402d1a: 1:1 external messages
 page_pricing.f59b051: West Virginia
 page_pricing.f709a1b: Success! You’ll hear back from us soon.
 page_pricing.f9f742e: Ontario
+page_pricing.fa6aeb6: How can our sales team help you?
 page_pricing.fc5ee47: British Columbia
 pages_downloads.23aa0c6: Problems downloading? <a>Try again</a>
 pages_downloads.26d9c28: Windows
@@ -29808,7 +29814,6 @@ singer-window-conversation.f036c3f: Approval isn’t available for this edit. No
 singer-window-conversation.f5b75cc: Review the proposed edit before applying it.
 singer.001094f: This version of Slack can’t attach to your meeting window.
 singer.00544f7: Bad response
-singer.009068e: Ask Singer
 singer.00e2696: Back to card
 singer.018514a: Timeline
 singer.01d1180: Look at you go.
@@ -29835,6 +29840,7 @@ singer.0595fcd: Code task started. Your other tasks can keep working.
 singer.05a3b9f: DM
 singer.05dc73d: Use Draft
 singer.0671514: Open Thread
+singer.06a663e: Your conversation will appear here.
 singer.06dd1ba: Loading threads…
 singer.07217c7: Overdue
 singer.07ac6a0: Browser tasks aren’t set up for this workspace yet.
@@ -29867,7 +29873,6 @@ singer.0eb6323: New activity will show up here.
 singer.0ed5751: Bring Slackbot to {title}?
 singer.0f09734: Mute
 singer.0f732f6: Drink some water:potable_water:
-singer.0f7d9f4: Finish dictating
 singer.0f82e1f: Clean sweep.
 singer.0fb1dab: Notes won’t include people on the call.
 singer.0ff3d64: Needs your OK
@@ -29977,7 +29982,6 @@ singer.288e5bd: Notes are ready.
 singer.28abc03: Search by name
 singer.28bb3d0: You’ve got this
 singer.29a0039: Sign-in page hidden
-singer.29ddc4d: Coding agent
 singer.29f9bf5: Asking
 singer.2a70e2a: Here’s a pony.
 singer.2a7a995: Activity has nothing for you right now.
@@ -30018,7 +30022,6 @@ singer.310efbc: Ask Slackbot
 singer.31bbe88: 30 minutes
 singer.31f2ce0: Tell me about this window.
 singer.32c30b7: Draft added. Review it before sending.
-singer.32d7428: Meeting reminder dismissed. You can still find it in Today.
 singer.3326258: Invited guest
 singer.3386d02: Open in Slack
 singer.33b2fab: It’s been quiet for a while. Still in the meeting?
@@ -30088,7 +30091,6 @@ singer.418d250: Stopped listening. Creating notes.
 singer.41b7763: Sample taken over.
 singer.41b81eb: Approved
 singer.41dfc0a: Window
-singer.427b26a: Today’s meetings
 singer.430b38b: Slack
 singer.4321629: Marked done
 singer.43d2f8c: Start typing from the shortcut
@@ -30138,7 +30140,6 @@ singer.4e6a710: Talk
 singer.4ea8770: Racer Dood
 singer.4ed1c68: {title}: {state}
 singer.4f28623: Slack checks the chat on this Mac. Nothing from the meeting window is saved or sent.
-singer.4f936b7: Check Tasks
 singer.4fae892: Away
 singer.502b0d6: Search skills
 singer.50bbeb6: {count, plural, =1 {# change applied} other {# changes applied}}
@@ -30152,6 +30153,7 @@ singer.531c903: Nothing is being recorded.
 singer.5338bc0: Live answers may have gaps, but notes use the full recording.
 singer.5384cba: Press Space or click to play again.
 singer.538d223: Your mic · {device}
+singer.538f3e5: Voice connected
 singer.5397e05: Yes
 singer.541f836: Your skills
 singer.547d686: To attach the window in front without dragging, press A.
@@ -30182,10 +30184,8 @@ singer.580b6aa: Files can’t be added to this conversation.
 singer.5836a4a: What Singer can do
 singer.58986af: Show suggestions
 singer.58b0531: Meeting notes are off
-singer.58c6143: Remove meeting transcript
 singer.58de145: Message preview
 singer.58fabfa: Sample
-singer.58fce01: Code tasks
 singer.597e22c: That transcript is no longer available. Try attaching the meeting again.
 singer.5a0d343: Quiet for {minutes} min
 singer.5a25103: Dates — Oct 14–15
@@ -30202,7 +30202,6 @@ singer.5ce2e6f: Agent
 singer.5d1932a: Help me draft a reply.
 singer.5d1f475: 4.7★ and dimmable, the best pick under $60.
 singer.5d398ce: image__WDpA8
-singer.5d3bb50: Did {title} end? Stopping in {countdown}.
 singer.5e1e06d: Attach, needs attention
 singer.5e59500: Open canvas
 singer.5eb7787: Hold {fn} + left {command} to talk
@@ -30222,7 +30221,6 @@ singer.61abb0c: Computer audio is unavailable. Recording your mic only.
 singer.61c8f71: Updated just now
 singer.623bab0: Mark unread
 singer.6268b28: On it. Your card is on its way.
-singer.6289926: Meeting recording continues
 singer.6298140: Thanks for the feedback
 singer.62d8d30: Sunday Sailor
 singer.62e8cdf: Type it instead
@@ -30232,7 +30230,6 @@ singer.63e219d: Singer can’t confirm the recording
 singer.6403f2b: New
 singer.646e5ca: Add to Merge Queue
 singer.6481492: Review your message in Slack to finish sending.
-singer.64a9fa4: Live meeting
 singer.650f11d: Your ask
 singer.657d1e1: Snippet
 singer.657d274: Review in Chat
@@ -30321,6 +30318,7 @@ singer.781961b: Pause
 singer.7858ac3: Post
 singer.7863f75: Thread
 singer.788afb5: Activity has nothing left for you.
+singer.78a8fc4: Type instead
 singer.78aaebc: Copy member ID
 singer.794d8bc: Your mic is in use
 singer.797dfd0: {time} local time
@@ -30423,7 +30421,6 @@ singer.8eb277d: Stop talking
 singer.8f48ec2: Nice flying.
 singer.8fce852: Hearing computer audio only
 singer.8ffff94: (ɔ◔‿◔)ɔ ♥
-singer.901fca9: Stop and Make Notes
 singer.905cb32: You
 singer.9076dbd: Drag Singer onto the meeting window
 singer.9118d70: Meeting assistant · your DM with Slackbot
@@ -30485,12 +30482,10 @@ singer.9cd8f6e: Singer offers you a heart
 singer.9ce3bd4: OK
 singer.9cf1b68: Message sent
 singer.9d41e71: That draft isn’t ready to use. Check your connection and access.
-singer.9d80f91: Reconnecting
 singer.9d8d380: System default
 singer.9db046b: A draft for {name}
 singer.9db6d76: Couldn’t finish notes. The recording didn’t upload.
 singer.9dce5fd: What’s this channel about?
-singer.9e20b19: Couldn’t open this reply. Dismiss the update to get back to Slackbot.
 singer.9e21872: Getting your mic and computer audio ready. If macOS asks, allow Slack.
 singer.9e25347: Stop
 singer.9e8a752: React with eyes
@@ -30534,7 +30529,6 @@ singer.a7ea830: {hours}h {minutes}m
 singer.a7f8e7c: just now
 singer.a810627: A quick answer. A little catch-up. A head start on whatever’s next.
 singer.a82b2d5: Show More Skills
-singer.a86dd4a: Voice with Slackbot
 singer.a8af873: Find a desk lamp under $60 with good reviews
 singer.a8e35c7: Slackbot records your mic and computer audio and transcribes it with AI until you press Stop—even when folded or hidden. Let everyone in the meeting know before you start.
 singer.a93004d: {title}, {count, plural, one {# item} other {# items}}
@@ -30640,7 +30634,6 @@ singer.bd2cb05: Get Started
 singer.bd444a3: Create List
 singer.bd51187: {score, plural, one {# point} other {# points}}
 singer.bd8efdc: Connect an account to continue
-singer.bdd42e5: Ask about this window
 singer.be25a54: Ready when you are.
 singer.be34b2e: Record more?
 singer.be52fba: Slackbot is finishing your answer…
@@ -30689,7 +30682,6 @@ singer.c7dfb6f: Paused
 singer.c7f73bb: Settings
 singer.c83b85a: {count, plural, =1 {# minute} other {# minutes}}
 singer.c8a103c: Replies
-singer.c8d7e2d: Singer moving onto a sample meeting window
 singer.c8de761: End call
 singer.c8e633f: Oops
 singer.c94d317: Email address
@@ -30772,7 +30764,6 @@ singer.d98add1: Invite people to your huddle
 singer.d999aeb: Resolved
 singer.d9e27fc: VIPs
 singer.da24830: Yesterday
-singer.da4257c: It’s been quiet for 5 minutes. Still in the meeting?
 singer.da61d4b: {count, plural, one {# other} other {# others}}
 singer.daaf089: Create Channel
 singer.dac1daf: Don’t forget to breathe
@@ -30914,7 +30905,6 @@ singer.fa2984b: Save Changes
 singer.fa370e2: Check Audio
 singer.fa7f141: Resume recording
 singer.fa9311c: Done for now
-singer.fad94e1: Catch me up on these unread updates. Highlight what needs my attention and link to the messages. Keep it brief.
 singer.faf501e: Hide Singer and stop recording?
 singer.faffc0f: Transcript is ready.
 singer.fb53790: Turned off in System Settings
@@ -30931,7 +30921,6 @@ singer.fcbba3a: Keep Recording
 singer.fd14281: Deletes Slackbot’s saved browser profile, including sign-ins and site data for every site.
 singer.fd3e796: Connecting…
 singer.fd71a50: Close Browser
-singer.fda222b: Mic in use by voice call
 singer.fdc6966: {count} new
 singer.fdea8ac: PR #{number}
 singer.fe0710a: Wrap-ups
@@ -31043,14 +31032,12 @@ slack-docs.3ea0e04: Guide for converting canvas to template
 slack-docs.3f4cf16: People with access to the <strong>Sales tab</strong> will no longer be able to see it.
 slack-docs.41d8a72: At the request of your administrator, file uploads have been disabled on this workspace.
 slack-docs.4209948: Publish template
-slack-docs.434eb21: i.e. Name, Project, Description etc.
 slack-docs.45b41eb: Search records…
 slack-docs.45d24a1: Create a <b>canvas, ”{canvasTitle}”</b>
 slack-docs.468fcdf: Failed to create workflow
 slack-docs.47bf2e8: First, add variables
 slack-docs.47c77bf: See less
 slack-docs.47f6e6b: Search objects…
-slack-docs.49861bf: Add a new or existing name
 slack-docs.4bab2d8: More
 slack-docs.4c2707b: Add Variable
 slack-docs.4cf52f5: Template failed to publish, please try again
@@ -31063,6 +31050,7 @@ slack-docs.54609bd: Share in huddle
 slack-docs.55e65e2: Add a title to the Salesforce record placeholder so people using your canvas will know which type of record to insert.
 slack-docs.55f89a2: This dashboard was deleted.
 slack-docs.5656400: Publish
+slack-docs.56611eb: Unable to load the image
 slack-docs.5663e1f: Hide manage automations
 slack-docs.56b8cb4: Search all templates
 slack-docs.56d3696: Insertion options
@@ -31850,6 +31838,7 @@ slack_docs.c65ea4a: Date range
 slack_docs.c69955f: Request Edit Access
 slack_docs.c77be87: Write an outline of a project brief for # 
 slack_docs.c7bd2af: Code block
+slack_docs.c83a2da: Add cover
 slack_docs.c958b87: Draft a meeting agenda for the weekly meeting in {channelName} 
 slack_docs.c9ed584: {cmdKey}{keyDivider}{shiftKey}{keyDivider}8
 slack_docs.cb0188e: Insert table
@@ -34249,23 +34238,15 @@ sponsored_connections.bf66ddd: Slack Connect is a paid feature — but this one 
 ssb-in-product-survey.b52b36b: Back
 ssb-in-product-survey.bc98198: Next
 start_call.ffeb7f7: Please allow pop-ups in your browser to make a call. You can <{url}|contact Slack> if you need help.
-stock_ticker_snapshots.032947e: Current quote {price}; 52-week low {low}; 52-week high {high}.
-stock_ticker_snapshots.27ac2e5: Key Metrics
+stock_ticker_snapshots.019c5b0: {exchange} · {symbol} · USD
 stock_ticker_snapshots.2c9c1f7: Unavailable
+stock_ticker_snapshots.4b059c0: Prices may be delayed or unchanged after market close. No automatic refresh.
 stock_ticker_snapshots.51703e3: P/E (trailing 12 months)
-stock_ticker_snapshots.5ddfd1b: {low} – {high}
-stock_ticker_snapshots.619a5a9: Key metrics for {symbol} aren’t available right now.
 stock_ticker_snapshots.690d2fa: Market cap
 stock_ticker_snapshots.7c2a7fb: Retrieved {date}
-stock_ticker_snapshots.8ef5bf0: 52-week low
-stock_ticker_snapshots.9c0068d: Prices may be delayed. Quotes may stay unchanged after market close. This snapshot doesn’t refresh automatically.
-stock_ticker_snapshots.a0b43e0: Current quote
+stock_ticker_snapshots.9262436: Stock actions for {symbol}
 stock_ticker_snapshots.bcea0b6: 52-week range
-stock_ticker_snapshots.d5c8429: Key metrics aren’t available right now.
-stock_ticker_snapshots.e570ac0: Key metrics for {symbol} loaded.
-stock_ticker_snapshots.f21c381: 52-week high
-stock_ticker_snapshots.f2def2e: Loading key metrics…
-stock_ticker_snapshots.f87e1ac: Quote from {date}
+stock_ticker_snapshots.de0e3f4: May be delayed
 stories_av.028cf99: Can’t share your screen
 stories_av.02ebb90: Can’t access microphone
 stories_av.031d634: What is wrong?
@@ -34720,6 +34701,7 @@ tabbed-channel.4bb5f18: Files, links, and media from this conversation will show
 tabbed-channel.4c0cc42: {errorCount, plural, one {This file} other {These files}} couldn’t be uploaded:
 tabbed-channel.4c852b2: Show less
 tabbed-channel.4e2e8dd: Explore more templates
+tabbed-channel.4ed4f27: Attachment type
 tabbed-channel.4f13998: Files & links
 tabbed-channel.503a3d8: Upload file
 tabbed-channel.50d0d8d: Shared
@@ -34862,6 +34844,7 @@ tabbed-channel.bc6aa15: Edit resources
 tabbed-channel.bc8f049: Search for files
 tabbed-channel.bce0641: Search
 tabbed-channel.bcf09d4: Unsetting the huddle notes canvas will remove it as the default canvas for the current huddle. Are you sure you want to unset it now?
+tabbed-channel.be5bb6f: See all photos and videos
 tabbed-channel.be62a6f: Search emails
 tabbed-channel.bf0d075: Unpin from channel
 tabbed-channel.bf5c694: Project brief outline for {channelName}
@@ -38928,26 +38911,39 @@ workflow_preview.59db474: Starts from a button
 workflow_preview.b52b36b: Back
 workflow_preview.f1fbb2b: Preview
 workflow_step_entity.9534c5c: Additional context:
+workflow_step_entity.a71e882: Variables used in knowledge sources:
 workflow_template_preview.7f47769: workflow icon
 workflow_template_preview.887f895: This is just a preview
 workflow_template_preview.b52b36b: Back
 workflow_template_preview.cf179b6: Learn more about workflows
+workflow_templates_in_canvas.014680a: Join all channels
+workflow_templates_in_canvas.087a7d2: Automatically join recommended channels that are related to this one
+workflow_templates_in_canvas.0c032ce: Workflows are available on paid plans
 workflow_templates_in_canvas.15ad417: You don’t have access.
 workflow_templates_in_canvas.18e03e2: Channels
 workflow_templates_in_canvas.253039e: More about how it works
+workflow_templates_in_canvas.2ca4db7: Replace with a new or existing workflow.
 workflow_templates_in_canvas.2cec216: This workflow will make it easy for teammates to join <b>{numChannels}</b> {numChannels, plural, =1 {channel} other {channels}}, right from your canvas.
 workflow_templates_in_canvas.43c3d1c: Add a workflow
 workflow_templates_in_canvas.479d1ea: Join all {teamName}channels
 workflow_templates_in_canvas.4c897ab: You added a new workflow
+workflow_templates_in_canvas.52fc0df: Select channels you’d like to make it easy for teammates to join in one go. When they use the workflow, they’ll be automatically added.
 workflow_templates_in_canvas.5d07bdb: Start workflow
+workflow_templates_in_canvas.6a8dc25: Help teammates automatically join all the necessary channels by setting up a workflow.
+workflow_templates_in_canvas.85821dd: Join team channels automatically
 workflow_templates_in_canvas.8d886c0: Something went wrong
+workflow_templates_in_canvas.9b11ed1: Team name
 workflow_templates_in_canvas.9c6d505: Select channels
 workflow_templates_in_canvas.bbfa773: Close
 workflow_templates_in_canvas.c2182ab: You can’t enter more than {maxLength} channels.
+workflow_templates_in_canvas.c40d1bf: Help people automatically join all the relevant channels in one go.
 workflow_templates_in_canvas.cabf640: If the problem persists, please <a>drop us a line</a>
+workflow_templates_in_canvas.d1faadc: Insert a new or existing workflow.
 workflow_templates_in_canvas.e9b450d: Done
 workflow_templates_in_canvas.ec551dc: three people celebrating
 workflow_templates_in_canvas.efc007a: Save
+workflow_templates_in_canvas.f3c9ae0: Your team’s name
+workflow_templates_in_canvas.fc90c28: You don’t have permissions to create this workflow
 workflows.8cea91f: This workflow no longer exists.
 workflows.9b4457e: Forward workflow
 workflows.a1e34f9: More actions

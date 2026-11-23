@@ -199,7 +199,6 @@ App Managers via Slackbot message
 App activity metrics (aggregated only)
 App activity metrics (aggregated)
 App activity metrics (real-time or aggregated)
-App analytics
 App analytics sections
 App category
 App data is available from {firstDate}.
@@ -284,7 +283,6 @@ C
 C#
 C++
 CSS
-CUSTOMIZABLE
 CUSTOMIZED
 Calculating data…
 Callback IDs can’t be longer than {num} characters.
@@ -836,7 +834,6 @@ Learn how information is shared, and whether it’s bots or members doing the ta
 Learn how to get started
 Learn how to set up Agentforce
 Learn how your team is using Slack
-Learn how your team is using apps
 Learn how your team is using channels
 Learn more about managing apps
 Learn more about permissions
@@ -1338,6 +1335,7 @@ Search by name or app ID
 Search by name or keyword
 Search by name, URL or organization
 Search by name, description, URL or organization
+Search for a member…
 Search for an app to approve
 Search for an app to restrict
 Search for an app…
@@ -1795,7 +1793,6 @@ Updated channel visibility
 Updating workspaces…
 Upgrade to unlock more insights
 Upgrade your Plan
-Upgrade your plan to see activity and information for all of your apps.
 Upgrade your plan to see activity and information for all of your channels.
 Upgrade your plan to see information about all team members, and learn how they’re using Slack.
 Upload CSV
@@ -1928,7 +1925,6 @@ Who can use {permissionLocalizedDisplayName}?
 Who is uploading files
 Will be added
 Will not be added
-Work object previews
 Work object previews let members see key information from some connected apps like Jira, Google Drive and more — no extra click required.
 Workflow runs
 Workflow steps & triggers

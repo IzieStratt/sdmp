@@ -284,7 +284,7 @@ $ {amount} USD
 ) is not a string.
 ) is not supported yet.
 ) that performed expensive computation.
-)&&(eq(!1),sl(void 0),eO(sk?
+)&&(eq(!1),sc(void 0),ez(sx?
 ))),H((0,e_.R3)(eb)),H((0,e_.p4)(eb?q:void 0)),ev(eb?
 ))),e((0,c.R3)(h)),e((0,c.p4)(h?a:void 0)),p(h?
 ). If you meant to render a collection of children, use an array instead.
@@ -1141,6 +1141,7 @@ About Page
 About apps
 About building workflows with AI
 About notifications
+About quote timing for {symbol}
 About the description
 About the example prompt
 About this agent
@@ -16656,6 +16657,7 @@ May
 May 14, 2001
 May 2001
 May 2001 Enron Corp signature; May 18 and May 22 2001 signature blocks (Enron Corp)
+May be delayed
 May you avoid all distractions
 May your day be pleasant and productive
 Maya needs your sign-off on designs.
@@ -21117,7 +21119,7 @@ Previously approved
 Previously connected to {domain}
 Previously denied
 Price the 2002 collar before anything else with TEP; the ISDA follows credit.
-Prices may be delayed. Quotes may stay unchanged after market close. This snapshot doesn\u2019t refresh automatically.
+Prices may be delayed or unchanged after market close. No automatic refresh.
 Pricing
 Primary (green)
 Primary View
@@ -27222,6 +27224,7 @@ Still sending. Your draft is saved here.
 Still signing in? Finish in the other tab, or try again.
 Still waiting for Slackbot. Your message is saved here.
 Still waiting for edit access? You can send the owner a reminder.
+Stock actions for {symbol}
 Stop
 Stop AI Notes
 Stop AI notes
@@ -27622,7 +27625,6 @@ Switch Salesforce Org for {agentName}
 Switch avatar
 Switch back to classic Slack
 Switch back to production assets
-Switch back to the classic sidebar
 Switch integration?
 Switch integrations
 Switch layouts to review your messages in bulk.
@@ -27640,7 +27642,6 @@ Switch to card
 Switch to dev build
 Switch to enhanced text output?
 Switch to text output?
-Switch to the focused sidebar
 Switch to this device
 Switch to this huddle?
 Switch to {workspace}?
