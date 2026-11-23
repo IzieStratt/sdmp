@@ -394,9 +394,6 @@
  "ai_image_alt_text_copy_translations": [
   "on"
  ],
- "ai_sampling_channel_unreads_summary_contextual_nudge": [
-  "treatment"
- ],
  "ai_slackbot_sampling": [
   "treatment"
  ],
@@ -1961,9 +1958,6 @@
  "inproduct_team_creation_blurred_overlay": [
   "on"
  ],
- "internal_ai_sampling_channel_unreads_summary_contextual_nudge": [
-  "on"
- ],
  "internal_spaces": [
   "on"
  ],
@@ -3299,6 +3293,9 @@
  "slackbot_ai_focus_deleted_thread_fallback": [
   "on"
  ],
+ "slackbot_ai_free_pro_paywall_translations": [
+  "on"
+ ],
  "slackbot_ai_fus_migration": [
   "on"
  ],
@@ -3478,6 +3475,12 @@
  ],
  "slackbot_enhanced_explain": [
   "on"
+ ],
+ "slackbot_free_teams_segmented_offer": [
+  "aa_control",
+  "aa_treatment",
+  "control",
+  "treatment"
  ],
  "slackbot_in_channels": [
   "on"

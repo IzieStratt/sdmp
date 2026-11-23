@@ -1045,8 +1045,10 @@ large_blue_circle
 last
 last_edited_by
 last_edited_time
+last_preview_answer
 last_quarter_moon
 last_quarter_moon_with_face
+last_thread_answer
 latest_activity
 latest_activity_unreads_first
 latest_project_links
@@ -1366,6 +1368,9 @@ password
 past
 paste
 pause
+paywall_preview_find_something
+paywall_preview_meeting_prep
+paywall_preview_needs_attention
 pdf
 pdfs
 pea_pod
@@ -1610,6 +1615,7 @@ scooter
 screen
 screenshots
 script
+scripted
 scroll
 scrolling
 sdk_initialized_time
@@ -2016,6 +2022,7 @@ update_channel_topic
 update_list_record
 update_message
 update_spreadsheet_row
+upgrade
 url_private
 url_text_input
 usb

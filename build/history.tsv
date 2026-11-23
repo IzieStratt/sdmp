@@ -82,6 +82,7 @@ ai-enums	SLACKBOT_AI_NUX_CLOSE_COACHMARK=slackbot_ai_nux_close_coachmark	2026-10
 ai-enums	SLACKBOT_AI_OPT_OUT_MODAL=slackbot_ai_opt_out_modal	2026-10-21		
 ai-enums	SLACKBOT_AI_OUT_OF_SAMPLES_ROADBLOCK=slackbot_ai_out_of_samples_roadblock	2026-10-21		
 ai-enums	SLACKBOT_AI_PAYWALL_LANDING=slackbot_ai_paywall_landing	2026-11-20		
+ai-enums	SLACKBOT_AI_PAYWALL_THREAD_FOLLOW_UP=slackbot_ai_paywall_thread_follow_up	2026-11-23		
 ai-enums	SLACKBOT_AI_SAMPLING_MESSAGE_COMPOSER_WRAPPER=slackbot_ai_sampling_message_composer_wrapper	2026-10-21		
 ai-enums	SLACKBOT_AI_SAMPLING_PAYWALL_ZERO_STATE=slackbot_ai_sampling_paywall_zero_state	2026-10-21		
 ai-enums	SLACKBOT_AI_SAMPLING_UPGRADE_NUDGE_PREVIEW_TAG=slackbot_ai_sampling_upgrade_nudge_preview_tag	2026-11-12		
@@ -785,7 +786,7 @@ ai-features	ai_result_blocks_work_object_link	2026-11-10
 ai-features	ai_result_status	2026-11-10		
 ai-features	ai_sampling_channel_summary_contextual_nudge	2026-11-10		
 ai-features	ai_sampling_channel_summary_contextual_nudge_click	2026-11-10		
-ai-features	ai_sampling_channel_unreads_summary_contextual_nudge	2026-11-10		
+ai-features	ai_sampling_channel_unreads_summary_contextual_nudge	2026-11-10	2026-11-23	2026-11-23
 ai-features	ai_sampling_day_one_coachmark	2026-11-10		
 ai-features	ai_sampling_omniswitcher_with_samples_remaining	2026-11-10		
 ai-features	ai_sampling_omniswitcher_with_zero_samples_remaining	2026-11-10		
@@ -1310,7 +1311,7 @@ ai-features	insert_agent	2026-11-10	2026-11-11	2026-11-11
 ai-features	install_inactive_agent_not_allowed	2026-11-10		
 ai-features	installed_agents	2026-11-10		
 ai-features	installed_agents_no_results_clear_filters	2026-11-10		
-ai-features	internal_ai_sampling_channel_unreads_summary_contextual_nudge	2026-11-10		
+ai-features	internal_ai_sampling_channel_unreads_summary_contextual_nudge	2026-11-10	2026-11-23	2026-11-23
 ai-features	invalid_external_channel_ask_agentforce	2026-11-10		
 ai-features	invalid_external_channel_ask_agentforce_canvas	2026-11-10		
 ai-features	invalid_external_channel_or_user_ask_agentforce_share_canvas	2026-11-10		
@@ -1494,6 +1495,7 @@ ai-features	page_slack_marketplace_agents	2026-11-10
 ai-features	page_slackbot	2026-11-10		
 ai-features	page_thought_leadership_multiplayer_ai	2026-11-14		
 ai-features	paywall_meet_slackbot_landing	2026-11-20		
+ai-features	paywall_thread_try_other_prompts	2026-11-23		
 ai-features	permanent_browser_instance_agent_people	2026-11-10		
 ai-features	permanent_browser_instance_agent_tasks	2026-11-10		
 ai-features	permanent_browser_instance_unified_file_picker_skills	2026-11-10		
@@ -2073,6 +2075,7 @@ ai-features	slackbot_ai_org_instructions	2026-11-12
 ai-features	slackbot_ai_out_of_samples_roadblock	2026-11-10		
 ai-features	slackbot_ai_paywall_landing	2026-11-20		
 ai-features	slackbot_ai_paywall_redesign	2026-11-20		
+ai-features	slackbot_ai_paywall_thread_follow_up	2026-11-23		
 ai-features	slackbot_ai_paywall_warning	2026-11-10		
 ai-features	slackbot_ai_per_file_approval_bypass_enabled	2026-11-10		
 ai-features	slackbot_ai_project_canvas_modal	2026-11-10		
@@ -2533,6 +2536,7 @@ ai-features	slackbotai_paywall_dm_paywall	2026-11-10
 ai-features	slackbotai_paywall_history_roadblock	2026-11-10		
 ai-features	slackbotai_paywall_landing	2026-11-20		
 ai-features	slackbotai_paywall_sunroof	2026-11-10		
+ai-features	slackbotai_paywall_thread_follow_up	2026-11-23		
 ai-features	slackbotai_paywall_warning	2026-11-10		
 ai-features	slackbotai_share_skill_unfurl	2026-11-10		
 ai-features	slackbotai_sidebar_link	2026-11-10		
@@ -2597,6 +2601,7 @@ ai-features	too_many_mcp_servers	2026-11-10
 ai-features	translate_mcp_reload	2026-11-10		
 ai-features	trigger_not_allowed_for_ai_prompt_step	2026-11-10		
 ai-features	trigger_type_not_supported_ask_agentforce	2026-11-10		
+ai-features	try_other_prompts	2026-11-23		
 ai-features	unconfirmed_agent	2026-11-10		
 ai-features	unified_tools_tab_wfb_ai_step_tools_tab_badge	2026-11-10		
 ai-features	unified_tools_tab_wfb_ai_step_tools_tab_header_banner	2026-11-10		
@@ -8562,6 +8567,7 @@ analytics-events	page: slackbotai_paywall_dm_paywall	2026-11-10
 analytics-events	page: slackbotai_paywall_history_roadblock	2026-11-10		
 analytics-events	page: slackbotai_paywall_landing	2026-11-20		
 analytics-events	page: slackbotai_paywall_sunroof	2026-11-10		
+analytics-events	page: slackbotai_paywall_thread_follow_up	2026-11-23		
 analytics-events	page: slackbotai_paywall_warning	2026-11-10		
 analytics-events	page: slackbotai_skill_detail	2026-11-10		
 analytics-events	page: slackbotai_skills_tab	2026-11-11		
@@ -34873,6 +34879,7 @@ enums	SLACKBOTAI_PAYWALL_DM_PAYWALL=slackbotai_paywall_dm_paywall	2026-10-21
 enums	SLACKBOTAI_PAYWALL_HISTORY_ROADBLOCK=slackbotai_paywall_history_roadblock	2026-10-21		
 enums	SLACKBOTAI_PAYWALL_LANDING=slackbotai_paywall_landing	2026-11-20		
 enums	SLACKBOTAI_PAYWALL_SUNROOF=slackbotai_paywall_sunroof	2026-10-21		
+enums	SLACKBOTAI_PAYWALL_THREAD_FOLLOW_UP=slackbotai_paywall_thread_follow_up	2026-11-23		
 enums	SLACKBOTAI_PAYWALL_WARNING=slackbotai_paywall_warning	2026-10-21		
 enums	SLACKBOTAI_SHARE_SKILL_UNFURL=slackbotai_share_skill_unfurl	2026-10-21		
 enums	SLACKBOTAI_SIDEBAR_LINK=slackbotai_sidebar_link	2026-10-21		
@@ -34898,6 +34905,7 @@ enums	SLACKBOT_AI_NUX_CLOSE_COACHMARK=slackbot_ai_nux_close_coachmark	2026-10-21
 enums	SLACKBOT_AI_OPT_OUT_MODAL=slackbot_ai_opt_out_modal	2026-10-21		
 enums	SLACKBOT_AI_OUT_OF_SAMPLES_ROADBLOCK=slackbot_ai_out_of_samples_roadblock	2026-10-21		
 enums	SLACKBOT_AI_PAYWALL_LANDING=slackbot_ai_paywall_landing	2026-11-20		
+enums	SLACKBOT_AI_PAYWALL_THREAD_FOLLOW_UP=slackbot_ai_paywall_thread_follow_up	2026-11-23		
 enums	SLACKBOT_AI_SAMPLING_MESSAGE_COMPOSER_WRAPPER=slackbot_ai_sampling_message_composer_wrapper	2026-10-21		
 enums	SLACKBOT_AI_SAMPLING_PAYWALL_ZERO_STATE=slackbot_ai_sampling_paywall_zero_state	2026-10-21		
 enums	SLACKBOT_AI_SAMPLING_UPGRADE_NUDGE_PREVIEW_TAG=slackbot_ai_sampling_upgrade_nudge_preview_tag	2026-11-12		
@@ -38332,7 +38340,7 @@ experiments	ai_explain_floating_menu	2026-10-23
 experiments	ai_explain_highlight_text	2026-10-23		
 experiments	ai_image_alt_text	2026-10-23		
 experiments	ai_image_alt_text_copy_translations	2026-10-23		
-experiments	ai_sampling_channel_unreads_summary_contextual_nudge	2026-10-23		
+experiments	ai_sampling_channel_unreads_summary_contextual_nudge	2026-10-23	2026-11-23	2026-11-23
 experiments	ai_slackbot_sampling	2026-10-23		
 experiments	ai_slackbot_sampling_free	2026-10-23		
 experiments	ai_slackbot_sampling_nux	2026-10-23		
@@ -38929,7 +38937,7 @@ experiments	increase_huddles_max_participants	2026-10-23
 experiments	initiate_dms_and_mpdms_permission	2026-11-03		
 experiments	inproduct_team_creation	2026-10-23		
 experiments	inproduct_team_creation_blurred_overlay	2026-10-24		
-experiments	internal_ai_sampling_channel_unreads_summary_contextual_nudge	2026-10-23		
+experiments	internal_ai_sampling_channel_unreads_summary_contextual_nudge	2026-10-23	2026-11-23	2026-11-23
 experiments	internal_spaces	2026-10-23		
 experiments	invite_email_input_smart_tokens	2026-10-23		
 experiments	invite_sidebar_entry_messaging_changes	2026-10-24	2026-11-12	2026-11-13
@@ -39449,7 +39457,7 @@ experiments	slackbot_ai_email_attachments	2026-10-23
 experiments	slackbot_ai_email_draft_without_connector	2026-10-26		
 experiments	slackbot_ai_estop	2026-10-23		
 experiments	slackbot_ai_focus_deleted_thread_fallback	2026-10-23		
-experiments	slackbot_ai_free_pro_paywall_translations	2026-11-07	2026-11-11	2026-11-11
+experiments	slackbot_ai_free_pro_paywall_translations	2026-11-07		
 experiments	slackbot_ai_fus_migration	2026-10-23		
 experiments	slackbot_ai_gpt_live_desktop	2026-10-23		
 experiments	slackbot_ai_gpt_live_view_context	2026-11-20		
@@ -39515,7 +39523,7 @@ experiments	slackbot_deep_thoughts	2026-10-23
 experiments	slackbot_desktop_context	2026-10-24		
 experiments	slackbot_dictation_stop_and_send	2026-10-23	2026-11-07	2026-11-07
 experiments	slackbot_enhanced_explain	2026-10-23		
-experiments	slackbot_free_teams_segmented_offer	2026-10-28	2026-11-11	2026-11-11
+experiments	slackbot_free_teams_segmented_offer	2026-10-28		
 experiments	slackbot_growth_nux_reengagement_sparkle	2026-10-24	2026-11-13	2026-11-13
 experiments	slackbot_ia_prototype	2026-10-23	2026-11-20	2026-11-20
 experiments	slackbot_in_channels	2026-10-23		
@@ -40044,7 +40052,7 @@ experiments-upstream	ai_explain_floating_menu: on	2026-11-10
 experiments-upstream	ai_explain_highlight_text: on	2026-11-10		
 experiments-upstream	ai_image_alt_text: on	2026-11-10		
 experiments-upstream	ai_image_alt_text_copy_translations: on	2026-11-10		
-experiments-upstream	ai_sampling_channel_unreads_summary_contextual_nudge: treatment	2026-11-10		
+experiments-upstream	ai_sampling_channel_unreads_summary_contextual_nudge: treatment	2026-11-10	2026-11-23	2026-11-23
 experiments-upstream	ai_slackbot_sampling: treatment	2026-11-10		
 experiments-upstream	ai_slackbot_sampling_free: control, treatment_a	2026-11-10		
 experiments-upstream	ai_slackbot_sampling_nux: on	2026-11-10		
@@ -40587,7 +40595,7 @@ experiments-upstream	increase_huddles_max_participants: on	2026-11-10
 experiments-upstream	initiate_dms_and_mpdms_permission: on	2026-11-10		
 experiments-upstream	inproduct_team_creation: control, treatment_business_plus, treatment_pro	2026-11-10		
 experiments-upstream	inproduct_team_creation_blurred_overlay: on	2026-11-10		
-experiments-upstream	internal_ai_sampling_channel_unreads_summary_contextual_nudge: on	2026-11-10		
+experiments-upstream	internal_ai_sampling_channel_unreads_summary_contextual_nudge: on	2026-11-10	2026-11-23	2026-11-23
 experiments-upstream	internal_spaces: on	2026-11-10		
 experiments-upstream	invite_email_input_smart_tokens: control	2026-11-10		
 experiments-upstream	invite_sidebar_entry_messaging_changes: control	2026-11-10	2026-11-12	2026-11-13
@@ -43935,6 +43943,7 @@ megaphones	notification: enterprise_search_first_app_modal_banner	2026-11-10
 megaphones	notification: enterprise_search_nux_email_connector_banner	2026-11-10	2026-11-14	2026-11-14
 megaphones	notification: enterprise_search_nux_filters_banner	2026-11-10		
 megaphones	notification: enterprise_search_nux_hero_banner	2026-11-10		
+megaphones	notification: eoy_biz_plus_gift_trial_tasklist_sidebar_menu_header	2026-11-23		
 megaphones	notification: external_huddles_awareness_entry_glow	2026-11-10		
 megaphones	notification: external_huddles_awareness_sidebar_glow	2026-11-10		
 megaphones	notification: external_huddles_new_meeting_menu_new_tag	2026-11-10		
@@ -45500,8 +45509,10 @@ message-subtypes	last	2026-11-10
 message-subtypes	last_activity_date	2026-11-10	2026-11-11	2026-11-11
 message-subtypes	last_edited_by	2026-11-10		
 message-subtypes	last_edited_time	2026-11-10		
+message-subtypes	last_preview_answer	2026-11-23		
 message-subtypes	last_quarter_moon	2026-11-10		
 message-subtypes	last_quarter_moon_with_face	2026-11-10		
+message-subtypes	last_thread_answer	2026-11-23		
 message-subtypes	later	2026-11-10	2026-11-11	2026-11-11
 message-subtypes	latest_activity	2026-11-10		
 message-subtypes	latest_activity_unreads_first	2026-11-10		
@@ -45831,6 +45842,9 @@ message-subtypes	password	2026-11-20
 message-subtypes	past	2026-11-10		
 message-subtypes	paste	2026-11-10		
 message-subtypes	pause	2026-11-10		
+message-subtypes	paywall_preview_find_something	2026-11-23		
+message-subtypes	paywall_preview_meeting_prep	2026-11-23		
+message-subtypes	paywall_preview_needs_attention	2026-11-23		
 message-subtypes	pdf	2026-11-10		
 message-subtypes	pdfs	2026-11-10		
 message-subtypes	pea_pod	2026-11-10		
@@ -46088,6 +46102,7 @@ message-subtypes	score	2026-11-10	2026-11-20	2026-11-20
 message-subtypes	screen	2026-11-10		
 message-subtypes	screenshots	2026-11-10		
 message-subtypes	script	2026-11-10		
+message-subtypes	scripted	2026-11-23		
 message-subtypes	scroll	2026-11-10		
 message-subtypes	scrolling	2026-11-10		
 message-subtypes	sdk_initialized_time	2026-11-10		
@@ -46503,6 +46518,7 @@ message-subtypes	update_channel_topic	2026-11-10
 message-subtypes	update_list_record	2026-11-10		
 message-subtypes	update_message	2026-11-11		
 message-subtypes	update_spreadsheet_row	2026-11-10		
+message-subtypes	upgrade	2026-11-23		
 message-subtypes	url_private	2026-11-10		
 message-subtypes	url_text_input	2026-11-12		
 message-subtypes	usb	2026-11-10		

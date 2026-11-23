@@ -515,6 +515,7 @@ $ {amount} USD
 2. Paste the response below, or paste your exported memory file.
 2. Prompt (optional)
 2. Workspace
+2.13M+ Connections
 20
 2000 runs/month
 24
@@ -543,6 +544,7 @@ $ {amount} USD
 30 mins
 30 minutes
 30 seconds left. Dictation will auto-submit.
+308K+ Connections
 30d
 365 days
 3:00
@@ -4437,6 +4439,7 @@ Calendar
 Calendar Settings
 Calendar access request failed. Try again.
 Calendar account
+Calendar apps
 Calendar event
 Calendar event: {title}
 Calendar events
@@ -7199,6 +7202,7 @@ Couldn\u2019t connect to Salesforce
 Couldn\u2019t connect to {name}. Please try again.
 Couldn\u2019t connect to {name}. The server may be unavailable.
 Couldn\u2019t connect to {name}. Try disconnecting and reconnecting.
+Couldn\u2019t connect your calendar. Try connecting again.
 Couldn\u2019t continue setup. Please try again.
 Couldn\u2019t continue yet. Wait a moment, then try again.
 Couldn\u2019t copy huddle link. Try again.
@@ -15302,6 +15306,7 @@ Lightning Bolt
 Like a virtual office, a workspace is where work happens in Slack. All your channels, direct messages, and tools live in a workspace.
 Like your sidebar
 Like your smarts, your search is unmatched.
+Liked what you saw?
 Liked what you saw? Upgrade to Business+ and keep asking, drafting, and summarizing.
 Likely error, unhandled 
 Lilypad green
@@ -18045,6 +18050,7 @@ New message from {name} in {channelName}: {message}
 New message from {name} in {channelName}: {message} At {time}.
 New message from {name} in {channelName}: {message} {date} at {time}.
 New message in {channel}
+New message, locked
 New message\u2026
 New messages
 New messages from {name1} and {name2}
@@ -20028,6 +20034,7 @@ Or just ask me anything else!
 Or sign into a new workspace here
 Or start with the basics for free, and upgrade any time.
 Or, start from scratch \u2014 choose how the workflow starts and the steps that follow.
+Or, try one of our preview prompts:
 Orange10
 Orange20
 Orange40
@@ -20127,6 +20134,7 @@ Other models to compare
 Other options
 Other organizations in channel
 Other permissions
+Other prompts to try
 Other queries
 Other related matches
 Other tools
@@ -25872,6 +25880,7 @@ Skills library
 Skills teach Slackbot how you work, and it uses them when they\u2019re relevant. Create your own, or start from one made by Slack.
 Skills to add
 Skills will appear here as they become available
+Skills, locked
 Skimming and scanning messages\u2026
 Skimming and scanning\u2026
 Skin Tone
@@ -26302,6 +26311,7 @@ Slackbot\u2019s Costume Emporium
 Slackbot\u2019s a bit shy, and only talks with one person at a time.
 Slackbot\u2019s answer
 Slackbot\u2019s draft is ready to review.
+Slackbot\u2019s full AI abilities are available with Business+.
 Slackbot\u2019s new skill: Customer management
 Slackbot\u2019s suggested changes have expired. Ask Slackbot to suggest them again.
 Slackbot\u2019s voice
@@ -27876,6 +27886,7 @@ Tasks now live here too
 Tasks performed: {title}
 Tasks run a prompt on a schedule or trigger, so the work is done before you ask.
 Tasks start within 15 minutes of your scheduled time.
+Tasks, locked
 Taught by {name} on {date}
 Taught on {date}
 Tax ID
@@ -29823,6 +29834,7 @@ Today tabs
 Today view settings
 Today {time}
 Today, I\u2019m working on\u2026
+Today, locked
 Today, more than ever, it\u2019s important to focus on our wellbeing and build our resilience to overcome and thrive during these challenging times. We offer a comprehensive package of wellness benefits for our employees.
 Today, you might want to focus on Q4 forecast variance, DataNet P1 escalation, and enterprise conversion performance.
 Today, {count} meeting{count, plural, one {} other {s}}
@@ -31275,7 +31287,9 @@ Upgrade now
 Upgrade now to keep working with {externalOrgName}
 Upgrade now to keep your team running smoothly.
 Upgrade to Business+
+Upgrade to Business+ and keep asking, drafting, and summarizing.
 Upgrade to Business+ for only {price} per person/month
+Upgrade to Business+ to access all of Slackbot.
 Upgrade to Pro
 Upgrade to Pro to use templates
 Upgrade to Reconnect
@@ -33687,6 +33701,7 @@ You can\u2019t leave comments on a previous version of the canvas
 You can\u2019t leave these channels.
 You can\u2019t leave {channel}
 You can\u2019t manage skills from external orgs
+You can\u2019t message Slackbot in this preview
 You can\u2019t pin messages here
 You can\u2019t post in this channel, so remove your message and try again.
 You can\u2019t remove anyone from *{channel}* while it is archived.
@@ -34217,6 +34232,7 @@ You\u2019re ready to invite your team
 You\u2019re seeing this because you asked a question or used at least four words in your search.
 You\u2019re set to active
 You\u2019re set to away
+You\u2019re testing out Slackbot
 You\u2019re the only one here
 You\u2019re the only one here. Enjoy the tranquility, or invite someone.
 You\u2019re the only one in this huddle. Enjoy the tranquility.
@@ -34714,6 +34730,7 @@ Your review is requested
 Your sales notifications
 Your sales pipeline, all in one view
 Your sales pipeline, in one view
+Your saved cards couldn\u2019t be loaded.
 Your search experience
 Your search query will be included with your survey responses to help Slack improve search.
 Your sections

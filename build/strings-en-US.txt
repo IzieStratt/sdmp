@@ -30494,6 +30494,7 @@ singer.9ecde87: Load More
 singer.9ee66f5: Huddle notes on
 singer.9ef6078: Open message in Singer
 singer.9f4192f: No speech detected. Try speaking again.
+singer.9f5cd8a: Retry
 singer.9f8eb5f: More for you
 singer.9f9b55b: Einstein
 singer.9fbb94b: Slackbot
@@ -30513,6 +30514,7 @@ singer.a1f1752: Open task
 singer.a1fffaa: List
 singer.a22a235: Stopping the recording…
 singer.a24c12b: All done here.
+singer.a2c41f9: {count, plural, one {# change since {time}} other {# changes since {time}}}
 singer.a2d32f8: Remove attached window
 singer.a3b4254: Needs approval
 singer.a3e0872: +{count}
@@ -32215,26 +32217,33 @@ slackbot-ai-paywall.01771e1: Find any messages where someone asked me a question
 slackbot-ai-paywall.02664e4: I’m your personal AI agent for work right here in Slack.
 slackbot-ai-paywall.0647bd9: Create and manage content
 slackbot-ai-paywall.077bc5d: You’ve reached Slackbot’s overuse guardrail for this week. Come back later today.
+slackbot-ai-paywall.09a80c7: Upgrade now
 slackbot-ai-paywall.0ab5415: Your Slackbot preview ended.
 slackbot-ai-paywall.0d12f32: Slackbot’s AI is turned off for you. You can change this in <settingsLink>Slack AI settings</settingsLink>.
 slackbot-ai-paywall.1102293: Slackbot’s AI isn’t included in your plan. <learnMoreLink>Learn more</learnMoreLink>
 slackbot-ai-paywall.128a9dc: Manage your time and data
 slackbot-ai-paywall.163c3b2: You’ve reached your Slackbot limit for this week. Come back on {day}.
+slackbot-ai-paywall.1a750b8: 308K+ Connections
+slackbot-ai-paywall.1c417d2: Couldn’t connect your calendar. Try connecting again.
 slackbot-ai-paywall.1cb29b8: I’ve got guardrails against overuse, so I can catch my breath! Come back on {day}, and I’ll be ready to go.
 slackbot-ai-paywall.1d44796: Slackbot’s AI abilities are not available on {planName}.
 slackbot-ai-paywall.1e82a06: You’ve reached your Slackbot limit.
 slackbot-ai-paywall.22c637a: Start Free Trial
 slackbot-ai-paywall.2485ee9: Hi there, you’ve used up your Slackbot previews
+slackbot-ai-paywall.25a0e16: Upgrade to Business+ and keep asking, drafting, and summarizing.
 slackbot-ai-paywall.2736f86: Slackbot’s AI isn’t available to guests. To use it, ask your admin to make you a full member.
 slackbot-ai-paywall.27688e7: Want higher usage limits? Upgrade your plan.
 slackbot-ai-paywall.29778a4: Upgrade to use Slackbot’s AI abilities
+slackbot-ai-paywall.2b166e1: Meet Slackbot
 slackbot-ai-paywall.2fc8f83: Slackbot will be available on {date}.
 slackbot-ai-paywall.30a263b: You’ve reached Slackbot’s overuse guardrail for this week.
 slackbot-ai-paywall.3254c8b: Prep me for my next meeting
+slackbot-ai-paywall.3630488: Back to Slackbot
 slackbot-ai-paywall.378cbbf: Learn More
 slackbot-ai-paywall.3e15a02: Upgrade to Business+
 slackbot-ai-paywall.438a4d8: You’ve reached this week’s Slackbot overuse guardrail.
 slackbot-ai-paywall.443c3ca: Slackbot is off for your organization.
+slackbot-ai-paywall.44fc1e1: Skills, locked
 slackbot-ai-paywall.46e948b: I’m catching my breath! Come back tomorrow and I’ll be ready to go.
 slackbot-ai-paywall.47b4b58: You’ve reached your Slackbot limit for this week. Come back on {day} or <link>upgrade your plan</link>.
 slackbot-ai-paywall.48a586f: You’ve reached this week’s Slackbot overuse guardrail. Come back tomorrow.
@@ -32244,13 +32253,17 @@ slackbot-ai-paywall.4b30b55: I’ve got guardrails against overuse, so I can cat
 slackbot-ai-paywall.4db773d: I’m catching my breath! Come back later and I’ll be ready to go.
 slackbot-ai-paywall.53bf5e4: You’ve reached this week’s Slackbot overuse guardrail. Come back on {day}.
 slackbot-ai-paywall.5512d82: I’m catching my breath! Come back later today and I’ll be ready to go.
+slackbot-ai-paywall.570374e: Google Calendar
 slackbot-ai-paywall.58b94e3: You’ve reached your Slackbot limit for this week. Come back tomorrow.
 slackbot-ai-paywall.58e1988: Explore your chats
 slackbot-ai-paywall.5c58c3a: You’ve reached your Slackbot limit for this week. Come back on {day} or <link>request a higher limit</link>.
 slackbot-ai-paywall.5d31774: Hide Slackbot in the navigation bar
 slackbot-ai-paywall.5f3744c: What were my biggest wins so far this year?
 slackbot-ai-paywall.62ce30d: Your admins have turned off Slackbot’s AI for your organization. <helpLink>Learn how to find your admin</helpLink>
+slackbot-ai-paywall.67226b6: New message, locked
+slackbot-ai-paywall.689c4f1: <upgradeLink>Upgrade to Business+</upgradeLink> to access all of Slackbot.
 slackbot-ai-paywall.6eb1f1b: Try Business+ at No Extra Cost
+slackbot-ai-paywall.718145a: Today, locked
 slackbot-ai-paywall.7612512: Slackbot’s AI isn’t available to frontline members.
 slackbot-ai-paywall.7a0a9bd: Contact Sales
 slackbot-ai-paywall.7b10966: What needs my attention today?
@@ -32268,6 +32281,7 @@ slackbot-ai-paywall.952a155: You’ve hit your usage limit.
 slackbot-ai-paywall.97336d4: You’ve reached your Slackbot limit for this week.
 slackbot-ai-paywall.97819db: Want More?
 slackbot-ai-paywall.9f49163: You’ve reached your Slackbot limit for this week. Upgrade for higher limits.
+slackbot-ai-paywall.a0a4443: 2.13M+ Connections
 slackbot-ai-paywall.a304a07: Slackbot has some cool new skills.
 slackbot-ai-paywall.a4dbba8: Slackbot has some cool new AI-powered capabilities, but they’re only available on some paid plans.
 slackbot-ai-paywall.a6f47e0: Upgrade
@@ -32278,19 +32292,25 @@ slackbot-ai-paywall.ae9f643: Explore your history
 slackbot-ai-paywall.af6ddc6: Slackbot is showing
 slackbot-ai-paywall.b097708: Request a Higher Limit
 slackbot-ai-paywall.b1aba55: You’ve hit your usage limit. Come back on {day} or <link>request a higher limit</link>.
+slackbot-ai-paywall.b3a5817: Calendar apps
 slackbot-ai-paywall.b637083: Your admins have not yet turned on Slackbot’s new AI-powered capabilities for you. Want Slackbot? You can always ask! <helpLink>Learn how to find your admin</helpLink>.
+slackbot-ai-paywall.b65463c: Connect
+slackbot-ai-paywall.b68899f: Loading calendar
 slackbot-ai-paywall.b7540d2: Brainstorm talking points for my next meeting.
 slackbot-ai-paywall.b7ff999: Your admins haven’t turned on Slackbot’s AI for you. <helpLink>Learn how to find your admin</helpLink>
 slackbot-ai-paywall.b8054cd: Hey, I’m Slackbot!
 slackbot-ai-paywall.bc18146: Your team has been upgraded.
 slackbot-ai-paywall.bec19ac: You’ve hit your usage limit
 slackbot-ai-paywall.c147f48: I have some cool new AI-powered capabilities, but they’re only available on some paid plans.
+slackbot-ai-paywall.c2f9b7b: Connected
 slackbot-ai-paywall.c3432c5: I’ve got guardrails against overuse, so I can catch my breath! Come back tomorrow, and I’ll be ready to go.
 slackbot-ai-paywall.c50d52e: Here are some things I can do:
 slackbot-ai-paywall.c901664: You’ve reached your Slackbot limit for this week. Come back later today.
+slackbot-ai-paywall.cca6df0: Or, try one of our preview prompts:
 slackbot-ai-paywall.ccc5382: You can still read your past chats in the sidebar.
 slackbot-ai-paywall.ced116a: You’ve hit your usage limit. Come back tomorrow or <link>request a higher limit</link>.
 slackbot-ai-paywall.d2ec409: You’ve reached your Slackbot limit for this week. Come back later today or <link>upgrade your plan</link>.
+slackbot-ai-paywall.d61b451: Tasks, locked
 slackbot-ai-paywall.d7b2229: I’ve got guardrails against overuse, so I can catch my breath! Come back later today, and I’ll be ready to go.
 slackbot-ai-paywall.dbfd11f: Higher limit requested
 slackbot-ai-paywall.deaf668: You’ve reached this week’s Slackbot overuse guardrail. Come back later today.
@@ -32300,10 +32320,15 @@ slackbot-ai-paywall.e1f1267: No thanks, take me to basic Slackbot
 slackbot-ai-paywall.e9257a1: You’ve reached your Slackbot limit for this week. Come back later today or <link>request a higher limit</link>.
 slackbot-ai-paywall.ea96354: Compare Plans
 slackbot-ai-paywall.ecd740b: Success! Your request will be shared with your team owner.
+slackbot-ai-paywall.ed33682: Other prompts to try
+slackbot-ai-paywall.ee51011: Liked what you saw?
 slackbot-ai-paywall.ef6490b: Hi {firstName}, here’s your Slackbot preview
 slackbot-ai-paywall.efe41ad: Liked what you saw? Upgrade to Business+ and keep asking, drafting, and summarizing.
+slackbot-ai-paywall.f2a405d: Slackbot’s full AI abilities are available with Business+.
 slackbot-ai-paywall.f64cb9f: I Want This
+slackbot-ai-paywall.f849265: You’re testing out Slackbot
 slackbot-ai-paywall.f90d117: Request Sent
+slackbot-ai-paywall.fc23278: Outlook Calendar
 slackbot-ai-paywall.fd33564: Help me find something, like a message or file
 slackbot-ai-paywall.ffd5a0b: Show Slackbot in the navigation bar
 slackbot-ai-sampling-nux-zero-state.325b56e: What happened in Slack this week?
@@ -32850,6 +32875,7 @@ slackbot-home.03bedbf: Draft emails in your own voice
 slackbot-home.043d199: Get the most out of Slack
 slackbot-home.060597f: Describe how you want your sidebar to look
 slackbot-home.0997b9a: Give me the vibe of this channel: key topics, tone, and anything unresolved
+slackbot-home.09bf3cb: Draft a meeting invite
 slackbot-home.0bf888d: Anything unanswered?
 slackbot-home.0c21989: In {channelName}
 slackbot-home.1004020: Stop using this canvas as context
@@ -32895,6 +32921,7 @@ slackbot-home.52357fa: Stop using {label} as context
 slackbot-home.56e394a: How does {teamName} use Slack?
 slackbot-home.59c0ae0: Turn visual context back on
 slackbot-home.5b8027f: Got it
+slackbot-home.5ecde2f: Prep for tomorrow
 slackbot-home.6042b5d: Draft a follow-up
 slackbot-home.6149aad: Is there anything in these app messages that needs my attention?
 slackbot-home.62cc68d: Draft a reply to this conversation for me
@@ -32905,18 +32932,21 @@ slackbot-home.668c106: Automate recurring tasks
 slackbot-home.6792019: Looking at {label}
 slackbot-home.6807422: Ready to customize your sidebar
 slackbot-home.6967e86: Set up Slack for my team
+slackbot-home.69ddd34: A skill built by your team
 slackbot-home.6be9515: Prompts, skills and integrations to help you get your work done
 slackbot-home.70afe9e: Dismiss
 slackbot-home.717ff3b: Catch me up on this conversation
 slackbot-home.722fe78: Invite your team
 slackbot-home.72af420: Ask about your {label} messages — or anything
 slackbot-home.74a0508: How does your team use Slack?
+slackbot-home.769b45c: Follow up on a meeting
 slackbot-home.78b93c5: Starting conversation with Slackbot
 slackbot-home.7b58603: Show 10 recent conversations in my sidebar
 slackbot-home.7d38d45: Dismiss connector suggestions
 slackbot-home.7ec4c12: What do teams like mine do first?
 slackbot-home.7f45722: Summarize this canvas
 slackbot-home.804eb5a: Good morning, {firstName}!
+slackbot-home.80b8025: Help me prep for my meetings tomorrow
 slackbot-home.80fd7cc: Draft a follow-up message about this record
 slackbot-home.84bcfb3: Stop using this as context
 slackbot-home.8544be2: Learn how {teamName} uses Slack
@@ -32934,9 +32964,11 @@ slackbot-home.8dc7b2b: Daily briefing
 slackbot-home.8f95d64: How to use Slack
 slackbot-home.8f973c7: Put DMs first
 slackbot-home.8faa347: What items in this list are urgent or overdue?
+slackbot-home.90a7c45: Help me draft a meeting invite
 slackbot-home.90e40d5: Get started
 slackbot-home.957fe4e: Reading your {label} messages
 slackbot-home.96402f0: Stop using this file as context
+slackbot-home.985612b: Show full calendar
 slackbot-home.9884ae2: Stop using your conversation with {label} as context
 slackbot-home.9af8429: Summarize this list
 slackbot-home.9b050ef: Summarize this record
@@ -32955,6 +32987,8 @@ slackbot-home.ae00f15: What’s the vibe?
 slackbot-home.b0bf6d1: Recommended for you
 slackbot-home.b351a59: See what Slackbot can do for you
 slackbot-home.b45fa00: Show more recents
+slackbot-home.b68899f: Loading calendar
+slackbot-home.b90b3ae: Help me write a follow-up for my last meeting
 slackbot-home.ba5b467: Hey, {firstName} — Slackbot skills are here.
 slackbot-home.babd626: What should I do next?
 slackbot-home.bf49bb2: + {count} More
@@ -32976,6 +33010,7 @@ slackbot-home.d42da2e: Following your group conversation
 slackbot-home.d7d6d9c: Draft a reply
 slackbot-home.db3d405: on
 slackbot-home.dce6cd8: You can view your chat history with Slackbot anytime.
+slackbot-home.de79a9e: A popular skill — used {count} times
 slackbot-home.de9a84c: Suggest ways to improve this canvas
 slackbot-home.e0d7314: Join
 slackbot-home.e244a82: Ask about your conversation with {label} — or anything
@@ -33169,6 +33204,7 @@ slackbot_nux_carousel.e15779c: Slackbot onboarding
 slackbot_nux_carousel.e9b450d: Done
 slackbot_nux_carousel.eb758b2: Couldn’t load this right now.
 slackbot_nux_carousel.efdfbe9: Accepted setups will show up here.
+slackbot_nux_carousel.f995b13: Added to your todo list
 slackbotpagesidebarlink.2b166e1: Meet Slackbot
 slackforce.0021d9f: Reload activity
 slackforce.007584e: Open email thread
@@ -35313,6 +35349,7 @@ threads.3aa01e2: {numberOfScheduledDraftsInDestination} scheduled
 threads.3c29e4f: There’s a policy that doesn’t allow you to message {memberName}.
 threads.417add4: Last reply today at {time}
 threads.41d8a72: At the request of your administrator, file uploads have been disabled on this workspace.
+threads.433e72b: Loading replies…
 threads.44eaa66: {replyCountText}, 
 threads.45d5eeb: {count, plural, =1 {# reply} other {# replies}}
 threads.4a8700c: Last reply from {time}
@@ -35530,6 +35567,7 @@ today.588c583: Summarize this meeting
 today.5b8027f: Got it
 today.5bd10f2: Slackbot can help you prep for meetings, too.
 today.5bd3ff1: Connect Outlook
+today.5ecde2f: Prep for tomorrow
 today.5eeffe7: Mark as unread
 today.615e870: Follow up with Slackbot on suggested focus areas
 today.61dedcf: Good
