@@ -279,7 +279,7 @@ $ {amount} USD
 ) contains HTML space characters, which are not valid in tokens.
 ) is not a string.
 ) that performed expensive computation.
-)&&(eq(!1),sS(void 0),ez(s$?
+)&&(eY(!1),s_(void 0),eO(sF?
 ))),H((0,eg.R3)(eA)),H((0,eg.p4)(eA?q:void 0)),ey(eA?
 ))),e((0,m.R3)(g)),e((0,m.p4)(g?a:void 0)),_(g?
 ). If you meant to render a collection of children, use an array instead.
@@ -1196,6 +1196,7 @@ Access Type
 Access added for {numAddedUsers} {numAddedUsers, plural, one {Person} other {People}}
 Access denied
 Access granted.
+Access is limited
 Access logs
 Access logs provide an easy way to check for any unusual or suspicious sign-in activity. This includes the time and date of each new sign-in, as well as a list of devices and IP address that have accessed each account.
 Access paid features in this channel
@@ -2149,6 +2150,7 @@ Admin analytics dashboards
 Admin approval may be required before invitations are sent.
 Admin apps requested
 Admin controls
+Admin has restricted the app
 Admin navigation menu
 Admin security advisor
 Admin setting
@@ -2659,7 +2661,6 @@ Allows the app to read the profile of signed-in users. It also allows the app to
 Almost done
 Almost there! You\u2019re going back and forth on the final details.
 Alongside workflows, you can give Slackbot tasks to run for this channel on a schedule, like daily briefs, weekly recaps or meeting prep, so it stays on top of things without anyone lifting a finger.
-Alpha
 AlphaData - Security Enhancement
 Alphabetical loaded
 Alphabetically
@@ -2783,6 +2784,8 @@ An admin deactivated this skill, so Slackbot won\u2019t use it. You can still ed
 An admin disconnected {acceptingTeamName} and {invitingTeamName} so this invitation can\u2019t be accepted anymore.
 An admin has disabled external file access for AI workflow steps. Remove external files to continue.
 An admin has disabled file access for AI workflow steps. Remove files to continue.
+An admin has restricted this app. Ask your admin if you need it.
+An admin has restricted this app. It\u2019s still installed and keeps working for now. Ask your admin if you have questions.
 An admin has restricted this channel for use in canvas AI.
 An admin has restricted this channel\u2019s content for use in AI answers.
 An admin may need to approve this.
@@ -5565,6 +5568,7 @@ Choose a verification method
 Choose a video background
 Choose a workspace
 Choose a workspace below to get back to working with your team.
+Choose a workspace in Slack to run {command}
 Choose access
 Choose account type
 Choose all options that apply
@@ -6078,6 +6082,7 @@ Code task started. Your other tasks can keep working.
 Code tasks
 Code with {agent}
 Coding agent
+Coding agent\u2026
 CoffeeScript
 Cold Brew Coffee Concentrate
 Cold boot check result
@@ -7361,6 +7366,8 @@ Couldn\u2019t reopen task. Try again.
 Couldn\u2019t request to join the {teamName} workspace
 Couldn\u2019t reset sections.
 Couldn\u2019t restore this response. Only the person who removed it, a channel manager, or an admin of this channel\u2019s workspace can restore it.
+Couldn\u2019t run that command. Your draft is saved here.
+Couldn\u2019t run {command}. Your draft is saved here.
 Couldn\u2019t save \xb7 open the canvas to edit
 Couldn\u2019t save changes
 Couldn\u2019t save changes. Please try again.
@@ -7935,7 +7942,6 @@ Daily at end of day
 Daily at {time} {timezone}
 Daily between {startTime} and {endTime} {timezone}
 Daily briefing
-Daily close: {price} on {day}
 Daily digest
 Daily in the afternoon
 Daily prices \xb7 Adjusted for splits \xb7 No live updates
@@ -13170,6 +13176,7 @@ Historical meeting transcript. Recording has stopped.
 Historical messages help people find the information they need to get work done. Please check with your team before choosing to delete messages in this channel after {retentionDuration, plural, =1 {# day} other {# days}}.
 History
 History Navigation
+History through {day} \xb7 Closing price: {price}
 Hit Enter to add tag
 Hls instance
 Hmm \u2014 something went wrong
@@ -19685,6 +19692,7 @@ Open a message thread in the flexpane
 Open a record channel
 Open a record to view details and conversations, right in Slack
 Open a sidebar thread row
+Open a sidebar thread row from the unread navigation shortcut
 Open a thread
 Open a window to pick a OneDrive file, either in a channel or composer
 Open a workspace
@@ -20636,6 +20644,7 @@ Pin the message in {where}
 Pin this view
 Pin to Projects
 Pin to channel
+Pin to desktop
 Pin to this conversation
 Pin to your sidebar
 Pin what\u2019s most important to the top
@@ -21521,6 +21530,7 @@ Radio group
 Raise hand
 Raised hand
 Ran this morning
+Ran {command}
 Randall L. Gay
 Random
 Randy Bhatia
@@ -25725,6 +25735,7 @@ Sign in to view tool information
 Sign in to {teamDisplayName} on mobile
 Sign in with Passkey
 Sign in with SSO to create your account.
+Sign in with Slack is off
 Sign in with a Google Workspace admin account for {domain}.
 Sign in with another workspace
 Sign in with email instead
@@ -26139,7 +26150,6 @@ Slackbot Mini keyboard shortcuts
 Slackbot NUX zero state error shown
 Slackbot Personal AI companion
 Slackbot Response
-Slackbot Thread
 Slackbot \u2014 your personal AI teammate
 Slackbot \u{1F44D}
 Slackbot access
@@ -28829,16 +28839,20 @@ This app cannot be invited to this channel.
 This app doesn\u2019t allow any groups
 This app doesn\u2019t allow any people
 This app has MCP servers. To change who can use it, go to the app\u2019s settings.
+This app has access restrictions. If you need it, ask your admin.
 This app has no description.
 This app has the following certifications & compliances:
 This app hasn\u2019t shared a privacy policy link. Contact the developer directly for more information.
 This app includes the following workflows:
+This app is installed, but it has access restrictions. If you need it, ask your admin.
 This app is no longer available.
 This app is not approved by Slack. Apps are reviewed to ensure a quality experience.
+This app is restricted. If you need it, ask your admin.
 This app is unavailable
 This app isn\u2019t available anymore.
 This app isn\u2019t available in this channel. Contact your workspace admin to update channel access.
 This app requires permission to access the following resources:
+This app uses Sign in with Slack, which isn\u2019t turned on. If you need it, ask your admin.
 This app works best with access to information from your DMs and private channels.
 This article didn\u2019t answer my questions or solve my problem
 This attachment was deleted.
@@ -29665,7 +29679,6 @@ Timing data ready but signaling client is not available, discarding
 Timor-Leste
 Tip
 Tip: 
-Tip: Strengthen security for your workspace
 Tip: double click to upload
 Tips are to help people using your template
 Tips for how you work
@@ -30309,7 +30322,7 @@ Try it
 Try it now
 Try it out
 Try it out before your trial ends
-Try it out: Slack 6 Preview, Alpha
+Try it out: Slack 6 Preview, Beta
 Try it with Slackbot Mini
 Try it with your voice
 Try later
@@ -31423,7 +31436,6 @@ Use Emergency Backup Code
 Use Emoji
 Use Microphone
 Use My Mic Only
-Use SAML SSO to automate onboarding and make your workspace more secure.
 Use Slack AI
 Use Slack AI recaps to focus in \u2014 without missing out
 Use Slack Connect for channels and loop everyone in to the conversation, no matter where they work. Give it a try while your team is on a trial.
@@ -31853,6 +31865,7 @@ View AI Terms and Conditions
 View Activity
 View Activity in Singer
 View Agent in Slack
+View All
 View All Direct Messages
 View All Invitations
 View All Threads

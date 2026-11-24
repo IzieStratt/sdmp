@@ -1,6 +1,5 @@
 notification: add_to_mpdm_onboarding_coachmark
 notification: add_workspaces_to_ssb_modal
-notification: advanced_security_activity_banner
 notification: advanced_security_launch_modal
 notification: agent_browser_tab_rail_coachmark
 notification: agentic_ia_opt_out_banner
@@ -133,6 +132,7 @@ notification: enterprise_search_first_app_manage_apps_coachmark
 notification: enterprise_search_first_app_modal_banner
 notification: enterprise_search_nux_filters_banner
 notification: enterprise_search_nux_hero_banner
+notification: eoy_biz_plus_gift_trial_countdown_sidebar_menu_header
 notification: eoy_biz_plus_gift_trial_tasklist_sidebar_menu_header
 notification: external_huddles_awareness_entry_glow
 notification: external_huddles_awareness_sidebar_glow
@@ -472,7 +472,6 @@ notification: work_object_click_preference_coachmark
 notification: work_object_new_file_version_coachmark
 notification: work_object_view_details_tab
 notification: workspace_menu_upgrade_item
-space: activity_inbox_header
 space: activity_tab_sidebar
 space: add_salesforce_list_modal_header
 space: admin_billing_header

@@ -20,7 +20,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   ",nz.A)(hI,\"addBotIconByItself__ufLb6\"),children:(0,eE.jsx)(ia.Ah,{name:\"add-bot\",size:\"20\"})}):(0,eE.jsx)(\"div\",{className:hI,children:(0,eE.jsx)(mS.A,{ariaHidden:!0,size:20,image:p??void 0})})})}),j="
+   ",nz.A)(hI,\"addBotIconByItself__ufLb6\"),children:(0,eP.jsx)(ia.Ah,{name:\"add-bot\",size:\"20\"})}):(0,eP.jsx)(\"div\",{className:hI,children:(0,eP.jsx)(mS.A,{ariaHidden:!0,size:20,image:p??void 0})})})}),j="
   ]
  },
  "add-branch": {
@@ -45,7 +45,7 @@
   ],
   "snippets": [
    "nvas-content\",size:\"16\"};case r.Xy.CreateCanvas:return{name:\"add-channel-canvas\",size:\"16\"};case r.Xy.ExternalFiles:return{name:t?\"file-filled\":\"file\",size:\"16\"};case r.Xy.Files:if(c)return{name:t?\"fi",
-   "e_menu__item__icon--canvas\",children:(0,eE.jsx)(ia.Ah,{name:\"add-channel-canvas\",size:\"20\"})}),(0,eE.jsxs)(\"div\",{className:\"p-ia4_create_menu__item__label\",children:[(0,eE.jsxs)(\"div\",{id:\"create-can"
+   "e_menu__item__icon--canvas\",children:(0,eP.jsx)(ia.Ah,{name:\"add-channel-canvas\",size:\"20\"})}),(0,eP.jsxs)(\"div\",{className:\"p-ia4_create_menu__item__label\",children:[(0,eP.jsxs)(\"div\",{id:\"create-can"
   ]
  },
  "add-channel-canvas-filled": {
@@ -154,8 +154,8 @@
    "Slackbot (personal AI companion)"
   ],
   "snippets": [
-   "with smart AI summaries of files shared in Slack.\"),icon:{name:\"ai-file-summary\"},cta:{title:f.t(\"Summarize files\"),subtitle:f.t(\"Get the key points of bulky files quickly\")},helpArticle:{id:0x16ceab4",
-   "i-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}]}:e===H."
+   "i-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}]}:e===H.",
+   "with smart AI summaries of files shared in Slack.\"),icon:{name:\"ai-file-summary\"},cta:{title:f.t(\"Summarize files\"),subtitle:f.t(\"Get the key points of bulky files quickly\")},helpArticle:{id:0x16ceab4"
   ]
  },
  "ai-huddle-summary": {
@@ -184,8 +184,8 @@
    "Slackbot (personal AI companion)"
   ],
   "snippets": [
-   "databases, and business systems with enterprise search.\"),icon:{name:\"ai-search\"},helpArticle:{id:0x2382bc046313},cta:{title:e9.t(\"Search across all your apps\"),subtitle:e9.t(\"Find all the information",
-   "\"),icon:\"ai-summary\"}],missingFeatures:[{name:ed.t(\"AI search\"),icon:\"ai-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"k"
+   "\"),icon:\"ai-summary\"}],missingFeatures:[{name:ed.t(\"AI search\"),icon:\"ai-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"k",
+   "ersation summaries\"),icon:\"ai-summary\"},{name:ed.t(\"AI search\"),icon:\"ai-search\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}],missing"
   ]
  },
  "ai-skills": {
@@ -198,8 +198,8 @@
    "slackbot_manage_skills"
   ],
   "snippets": [
-   "onWrapper__h7aMO\",\"aria-hidden\":\"true\",children:(0,a.jsx)(d.Ah,{name:\"ai-skills\",size:\"16\"})}),(0,a.jsxs)(\"div\",{className:\"content__UX2b9\",children:[(0,a.jsx)(\"div\",{className:\"heading__aj7gh\",childr",
-   "x)(\"span\",{className:\"margin_right_25\",children:(0,a.jsx)(p.Ah,{name:\"ai-skills\",size:\"16\"})}),t]})]})]})})}SkillsPopupBanner.displayName=\"SkillsPopupBanner\";var C=l(\"J7Sy\"),S=l(\"mM05\"),h=l.n(S),g=l(\""
+   "x)(\"span\",{className:\"margin_right_25\",children:(0,a.jsx)(p.Ah,{name:\"ai-skills\",size:\"16\"})}),t]})]})]})})}SkillsPopupBanner.displayName=\"SkillsPopupBanner\";var C=l(\"J7Sy\"),S=l(\"mM05\"),h=l.n(S),g=l(\"",
+   "onWrapper__h7aMO\",\"aria-hidden\":\"true\",children:(0,a.jsx)(d.Ah,{name:\"ai-skills\",size:\"16\"})}),(0,a.jsxs)(\"div\",{className:\"content__UX2b9\",children:[(0,a.jsx)(\"div\",{className:\"heading__aj7gh\",childr"
   ]
  },
  "ai-skills-filled": {
@@ -236,8 +236,8 @@
   "count": 2,
   "labels": [],
   "snippets": [
-   "assName:\"starOne__FafxU\",children:(0,eE.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\",size:\"inherit\"})}),(0,eE.jsx)(\"div\",{className:\"starTwo__zlrb_\",children:(0,eE.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\"",
-   "assName:\"starTwo__zlrb_\",children:(0,eE.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\",size:\"inherit\"})})]})})};SilentSidebarTriggerButton.displayName=\"SilentSidebarTriggerButton\";var d9=n(\"Lipf\"),ce=n(\"2I2"
+   "assName:\"starOne__FafxU\",children:(0,eP.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\",size:\"inherit\"})}),(0,eP.jsx)(\"div\",{className:\"starTwo__zlrb_\",children:(0,eP.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\"",
+   "assName:\"starTwo__zlrb_\",children:(0,eP.jsx)(ia.Ah,{name:\"ai-sparkle-alt-filled\",size:\"inherit\"})})]})})};SilentSidebarTriggerButton.displayName=\"SilentSidebarTriggerButton\";var d9=n(\"Lipf\"),ce=n(\"2I2"
   ]
  },
  "ai-sparkle-filled": {
@@ -264,8 +264,8 @@
    "Slackbot (personal AI companion)"
   ],
   "snippets": [
-   "t up to speed in any channel or thread with one click\")},icon:{name:\"ai-summary\"},helpArticle:{id:0x16ceab45bf13,hash:\"h_01HEKHNMD5YFNCVB9B2S0BSC1T\"},assets:{backgroundColor:\"Palettes/Aubergine/50\",\"d",
-   " in the loop on busy channels with daily AI summaries\")},icon:{name:\"ai-summary\"},helpArticle:{id:0x16ceab45bf13,hash:\"01JM0PAPCT4K0TWNWGJRQDXTBA\"},assets:{backgroundColor:\"Palettes/Cilantro/30\",\"de-D"
+   "ns\"),icon:\"buildings\"},{name:ed.t(\"AI conversation summaries\"),icon:\"ai-summary\"}],missingFeatures:[{name:ed.t(\"AI search\"),icon:\"ai-search\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"ai-fi",
+   "icon:\"slackbot-color\"},{name:ed.t(\"AI conversation summaries\"),icon:\"ai-summary\"},{name:ed.t(\"AI search\"),icon:\"ai-search\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user ma"
   ]
  },
  "ai-summary-filled": {
@@ -393,8 +393,8 @@
    "1:1 external messages"
   ],
   "snippets": [
-   "s\"),subtitle:l.t(\"Make every integration seamless with apps\")},icon:{name:\"apps\"},helpArticle:{id:0x53d1c385bb},assets:{backgroundColor:\"Palettes/Tomato/40\",\"de-DE\":{png:s,lottie:()=>n.e(\"lottie-use-i",
-   "y\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"External group conversations\"),icon:\"buildings\"},{name:ed."
+   "y\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"External group conversations\"),icon:\"buildings\"},{name:ed.",
+   "y\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"1:1 external messages\"),icon:\"buildings\"},{name:ed.t(\"Slac"
   ]
  },
  "archive": {
@@ -508,12 +508,12 @@
    "Go to previous step"
   ],
   "snippets": [
-   "odal_back_button\",\"aria-label\":\"back\",children:(0,a.jsx)(u.Ah,{name:\"arrow-left\"})})}),(0,a.jsx)(\"h1\",{className:\"title__u8urZ\",children:m||H}),g&&(0,a.jsx)(\"h2\",{className:\"subtitle__EXljm\",children:",
+   "odal_back_button\",\"aria-label\":\"back\",children:(0,r.jsx)(u.Ah,{name:\"arrow-left\"})})}),(0,r.jsx)(\"h1\",{className:\"title__u8urZ\",children:m||K}),g&&(0,r.jsx)(\"h2\",{className:\"subtitle__EXljm\",children:",
    "back_button\",\"aria-label\":\"back\",className:\"backButton__DEnll\",icon:\"arrow-left\",autoClogProps:ee}),(0,a.jsx)(\"h1\",{className:(0,i.A)(\"title__JZBnU\",{titleWithSubTitle__FalqN:r}),children:t||er}),r&&("
   ]
  },
  "arrow-right": {
-  "count": 117,
+  "count": 116,
   "labels": [
    "Go to feature",
    "Forward in history",
@@ -576,7 +576,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "\",{className:\"content__ILLlY\",children:[(0,no.jsx)(nc.Ah,{name:\"arrow-up-circle\",size:\"20\"}),(0,no.jsx)(\"div\",{className:\"title__qQUoF\",children:lO.t(\"You added {numOfVip, plural, =1 {# person} other "
+   "\",{className:\"content__ILLlY\",children:[(0,nl.jsx)(nu.Ah,{name:\"arrow-up-circle\",size:\"20\"}),(0,nl.jsx)(\"div\",{className:\"title__qQUoF\",children:lO.t(\"You added {numOfVip, plural, =1 {# person} other "
   ]
  },
  "arrow-up-circle-filled": {
@@ -584,14 +584,14 @@
   "labels": [],
   "snippets": [
    ",{className:\"icon__zhFAF\",children:(0,r.jsx)(c.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})};WorkspaceMenuBannerCard.displayName=\"WorkspaceMenuBannerCard\";let NewYearPromo27WorkspaceMenuBann",
-   "\"div\",{className:g.A.icon,children:(0,t.jsx)(l.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};PlusTrialOfferAdminMenuBottomBanner.displayName=\"PlusTrialOfferAdminMenuBottomBanner\",a.d(n,{},"
+   "\"div\",{className:f.A.icon,children:(0,r.jsx)(d.Ah,{name:\"arrow-up-circle-filled\",size:\"20\"})})})]})})})};AdminPeekFooterUpsellBanner.displayName=\"AdminPeekFooterUpsellBanner\";var x=a(\"vT5P\"),C=a(\"L4/s"
   ]
  },
  "arrow-up-left": {
   "count": 1,
   "labels": [],
   "snippets": [
-   "k:v,\"data-singer-card-control\":!0,children:[(0,g.jsx)(N.Ah,{name:\"arrow-up-left\",size:\"inherit\"}),(0,g.jsx)(\"span\",{className:\"fromTitle__QIqtV\",children:_.title})]}),l>1&&(0,g.jsxs)(\"div\",{className:"
+   "k:v,\"data-singer-card-control\":!0,children:[(0,m.jsx)(N.Ah,{name:\"arrow-up-left\",size:\"inherit\"}),(0,m.jsx)(\"span\",{className:\"fromTitle__QIqtV\",children:_.title})]}),l>1&&(0,m.jsxs)(\"div\",{className:"
   ]
  },
  "arrow-up-right": {
@@ -650,7 +650,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,g.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,g.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,g.jsx)(u$.Provider,{valu"
+   "ssName:\"planIcon__IoTNZ\",\"aria-hidden\":!0,children:(0,m.jsx)(N.Ah,{name:\"blocks\",size:\"inherit\"})}),d]}),(0,m.jsx)(\"div\",{className:\"shape__lM4sF\",\"aria-hidden\":!0,children:(0,m.jsx)(uP.Provider,{valu"
   ]
  },
  "blocks-filled": {
@@ -710,7 +710,7 @@
   ],
   "snippets": [
    "illIconContainer,b.A.skillSetIconContainer),children:(0,a.jsx)(d.Ah,{name:\"book\",size:\"20\",\"aria-hidden\":\"true\"})}),(0,a.jsxs)(\"div\",{className:C.A.headerText,children:[(0,a.jsx)(u.A,{lines:1,withTool",
-   "oid 0,\"aria-label\":_,backgroundStyle:r,\"data-qa\":\"tbd-rail-wiki-tab\",icon:\"book\",onClick:I,size:\"large\"})})}),s&&(0,eE.jsx)(\"div\",{className:(0,nz.A)(s6,{[s5]:b}),children:(0,eE.jsx)(ap.Ay,{tip:f,posi"
+   "oid 0,\"aria-label\":_,backgroundStyle:r,\"data-qa\":\"tbd-rail-wiki-tab\",icon:\"book\",onClick:I,size:\"large\"})})}),s&&(0,eP.jsx)(\"div\",{className:(0,nz.A)(s6,{[s5]:b}),children:(0,eP.jsx)(ap.Ay,{tip:f,posi"
   ]
  },
  "bookmark": {
@@ -743,9 +743,9 @@
   "count": 14,
   "labels": [
    "Go to app",
+   "All sidekicks",
    "Channel Templates",
-   "Sidekicks",
-   "All sidekicks"
+   "Sidekicks"
   ],
   "snippets": [
    "ortDescription:\"\",longDescription:\"\",cta:{title:\"\",subtitle:\"\"},icon:{name:\"bot\"},helpArticle:{id:0xc0aac36},assets:{backgroundColor:\"Palettes/Aquarium/5\",\"de-DE\":{png:b,lottie:()=>a.e(\"lottie-use-sla",
@@ -1176,7 +1176,7 @@
    "AI conversation summaries"
   ],
   "snippets": [
-   "nizations\"):P.t(\"Work in channels with external people\")},icon:{name:\"buildings\"},helpArticle:{id:0x53d3c387be},assets:{backgroundColor:\"Palettes/Jade/40\",\"de-DE\":{png:r,lottie:()=>n.e(\"lottie-use-sla",
+   "nizations\"):b.t(\"Work in channels with external people\")},icon:{name:\"buildings\"},helpArticle:{id:0x53d3c387be},assets:{backgroundColor:\"Palettes/Jade/40\",\"de-DE\":{png:a,lottie:()=>n.e(\"lottie-use-sla",
    "),icon:\"headphones\"},{name:ed.t(\"External group conversations\"),icon:\"buildings\"},{name:ed.t(\"AI conversation summaries\"),icon:\"ai-summary\"}],missingFeatures:[{name:ed.t(\"AI search\"),icon:\"ai-search\"}"
   ]
  },
@@ -1190,7 +1190,7 @@
    "Org Chart"
   ],
   "snippets": [
-   "ep.t(\"Workspace settings\"),href:eT(\"admin/settings\"),iconName:\"buildings-filled\"},EditWorkspace:{label:ep.t(\"Edit workspace\")},AdvancedSecurity:{label:ep.t(\"Set up advanced security\"),onClick:eI,autoC",
+   "ec.t(\"Workspace settings\"),href:eN(\"admin/settings\"),iconName:\"buildings-filled\"},EditWorkspace:{label:ec.t(\"Edit workspace\")},AdvancedSecurity:{label:ec.t(\"Set up advanced security\"),onClick:ej,autoC",
    "profile__external_photo_badge\",children:(0,n.jsx)(ey.Ah,{name:\"buildings-filled\"})})]}),(0,n.jsx)(eA.T,{className:\"p-edit_profile__column_secondary_control\",switchPane:l,audience:\"external\",type:\"outl"
   ]
  },
@@ -1278,7 +1278,7 @@
    "1-800-522-7997"
   ],
   "snippets": [
-   "xs)(iI.A,{href:\"tel:+18005227997\",children:[(0,eE.jsx)(ia.Ah,{name:\"call-filled\",inline:!0}),\" \",S3.t(\"1-800-522-7997\")]})]}),(0,eE.jsx)(\"div\",{children:(0,eE.jsx)(at.lV,{type:\"primary\",onClick:B,load",
+   "xs)(iI.A,{href:\"tel:+18005227997\",children:[(0,eP.jsx)(ia.Ah,{name:\"call-filled\",inline:!0}),\" \",S3.t(\"1-800-522-7997\")]})]}),(0,eP.jsx)(\"div\",{children:(0,eP.jsx)(at.lV,{type:\"primary\",onClick:B,load",
    "sxs)(e0.A,{href:\"tel:+18005227997\",children:[(0,y.jsx)(e7.Ah,{name:\"call-filled\",inline:!0}),\" \",qo.t(\"1-800-522-7997\")]})]}),(0,y.jsx)(\"div\",{children:(0,y.jsx)(e8.lV,{type:\"primary\",onClick:G,loadin"
   ]
  },
@@ -1352,7 +1352,7 @@
   ],
   "snippets": [
    "large:\"100%\"},h=new r.Ay(\"slack-docs\"),m=(0,a.jsx)(c.Ah,{inline:!0,name:\"canvas\"});function QuipLoadingSkeleton({delay:e,assertive:t,loadingMessage:n,className:r,isLoadingFreeTeamCreateTab:c}){let f=(",
-   "large:\"100%\"},m=new r.Ay(\"slack-docs\"),b=(0,n.jsx)(c.Ah,{inline:!0,name:\"canvas\"});function QuipLoadingSkeleton({delay:e,assertive:a,loadingMessage:t,className:r,isLoadingFreeTeamCreateTab:c}){let h=("
+   "large:\"100%\"},m=new s.Ay(\"slack-docs\"),b=(0,n.jsx)(c.Ah,{inline:!0,name:\"canvas\"});function QuipLoadingSkeleton({delay:e,assertive:a,loadingMessage:t,className:s,isLoadingFreeTeamCreateTab:c}){let h=("
   ]
  },
  "canvas-browser": {
@@ -1479,7 +1479,7 @@
   ],
   "snippets": [
    "e:\"header__T0lgD\",children:[(0,t.jsx)(r_.A,{ref:l,size:\"small\",icon:\"caret-left\",onClick:n,\"aria-label\":r,\"data-focus-key\":rt.Ay.MODAL_CHANNEL_JOIN_REQUESTS_BACK}),(0,t.jsx)(\"h2\",{className:\"heading__",
-   "k:H,...s&&{autoClogProps:s},children:(0,o.jsx)(C.Ah,{size:\"16\",name:\"caret-left\"})}),j,(0,o.jsx)(g.A,{onClick:v,...s&&{autoClogProps:s},children:(0,o.jsx)(C.Ah,{size:\"16\",name:\"caret-right\"})})]})]})}"
+   "en:[(0,a.jsx)(b.Ay,{tip:F,children:(0,a.jsx)(p.A,{size:\"small\",icon:\"caret-left\",\"aria-label\":F,\"aria-keyshortcuts\":\"ArrowLeft\",\"aria-disabled\":!Q,onClick:R})}),(0,a.jsx)(\"span\",{className:\"pagination"
   ]
  },
  "caret-left-double-full": {
@@ -1663,7 +1663,7 @@
    "rocket"
   ],
   "snippets": [
-   "l_sidebar__channel_icon_prefix\",children:(0,no.jsx)(nc.Ah,{name:\"channel-filled\",size:\"16\"})}),[]);return(0,no.jsx)(nm.N,{id:\"sidebar-unjoined-mention\",label:n||o,icon:m,hasUnreads:!0,displayAsBold:!0",
+   "l_sidebar__channel_icon_prefix\",children:(0,nl.jsx)(nu.Ah,{name:\"channel-filled\",size:\"16\"})}),[]);return(0,nl.jsx)(nh.N,{id:\"sidebar-unjoined-mention\",label:n||o,icon:m,hasUnreads:!0,displayAsBold:!0",
    "eam:!1}),!s&&(0,y.jsxs)(\"span\",{children:[(0,y.jsx)(e7.Ah,{name:\"channel-filled\",inline:!0}),(0,y.jsx)(\"span\",{className:\"margin_left_50\",children:e?.name})]})]}),(0,y.jsx)(\"div\",{className:\"record_ch"
   ]
  },
@@ -1712,7 +1712,7 @@
    "Keep",
    "Discard",
    "Copied to clipboard",
-   "Approved"
+   "Copied"
   ],
   "snippets": [
    "(\"span\",{className:\"very_small_top_margin\",children:(0,o.jsx)(c.Ah,{name:\"check\",size:\"20\"})}),(0,o.jsx)(\"span\",{children:G.t(\"Calendar events will be saved as activities associated with your contacts",
@@ -1784,7 +1784,7 @@
   ],
   "snippets": [
    "MultiSelect:{questionType:\"staticMultiSelect\",baseType:\"array\",icon:\"check-list\"},staticMultiSelectWithCheckboxes:{questionType:\"staticMultiSelectWithCheckboxes\",baseType:\"array\",icon:\"checkbox\"},user",
-   "aria-label\":f,backgroundStyle:r,\"data-qa\":\"tbd-rail-facts-tab\",icon:\"check-list\",onClick:T,size:\"large\"})})}),(0,eE.jsx)(s3.A,{size:28,hasMenu:!0,hideAvailabilityControls:!0,hideProfile:!0,showPresenc"
+   "aria-label\":f,backgroundStyle:r,\"data-qa\":\"tbd-rail-facts-tab\",icon:\"check-list\",onClick:T,size:\"large\"})})}),(0,eP.jsx)(s3.A,{size:28,hasMenu:!0,hideAvailabilityControls:!0,hideProfile:!0,showPresenc"
   ]
  },
  "checkbox": {
@@ -1837,7 +1837,7 @@
   ],
   "snippets": [
    "t_modal__member_profile_section_item_icon\",children:(0,t.jsx)(u.Ah,{name:\"clock\",size:\"20\"})}),(0,t.jsx)(\"span\",{children:u5.t(\"{time} local time\",{time:g})})]}),C&&(0,t.jsxs)(\"div\",{className:\"p-abou",
-   "igned\":return{label:i.t(\"Assigned\"),color:\"horchata\",tag:\"horchata\",icon:\"clock\"};case\"Canceled\":return{label:i.t(\"Canceled\"),color:l,tag:\"sunflower\",icon:\"close\"};case\"Errored\":return{label:i.t(\"Erro"
+   "arFocusSync:i=!1}={}){return{id:\"availability\",label:\"Availability\",icon:\"clock\",subSections:[{id:\"working-hours\",label:\"Working hours\",description:()=>(0,n.jsx)(WorkingHoursDescription,{}),items:[{id"
   ]
  },
  "clock-filled": {
@@ -1846,7 +1846,7 @@
   "snippets": []
  },
  "close": {
-  "count": 565,
+  "count": 564,
   "labels": [
    "Close",
    "Dismiss",
@@ -1889,9 +1889,9 @@
   "count": 41,
   "labels": [
    "Remove",
-   "Remove link preview",
    "Close",
    "New edits",
+   "Remove link preview",
    "View other tips"
   ],
   "snippets": [
@@ -2142,8 +2142,8 @@
    "Highlights"
   ],
   "snippets": [
-   "l communications campaigns for your organization.\"),icon:{name:\"direct-messages\"},cta:{title:iy.t(\"Message activity analytics\"),subtitle:iy.t(\"Get a bird\\u2019s eye view of the impact of announcements",
-   "F2.STD?{features:[{name:ed.t(\"Unlimited message history\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"Exte"
+   "F2.STD?{features:[{name:ed.t(\"Unlimited message history\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"Exte",
+   "2.PLUS?{features:[{name:ed.t(\"Unlimited message history\"),icon:\"direct-messages\"},{name:ed.t(\"Unlimited app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"1:1 "
   ]
  },
  "direct-messages-filled": {
@@ -2195,7 +2195,7 @@
   ]
  },
  "download": {
-  "count": 61,
+  "count": 60,
   "labels": [
    "Download table",
    "Download",
@@ -2350,8 +2350,8 @@
    "Invitations"
   ],
   "snippets": [
-   ",[N,A]),B=(0,s.useMemo)(()=>[{label:m,icon:(0,no.jsx)(nc.Ah,{name:\"email-invite\",size:\"20\"}),click:()=>{N.clickNewMessageMenuEmail(),R(\"sidebar_message_by_email\"),L(\"new_message_menu\")}},{...D,label:f",
-   "ead__MtGj1:S&&!T}),children:(0,no.jsx)(nc.Ah,{size:\"inherit\",name:\"email-invite\"})})}),(0,no.jsx)(\"span\",{ref:y,className:\"p-channel_sidebar__name\",children:b}),S&&_&&(0,no.jsx)(\"span\",{className:\"off"
+   ",[N,A]),B=(0,s.useMemo)(()=>[{label:m,icon:(0,nl.jsx)(nu.Ah,{name:\"email-invite\",size:\"20\"}),click:()=>{N.clickNewMessageMenuEmail(),R(\"sidebar_message_by_email\"),O(\"new_message_menu\")}},{...D,label:f",
+   "ead__MtGj1:S&&!T}),children:(0,nl.jsx)(nu.Ah,{size:\"inherit\",name:\"email-invite\"})})}),(0,nl.jsx)(\"span\",{ref:y,className:\"p-channel_sidebar__name\",children:b}),S&&_&&(0,nl.jsx)(\"span\",{className:\"off"
   ]
  },
  "email-reply": {
@@ -2745,7 +2745,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "n: ${t}`),(0,eE.jsx)(eR.A,{position:\"top-right\",svgIconProps:{name:\"flag-filled\"},svgIconClassName:\"sk_raspberry_red\",duration:3e4,children:n})}function getForceFailApisParam(){return(0,F.P3)(\"force_f"
+   "n: ${t}`),(0,eP.jsx)(eR.A,{position:\"top-right\",svgIconProps:{name:\"flag-filled\"},svgIconClassName:\"sk_raspberry_red\",duration:3e4,children:n})}function getForceFailApisParam(){return(0,F.P3)(\"force_f"
   ]
  },
  "folder": {
@@ -2939,15 +2939,15 @@
    "Huddle"
   ],
   "snippets": [
-   "the whole team aligned\")},helpArticle:{id:0x400ef29f493},icon:{name:\"headphones\"},assets:{backgroundColor:\"Palettes/Lagoon/30\",\"de-DE\":{png:ia,lottie:()=>t.e(\"lottie-use-huddles-de-DE.json\").then(t.t.",
-   "d app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"External group conversations\"),icon:\"buildings\"},{name:ed.t(\"AI conversation summaries\"),icon:\"ai-summary\""
+   "d app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"External group conversations\"),icon:\"buildings\"},{name:ed.t(\"AI conversation summaries\"),icon:\"ai-summary\"",
+   "d app integrations\"),icon:\"apps\"},{name:ed.t(\"Group meetings\"),icon:\"headphones\"},{name:ed.t(\"1:1 external messages\"),icon:\"buildings\"},{name:ed.t(\"Slackbot (personal AI companion)\"),icon:\"slackbot-co"
   ]
  },
  "headphones-filled": {
   "count": 4,
   "labels": [],
   "snippets": [
-   ")=>{let a;return(0,nL.d4)(uq.s7)?(a=e?(0,eE.jsx)(ia.Ah,{name:\"headphones-filled\",size:\"20\"}):(0,eE.jsx)(ia.Ah,{name:\"calendar\",size:\"20\"}),(0,eE.jsx)(\"span\",{className:(0,nz.A)(\"p-today_event_icon\",{\"",
+   ")=>{let a;return(0,nO.d4)(uq.s7)?(a=e?(0,eP.jsx)(ia.Ah,{name:\"headphones-filled\",size:\"20\"}):(0,eP.jsx)(ia.Ah,{name:\"calendar\",size:\"20\"}),(0,eP.jsx)(\"span\",{className:(0,nz.A)(\"p-today_event_icon\",{\"",
    "me:\"user-groups-filled\"},m={name:\"sf-record-filled\"},h={name:\"headphones-filled\"},p={name:\"approvals\"},f={[r.Dj.Account]:{name:\"sf-account\"},[r.Dj.Case]:{name:\"sf-case\"},[r.Dj.Contact]:{name:\"sf-conta"
   ]
  },
@@ -3316,8 +3316,8 @@
    "AI conversation summaries"
   ],
   "snippets": [
-   "e-single-sign-on-sso-de-DE.json\").then(t.t.bind(t,\"pOtk\",17))}},icon:{name:\"key\"},cta:{title:ix.t(\"Set up SAML-SSO\"),subtitle:ix.t(\"Connect your SSO to any identity provider\")},helpArticle:{id:0xd28a2",
-   "ll members to keep data secure\"):\"\"},helpArticle:{id:0xc308f8c},icon:{name:\"key\"},availabilityByPlanLevel:{free:{isAvailable:!0,limitation:null},pro:{isAvailable:!0,limitation:null},business:{isAvaila"
+   "on)\"),icon:\"ai-file-summary\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}]}:e===H.F2.PLUS?{features:[{name:ed.t(\"Unlimited message his",
+   "AI search\"),icon:\"ai-search\"},{name:ed.t(\"SAML-based single sign-on\"),icon:\"key\"},{name:ed.t(\"SCIM user management\"),icon:\"user-directory\"}],missingFeatures:[]}:{features:[],missingFeatures:[],feature"
   ]
  },
  "key-filled": {
@@ -3377,13 +3377,13 @@
  "life-ring": {
   "count": 3,
   "labels": [
-   "Explore help topics",
    "Support has a new home",
-   "Track cases and access support resources on the Salesforce Help site."
+   "Track cases and access support resources on the Salesforce Help site.",
+   "Explore help topics"
   ],
   "snippets": [
    "dren:[l?(0,n.jsxs)(\"div\",{className:K,children:[(0,n.jsx)(E.Ah,{name:\"life-ring\",size:\"20\",inline:!0,\"aria-hidden\":\"true\"}),(0,n.jsx)(T.A,{href:l,target:\"_blank\",\"data-qa\":\"about_page_support_link\",ch",
-   "_search__content__card__subtitle_icon\",children:(0,a.jsx)(C.Ah,{name:\"life-ring\",inline:!0})}),ez.t(\"Explore help topics\")]}),l]})}Recommended.displayName=\"Recommended\";var e$=l(\"3zPy\"),eV=l.n(e$),eJ="
+   "(0,a.jsx)(c.Ay,{isOpen:!0,orientation:p.YC.Top,arrowPosition:10,icon:\"life-ring\",title:t,bodyText:i,closeCoachmark:r,width:400}),[i,r,t]);return(0,a.jsx)(p.Ay,{coachmarkElement:l,orientation:\"top\",chi"
   ]
  },
  "life-ring-filled": {
@@ -3429,7 +3429,7 @@
   ],
   "snippets": [
    "switch(e){case\"all-files\":return{name:\"edit\"};case\"list\":return{name:\"list-view\"};case\"gn-menu\":return{name:\"apps\"};case\"all-files-alt\":return{name:\"file-browser\"};case\"team-directory\":case\"unified-di",
-   ",\"aria-label\":w,backgroundStyle:r,\"data-qa\":\"tbd-rail-work-tab\",icon:\"list-view\",onClick:S,size:\"large\"})})}),(0,eE.jsx)(\"div\",{className:(0,nz.A)(s6,{[s5]:A}),children:(0,eE.jsx)(ap.Ay,{tip:g,positio"
+   ",\"aria-label\":w,backgroundStyle:r,\"data-qa\":\"tbd-rail-work-tab\",icon:\"list-view\",onClick:S,size:\"large\"})})}),(0,eP.jsx)(\"div\",{className:(0,nz.A)(s6,{[s5]:A}),children:(0,eP.jsx)(ap.Ay,{tip:g,positio"
   ]
  },
  "lists": {
@@ -3565,7 +3565,7 @@
   ],
   "snippets": [
    ";let eL=new c.Ay(\"messages_action_items\"),eF=(0,n.jsx)(A.Ah,{name:\"mark-as-read\"}),{THREAD:eB,THREADS_VIEW:eU}=w.Y,eH=(0,u.eI)((e,{ts:t,channelId:a,messageContainerType:n,showIcon:s})=>{let i,r=n===eU",
-   "l\":s3.t(\"Mark as read\"),onClick:O,children:(0,no.jsx)(nc.Ah,{name:\"mark-as-read\",size:\"16\"})})})]}),E&&(0,no.jsx)(sK.A,{targetBounds:E,onCloseRequested:L,width:\"auto\",children:(0,no.jsx)(sZ.A,{templat"
+   "l\":s6.t(\"Mark as read\"),onClick:L,children:(0,nl.jsx)(nu.Ah,{name:\"mark-as-read\",size:\"16\"})})})]}),P&&(0,nl.jsx)(sG.A,{targetBounds:P,onCloseRequested:O,width:\"auto\",children:(0,nl.jsx)(sY.A,{templat"
   ]
  },
  "mark-as-read-filled": {
@@ -3819,7 +3819,7 @@
   ],
   "snippets": [
    "ndow\",size:\"18\"},U={name:\"share-message\",size:\"18\"},q={name:\"move-to-split-view\",size:\"18\"},PageBlockCard=({fileId:e,appId:t,fallbackText:a,hasAiGeneratedContent:l})=>{let y=(0,s.wA)(),{channelId:Q,ts",
-   "text:\"Close\",emoji:!0}})},[i,e]),u=(0,a.useMemo)(()=>({name:\"move-to-split-view\"}),[]),m=(0,a.useMemo)(()=>({name:\"share\"}),[]),p=(0,a.useMemo)(()=>({name:\"lock\"}),[]);return(0,t.jsxs)(k.A,{children:["
+   "pan\",{className:\"icon__RJBTp\",children:(0,s.jsx)(k.Ah,{name:\"move-to-split-view\",inline:!0,\"aria-hidden\":\"true\"})})]})})};SuggestedPromptsButton.displayName=\"SuggestedPromptsButton\";var tb=n(\"zjEm\");l"
   ]
  },
  "multiparty-dm-10-filled": {
@@ -4157,7 +4157,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "ht\",hideFromScreenReader:!0,children:(0,s.jsx)(x.A,{\"aria-label\":t$,icon:\"pause\",onClick:tp,className:(0,l.A)(ey.A.viewHeaderActionButton,ep),\"data-qa\":\"task-detail-resume\"})}):ti&&(0,s.jsx)(y.Ay,{tip"
+   "ht\",hideFromScreenReader:!0,children:(0,s.jsx)(x.A,{\"aria-label\":t$,icon:\"pause\",onClick:tp,className:(0,l.A)(eT.A.viewHeaderActionButton,ek),\"data-qa\":\"task-detail-resume\"})}):ti&&(0,s.jsx)(y.Ay,{tip"
   ]
  },
  "pause-filled": {
@@ -4543,7 +4543,7 @@
   "count": 1,
   "labels": [],
   "snippets": [
-   "ullAnswer,icon:\"window-expand\",run:w}:S?{label:I.backToWidget,icon:\"reduce-full\",run:S}:void 0,z=e.prompt?{text:promptWaitingLine(e.prompt.kind,j),tone:void 0}:getSubline(e,t,r,s,o,l,d),B=\"asking\"===e"
+   "ullAnswer,icon:\"window-expand\",run:w}:S?{label:I.backToWidget,icon:\"reduce-full\",run:S}:void 0,H=o&&!R,W=e.prompt?{text:promptWaitingLine(e.prompt.kind,j),tone:void 0}:getSubline(e,t,r,s,H,l,d),V=\"ask"
   ]
  },
  "reference": {
@@ -4648,8 +4648,8 @@
    "Upgrade Plan"
   ],
   "snippets": [
-   "an\",{className:\"upgradeRocketIcon__rrknv\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),ee.t(\"Upgrade Now\")]});case t:return(0,a.jsxs)(\"div\",{className:\"trialEligibleCellContainer__No8Xm\",children:[(0,a.",
-   ".jsx)(\"span\",{className:\"margin_right_50\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),eo.t(\"Upgrade Now\")]}):(0,a.jsx)(m.A,{\"data-qa\":\"plans-at-glance-upgrade-now-btn\",className:\"p-plans_at_glance_upgr"
+   "abel:an.t(\"See Upgrade Options\"),cancelButtonLabel:an.t(\"Not Now\"),icon:\"rocket\",onCancel:e,onContinue:eE,onContinueAfterTrialStart:ef.noop,reason:\"channel_invite_modal_speedbump\",context:n1.M.channel",
+   "an\",{className:\"upgradeRocketIcon__rrknv\",children:(0,a.jsx)(c.Ah,{name:\"rocket\"})}),ee.t(\"Upgrade Now\")]});case t:return(0,a.jsxs)(\"div\",{className:\"trialEligibleCellContainer__No8Xm\",children:[(0,a."
   ]
  },
  "rotate": {
@@ -5127,7 +5127,7 @@
   "snippets": []
  },
  "share-message": {
-  "count": 150,
+  "count": 149,
   "labels": [
    "Share",
    "Share record",
@@ -5221,7 +5221,7 @@
    "Declutter your channel list to find stuff faster."
   ],
   "snippets": [
-   "Ah,{name:\"sidebar-left-filled\",size:\"20\"}):(0,eE.jsx)(ia.Ah,{name:\"sidebar-left\",size:\"20\"})})})})};WorkspaceSwitcherToggleButton.displayName=\"WorkspaceSwitcherToggleButton\";var mp=n(\"kcX+\"),mm=n(\"7Ms",
+   "Ah,{name:\"sidebar-left-filled\",size:\"20\"}):(0,eP.jsx)(ia.Ah,{name:\"sidebar-left\",size:\"20\"})})})})};WorkspaceSwitcherToggleButton.displayName=\"WorkspaceSwitcherToggleButton\";var mp=n(\"kcX+\"),mm=n(\"7Ms",
    "e,className:t,\"data-qa\":\"slackbot-standalone-sidebar-toggle\",icon:\"sidebar-left\",onClick:l,size:\"smedium\"})})};SlackbotStandaloneSidebarToggle.displayName=\"SlackbotStandaloneSidebarToggle\";let Slackbo"
   ]
  },
@@ -5337,7 +5337,7 @@
   "count": 5,
   "labels": [],
   "snippets": [
-   "Index:-1,\"aria-label\":d,size:\"smedium\",children:(0,a.jsx)(v.Ah,{name:\"slash-box\",size:\"18\"})})})]})};SlashCommandsButton.displayName=\"SlashCommandsButton\";let rS=new p.Ay(\"msg_input\"),SubmitButton=({d",
+   "Index:-1,\"aria-label\":d,size:\"smedium\",children:(0,a.jsx)(v.Ah,{name:\"slash-box\",size:\"18\"})})})]})};SlashCommandsButton.displayName=\"SlashCommandsButton\";let rw=new p.Ay(\"msg_input\"),SubmitButton=({d",
    "Index:-1,\"aria-label\":c,size:\"smedium\",children:(0,n.jsx)(f.Ah,{name:\"slash-box\",size:\"18\"})})})]})};SlashCommandsButton.displayName=\"SlashCommandsButton\";let tE=new p.Ay(\"msg_input\"),SubmitButton=({d"
   ]
  },
@@ -5359,7 +5359,7 @@
   "count": 5,
   "labels": [],
   "snippets": [
-   ",\"aria-disabled\":x,\"aria-label\":A?T:N,children:(0,eE.jsx)(fH.m,{iconName:\"sound\",label:A})})}),g&&(0,eE.jsx)(dx.cQ,{renderMenu:renderCameraSettingsMenu,position:\"top\",isDisabled:S,children:(0,eE.jsx)(",
+   ",\"aria-disabled\":x,\"aria-label\":A?T:N,children:(0,eP.jsx)(fH.m,{iconName:\"sound\",label:A})})}),g&&(0,eP.jsx)(dx.cQ,{renderMenu:renderCameraSettingsMenu,position:\"top\",isDisabled:S,children:(0,eP.jsx)(",
    "{className:ef.A.selectorButtonContainer,children:(0,n.jsx)(q.m,{iconName:\"sound\",label:eU})})}),eO&&(0,n.jsx)(w.cQ,{renderMenu:eX,position:\"top\",tryOppositePosition:!0,isDisabled:eI||ej,children:(0,n."
   ]
  },
@@ -5514,7 +5514,7 @@
   ],
   "snippets": [
    "0,n.jsx)(\"div\",{className:P,children:(0,n.jsx)(b.Ah,{name:\"stacked-cards-filled\",size:\"20\"})}),(0,n.jsxs)(\"div\",{children:[(0,n.jsx)(\"div\",{className:M,children:$}),(0,n.jsx)(\"div\",{className:R,childr",
-   "eo}),Q&&t.push({id:\"put-away-all\",label:r.putAwayAll,icon:\"stacked-cards-filled\",group:\"act\",run:Q}),et&&t.push({id:\"open-as-chat\",label:r.openAsChat,icon:\"comment\",group:\"leave\",run:()=>et(e.id)}),t}"
+   "m}),es&&t.push({id:\"put-away-all\",label:r.putAwayAll,icon:\"stacked-cards-filled\",group:\"act\",run:es}),eo&&t.push({id:\"open-as-chat\",label:r.openAsChat,icon:\"comment\",group:\"leave\",run:()=>eo(e.id)}),t"
   ]
  },
  "star": {
@@ -5700,7 +5700,7 @@
   ],
   "snippets": [
    "[r.k6.BBM]:{name:\"home\"},[r.k6.Admin]:{name:\"settings\"},[r.k6.Today]:{name:\"sun\"}};a.d(t,{},{A:(e,t=!1,a=!1)=>t&&e===r.k6.Later?{name:\"check-circle\"}:a&&e===r.k6.Platform?{name:\"ai-agents\"}:o[e],C:e=>",
-   ".d4)(eM._B);if((0,aF.A)(function(){t(aD())},n),!n)return null;let i=[{icon:\"sun\",id:\"builtin:productivity:daily_briefing\",prompt:aU.t(\"Use the Daily priorities skill to build my daily briefing \\u2014 "
+   ".d4)(eM._B);if((0,aB.A)(function(){t(aO())},n),!n)return null;let i=[{icon:\"sun\",id:\"builtin:productivity:daily_briefing\",prompt:az.t(\"Use the Daily priorities skill to build my daily briefing \\u2014 "
   ]
  },
  "sun-filled": {
@@ -5799,7 +5799,7 @@
   ],
   "snippets": [
    ",p=a(\"ooEA\"),h=a(\"abfv\");let g=new r.Ay(\"message\"),_=(0,n.jsx)(o.Ah,{name:\"text\"}),f=(0,p.eI)((e,{ts:t,channelId:a,showIcon:n})=>{let r,o=(0,h.Ld)(e,a,t);if(!o||!(0,u.u)(o)||(0,c.N)(e,o))return null;l",
-   "is your feedback?\"),htmlFor:\"text\",children:(0,a.jsx)(_.A,{id:\"text\",name:\"text\",value:r,onChange:z,placeholder:L.t(\"How does this impact your current use of Slack or how could it potentially improve "
+   "is your feedback?\"),htmlFor:\"text\",children:(0,a.jsx)(_.A,{id:\"text\",name:\"text\",value:r,onChange:z,placeholder:O.t(\"How does this impact your current use of Slack or how could it potentially improve "
   ]
  },
  "text-background": {
@@ -5832,7 +5832,7 @@
   ]
  },
  "threads": {
-  "count": 80,
+  "count": 81,
   "labels": [
    "Messages & media",
    "Reply in a thread",
@@ -5900,7 +5900,7 @@
    "Got it. We won\\u2019t ask again."
   ],
   "snippets": [
-   "Click:()=>{n(),a({element:(0,eE.jsx)(eR.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:IR.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:n,id:a,showSendAMessageCoac",
+   "Click:()=>{n(),a({element:(0,eP.jsx)(eR.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:IR.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:n,id:a,showSendAMessageCoac",
    "nClick:()=>{a(),n({element:(0,y.jsx)(tH.A,{svgIconProps:{name:\"thumbs-up-filled\"},children:qG.t(\"Got it. We won\\u2019t ask again.\")})})}})]})}render(){let e,{type:t,actions:a,id:n,showSendAMessageCoac"
   ]
  },
@@ -6120,7 +6120,7 @@
   ],
   "snippets": [
    "ls and more\"),eb=(0,r.useMemo)(()=>[{id:\"customer-management\",icon:\"user-groups\",title:e_,subtitle:ef},...!f&&k?[{id:\"ai\",icon:\"sparkles\",title:ek,subtitle:eS}]:[],{id:\"salesforce\",icon:\"sf-cloud\",tit",
-   "icon:\"sparkles\",title:H,subtitle:K},{id:\"customer-management\",icon:\"user-groups\",title:V,subtitle:Y},{id:\"security\",icon:\"lock\",title:Z,subtitle:X}],[H,K,V,Y,Z,X]),er=eT.rt(\"Access to Salesforce Start"
+   "icon:\"sparkles\",title:K,subtitle:G},{id:\"customer-management\",icon:\"user-groups\",title:W,subtitle:Z},{id:\"security\",icon:\"lock\",title:Q,subtitle:J}],[K,G,W,Z,Q,J]),er=ey.rt(\"Access to Salesforce Start"
   ]
  },
  "user-groups-filled": {
@@ -6130,7 +6130,7 @@
    "Org Chart"
   ],
   "snippets": [
-   "n(0,a.jsx)(\"div\",{className:h,children:(0,a.jsx)(W.Ah,{name:\"user-groups-filled\"})});if(e.type===V.VZ.Priority)return o?(0,a.jsx)(\"div\",{className:(0,s.A)(P.A.sectionIconTertiary,{[P.A.selectedText]:p",
+   "n(0,a.jsx)(\"div\",{className:h,children:(0,a.jsx)(W.Ah,{name:\"user-groups-filled\"})});if(e.type===V.VZ.Priority)return o?(0,a.jsx)(\"div\",{className:(0,s.A)(E.A.sectionIconTertiary,{[E.A.selectedText]:p",
    "\"sf-record\"},d={name:\"code\"},c={name:\"user-filled\"},u={name:\"user-groups-filled\"},m={name:\"sf-record-filled\"},h={name:\"headphones-filled\"},p={name:\"approvals\"},f={[r.Dj.Account]:{name:\"sf-account\"},[r"
   ]
  },
@@ -6239,8 +6239,8 @@
    "This app is no longer available."
   ],
   "snippets": [
-   "nvas_access_management_error\",children:[(0,i.jsx)(T.Ah,{inline:!0,name:\"warning\"}),\" \",t]})})}CanvasAccessErrorEntity.displayName=\"CanvasAccessErrorEntity\";var eb=n(\"kzhm\"),eS=n(\"emxb\"),eC=n(\"6D1Q\"),e",
-   "s.add\");var z=n(\"LKZ6\");let N=new o.Ay(\"enterprise_dashboard\"),G={name:\"warning\"},AddInstallationForm=({host:e,installations:t,isTranslationOn:n,onAdded:s})=>{let o=(0,l.wA)(),[h,p]=(0,i.useState)(\"\")"
+   "s.add\");var z=n(\"LKZ6\");let N=new o.Ay(\"enterprise_dashboard\"),G={name:\"warning\"},AddInstallationForm=({host:e,installations:t,isTranslationOn:n,onAdded:s})=>{let o=(0,l.wA)(),[h,p]=(0,i.useState)(\"\")",
+   "roval\");var T=n(\"Vd5Q\");let R=new o.Ay(\"enterprise_dashboard\"),D={name:\"warning\"},GithubInstallationsSection=()=>{let e=(0,l.wA)(),[t,n]=(0,i.useState)(null),[o,g]=(0,i.useState)(!1),m=(0,A.d4)(H.jd),"
   ]
  },
  "warning-filled": {

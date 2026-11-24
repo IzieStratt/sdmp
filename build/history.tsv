@@ -5838,7 +5838,7 @@ analytics-events	element: business_plus_advanced_security_offer_modal	2026-11-10
 analytics-events	element: business_plus_compare_plans	2026-11-10		
 analytics-events	element: business_plus_compare_plans_modal	2026-11-10		
 analytics-events	element: business_plus_saml_sso_admin_menu_trigger	2026-11-10		
-analytics-events	element: business_plus_saml_sso_one_time_nudge_activity_banner_trigger	2026-11-10		
+analytics-events	element: business_plus_saml_sso_one_time_nudge_activity_banner_trigger	2026-11-10	2026-11-24	2026-11-24
 analytics-events	element: calendar_event_join_button	2026-11-10		
 analytics-events	element: calendar_jit_dismissed_clicked	2026-11-10		
 analytics-events	element: calendar_jit_join_clicked	2026-11-10		
@@ -31272,7 +31272,7 @@ enums	BUSINESS_PLUS_PRO_UPGRADE_NY_PROMO_SIDEBAR_HEADER_PEEK=business_plus_pro_u
 enums	BUSINESS_PLUS_REQUEST_TO_PURCHASE_LAUNCH_MODAL=business_plus_request_to_purchase_launch_modal	2026-10-21		
 enums	BUSINESS_PLUS_REQUEST_TO_PURCHASE_UPVOTE_CTA=business_plus_request_to_purchase_upvote_cta	2026-10-21		
 enums	BUSINESS_PLUS_REQUEST_TO_PURCHASE_UPVOTE_SOCIAL_PROOF=business_plus_request_to_purchase_upvote_social_proof	2026-10-21		
-enums	BUSINESS_PLUS_SAML_SSO_ONE_TIME_NUDGE_ACTIVITY_BANNER_TRIGGER=business_plus_saml_sso_one_time_nudge_activity_banner_trigger	2026-10-21		
+enums	BUSINESS_PLUS_SAML_SSO_ONE_TIME_NUDGE_ACTIVITY_BANNER_TRIGGER=business_plus_saml_sso_one_time_nudge_activity_banner_trigger	2026-10-21	2026-11-24	2026-11-24
 enums	BUSINESS_PLUS_SAML_SSO_TRIGGER=business_plus_saml_sso_trigger	2026-10-21		
 enums	BUSINESS_PLUS_SIDEBAR_HEADER_TRIGGER=business_plus_sidebar_header_trigger	2026-10-21		
 enums	BUSINESS_PLUS_SLACKBOT_PROMO_Q1_FY27_BIZ_PLUS_PEEK_CARD=business_plus_slackbot_promo_q1_fy27_biz_plus_peek_card	2026-10-21		
@@ -40022,7 +40022,7 @@ experiments-upstream	admin_needs_review_redesign: on	2026-11-10
 experiments-upstream	admin_slack_dm_nudge: on	2026-11-10		
 experiments-upstream	adoption_instant_slack: treatment	2026-11-10		
 experiments-upstream	adoption_instant_slack_invitee: on	2026-11-10		
-experiments-upstream	advanced_security_activity_banner: control, treatment	2026-11-10		
+experiments-upstream	advanced_security_activity_banner: control, treatment	2026-11-10	2026-11-24	2026-11-24
 experiments-upstream	advanced_security_launch_modal: control, treatment	2026-11-10		
 experiments-upstream	af_slackbot_connector: on	2026-11-10		
 experiments-upstream	agent_about_page: on	2026-11-10		
@@ -43884,7 +43884,7 @@ mcp-enums	WS_APPS_MANAGE_MCP_SERVER_ACLS=ws_apps_manage_mcp_server_acls	2026-10-
 megaphones	notification: add_to_mpdm_onboarding_coachmark	2026-11-10		
 megaphones	notification: add_workspaces_to_ssb_modal	2026-11-10		
 megaphones	notification: admin_connector_automation_coachmark	2026-11-10	2026-11-23	2026-11-24
-megaphones	notification: advanced_security_activity_banner	2026-11-10		
+megaphones	notification: advanced_security_activity_banner	2026-11-10	2026-11-24	2026-11-24
 megaphones	notification: advanced_security_launch_modal	2026-11-10		
 megaphones	notification: agent_browser_tab_rail_coachmark	2026-11-10		
 megaphones	notification: agentic_ia_opt_out_banner	2026-11-10		
@@ -44022,6 +44022,7 @@ megaphones	notification: enterprise_search_first_app_modal_banner	2026-11-10
 megaphones	notification: enterprise_search_nux_email_connector_banner	2026-11-10	2026-11-14	2026-11-14
 megaphones	notification: enterprise_search_nux_filters_banner	2026-11-10		
 megaphones	notification: enterprise_search_nux_hero_banner	2026-11-10		
+megaphones	notification: eoy_biz_plus_gift_trial_countdown_sidebar_menu_header	2026-11-24		
 megaphones	notification: eoy_biz_plus_gift_trial_tasklist_sidebar_menu_header	2026-11-23		
 megaphones	notification: external_huddles_awareness_entry_glow	2026-11-10		
 megaphones	notification: external_huddles_awareness_sidebar_glow	2026-11-10		
@@ -44378,7 +44379,7 @@ megaphones	notification: work_object_click_preference_coachmark	2026-11-10
 megaphones	notification: work_object_new_file_version_coachmark	2026-11-10		
 megaphones	notification: work_object_view_details_tab	2026-11-10		
 megaphones	notification: workspace_menu_upgrade_item	2026-11-10		
-megaphones	space: activity_inbox_header	2026-11-10		
+megaphones	space: activity_inbox_header	2026-11-10	2026-11-24	2026-11-24
 megaphones	space: activity_tab_sidebar	2026-11-10		
 megaphones	space: add_salesforce_list_modal_header	2026-11-10		
 megaphones	space: admin_billing_header	2026-11-10		
@@ -57033,6 +57034,7 @@ session-toggles	emoji_search_worker	2026-11-10
 session-toggles	feat_trace_timing	2026-11-10		
 session-toggles	fingerprint_boot_warmup	2026-11-10		
 session-toggles	foreground_tag_respects_visibility	2026-11-20		
+session-toggles	foreground_tag_shadow_args	2026-11-24		
 session-toggles	gantry_skip_redundant_users_info	2026-11-10		
 session-toggles	gs_member_subscribe_refusals	2026-11-10		
 session-toggles	hot_path_stable_shapes	2026-11-10		
