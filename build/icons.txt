@@ -188,6 +188,7 @@ headphones-filled
 heart
 help
 help-filled
+high-contrast
 history
 home
 hourglass

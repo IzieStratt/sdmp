@@ -2842,8 +2842,6 @@ element: screenshare_zoom_reset
 element: search
 element: search-button
 element: search_accept_watchdog
-element: search_answer_ask_slackbot_btn
-element: search_answer_ask_slackbot_followup_btn
 element: search_answer_share_confirm_btn
 element: search_answer_share_modal
 element: search_answer_share_open_modal_btn

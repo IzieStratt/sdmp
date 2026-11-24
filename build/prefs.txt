@@ -102,6 +102,7 @@ org: channel_email_addresses_enabled
 org: content_review_enabled
 org: default_channel_creation_enabled
 org: default_create_private_channel
+org: developer_sandbox_org
 org: disable_email_ingestion
 org: disable_file_uploads
 org: disallow_public_file_urls

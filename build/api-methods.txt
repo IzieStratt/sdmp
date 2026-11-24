@@ -955,6 +955,7 @@ helpdesk.categories
 helpdesk.get
 helpdesk.getArticle
 helpdesk.getSectionsAndArticlesByCategory
+huddles.addSlackbot
 huddles.agents.invite
 huddles.agents.listAvailable
 huddles.agents.remove

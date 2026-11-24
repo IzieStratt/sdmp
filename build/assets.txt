@@ -242,8 +242,8 @@ calendar.png
 calendar.svg
 calendar_apps.svg
 canvas-ai-modal-header.png
-canvas-controller-302bdc966061d3f7.css
-canvas-controller-68f2a813c9f78046.css
+canvas-controller-6ec811f9f2625da0.css
+canvas-controller-cca5f573049e3e1c.css
 canvas-create-menu-illo@3x.png
 canvas-hero-video@2x.jpg
 canvas-nux.mp4
@@ -920,9 +920,6 @@ slack-logo@2x.png
 slack-salesforce.png
 slack-salesforce@2x.png
 slack_48.png
-slack_ai_chat_bubble.svg
-slack_ai_data.svg
-slack_ai_lock.svg
 slack_crm-dark.gif
 slack_from_salesforce_logo.png
 slack_hash_128.png

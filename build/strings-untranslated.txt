@@ -29,7 +29,6 @@ A count of total messages posted, including messages from apps and integrations
 A keyword search summary is counted when (1) a person’s search meets criteria that triggers a suggested question and the person clicks to view it, or (2) a person’s search meets criteria that triggers an AI answer to be displayed and the person clicks to expand the answer. A natural language search summary is counted when a person searches using natural language and views the AI answer.
 A member is active if they’ve posted a message or read at least one channel or direct message.
 A member is active if they’ve posted a message or read at least one channel or direct message. Last activity is measured over the last 90 days.
-A member is active if they’ve posted a message or read at least one channel or direct message. This may also include Single-Channel Guests and deactivated members.
 A member of the Slack support team will contact you shortly. Please check out our <a href="{link}" target="_blank">Help Center article</a> for more information.
 A new tab will be opened for you to complete the installation process.
 A new temporary password was generated
@@ -189,11 +188,11 @@ Any owner or admin
 Any translation
 Anyone will be able to add replies to messages posted in this channel.
 Anyone with @{emailDomain} can join
+Anyone with view or edit access to a canvas can print it.
 App ID
 App activity metrics (aggregated only)
 App activity metrics (aggregated)
 App activity metrics (real-time or aggregated)
-App analytics
 App analytics sections
 App category
 App data is available from {firstDate}.
@@ -238,6 +237,7 @@ Assign role
 Audio clip plays
 Audio clips created
 Authenticate another way
+Authorization
 Auto
 Automatic acceptance
 Automatic user account mapping
@@ -298,6 +298,8 @@ Cancel all requests?
 Cancel all {count, number} requests?
 Cancel this app request?
 Cannot remove yourself from the workspace.
+Canvas Retention
+Canvas and List Retention
 Canvas edits
 Canvas shares
 Canvas views
@@ -307,6 +309,7 @@ Can’t have spaces
 Can’t have special characters (e.g. @, $, %, =) or emojis
 Can’t remove member
 Categories of Personal Information
+Certain people and groups
 Change access?
 Change account type
 Change email?
@@ -350,6 +353,8 @@ Check back in 24 hours to see data about your team’s members
 Check punctuation
 Choose Role
 Choose a channel…
+Choose a limit for how many people are allowed in this specific channel. You can update limits for all private channels from the Channel Management settings.
+Choose a new limit
 Choose a new owner
 Choose a server
 Choose a workspace
@@ -364,7 +369,6 @@ Choose whether users in your organization can view thumbnail previews in file un
 Choose which audit log anomalies you want to detect in your organization and immediately terminate user sessions when detected.
 Choose which workspaces to connect to this channel:
 City
-Claimed
 Claimed date
 Clear Search and Filters
 Clear Selection
@@ -450,6 +454,7 @@ Creation date
 Crunching the numbers. We’ll show your data shortly.
 Crystal
 Currently in {numPrivateChannels, plural, =1 {a private channel} other {# private channels}}
+Customer acknowledgement required
 Cypher
 D
 Daily actions taken
@@ -489,6 +494,7 @@ Default tool access
 Default tool permissions
 Default workspaces
 Delete Profile
+Delete messages older than {amount} {amount, plural, =1 {day} other {days}}
 Delete profile
 Delete records
 Delete selected servers?
@@ -520,6 +526,7 @@ Directly to everyone who can manage Slack Connect
 Disable 2FA
 Disable two-factor authentication
 Disable two-factor authentication?
+Disabling Member Overrides will remove all overrides currently in place on DMs, MPDMs and channels. When disabled they will default to the Org wide policy (or Workspace policy). Verify the customer has been informed and the appropriate actions have been taken. The customer can run a channel audit export to review all current member overrides.
 Disallowed objects
 Discard entered ranges?
 Disclaimer: Generative AI can produce inaccurate or harmful responses. Make sure people review the output for accuracy and safety. They assume responsibility for how the outcomes of this agent are applied.
@@ -551,6 +558,7 @@ Edit default member access
 Edit default workspaces
 Edit delete records
 Edit expiration date
+Edit member limit for this channel
 Edit permission
 Edit primary organization
 Edit profile
@@ -574,7 +582,6 @@ Enable domain allowlist for channel email addresses and personal forwarding emai
 Enable enterprise search
 Enable enterprise search for the entire organization
 Enable external file thumbnail previews for:
-Enable sharing and viewing canvases with external organizations.
 Enable sharing and viewing lists with external organizations.
 Enforce on Older Sessions
 Enforced on all Chrome and Edge sessions
@@ -644,6 +651,7 @@ Failed to save settings. Please try again later.
 Failed to update Slackbot setting. Please try again.
 Failed to update integration. Before changing Salesforce organizations, a Sales Admin needs to disconnect this integration in Sales settings.
 Failed to update setting. Please try again later.
+File Retention
 File download settings updated
 File summaries viewed
 File summary translation
@@ -684,7 +692,6 @@ From {orgName} only
 Frontline Members
 Frontline members
 Generally, no one is under a statutory or contractual obligation to provide any Customer Data or Other Information. However, certain Information is collected automatically and, if some Information is not provided, the functionality of the Services may be limited.
-Generate CSV
 Generate a different password
 Generate a temporary password
 Get a quick view of people from external orgs
@@ -696,7 +703,6 @@ Get the simplicity of Slack with the power of Salesforce. Enter the email you us
 Gherkin
 GitHub organization name
 Give people a quick start to chatting with the agent. Keep them short and sweet.
-Give your rule a name
 Go
 Good to go
 Graph showing viewers by department
@@ -786,6 +792,8 @@ Joining external workspaces
 Julia
 Keep Request
 Keep Requests
+Keep messages forever
+Keep the current limit set by your organization
 Keep {targetName} in {numPrivateChannels, plural, =1 {the private channel} other {the # private channels}} you’re not a member of
 Keeping apps when deactivating members
 Keyword search
@@ -813,17 +821,15 @@ Learn how information is shared in your workspace.
 Learn how information is shared, and whether it’s bots or members doing the talking.
 Learn how to get started
 Learn how to set up Agentforce
-Learn how your team is using Slack
-Learn how your team is using apps
 Learn how your team is using channels
 Learn more about permissions
 Learn more about unfurl settings
 Let’s find your team
 Limit of {limit} addresses exceeded
 Limit of {limit} addresses exceeeded
-Limit sharing so only list owners can share their lists with other people and channels.
 Limited access group updated
 Lisp
+List Retention
 List edits
 List shares
 Lists created
@@ -891,7 +897,6 @@ Maximum of {count} items allowed
 Medium risk list
 Member access
 Member access updated
-Member analytics
 Member data is available from {firstDate}.
 Member data not available yet
 Member data unavailable
@@ -910,11 +915,10 @@ Members who read messages
 Members who use app
 Members who viewed
 Members with automations
-Membership - All time
-Membership - Last 30 Days
 Membership limit updated
 Menu actions for 
 Menu actions for {name}
+Message Retention
 Message explanations viewed
 Message history settings updated
 Message translations generated
@@ -944,7 +948,6 @@ Mobile passcode disabled
 Mobile passcode enabled
 Mobile passcode updated
 Mobile phone
-Monthly active
 Monthly active people
 More options for {channelName}
 Move {ruleName} rule one row down
@@ -1024,9 +1027,6 @@ Number of accepted invites
 Number of days that a member posted a message or read a message from a conversation that is shared with an external organization.
 Number of days that a member ran at least one workflow or interacted with a workflow or message from a workflow.
 Number of days that a member used an app or an app performed an action on behalf of that member.
-Number of full members and guests with a provisioned account, claimed account, or an outstanding invitation. This number does not include deactivated members.
-Number of full members or guests who have signed into your Organization at least once. This number does not include deactivated members.
-Number of full members or guests who have signed into your workspace or org at least once. This number does not include deactivated members.
 Number of people using AI
 Number of people using feature
 Number of searches a member has made in Slack.
@@ -1118,6 +1118,7 @@ Pending verification
 People and groups
 People and groups for {objectLabel}
 People who posted
+People with their email address
 Perl
 Permanently delete {possessiveTargetName} profile?
 Permission
@@ -1138,7 +1139,9 @@ Please enter a valid URL.
 Please enter an App ID.
 Please enter at least one letter for your Workspace URL.
 Please enter up to 21 characters for your Workspace URL.
+Please enter your full name
 Please fill in a username.
+Please include information about who is requesting this update, and your name.
 Please select a list.
 Posting messages in channels helps make information more discoverable and transparent. This is the number of messages that a member posted to a public or private channel in the last 30 days.
 Posting permissions updated
@@ -1233,6 +1236,7 @@ Reorder Automation Rules
 Reorder list
 Reorder table menu actions for {rule}
 Reports if a member was considered billable for at least one day in the selected time period. This only applies to invoiced customers.
+Request Submitted
 Request for {appName} resolved and removed from the list
 Request type
 Request was not {invalidApprovalsText}
@@ -1286,7 +1290,6 @@ SSO + Two-Factor (2FA)
 SSO login is required for your account, so you can’t sign in with a passkey.
 SSO required by your admins
 SSO with any provider and SCIM user management
-Salesforce MCP servers
 Salesforce Organization
 Salesforce Organizations | Slack Admin
 Salesforce org instance URL and ID for {orgName}
@@ -1313,6 +1316,7 @@ Search by name, description, URL or organization
 Search for an app to approve
 Search for an app to restrict
 Search for an app…
+Search for members or groups
 Search for someone to add…
 Search for workspaces
 Search summaries
@@ -1402,6 +1406,7 @@ Shell
 Show all record details for these objects
 Show all servers
 Show archived channels
+Show canvas version history and allow restoration
 Show details for {count, plural, =1 {# object} other {# objects}}
 Show fewer workspaces
 Show in the table…
@@ -1418,6 +1423,7 @@ Sign in to the Slack Developer Program
 Sign in to the Slack Developer sandbox
 Sign in with Passkey
 Sign in with email instead
+Sign in with {ssoProvider}
 Sign out of Slack
 Sign this person out of Slack?
 Sign user out of
@@ -1425,7 +1431,6 @@ Since you only have permission to manage private channels, public channels are h
 Since you only have permission to manage public channels, private channels are hidden.
 Single-Channel Guests
 Single-channel guests
-Skip this
 Slack Calls 
 Slack Connect Open Requests table
 Slack Connect Requests & Invitations table
@@ -1557,6 +1562,7 @@ The average number of unique members who either read a message or replied from a
 The average number of unique members who had at least one automation completed on their behalf by a specific app per day
 The average number of unique users who interacted with a specific app at least once per day
 The categories of personal information that Slack collects from you to create a Workspace account include:
+The customer has acknowledged that enabling this option will disable their current file retention settings. Files with no active shares will be deleted after a 30-day grace period.
 The email that was associated with this deactivated account will be available. When this account is reactivated, the user will need to verify the updated email address.
 The following {count, plural, =1 {member} other {members}} could not be removed from {channelName}:
 The member will no longer be able to sign in to the workspace. 
@@ -1617,7 +1623,6 @@ This can’t be undone. {name} will be notified their request was cancelled, but
 This channel can’t be public because the owning organization set it to private.
 This channel:
 This conversation includes people from another workspace.
-This data set is large, so your CSV will take some time to generate. We’ll send it to you via Slackbot as soon as it’s ready.
 This doesn’t seem like an email address. Sorry!
 This domain has already been added by a different organization. If this doesn’t seem right, contact us.
 This email is pending verification. If you change the email address, any verification emails will be canceled.
@@ -1733,6 +1738,7 @@ Unable to remove {count, plural, =1 {# member} other {# members}}
 Unable to revoke passkeys. Try again later.
 Unable to save changes to role.
 Unable to save setting. Try again later
+Unable to save setting. Try again later.
 Unable to sign {memberName} out of Slack.
 Unable to verify MCP server status. Please try again later.
 Unapprove
@@ -1755,9 +1761,7 @@ Updated channel visibility
 Updating workspaces…
 Upgrade to unlock more insights
 Upgrade your Plan
-Upgrade your plan to see activity and information for all of your apps.
 Upgrade your plan to see activity and information for all of your channels.
-Upgrade your plan to see information about all team members, and learn how they’re using Slack.
 Upload CSV
 Upload CSV view
 Upload a maximum of 1,000 IP ranges in CSV format. The following is required and must be the first column of your file:
@@ -1791,8 +1795,10 @@ Video clip plays
 Video clips created
 View Agent in Slack
 View Salesforce organization page
+View Workspaces
 View a summary of Confluence page content
 View all workspaces (opens in a new tab)
+View all workspaces at {orgName}
 View and download all your Google Drive files
 View details regarding spaces and their associated properties
 View our help article
@@ -1888,6 +1894,7 @@ Who can use {permissionLocalizedDisplayName}?
 Who is uploading files
 Will be added
 Will not be added
+Workflow Managers can export workflows
 Workflow runs
 Workflow steps & triggers
 Workflow steps, triggers, & integrations
@@ -1940,7 +1947,6 @@ You don’t have permission to start direct messages with Slack Connect.
 You haven’t added any domains yet
 You may refuse to consent to the collection of this personal information by declining to provide it. If you refuse, you will not be able to use the Services.
 You might want to try adjusting your filters.
-Your Analytics Export is processing…
 Your changes weren’t saved. Try again.
 Your current IP isn’t in the allowed ranges. Add your IP address to avoid being locked out.
 Your current IP {ip_address} isn’t in the allowed ranges. Add your IP address to avoid being locked out.
@@ -1988,8 +1994,6 @@ in the last 7 days
 includes any of those in
 includes only those in
 is a connector step
-joined the huddle.
-left the huddle.
 members
 name@{example_com}
 of the following conditions are met:
@@ -2000,8 +2004,6 @@ restricted
 rows
 sent by
 slack marketplace approved
-started screen sharing.
-stopped screen sharing.
 submenu
 submitted for approval
 team
@@ -2081,6 +2083,7 @@ you@{example_com}
 {count, plural, one {Edit access for # tool} other {Edit access for # tools}}
 {count, plural, one {Select members who can use this server.} other {Select members who can use these servers.}}
 {count} ({privateCount} private)
+{count} of {max, plural, =1 {# object} other {# objects}} added
 {count} {count, plural, =1 {active person} other {active people}}
 {count} {count, plural, =1 {person posted} other {people posted}}
 {date}

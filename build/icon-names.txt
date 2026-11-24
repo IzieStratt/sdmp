@@ -139,6 +139,7 @@ google-drive
 headphones
 help
 hierarchy
+high-contrast
 history
 home
 hourglass

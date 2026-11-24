@@ -387,6 +387,8 @@ lottie-legacy-modern-components-sidebar-sweeper-animations-leave-inactive-channe
 lottie-legacy-modern-components-slack-ai-animations-lottie-ai-translation-sparkle.json
 lottie-legacy-modern-components-slack-connect-trial-onboarding-new-team-welcome-modal-animations-welcome.json
 lottie-legacy-modern-components-slack-seasonal-updates-january-delight-animations-greeting-card-confetti.json
+lottie-legacy-modern-components-slackbot-ai-animations-lottie-gpt-live-slackbot-transition.json
+lottie-legacy-modern-components-slackbot-ai-animations-lottie-gpt-live-slackbot-wave.json
 lottie-legacy-modern-components-slackbot-ai-animations-lottie-slackbot-thinking.json
 lottie-legacy-modern-components-slackbot-ai-components-nux-lottie-slackbot-nux.json
 lottie-legacy-modern-components-slackbot-ai-components-paywall-lottie-slackbot-paywall.json

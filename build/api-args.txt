@@ -33,14 +33,14 @@ admin.conversations.convertToPrivate: channel_id, target_team
 admin.conversations.convertToPublic: channel_id, target_team
 admin.conversations.delete: channel_id, target_team
 admin.conversations.disconnectShared: channel_id, target_team
-admin.conversations.getConversationPrefs: channel_id
+admin.conversations.getConversationPrefs: channel_id, target_team
 admin.conversations.getCustomRetention: channel_id
-admin.conversations.getTeams: channel_id, cursor, limit
+admin.conversations.getTeams: channel_id, cursor, limit, target_team
 admin.conversations.invite: channel_id, target_team, user_ids
 admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, target_team, user_ids
 admin.conversations.removeCustomRetention: channel_id
 admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, target_team, team_ids
-admin.conversations.setConversationPrefs: channel_id, prefs
+admin.conversations.setConversationPrefs: channel_id, prefs, target_team
 admin.conversations.setCustomRetention: channel_id, duration_days
 admin.conversations.setProperties: channel_id, props
 admin.conversations.unarchive: channel_id, target_team
@@ -527,6 +527,7 @@ help.productHelpCard.list: count, locale, type
 helpdesk.categories: locale
 helpdesk.get: locale
 helpdesk.getSectionsAndArticlesByCategory: category_id, locale
+huddles.addSlackbot: huddle_id
 huddles.agents.invite: app_id, huddle_id
 huddles.agents.listAvailable: channel_id, cursor
 huddles.agents.remove: huddle_id, user_id
@@ -621,7 +622,7 @@ promo.campaigns.eligibilityInfo: campaign_sub_type, campaign_type, context
 promo.campaigns.optOut: campaign_type
 promo.campaigns.redeem: campaign_sub_type, campaign_type, context
 quip.cloneCanvas: file_id, keep_original_title, target_file_created, target_file_id, title
-quip.getCanvasBulkSectionIdsData: file_id, section_ids
+quip.getCanvasBulkSectionIdsData: file_id, include_dependent_sections, section_ids
 quip.getMentions: channel_ids
 quip.history.getVersions: file_id, limit, newest_created_usec, oldest_created_usec
 quip.history.restoreVersion: file_id, sequence, version_id

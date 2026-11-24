@@ -6,8 +6,6 @@ aa_treatment_b
 aa_treatment_business_plus
 aa_treatment_horizontal_banner
 aa_treatment_pro
-aa_treatment_segmentation_mandatory
-aa_treatment_segmentation_skippable
 aa_treatment_vertical_banner
 about
 about_modal
@@ -1100,6 +1098,8 @@ lists
 lists_activity_feed
 lists_fetch_columns
 lit
+live_idle_timeout
+live_session_limit
 load_sandbox
 loading
 locate
@@ -1723,6 +1723,7 @@ shortcuts
 show
 sign_in_to_your_workspace
 simple_smile
+singer_voice
 six
 size
 skateboard
@@ -1922,6 +1923,7 @@ thinking_face
 thread
 thread_broadcast
 thread_hidden
+thread_name
 thread_share
 thread_ts
 thread_v2
@@ -1982,8 +1984,6 @@ treatment_b
 treatment_business_plus
 treatment_horizontal_banner
 treatment_pro
-treatment_segmentation_mandatory
-treatment_segmentation_skippable
 treatment_vertical_banner
 treeitem
 tres

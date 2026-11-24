@@ -334,7 +334,6 @@
 1900
 1900008
 1900034
-1900035
 1900037: slackiversary_carousel_abandon
 1900037: slackiversary_carousel_complete
 1900037: slackiversary_feedback_dismiss

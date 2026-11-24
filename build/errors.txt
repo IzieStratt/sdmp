@@ -118,6 +118,9 @@ bulk_move_to_todos
 bulk_remove_all_saved
 calendar_app_home_connect
 calendar_event_creation_failed
+call_member_agent_sandbox_signin_link
+call_member_agent_sandboxes_create
+call_member_agent_sandboxes_list
 cancel_app_submission
 cannot_change_default_view_name
 cannot_delete_default_view
@@ -250,6 +253,7 @@ decay_new_team_launchpad
 delete_draft_file
 delete_duplicate_sent_draft
 delete_file_dialog
+delete_member_agent_sandbox
 desktop_deeplink_signals
 disable_denied_due_to_idpgroup_membership
 disable_distribution
@@ -465,6 +469,7 @@ invalid_related_list_id
 invalid_request
 invalid_reserved_word
 invalid_response
+invalid_scope
 invalid_starts_with_at
 invalid_target_domain
 invalid_target_domain_sameorg
@@ -612,6 +617,7 @@ not_online
 not_opted_into_overages
 not_owner
 not_paid
+not_sent
 not_set
 not_started
 not_yet_allowed
@@ -879,6 +885,7 @@ switching_channels
 tabbed_channel
 tag_changed
 target_changed
+task_detail_copy_click
 team_added_to_org
 team_creation
 team_creation_step_logo

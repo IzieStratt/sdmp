@@ -75,6 +75,7 @@ admin.apps.search
 admin.apps.teamAccess.getConfig
 admin.apps.teamAccess.grant
 admin.apps.teamAccess.revoke
+admin.apps.teamAccess.setConfig
 admin.apps.uninstall
 admin.audit.anomalyResponse.allow.list
 admin.audit.anomalyResponse.allow.set
@@ -166,6 +167,10 @@ admin.users.session.info
 admin.workflows.search
 admin.workflows.triggers.types.list
 admin.workflows.unpublish
+agentSandboxes.create
+agentSandboxes.createSigninLink
+agentSandboxes.delete
+agentSandboxes.list
 agents.mcp.settings.list
 agents.mcp.settings.listTools
 agents.mcp.settings.setServerEnabled
@@ -899,6 +904,7 @@ helpdesk.getArticle
 helpdesk.getSectionsAndArticlesByCategory
 highlights.briefing
 highlights.list
+huddles.addSlackbot
 huddles.agents.invite
 huddles.agents.listAvailable
 huddles.agents.remove

@@ -242,9 +242,6 @@
  "agentforce_agent_home": [
   "on"
  ],
- "agentforce_deprecation": [
-  "on"
- ],
  "agentforce_feedback_buttons": [
   "on"
  ],
@@ -647,6 +644,9 @@
   "aa_treatment",
   "control",
   "treatment"
+ ],
+ "calapp_rewrite_connect": [
+  "on"
  ],
  "calendar_agenda_day_nav": [
   "on"
@@ -1338,6 +1338,12 @@
  "emoji_v17": [
   "on"
  ],
+ "enable_canvas_govslack": [
+  "on"
+ ],
+ "enable_canvas_govslack_defense": [
+  "on"
+ ],
  "enable_native_channel_expert": [
   "on"
  ],
@@ -1923,6 +1929,9 @@
  "ia4_admin_and_settings_translations": [
   "on"
  ],
+ "ia4_admin_tools_menu_groups": [
+  "on"
+ ],
  "ia4_bloops": [
   "on"
  ],
@@ -2371,6 +2380,9 @@
   "on"
  ],
  "omni_agent_pin": [
+  "on"
+ ],
+ "omni_clear_stale_query": [
   "on"
  ],
  "omni_date_quick_filters": [
@@ -2864,10 +2876,6 @@
  "search_slackbot_no_results_handoff": [
   "treatment1",
   "treatment3"
- ],
- "search_summary_redesign": [
-  "variant_scroll_pill",
-  "variant_sticky_composer"
  ],
  "seasonal_delight_push": [
   "on"
@@ -3479,6 +3487,9 @@
   "control",
   "treatment"
  ],
+ "slackbot_huddle_voice": [
+  "on"
+ ],
  "slackbot_in_channels": [
   "on"
  ],
@@ -3522,6 +3533,9 @@
   "on"
  ],
  "slackbot_mcp_auth": [
+  "on"
+ ],
+ "slackbot_mcp_oauth_scopes": [
   "on"
  ],
  "slackbot_mcp_tasks_card_auto_collapse_when_complete": [
@@ -3941,11 +3955,6 @@
   "control",
   "holdout"
  ],
- "team_creation_segmentation": [
-  "control",
-  "treatment_segmentation_mandatory",
-  "treatment_segmentation_skippable"
- ],
  "team_plan_change_refetch_jitter": [
   "on"
  ],
@@ -4282,13 +4291,7 @@
  "wfb_automations_tab_in_channel": [
   "on"
  ],
- "wfb_back_to_basics_iris_release": [
-  "on"
- ],
  "wfb_back_to_basics_jalapeno_release": [
-  "on"
- ],
- "wfb_back_to_basics_kimchi_release": [
   "on"
  ],
  "wfb_back_to_basics_lasagna_release": [
