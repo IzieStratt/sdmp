@@ -56,6 +56,7 @@ agent
 agent_card
 agent_disabled
 agent_hover_card
+agent_mcp_deep_link
 agent_view_added
 agent_whisper
 agent_whisper_attachment
@@ -120,6 +121,7 @@ app_profile
 app_unfurl_url
 apple
 applet
+approval
 apps_coachmark
 apps_uninstalled
 aquarium
@@ -154,6 +156,7 @@ auth_route_email_first_signin
 auth_route_joiner_email_domain
 auth_route_joiner_email_invite
 auth_route_workspace_signin
+author
 auto
 auto_rickshaw
 auto_slack_launchpad
@@ -292,6 +295,7 @@ canvas_fetch_variables
 canvas_open_by_default
 canvas_section_stub
 canvas_sharing_message
+canvas_table
 canvas_update_content
 canvas_update_content_v2
 canvas_update_variables
@@ -426,9 +430,11 @@ commands_changed
 comment_stream
 comment_thread
 comments
+common
 communications
 compact
 compare
+comparison_coachmark
 compass
 complete
 completed
@@ -811,7 +817,9 @@ get_started_signup_google_fallback
 gif
 gift
 ginger_root
+github_api_error
 github_connector_not_available
+github_installation_not_approved
 github_insufficient_scope
 github_not_authenticated
 github_revision_changed
@@ -911,6 +919,7 @@ hr
 href
 hs
 html
+html_value
 http
 https
 huddle
@@ -1385,6 +1394,7 @@ performance
 perl6
 permissions
 person_with_headscarf
+personal
 php
 piano
 pickup_truck
@@ -1667,6 +1677,7 @@ send_to_salesforce_app
 send_tool_input
 send_tool_result
 sender_name
+sensitivity_label
 serif
 service
 service_icon
@@ -1675,6 +1686,7 @@ service_unavailable
 session_id
 set
 settings
+setup_apps_modal
 setup_coachmark
 severity
 sf_pricing_page
@@ -1693,6 +1705,7 @@ share_file
 share_list
 share_list_channels
 share_list_users
+shared
 shared_channels
 shared_files
 shared_message
@@ -1717,15 +1730,14 @@ sketch
 skill
 skill_name
 skill_suggestion_copy_link
-skill_suggestion_customize
 skill_suggestion_share
-skill_suggestion_view_skill
 skills
 slack
 slack_assistant_progress
 slack_call
 slack_connect_dm_acceptance
 slack_connect_switch_workspaces
+slack_record_id
 slack_user_id
 slackbot_ai_dm_upgrade_banner
 slackbot_ai_skill_slot_0
@@ -1768,6 +1780,7 @@ space
 spaghetti
 sparkles
 sparkling_heart
+specialist
 speedboat
 spellcheck
 spellout
@@ -1851,6 +1864,7 @@ sw
 sweet_potato
 switch
 switch_step
+symbol
 synagogue
 sync
 tab
@@ -1872,6 +1886,8 @@ tamale
 tangerine
 target
 task
+tasks
+tasks_v2
 taxi
 tcp
 tea

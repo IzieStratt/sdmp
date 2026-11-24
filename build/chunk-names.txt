@@ -33,6 +33,7 @@ albert-wiki-demo
 amazon-chime-sdk-js-experimental
 application
 apply-preview-background-effect
+ask-user-question-block
 associate-meeting-to-channel-dialog
 attachment-reference-block
 auth-provider-block
@@ -285,6 +286,7 @@ client-slackbot-search-view
 client-slackbot-sidebar-view
 client-slides-editor-view
 client-solutions-view
+client-stock-details-view
 client-surface-draft
 client-surface-view
 client-tableau-details
@@ -342,7 +344,6 @@ downmarket-eac-onboarding-dialog
 dunning-notify-owner-modal
 echarts-core
 edit-task-modal
-effect-renderer
 email-to-case-config-dialog
 external-connections-sidebar-view
 find-ai-and-agents-overview
@@ -368,11 +369,10 @@ jp-pocket-guide-v2-flow-view
 js_lib_ms-office_src_shared_chart_chartEx_ts-js_lib_ms-office_src_shared_chart_chartHit_ts-js-143c1a
 js_lib_ms-office_src_shared_drawingml_color_ts-js_lib_ms-office_src_shared_drawingml_theme_ts-126b4a
 js_lib_slack-kit_src_components_form_fields_field-textarea-input_tsx-js_lib_slack-kit_src_com-67a278
-js_lib_slack-kit_src_components_form_fields_find-option_ts-js_modern_components_slack-app-ico-4aeea0
 js_lib_slack-kit_src_components_select_multi-select-v2_tsx
-js_lib_slack-kit_src_components_table_index_tsx
 js_modern_community_entities_unfurl-objects_salesforce-record-entity_connected_utils_tsx-js_m-b96b73
 js_modern_components_block-kit_blocks_data-visualization_data-visualization-block_tsx
+js_modern_components_block-kit_blocks_prototype_ask-user-question_ask-user-question-block_tsx
 js_modern_components_channel-details-modals_archive-channel-modal_tsx
 js_modern_components_comms-impact_message-stats_use-c3-chart_use-c3-chart_ts
 js_modern_components_composer-page_utility_is-empty-ops_ts-js_modern_components_private-messa-977a04
@@ -392,7 +392,7 @@ js_modern_components_shortcuts-menu_v2_shortcuts_set-reminder-shortcut_ts-js_mod
 js_modern_components_slackbot-ai_hooks_use-mcp-app-buckets_ts-js_modern_components_channel-de-f7ff25
 js_modern_components_upgrades_trials_guided-trials_plans-at-glance_trials-plans-at-glance-modal_tsx
 js_modern_components_upgrades_trials_guided-trials_use-gg-biz-plus-end-of-trial-upgrade_tsx-j-1d94b5
-js_modern_components_view-header_view-header-actions_module_less-js_modern_redux_stores_view--b52a1b
+js_modern_components_view-header_view-header-actions_module_less-js_modern_redux_stores_view--333fa4
 js_modern_redux_stores_pricing-plans-store_thunks_load-plans-page-boot-data_ts-js_modern_redu-f66d41
 js_modern_redux_stores_slack-connect-prefs-store_selectors_ts
 js_modern_redux_stores_workflows-store_thunks_slackbot-tasks_prompt-blocks_ts-js_modern_utili-b1f488
@@ -874,7 +874,6 @@ megaphone-auto-charge-feature-trials-paid-benefits-header-reminder
 megaphone-auto-charge-trial-start-modal-with-confetti
 megaphone-auto-slack-salesforce-channel-auto-peek-record-overview-coachmark
 megaphone-auto_slack_salesforce_plus_trial_guide
-megaphone-automation-coachmark
 megaphone-automations-hub-automate-tasks-banner
 megaphone-automations-hub-conditionals-edu-banner
 megaphone-autoslack-nux-megaphone-banner
@@ -1483,6 +1482,7 @@ remove-external-huddle-guest-confirmation-modal
 remove-meeting-channel-confirmation-modal
 remove-member-dialog
 remove-native-channel-expert-modal
+request-card-modal
 request-crm-license-hero-gif-en-US
 request-review-modal
 rollup-core_required_libs
@@ -1563,6 +1563,7 @@ shared-js_modern_components_message-attachment_custom-attachments_mcp-app_mcp-ap
 shared-js_modern_components_message-kit_responsive-max-width_module_less-js_modern_components-5bc114
 shared-js_modern_components_message-pane-input_message-pane-input-channel-join-banner_channel-6b39ef
 shared-js_modern_components_new-year-promo-27_open-new-year-promo-27-modal_tsx
+shared-js_modern_components_platform-admin_components_app-request-review_app-request-review-f-bcb842
 shared-js_modern_components_portable_quip-popout_quip-comment-stream-view_tsx
 shared-js_modern_components_saved-for-later_bookmarks_bookmarks-page_tsx
 shared-js_modern_components_saved-for-later_later-todos-ui_row-renderers_later-todo-row_tsx-j-323db6
@@ -1716,7 +1717,6 @@ vendors-legacy-node_modules_formik_dist_formik_esm_js
 vendors-legacy-node_modules_hls_js_dist_hls_mjs-node_modules_hls_js_dist_hls_worker_js
 vendors-legacy-node_modules_lottie-web_build_player_lottie_js
 vendors-legacy-node_modules_markdown-it_index_mjs
-vendors-legacy-node_modules_mediapipe_selfie_segmentation_selfie_segmentation_js-node_modules-56a13b
 vendors-legacy-node_modules_mediapipe_tasks-vision_vision_bundle_mjs-node_modules_longpipe_di-c2c2d4
 vendors-legacy-node_modules_mediapipe_tasks-vision_wasm_vision_wasm_internal_wasm-node_module-21cce5
 vendors-legacy-node_modules_mermaid_dist_mermaid_core_mjs
@@ -1857,7 +1857,6 @@ vendors-legacy-node_modules_shikijs_themes_dist_snazzy-light_mjs
 vendors-legacy-node_modules_shikijs_themes_dist_tokyo-night_mjs
 vendors-legacy-node_modules_tinyspeck-generated_get-analytics-embedding-sdk_js-node_modules_t-59ba79
 vendors-legacy-node_modules_tinyspeck_design-tokens_output_web_tokens_ts
-vendors-legacy-node_modules_yup_index_esm_js
 vendors-legacy-node_modules_zod_v4_index_js
 vendors-node_modules_bidi-js_dist_bidi_mjs
 vendors-node_modules_codemirror_addon_mode_overlay_js-node_modules_codemirror_addon_mode_simp-9e4109
@@ -1871,12 +1870,11 @@ vendors-node_modules_d3-path_src_path_js-node_modules_d3-scale_src_index_js
 vendors-node_modules_dagre-d3-es_src_dagre_index_js
 vendors-node_modules_echarts_core_js-node_modules_echarts_lib_chart_bar_install_js-node_modul-26c1b4
 vendors-node_modules_es-toolkit_dist_compat_array_uniqBy_mjs
-vendors-node_modules_es-toolkit_dist_predicate_isNil_mjs-js_modern_generated_types_api_method-f58e91
+vendors-node_modules_es-toolkit_dist_predicate_isNil_mjs-js_modern_generated_types_api_method-ebdb72
 vendors-node_modules_fflate_esm_browser_js
 vendors-node_modules_formik_dist_formik_esm_js
 vendors-node_modules_framer-motion_dist_es_animation_animate_index_mjs-node_modules_framer-mo-d96d0e
 vendors-node_modules_hls_js_dist_hls_mjs
-vendors-node_modules_mediapipe_selfie_segmentation_selfie_segmentation_js-node_modules_tensor-81cf49
 vendors-node_modules_mediapipe_tasks-vision_vision_bundle_mjs-node_modules_longpipe_dist_model_js
 vendors-node_modules_mermaid-js_parser_dist_mermaid-parser_core_mjs
 vendors-node_modules_mermaid_dist_chunks_mermaid_core_architectureDiagram-5GKGNRK7_mjs
@@ -2038,7 +2036,7 @@ vendors-node_modules_shikijs_themes_dist_rose-pine-moon_mjs
 vendors-node_modules_shikijs_themes_dist_rose-pine_mjs
 vendors-node_modules_shikijs_themes_dist_snazzy-light_mjs
 vendors-node_modules_shikijs_themes_dist_tokyo-night_mjs
-vendors-node_modules_tinyspeck_slack-desktop-types_utils_utils_ts-js_modern_generated_types_a-d132ec
+vendors-node_modules_tinyspeck_slack-desktop-types_utils_utils_ts-js_modern_generated_types_a-8e3e8c
 vendors-node_modules_zod_v4_index_js
 video-effects
 video-recorder

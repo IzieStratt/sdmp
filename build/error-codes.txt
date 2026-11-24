@@ -260,6 +260,7 @@ edit_window_closed
 email_does_not_match
 email_domain_mismatch
 email_in_message
+email_is_taken
 email_limit_exceeded
 email_not_found
 email_not_verified
@@ -416,8 +417,6 @@ gmail_unavailable
 google_auth_missing
 grant_team_access_failed
 grid_workspace_required
-group_deleted
-group_not_found
 guardrail_blocked
 guest_expiration_exceeds_max_guest_duration
 guest_user_not_allowed
@@ -1003,6 +1002,7 @@ task_paused
 task_run_cooldown
 team_access_not_granted
 team_id_required
+team_is_not_open
 team_not_connected
 team_not_eligible
 team_not_eligible_for_sales_tracker
@@ -1122,6 +1122,7 @@ url_in_message
 url_restriction_not_supported
 use_auth_url
 user_already_exists
+user_already_team_member
 user_auth_required
 user_cannot_create_channel
 user_deleted_already
@@ -1134,6 +1135,7 @@ user_info_failed
 user_is_blocked
 user_is_external_guest
 user_is_restricted
+user_is_restricted_user
 user_needs_to_accept_custom_tos
 user_not_authorized
 user_not_found

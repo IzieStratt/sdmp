@@ -62,6 +62,7 @@ admin.apps.domainWideAuth.removeDomain
 admin.apps.installed.list
 admin.apps.internal.list
 admin.apps.lookup
+admin.apps.mcp.servers.permissions.list
 admin.apps.permissions.list
 admin.apps.permissions.set
 admin.apps.productivity.list
@@ -74,7 +75,6 @@ admin.apps.search
 admin.apps.teamAccess.getConfig
 admin.apps.teamAccess.grant
 admin.apps.teamAccess.revoke
-admin.apps.teamAccess.setConfig
 admin.apps.uninstall
 admin.audit.anomalyResponse.allow.list
 admin.audit.anomalyResponse.allow.set
@@ -210,6 +210,7 @@ ai.alpha.internal.feedbackDatasets
 ai.alpha.search.getNoResultsPrompts
 ai.alpha.sidekicks.create
 ai.alpha.sidekicks.delete
+ai.alpha.sidekicks.draft
 ai.alpha.sidekicks.getOrCreateMemoryCanvas
 ai.alpha.sidekicks.rewritePrompt
 ai.alpha.sidekicks.testPrompt
@@ -226,9 +227,6 @@ ai.alpha.singer.remoteResponse
 ai.alpha.singer.window
 ai.alpha.singer.windowConversation
 ai.alpha.singer.windowThread
-ai.alpha.slackbot.automationGroups.delete
-ai.alpha.slackbot.automationGroups.list
-ai.alpha.slackbot.automationGroups.setActive
 ai.alpha.slackbot.channelMcpServers.list
 ai.alpha.slackbot.channelMemory.delete
 ai.alpha.slackbot.channelMemory.list
@@ -306,6 +304,9 @@ ai.alpha.surfaces.rename
 ai.alpha.surfaces.reportDraftRender
 ai.alpha.surfaces.restoreVersion
 ai.alpha.surfaces.setSourcesShared
+ai.alpha.surfaces.storageGet
+ai.alpha.surfaces.storageList
+ai.alpha.surfaces.storageSet
 ai.alpha.translate.fileSummary
 ai.alpha.translate.locales
 ai.alpha.translate.message
@@ -1398,6 +1399,7 @@ stars.add
 stars.list
 stars.remove
 stocks.earnings.info
+stocks.history.info
 stocks.metrics.info
 stocks.quotes.lookup
 subscriptions.thread.add
@@ -1581,6 +1583,9 @@ workflows.channelOptIn.list
 workflows.channelOptIn.set
 workflows.channels.add
 workflows.createFromTemplate
+workflows.errorVisibility.alertSettings.get
+workflows.errorVisibility.alertSettings.set
+workflows.errorVisibility.digest.send
 workflows.featured.add
 workflows.featured.remove
 workflows.notificationOptOut.info

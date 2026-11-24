@@ -408,6 +408,7 @@ feature_usage_updated
 feature_vector
 feature_workflow_checkbox
 get
+is_canvas_enabled
 list
 map
 permissions

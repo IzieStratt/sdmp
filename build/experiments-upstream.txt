@@ -6,6 +6,7 @@ a11y_message_replay: on
 a11y_underline_button_link: on
 a11y_updated_activity_labels: on
 a2a_publish: on
+aaa_request_message_cards: on
 activity_automations_only: on
 activity_bot_item_type_reads: on
 activity_bulk_unread_tool: on
@@ -34,6 +35,7 @@ agent_about_page: on
 agent_access_restricted_add_copy: on
 agent_auto_thread_opening: on
 agent_badge: on
+agent_builder_prototype: on
 agent_channel_header: on
 agent_channel_thread_naming: on
 agent_channel_welcome: on
@@ -159,6 +161,7 @@ ask_agentforce_i18n: on
 ask_agentforce_step: on
 ask_agentforce_step_send_as_agent: on
 ask_agentforce_trigger_validations: on
+ask_user_question_desktop_copy: on
 assistive_summaries_mode
 attachments_and_unfurls_max_width: on
 attrited_grids_data_deletion: on
@@ -317,9 +320,9 @@ clips_background_picker: on
 clips_pip: on
 clips_super_reactions: on
 clips_thumbnail: on
-clips_video_effects_pipeline: on
 clog_flush_interval_120s: on
 code_block_strings: on
+code_channel_composer_skills: on
 code_channels_auto_close: on
 code_channels_browse: on
 code_channels_canvas_menu: on
@@ -341,6 +344,7 @@ code_review_requested_in_activity: on
 cold_channel_history_prefetch
 composer_control_simplification_expansion: on
 composer_control_simplifications_emoji_gifs: on
+composer_control_simplifications_expanded_resize_popout: on
 composer_control_simplifications_formatting_toolbar: on
 composer_control_simplifications_formatting_toolbar_slackbot: on
 composer_control_simplifications_m1: on
@@ -419,7 +423,6 @@ emoji_exact_match_boost: on
 emoji_picker_debug_scores: on
 emoji_skin_tone_picker_improvement: on
 emoji_v17: on
-enable_canvas_govslack: on
 enable_native_channel_expert: on
 enable_ncea_proactive_reply: on
 enable_new_channel_settings: on
@@ -642,6 +645,7 @@ later_todos_clear_menu_cold_load: on
 later_todos_immediate_clear: on
 later_todos_translations: on
 lato_v3_hinted_fonts: treatment
+lato_v3_ss09: on
 legal_holds_standalone_workspace: on
 leverage_channel_creation_for_paid_plan_activation: control, treatment
 leverage_channel_creation_for_paid_plan_activation_translations: on
@@ -779,6 +783,7 @@ pilot_feedback_collector: on
 pilot_feedback_collector_strings: on
 plan_block_coding_enhancements: on
 plan_block_sidebar: on
+platform_tech_arch_slackbot_mcp_client_ema: on
 platform_ts_conversion_batch_1: on
 pnp_session_duration_device_settings: on
 pointerdown_history_prefetch: treatment
@@ -824,6 +829,7 @@ programmable_sidebar_unreads_on_top: on
 progressive_scopes: on
 prune_aged_out_free_history: on
 pxp2385: on
+quick_apps_prototype: on
 quick_quote_replies: on
 quick_quote_replies_message_action: on
 quip_migration_slack_admin_dashboard: on
@@ -856,7 +862,6 @@ sales_home_recent_updates: on
 salesforce_channels_swarm_knowledge_ai: on
 salesforce_channels_wfb_trigger: on
 salesforce_channels_wfb_trigger_granular_filters: on
-salesforce_channels_x_out_channel: on
 salesforce_data_fields_in_canvas_team_toggle: on
 salesforce_data_fields_related_object_support: on
 salesforce_enforce_slackbot_rules: on
@@ -965,11 +970,8 @@ sk_multiselect_v2
 skill_author_role: on
 skip_redundant_jump_to_timestamp: treatment
 slack6_clogging_visit_attribution: on
-slack6_cmd_k: on
 slack6_cmdk_thread_recents: on
 slack6_search_find_in_channel_popover: on
-slack6_search_input_footer: on
-slack6_search_split_results: on
 slack6_search_srp_polish: on
 slack6_search_switcher_over_sidebar: on
 slack6_todo_badging: on
@@ -1019,7 +1021,6 @@ slackbot_agentforce_mcp_admin_fe: on
 slackbot_agentforce_preferences_fe: on
 slackbot_ai_a11y_translations: on
 slackbot_ai_activity_nux: on
-slackbot_ai_automation_groups: on
 slackbot_ai_better_skills_browsing: on
 slackbot_ai_big_mode_i18n: on
 slackbot_ai_composer_format_toggle: on
@@ -1045,7 +1046,6 @@ slackbot_ai_projects: on
 slackbot_ai_queued_messages: on
 slackbot_ai_session_until_eod: on
 slackbot_ai_sidebar_education: treatment_carousel, treatment_modal, treatment_pocket_guide
-slackbot_ai_simple_skills: on
 slackbot_ai_skill_categories: on
 slackbot_ai_skill_categories_i18n: on
 slackbot_ai_skill_sets: on
@@ -1155,12 +1155,10 @@ slackforce_bulk_error_toast: on
 slackforce_channel_activity_logging: on
 slackforce_channel_activity_logging_ai_summary: on
 slackforce_channel_non_member_perm_check: on
-slackforce_channel_request_channel_access: on
 slackforce_connected_app_deprecation_use_org_jwt: on
 slackforce_event_attendees: on
 slackforce_list_view_authoritative_editability: on
 slackforce_list_view_filter_by_text: on
-slackforce_list_view_reference_fields_display_v1: on
 slackforce_muting_salesforce_notifications: on
 slackforce_muting_salesforce_notifications_channel: on
 slackforce_pnp_huddles: on
@@ -1175,7 +1173,6 @@ slackforce_scheduled_summary_to_my_salesforce_app: on
 slackforce_seamless_auth_access_restriction: on
 slackforce_seamless_block_app_membership: on
 slackforce_sign_in_cta_copy_v2: on
-slackforce_site_auth_failure_translations: on
 slackforce_unfurl_click_target: on
 slackforce_wfb_ephemeral_message_buttons: on
 slackified_checkbox: on
@@ -1317,7 +1314,6 @@ updated_scheduled_sends_desktop: on
 url_shortener_invite_links: on
 user_expectations_survey
 user_proposed_acls_during_approval: on
-video_effects_longpipe: on
 view_header_overflow_borders: on
 views_submit_increased_timeout: on
 vip_section_pref: on
@@ -1378,7 +1374,6 @@ wfb_enable_custom_outputs: on
 wfb_enforce_slackbot_tasks_limit_in_dev: on
 wfb_error_messaging_ux_improvements: treatment
 wfb_export_activity_log_as_csv: on
-wfb_hermes_trials: on
 wfb_huddle_trigger: on
 wfb_link_preview_toggle: on
 wfb_lookups: on
@@ -1407,6 +1402,7 @@ wfb_task_details_pane_redesign: on
 wfb_tasks_run_now_invokes_task: on
 wfb_types_defaults: on
 wfb_webhook_to_fifty: on
+wfb_workflow_error_visibility: on
 wo_browser_pdf_viewer: on
 wo_comment_sync_client_xp: on
 wo_file_preview_export_performance: on

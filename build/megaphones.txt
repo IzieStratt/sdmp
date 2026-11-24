@@ -1,6 +1,5 @@
 notification: add_to_mpdm_onboarding_coachmark
 notification: add_workspaces_to_ssb_modal
-notification: admin_connector_automation_coachmark
 notification: advanced_security_activity_banner
 notification: advanced_security_launch_modal
 notification: agent_browser_tab_rail_coachmark
@@ -519,7 +518,6 @@ space: launch_modal
 space: lists_list_view
 space: lists_synthetic_page
 space: main_menu
-space: manage_apps_coachmark
 space: message_actions_labels
 space: message_composer
 space: message_input
@@ -529,7 +527,6 @@ space: message_pane
 space: more_peek_menu
 space: new_team_launchpad
 space: org_dashboard_coachmarks
-space: org_settings_coachmark
 space: paid_benefits_footer
 space: paid_benefits_header
 space: passkey_settings

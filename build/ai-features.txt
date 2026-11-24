@@ -75,6 +75,7 @@ agent_browser_message_sent
 agent_browser_open_dm
 agent_browser_tab_rail_coachmark
 agent_browser_tabbed_view_header_title
+agent_builder_prototype
 agent_button
 agent_canvas_created
 agent_canvas_shelf
@@ -177,6 +178,8 @@ agent_fwd_opens_split_view
 agent_governance
 agent_helper_channel_hint
 agent_home
+agent_home_channel_error
+agent_home_channel_hint
 agent_hover_card
 agent_hover_card_access_check_failed
 agent_hover_card_join_to_view
@@ -268,6 +271,7 @@ agent_turn_end_reason
 agent_turn_notifications
 agent_turn_quote_updated_ts
 agent_type
+agent_type_picker
 agent_ui_loading_state
 agent_unavailable
 agent_url_not_within
@@ -848,6 +852,7 @@ channel_open_with_ai_sampling_channel_summary_contextual_nudge
 channel_section_menu__slackbot_more_conversation
 channel_section_menu__slackbot_recents_count
 channel_section_menu__view_all_slackbot_conversations
+channel_sidebar_slackbot_conversation_click
 channel_sidebar_slackbot_conversation_menu
 channel_skill_limit_reached
 channel_tab_agent_sessions_type_filter
@@ -861,6 +866,7 @@ checkout_purchase_completion_slack_ai_upsell
 child_window_slackbot_jellyfish
 cka_agent_app_cleanup_error
 cka_switch_org_fetch_agent_app_error
+code_channel_composer_skills
 code_channel_response_mode_more_agents
 compose_flow_ask_ai_button_clicked
 composer_control_simplifications_formatting_toolbar_slackbot
@@ -876,6 +882,7 @@ copy_prompt_dialog
 copy_prompt_modal
 copy_prompt_modal_create_button
 copy_prompt_modal_header
+create_channel_agent_field
 create_skill
 create_skill_modal_ask_slackbot
 create_skill_modal_import
@@ -1056,6 +1063,7 @@ gpt_live_voice_submit_feedback
 had_slackbot_big_mode_access
 handraise_slackbot_dm
 has_dismissed_slackbot_mention_context_bar_disclaimer
+has_mcp_servers
 has_redeemed_ai_workspace_setup_trial
 has_seen_slackbot_ai_new_tag
 has_seen_slackbot_ai_sparkles
@@ -1298,6 +1306,7 @@ platform_ai_apps_app_home
 platform_ai_apps_data_access_consent_alert
 platform_ai_apps_data_access_consent_banner
 platform_forward_message_shareable_prompts_coachmark
+platform_tech_arch_slackbot_mcp_client_ema
 plus_purchase_ai_search
 plus_purchase_recaps
 plus_purchase_slackbot
@@ -1598,7 +1607,6 @@ skill_suggestion_create_task
 skill_suggestion_customize
 skill_suggestion_dismiss
 skill_suggestion_report_copy_link
-skill_suggestion_report_customize
 skill_suggestion_report_share
 skill_suggestion_share
 skill_suggestion_view_skill
@@ -1774,7 +1782,6 @@ slackbot_ai_a11y_translations
 slackbot_ai_activity_nux
 slackbot_ai_activity_nux_banner
 slackbot_ai_add_thread_to_project
-slackbot_ai_automation_groups
 slackbot_ai_awareness_footer_banner
 slackbot_ai_better_skills_browsing
 slackbot_ai_big_mode_i18n
@@ -1885,7 +1892,6 @@ slackbot_ai_session_id
 slackbot_ai_session_until_eod
 slackbot_ai_sidebar_education
 slackbot_ai_sidebar_link
-slackbot_ai_simple_skills
 slackbot_ai_skill_categories
 slackbot_ai_skill_categories_i18n
 slackbot_ai_skill_detail_header_action

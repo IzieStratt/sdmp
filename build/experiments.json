@@ -19,6 +19,9 @@
  "a2a_publish": [
   "on"
  ],
+ "aaa_request_message_cards": [
+  "on"
+ ],
  "activate_browser_deprecation_warning_october_2026_second_refresh": [
   "on"
  ],
@@ -134,6 +137,9 @@
   "on"
  ],
  "agent_badge": [
+  "on"
+ ],
+ "agent_builder_prototype": [
   "on"
  ],
  "agent_channel_header": [
@@ -981,10 +987,10 @@
  "clips_thumbnail": [
   "on"
  ],
- "clips_video_effects_pipeline": [
+ "code_block_strings": [
   "on"
  ],
- "code_block_strings": [
+ "code_channel_composer_skills": [
   "on"
  ],
  "code_channels_auto_close": [
@@ -1045,6 +1051,9 @@
   "on"
  ],
  "composer_control_simplifications_emoji_gifs": [
+  "on"
+ ],
+ "composer_control_simplifications_expanded_resize_popout": [
   "on"
  ],
  "composer_control_simplifications_formatting_toolbar": [
@@ -1327,9 +1336,6 @@
   "on"
  ],
  "emoji_v17": [
-  "on"
- ],
- "enable_canvas_govslack": [
   "on"
  ],
  "enable_native_channel_expert": [
@@ -2021,6 +2027,9 @@
  "lato_v3_hinted_fonts": [
   "treatment"
  ],
+ "lato_v3_ss09": [
+  "on"
+ ],
  "legacy_role_text_translation": [
   "on"
  ],
@@ -2460,6 +2469,9 @@
  "platform_tech_arch_ema_oidc": [
   "on"
  ],
+ "platform_tech_arch_slackbot_mcp_client_ema": [
+  "on"
+ ],
  "platform_ts_conversion_batch_1": [
   "on"
  ],
@@ -2610,6 +2622,9 @@
  "pxp2385": [
   "on"
  ],
+ "quick_apps_prototype": [
+  "on"
+ ],
  "quick_quote_replies": [
   "on"
  ],
@@ -2719,9 +2734,6 @@
   "on"
  ],
  "salesforce_channels_wfb_trigger_granular_filters": [
-  "on"
- ],
- "salesforce_channels_x_out_channel": [
   "on"
  ],
  "salesforce_data_fields_in_canvas_team_toggle": [
@@ -3191,19 +3203,10 @@
  "slack6_clogging_visit_attribution": [
   "on"
  ],
- "slack6_cmd_k": [
-  "on"
- ],
  "slack6_cmdk_thread_recents": [
   "on"
  ],
  "slack6_search_find_in_channel_popover": [
-  "on"
- ],
- "slack6_search_input_footer": [
-  "on"
- ],
- "slack6_search_split_results": [
   "on"
  ],
  "slack6_search_srp_polish": [
@@ -3252,9 +3255,6 @@
   "on"
  ],
  "slackbot_ai_activity_nux": [
-  "on"
- ],
- "slackbot_ai_automation_groups": [
   "on"
  ],
  "slackbot_ai_better_skills_browsing": [
@@ -3336,9 +3336,6 @@
   "treatment_carousel",
   "treatment_modal",
   "treatment_pocket_guide"
- ],
- "slackbot_ai_simple_skills": [
-  "on"
  ],
  "slackbot_ai_skill_categories": [
   "on"
@@ -3678,9 +3675,6 @@
  "slackforce_channel_non_member_perm_check": [
   "on"
  ],
- "slackforce_channel_request_channel_access": [
-  "on"
- ],
  "slackforce_detailed_sfdc_record_unfurls": [
   "on"
  ],
@@ -3691,9 +3685,6 @@
   "on"
  ],
  "slackforce_list_view_filter_by_text": [
-  "on"
- ],
- "slackforce_list_view_reference_fields_display_v1": [
   "on"
  ],
  "slackforce_muting_salesforce_notifications": [
@@ -3739,9 +3730,6 @@
   "on"
  ],
  "slackforce_sign_in_cta_copy_v2": [
-  "on"
- ],
- "slackforce_site_auth_failure_translations": [
   "on"
  ],
  "slackforce_unfurl_click_target": [
@@ -4156,9 +4144,6 @@
  "user_proposed_acls_during_approval": [
   "on"
  ],
- "video_effects_longpipe": [
-  "on"
- ],
  "view_header_overflow_borders": [
   "on"
  ],
@@ -4345,9 +4330,6 @@
  "wfb_export_activity_log_as_csv": [
   "on"
  ],
- "wfb_hermes_trials": [
-  "on"
- ],
  "wfb_huddle_trigger": [
   "on"
  ],
@@ -4430,6 +4412,9 @@
   "on"
  ],
  "wfb_webhook_to_fifty": [
+  "on"
+ ],
+ "wfb_workflow_error_visibility": [
   "on"
  ],
  "wo_browser_pdf_viewer": [

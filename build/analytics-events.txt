@@ -498,7 +498,6 @@ component: sales_onboarding_card
 component: sales_onboarding_done
 component: sales_onboarding_multi_org
 component: sales_tracker_card_hover_actions
-component: salesfoce_record_channel_create_coachmark
 component: salesforce_activate_org_modal
 component: salesforce_add_auto_starter_member
 component: salesforce_add_by_csv_modal
@@ -803,6 +802,7 @@ component: workspace_filter_banner
 component: workspace_invite_modal
 component: workspace_switcher
 component: workspace_weaver_bug_menu
+component: ws_apps_manage_app_acls
 component: ws_apps_manage_tab_requests
 component_variant: PLANS_AT_GLANCE
 component_variant: SINGLE_RECORD
@@ -850,7 +850,6 @@ component_variant: comprehensible_invites
 component_variant: conversations_tab
 component_variant: copy_link
 component_variant: coverage_plan
-component_variant: create
 component_variant: create_channel
 component_variant: create_external_link
 component_variant: creation
@@ -920,8 +919,6 @@ component_variant: preview_button
 component_variant: primary_view
 component_variant: pro_to_plus_upgrade
 component_variant: purchaser
-component_variant: record_bulk_view
-component_variant: record_flexpane
 component_variant: record_overview
 component_variant: regular_message_send
 component_variant: request_accept
@@ -999,7 +996,6 @@ component_variant: unified_files_templates_module
 component_variant: unreads_and_activity
 component_variant: upgrade
 component_variant: upload
-component_variant: view
 component_variant: view_channel
 component_variant: workflow
 component_variant: workflow_builder_freemium
@@ -1082,7 +1078,6 @@ element: add_custom_emoji_dialog
 element: add_email_input
 element: add_emoji_button
 element: add_featured_button
-element: add_file_button
 element: add_from_google_contacts
 element: add_huddle_link
 element: add_list
@@ -1207,6 +1202,7 @@ element: almost_done_pane
 element: alt_text_reminders_pref
 element: announce_huddles_calls
 element: api_error_refresh_page
+element: app_access_saved
 element: app_browser_fullscreen_modal_close
 element: app_connection_approval
 element: app_name
@@ -1411,7 +1407,6 @@ element: canvas_use_template
 element: canvas_workflow_creation
 element: captcha_api_error
 element: card_hide_button
-element: card_open_full_view_button
 element: carousel_interaction
 element: carousel_prev
 element: celebratory_modal_primary_cta
@@ -1620,7 +1615,6 @@ element: create_new_workspace
 element: create_new_workspace_crm_frontdoor
 element: create_new_workspace_crm_frontdoor_link
 element: create_record
-element: create_record_channel_button
 element: create_sidekick_button
 element: create_sidekick_modal_button
 element: create_task_from_scratch
@@ -1861,6 +1855,9 @@ element: enterprise_workspace_open
 element: ephemeral_entity_section_selector_button
 element: error_banner
 element: error_primary_action
+element: error_visibility_alert_settings_open
+element: error_visibility_alert_settings_save
+element: error_visibility_send_digest
 element: esc
 element: everything
 element: exit
@@ -3648,6 +3645,7 @@ entry_point: channel_sidebar_context_menu
 entry_point: channel_sidebar_slack_connect_add_more
 entry_point: channel_sidebar_slack_connect_options
 entry_point: channel_sidebar_slack_connect_right_click
+entry_point: channel_sidebar_slackbot_conversation_click
 entry_point: chat
 entry_point: cmd_click
 entry_point: code_tab_peek
@@ -3689,6 +3687,7 @@ entry_point: dnd_dialog
 entry_point: dnd_disabled_menu
 entry_point: dnd_enabled_menu
 entry_point: domain_match_signup_opt_out
+entry_point: download_toast
 entry_point: downmarket_crm_admin_promo_banner
 entry_point: downmarket_crm_handraise_banner
 entry_point: downmarket_crm_tenured_upgrade_banner
@@ -3815,6 +3814,7 @@ entry_point: open-list
 entry_point: open-thread-share
 entry_point: open_in_new_window
 entry_point: opened_canvas
+entry_point: os_menu
 entry_point: other
 entry_point: pause_notification
 entry_point: paywall_preview_find_something
@@ -3870,6 +3870,7 @@ entry_point: share_channel_by_email_modal
 entry_point: share_dialog
 entry_point: shared_channel_error_ineligible
 entry_point: shortcuts_join_huddle
+entry_point: shortcuts_menu
 entry_point: sidebar
 entry_point: sidebar-huddles-page-sidebar-link
 entry_point: sidebar-slack-connect-page-link
@@ -3962,6 +3963,7 @@ entry_point: usage_callouts_services_count
 entry_point: use-email-verification-handlers
 entry_point: use-tabs-item-props-builder
 entry_point: use_slack_connect_ctas
+entry_point: user_menu
 entry_point: vip_preferences_people_entity
 entry_point: vip_prefs
 entry_point: vip_prefs_search_select
@@ -4211,6 +4213,7 @@ step: cmd_z_deleting_message
 step: cmd_z_entry_point
 step: code_channel_rename_edit_button
 step: collapsed
+step: completed
 step: compose_flow_close
 step: compose_flow_create
 step: compose_flow_delete
@@ -4350,6 +4353,7 @@ step: mobile_social_proof_banner
 step: more_actions_menu
 step: mpdm_rename_edit_button
 step: mpim_add_people_history_modal
+step: not_completed
 step: notification_banner_open_preferences
 step: notifications
 step: nux
@@ -4598,6 +4602,7 @@ step_variant: disconnect_banner
 step_variant: done
 step_variant: download
 step_variant: draft
+step_variant: empty
 step_variant: end
 step_variant: ephemeral
 step_variant: external_add_people_dead_end_modal
@@ -4605,6 +4610,7 @@ step_variant: external_member_awareness_banner
 step_variant: filter
 step_variant: flexpane
 step_variant: gantry
+step_variant: has_downloads
 step_variant: has_workspaces
 step_variant: init_set_user_pref_step
 step_variant: inproduct_team_creation

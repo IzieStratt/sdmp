@@ -344,7 +344,6 @@ wfb_feedback
 wfb_freemium_dismissible_limit_banner
 wfb_freemium_persistent_limit_banner
 wfb_freemium_workflow_publish_button
-wfb_hermes_trials
 wfb_huddle_trigger
 wfb_link_preview_toggle
 wfb_lookups
@@ -379,6 +378,7 @@ wfb_template_editor
 wfb_types_defaults
 wfb_webhook_to_fifty
 wfb_workflow_details
+wfb_workflow_error_visibility
 who_can_create_workflows
 workflow
 workflow_access
@@ -493,6 +493,7 @@ workflow_error_diagnose
 workflow_error_dm
 workflow_error_view_details
 workflow_error_view_logs
+workflow_error_visibility
 workflow_execution_id
 workflow_execution_outcome_changed
 workflow_execution_step_started

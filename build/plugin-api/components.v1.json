@@ -2,8 +2,8 @@
  "$schema": "../../packages/slack-client-surface/schema/components.v1.schema.json",
  "schemaVersion": 1,
  "kind": "components",
- "build": "66e72b57ade1",
- "capturedDate": "2026-11-23",
+ "build": "889ac449a32d",
+ "capturedDate": "2026-11-24",
  "count": 12185,
  "components": {
   "_BuilderTexty": {"modules":["sIm+:dcfa7032","y7Pl:727257ab"]},

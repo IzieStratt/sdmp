@@ -29,15 +29,15 @@ admin.apps.restricted.list: legacy_integrations, limit
 admin.canvases.publishTemplate: file_id, publish_sales_template
 admin.canvases.unpublishTemplate: file_id, unset_org_sharing_setting
 admin.conversations.archive: channel_id, target_team
-admin.conversations.convertToPrivate: channel_id
-admin.conversations.convertToPublic: channel_id
+admin.conversations.convertToPrivate: channel_id, target_team
+admin.conversations.convertToPublic: channel_id, target_team
 admin.conversations.delete: channel_id, target_team
 admin.conversations.disconnectShared: channel_id, target_team
 admin.conversations.getConversationPrefs: channel_id
 admin.conversations.getCustomRetention: channel_id
 admin.conversations.getTeams: channel_id, cursor, limit
-admin.conversations.invite: channel_id, user_ids
-admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, user_ids
+admin.conversations.invite: channel_id, target_team, user_ids
+admin.conversations.kick: channel_id, skip_simple_array_serialization_in_get_form_data, target_team, user_ids
 admin.conversations.removeCustomRetention: channel_id
 admin.conversations.search: connected_team_ids, cursor, limit, query, search_channel_types, sort, sort_dir, target_team, team_ids
 admin.conversations.setConversationPrefs: channel_id, prefs
@@ -97,9 +97,6 @@ ai.alpha.sidekicks.testPrompt: effort, history, instructions, knowledge, model, 
 ai.alpha.sidekicks.update: app, avatar_temp_id, effort, instructions, knowledge, model, name, persona, tools
 ai.alpha.singer.browsers.viewer: expected_revision, task_id
 ai.alpha.singer.windowConversation: surface_id
-ai.alpha.slackbot.automationGroups.delete: delete_children, group_id
-ai.alpha.slackbot.automationGroups.list: creation_source_id
-ai.alpha.slackbot.automationGroups.setActive: group_id, is_active
 ai.alpha.slackbot.channelMemory.delete: channel_id, memory_id
 ai.alpha.slackbot.channelResponses.redact: channel_id, message_ts
 ai.alpha.slackbot.channelResponses.restore: channel_id, message_ts
@@ -152,6 +149,9 @@ ai.alpha.surfaces.listVersions: file_id
 ai.alpha.surfaces.openCardComment: card_id, card_title, file_id
 ai.alpha.surfaces.rename: file_id, title
 ai.alpha.surfaces.restoreVersion: file_id, version_id
+ai.alpha.surfaces.storageGet: file_id, key, scope
+ai.alpha.surfaces.storageList: file_id, prefix, scope
+ai.alpha.surfaces.storageSet: file_id, key, scope, value
 ai.alpha.translate.fileSummary: file_id, summary_id, target_language
 ai.alpha.translate.promptSummary: summary, target_language
 ai.alpha.widgets.info: widget_id
@@ -254,7 +254,7 @@ chat.attachmentSuggestion: app_id, payload, service_id
 chat.delete: channel, ts
 chat.deleteBulkJoinLeave: channel_id, first_message_ts, last_message_ts
 chat.moveMessageToThread: channel, thread_ts, ts
-chat.postMessage: blocks, channel, text
+chat.postMessage: blocks, channel, text, thread_ts
 chat.refreshUnfurl: channel, entity_id, ts
 chat.removeFile: channel, file, ts
 chat.removeUnfurlLink: url
@@ -263,7 +263,7 @@ chat.slugifyUrl: channel, skip_simple_array_serialization_in_get_form_data, urls
 chat.unfurlContact: contact_user_id
 chat.update: channel, reply_broadcast, ts
 client.codeChannels.action: action_key, channel_id, client_token
-client.codeChannels.addReviewComment: channel_id, line, path, pending, pr_url, revision, side, text, thread_root_id
+client.codeChannels.addReviewComment: line, path, pending, pr_url, revision, side, text, thread_root_id
 client.codeChannels.browse: agent_user_id, archive_state, cursor, initiator_user_id, limit, origin_channel_id, query
 client.codeChannels.convertThread: channel_id, invitees, name, thread_ts
 client.codeChannels.create: app_id, blocks, entrypoint, is_private, name, origin_channel_id, origin_message_ts, team_id
@@ -272,7 +272,7 @@ client.codeChannels.deleteComment: channel_id, comment_node_id, pr_url
 client.codeChannels.editComment: channel_id, comment_node_id, pr_url, text
 client.codeChannels.editPullRequestDescription: channel_id, expected_body_source, pr_url, text
 client.codeChannels.getDiff: channel_id
-client.codeChannels.getFileLines: channel_id, path, pr_url, ranges, revision
+client.codeChannels.getFileLines: path, pr_url, ranges, revision
 client.codeChannels.getMergeStatus: channel_id, head_sha, pr_url
 client.codeChannels.getPullRequest: channel_id, pr_url
 client.codeChannels.getPullRequestCommits: base_sha, channel_id, head_sha, pr_url
@@ -333,10 +333,10 @@ conversations.joinPendingShared: invite_id, sig
 conversations.joinRequests.list: channel_id, cursor
 conversations.kick: channel, user
 conversations.leave.recommendations: max_ts
-conversations.leave: channel, name
+conversations.leave: channel
 conversations.list: exclude_archived, limit, types
 conversations.listPrefs: channel
-conversations.mark: channel, reason, ts
+conversations.mark: channel, name, reason, ts
 conversations.meetingnotes.getLock: channel
 conversations.meetingnotes.unlock: channel
 conversations.members: channel, limit
@@ -818,6 +818,7 @@ solutions.list: permission, status
 solutions.update: skip_simple_array_serialization_in_get_form_data, solution_template_id
 stars.list: count, cursor, exclude, limit, org_wide_aware, page
 stocks.earnings.info: symbol
+stocks.history.info: symbol
 stocks.metrics.info: symbol
 stocks.quotes.lookup: symbols
 subscriptions.thread.getTimestamps: cursor, fetch_threads_state, limit, mode, priority_mode
