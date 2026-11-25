@@ -511,8 +511,6 @@ forward_message_attachments
 forward_message_card
 forward_message_flow_modernizations
 forwarding_save_as_draft
-free_pro_sampling_big_mode_bug_fixes
-free_pro_sampling_big_mode_fast_follows
 friendly_channel_names
 frontline_users
 gantry_manage_channels
@@ -678,6 +676,7 @@ lists_done_checkbox
 lists_enable_freemium_access
 lists_export_enrichment
 lists_file_backed_templates
+lists_file_field_unified_picker
 lists_filter_groups
 lists_friends_of
 lists_friends_of_teams
@@ -733,7 +732,6 @@ message_stash
 message_unfurl_interleaving
 messaging_max_width
 meta_huddle_events_consent
-miles_davis_themes
 ml_autocomplete_ignore_file_fuzzy_score
 ml_autocomplete_nav_query_history
 ml_autocomplete_search_filter_self_boost

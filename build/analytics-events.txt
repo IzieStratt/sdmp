@@ -309,7 +309,6 @@ component: huddles_join_speedbump_modal
 component: huddles_join_switch_device_button
 component: huddles_kte_request_modal
 component: huddles_mic_settings_menu
-component: huddles_miles_davis_huddle_page_banner
 component: huddles_mini_panel
 component: huddles_notification
 component: huddles_page_sidebar_link
@@ -2127,7 +2126,6 @@ element: huddles_mic_device_select
 element: huddles_microphone_troubleshooting_option_no
 element: huddles_microphone_troubleshooting_option_yes
 element: huddles_microphone_troubleshooting_page
-element: huddles_miles_davis_coachmark
 element: huddles_mini_panel_mute_button
 element: huddles_mini_player_invite_button
 element: huddles_mini_player_placeholder_for_child_window
@@ -2389,9 +2387,6 @@ element: microphone_no_devices_alert
 element: microphone_permission_denied_alert
 element: microsoft_signin_success
 element: migrate_list
-element: miles-davis-alert-dismiss
-element: miles-davis-theme-cta
-element: miles-davis-theme-cta-dismiss
 element: mini_player
 element: mini_player_open_window_button
 element: mini_player_thread_button
@@ -3696,6 +3691,7 @@ entry_point: email_preview
 entry_point: embedded_message_header
 entry_point: emoji_picker
 entry_point: empty_drop_zone
+entry_point: eoy_biz_plus_gift_trial_tasklist
 entry_point: expanded_window
 entry_point: explore_paid_features_page
 entry_point: external_huddle_link

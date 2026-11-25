@@ -1589,12 +1589,6 @@
  "forwarding_save_as_draft": [
   "on"
  ],
- "free_pro_sampling_big_mode_bug_fixes": [
-  "on"
- ],
- "free_pro_sampling_big_mode_fast_follows": [
-  "on"
- ],
  "friendly_channel_names": [
   "on"
  ],
@@ -2111,6 +2105,9 @@
  "lists_file_backed_templates": [
   "on"
  ],
+ "lists_file_field_unified_picker": [
+  "on"
+ ],
  "lists_filter_groups": [
   "on"
  ],
@@ -2274,9 +2271,6 @@
   "on"
  ],
  "meta_huddle_events_consent": [
-  "on"
- ],
- "miles_davis_themes": [
   "on"
  ],
  "ml_autocomplete_ignore_file_fuzzy_score": [

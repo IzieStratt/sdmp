@@ -6870,6 +6870,7 @@ cmd_handlers.79d41a4: colour
 cmd_handlers.7a5ff41: Rename a channel
 cmd_handlers.8374304: Hmm, something went wrong. Try again?
 cmd_handlers.86d3bfb: collapse
+cmd_handlers.86d86f2: All of the users in that user group are already in this channel.
 cmd_handlers.8ebc66c: *{agent_name}* can be removed in Channel Settings.
 cmd_handlers.8f489e7: dm
 cmd_handlers.9057f2b: I couldn’t find a channel named “{channel_name}”, sorry!
@@ -16129,6 +16130,7 @@ files.1fd6a88: Cc
 files.2081739: Unable to upload the {fileType}
 files.2106dca: Delete Canvas and Transcript
 files.210bedd: Can’t remove that from the message. Try again.
+files.2163b58: ,P=m?N:M;return l?(0,a.jsx)(u.A,{fileId:e,className:
 files.2163b58: Removed from message
 files.21f37a2: Something went wrong when trying to access this OneDrive account. You’ll need to contact your admins for help.
 files.2279290: Connect {providerName}
@@ -17367,7 +17369,6 @@ huddles.0ad0bbf: Resume AI Notes & Transcription
 huddles.0afd94a: One or more entries are invalid. Enter valid people or email addresses.
 huddles.0b38b14: Audio issues
 huddles.0b38e3b: You can’t see the canvas because you’re not in the channel
-huddles.0bcb2c5: Remove from huddle: {agentName}
 huddles.0bea427: {memberCount, plural, =1 {# person} other {# people}}
 huddles.0c092f0: Has {count, plural, =1 {{count} file type} other {{count} file types}}
 huddles.0c171eb: Huddle links work only once. Ask for a new one or create your own.
@@ -17435,7 +17436,6 @@ huddles.1bbcc5b: Slack - Huddle Preview
 huddles.1cf6858: Huddle in {channelDisplayName}
 huddles.1d06e4b: (Optional) Your camera is unavailable. Make sure it`s connected and that you`ve granted permission to share video with Slack.
 huddles.1d08062: Getting your calendar info…
-huddles.1d2eaa6: Screenshare sharpening
 huddles.1d9294b: With more people, you can:
 huddles.1d92bb1: Your network settings are blocking huddles. Contact your IT team or check out the network configuration guide for help.
 huddles.1e5cc7c: {memberName} turned off Automatic AI notes in huddles in {channelDisplayName}.
@@ -17495,7 +17495,6 @@ huddles.2a4dc3f: Copy Huddle Link
 huddles.2a58b96: You’re already in a huddle with {listOfPersons}.
 huddles.2a636cb: Microphone: {deviceName}
 huddles.2ae0dd0: Decline {name}
-huddles.2b1c19f: Sharpening on. Click to compare
 huddles.2bb4007: <strong>Please enable your camera in your browser’s address bar.</strong>
 huddles.2c01a4f: Use microphone only
 huddles.2c63958: Going?
@@ -17642,7 +17641,6 @@ huddles.50958a8: For the best experience, connect your calendar to Slack. Schedu
 huddles.50b5eaa: Include only {count, plural, =1 {this person} other {these people}}
 huddles.50f5036: AI notes and transcription are on for this huddle, so thread replies may be summarized in the notes.
 huddles.515ce0a: Close meeting notes
-huddles.5175a9a: Sharpening stopped because your computer is busy
 huddles.5183e0a: Invite someone else to your huddle
 huddles.51cd0da: Turn on AI Notes for a better Meeting Assistant experience.
 huddles.51e7d0c: Within your org, people in your workspace can join automatically. Other workspaces must request.
@@ -17667,8 +17665,6 @@ huddles.55db756: Show more live huddles
 huddles.55f8ebc: Description
 huddles.564f8c6: With
 huddles.5655310: Reset filters
-huddles.56bf184: Ease into some smooth collaboration with a Miles Davis tune, background, or effect.
-huddles.56ed65d: Jazz Snaps
 huddles.570374e: Google Calendar
 huddles.5705659: They can join the huddle, but since you are not allowed to invite people to this channel, they won’t be able to see messages or reply to the thread.
 huddles.57a4193: <strong>{firstParticipantName} and {numRemaining, plural, =1 {{numRemaining} other} other {{numRemaining} others}}</strong> are talking. Join when ready.
@@ -17783,7 +17779,6 @@ huddles.6e6fe99: {participants, plural, =0 {You and {firstParticipant} were} =1 
 huddles.6eb7417: Joining from outside your organization
 huddles.6f1133f: Meeting Assistant
 huddles.6f3b15f: Join Meeting
-huddles.6fbf846: Give your huddle a vibe
 huddles.6fc53f7: Close meeting assistant
 huddles.7043206: Unable to join huddle
 huddles.70afe9e: Dismiss
@@ -18236,6 +18231,7 @@ huddles.cb1eb55: Always start transcription
 huddles.cb3439d: This person isn’t in your workspace
 huddles.cb67499: Schedule Huddle
 huddles.cb8caea: You look nice today
+huddles.cb8e399: Accept All Requests
 huddles.cbb0f2f: No files or links shared in this huddle
 huddles.cbd2eff: What is this huddle about?
 huddles.cca1b33: Just you in the huddle #{channelName}
@@ -18261,7 +18257,6 @@ huddles.d1d2c86: So What by Miles Davis
 huddles.d1f1692: Turn off automatic AI notes?
 huddles.d219c68: Location
 huddles.d22f6e5: Oops, something went wrong. Please try again.
-huddles.d26ab59: A few Miles Davis tracks are here whenever you’re ready to switch things up.
 huddles.d2a3a30: Missed huddles
 huddles.d2f63a1: Minimize yourself
 huddles.d3570c0: Resume AI notes & transcription
@@ -18281,7 +18276,6 @@ huddles.d716ac9: You’re on the free version of Slack, so only one other person
 huddles.d73f989: Drawing is not available for content shared from the Slack Mobile app
 huddles.d763dea: Members in {channelDisplayName} will still be able to manually start transcription during a huddle.
 huddles.d76680c: {hours, plural, =1 {# hour} other {# hours}} {mins, plural, =1 {# minute} other {# minutes}}
-huddles.d76ca4d: Mic Drop
 huddles.d7805a8: Transcription cancelled and transcript deleted
 huddles.d7805c8: {unknownMembers, plural, =1 {<strong>{name1}</strong>} =2 {<strong>{name1}</strong> and <strong>{name2}</strong>} =3 {<strong>{name1}</strong>, <strong>{name2}</strong>, and <strong>{name3}</strong>} other {<strong>{name1}</strong>, <strong>{name2}</strong>, <strong>{name3}</strong> and <strong>{numOthers}</strong> more}} can’t see this canvas because they are not in {channelName}
 huddles.d785411: Any time
@@ -18332,12 +18326,12 @@ huddles.dee061a: <strong>Self-view is hidden.</strong> Keep in mind, other peopl
 huddles.dee7445: Transcription will start automatically for all huddles in this channel.
 huddles.df08177: Starting a huddle?
 huddles.df174a3: Enabled
+huddles.df8426f: Couldn’t let {userName} into the huddle. They may have left.
 huddles.dfb0bdf: Camera: {deviceName}
 huddles.dfb4386: Filters reset
 huddles.dfbc285: Add a topic
 huddles.e0049a6: On
 huddles.e04fb95: Huddle with {dmPersons}
-huddles.e05e9a8: Something cooler is on the menu
 huddles.e0b52ed: <strong>Please check your microphone — Slack isn’t receiving any audio right now.</strong>
 huddles.e0d0c0c: Choose if all huddles in this channel will be summarized by default. {whoCanManage} can change this setting.
 huddles.e0d7314: Join
@@ -18369,6 +18363,7 @@ huddles.e52ecee: Start huddle in {channelName}
 huddles.e534f6a: Open system preferences
 huddles.e5580a1: Stop drawing on your own screen
 huddles.e568d68: Meet with a whole team, or just let people drop in and out
+huddles.e5710ab: Can’t end the huddle for everyone. Try again.
 huddles.e608790: {inviteSenderMemberName} in {channelName}
 huddles.e60ab3f: {huddleTopic} is happening
 huddles.e65df58: Something went wrong. If the problem persists, please <a>drop us a line</a>.
@@ -18423,7 +18418,6 @@ huddles.f09a8cc: Your microphone is unavailable. Try closing other apps that may
 huddles.f0cb571: Talk it out in real time on a huddle, with screen-sharing, expressive reactions and a message thread that automatically saves for later reference.
 huddles.f151a7d: Collapse thread
 huddles.f1771c2: Go to {copyChannelName}
-huddles.f17bb34: Sharpening off. Click to turn on
 huddles.f1fa346: Invite to huddle
 huddles.f1fdde1: Close troubleshooting panel
 huddles.f2045d6: When AI huddle notes are set to start automatically, all huddles in this channel will be summarized by default.
@@ -18474,6 +18468,7 @@ huddles.fb273bb: Screen sharing limit reached
 huddles.fb28c69: Microphone permission denied
 huddles.fb65e3e: Stop AI Notes
 huddles.fb8f00c: Once your request has been approved, you can join the huddle
+huddles.fbb12cc: Couldn’t let {count, plural, =1 {# person} other {# people}} into the huddle. They may have left.
 huddles.fc23278: Outlook Calendar
 huddles.fc29d0a: Unable to request access to the Huddle
 huddles.fc8a699: <strong>(Optional) Please enable your camera in your browser’s address bar.</strong>
@@ -19631,6 +19626,7 @@ lists.39fc721: Undo
 lists.3a0afe2: This will be the default view for anyone who opens the list
 lists.3a14803: Sunflower
 lists.3a43e56: Move right
+lists.3a45c3f: Remove Access
 lists.3a59ac9: Save as New View
 lists.3b1cb35: Nothing left to redo
 lists.3b4e294: Indigo
@@ -19983,6 +19979,7 @@ lists.905cb32: You
 lists.90aefc1: Filter by: {field}
 lists.90b0852: Cells pasted
 lists.90ccd64: History
+lists.915a6ab: Add file, canvas, or list
 lists.91773d3: Task tracking fields
 lists.91f2ca2: Explore more…
 lists.9312633: Your approval request has been reviewed.
@@ -20054,6 +20051,7 @@ lists.a54673c: Track agent work
 lists.a5aa418: Turn On
 lists.a618b4b: Query
 lists.a69deee: {name} ({type}, {ordinal} of {count})
+lists.a6baefb: Sharing gives everyone in this list access to the file. If you attach it without sharing, only people who can already see the file will be able to open it.
 lists.a6cdc8b: Cells copied
 lists.a6d07e0: Loading item’s related threads…
 lists.a7230e4: Insert field right
@@ -20077,6 +20075,7 @@ lists.ab5297f: Type to search
 lists.ab554ed: Step {step} of 4
 lists.abf5542: Open subtasks
 lists.ac45356: View as table
+lists.ac48522: Keep Access
 lists.ac75922: This list is no longer available.
 lists.acf0bc2: Paste into cell
 lists.ad2fd49: Convert to a template
@@ -20089,6 +20088,7 @@ lists.adcfed3: Your templates
 lists.ae27848: Subtask actions
 lists.ae7b279: Edit link
 lists.aeb7664: {value} of {ratingColumnMax}, {emojiLabel}
+lists.aed4bba: Share this file with the list?
 lists.aefa902: No date set
 lists.af10ef2: in
 lists.af22a40: Subtask of
@@ -20101,6 +20101,7 @@ lists.b0d946e: Link options
 lists.b11fe58: Track this thread…
 lists.b1564f6: Values
 lists.b1e5359: Not Now
+lists.b1e535d: People in this list may have access to this file through the list. You can remove that access, or keep it. Anyone who can see the file elsewhere in Slack keeps their access.
 lists.b21d4a3: You can only upload up to 10 files
 lists.b2bc0c0: Checked
 lists.b2feca2: Create a new channel
@@ -20134,6 +20135,7 @@ lists.b96749a: Display as title
 lists.b993b0c: No results
 lists.ba0401e: Horchata
 lists.ba3de5d: Maximum number of items reached
+lists.baa9e8d: Attach Without Sharing
 lists.bae7d5b: Status
 lists.bb12e8a: Threads
 lists.bb1315a: Nothing to restore. This version matches the list.
@@ -20391,6 +20393,7 @@ lists.fd316b7: Recently viewed
 lists.fd4dee6: Allow multiple selections
 lists.fd59011: Unhide all
 lists.fdf3437: Make a copy
+lists.fdf743d: Remove access to this file?
 lists.fe30ea7: View as map
 lists.fe58301: Yes, Delete This Field
 lists.fe71bf4: Last edited by
@@ -24419,6 +24422,7 @@ pnp_salesforce_embed_growth.fb02199: Keep teams organized and on track
 prefs.00139b0: About notifications
 prefs.0050de5: You’ve reached the maximum number of workspaces that can be shown.
 prefs.00fc971: Now you can view, edit and collaborate on your Salesforce data — right in Slack.
+prefs.01e1e3f: Choose the languages you’d like Slack to spellcheck as you type.
 prefs.0202295: Unhide user
 prefs.025dce7: Use this setting to choose whether you want light or dark sidebars.
 prefs.0363bfa: Sidebar Organization
@@ -24473,7 +24477,6 @@ prefs.1d37b89: Send notifications to my mobile devices:
 prefs.1dbdcfe: Mentions only
 prefs.1df2a09: Reply to thread
 prefs.1df39aa: Compact
-prefs.1e5578f: What do you know, it works?
 prefs.1e83255: Streaming
 prefs.1ed0b58: Selected items
 prefs.1ef4d3f: Screen reader announcements
@@ -24495,7 +24498,6 @@ prefs.270d172: To see whose invitations you’ve blocked, you’ll need to verif
 prefs.274adc8: GPT-6 Luna
 prefs.27ebed7: You haven’t added any delegates yet. Add someone above to get started.
 prefs.2805395: No VIPs added yet
-prefs.2842918: Show an Example
 prefs.292065a: Push notifications are <strong>off</strong>
 prefs.299df74: Messaging defaults 
 prefs.2a5ee7b: Add a workspace
@@ -24515,7 +24517,6 @@ prefs.30fdbdc: Blend <strong>Window background</strong> and <strong>Selected ite
 prefs.3218e57: All your contacts
 prefs.32375e8: Sort…
 prefs.3254cc5: Send on behalf
-prefs.3264ea0: Notification sound (sending a message)
 prefs.3284641: Can be reordered, but not turned off.
 prefs.32d0e22: What to notify you about
 prefs.33acf37: Here’s an example
@@ -24542,7 +24543,6 @@ prefs.42cfb88: Get push notifications on mobile
 prefs.42e43b6: Tuesday
 prefs.4374aae: to
 prefs.43b2ebc: You have reached the maximum of {max_delegates} delegates.
-prefs.43d7435: Show…
 prefs.4481948: Nothing
 prefs.44b8e0e: You’re in a lot of channels. Changing your notifications default to <strong>Direct messages, mentions & keywords</strong> would help you focus.
 prefs.4538e18: What to show in Activity
@@ -24579,6 +24579,7 @@ prefs.552b22b: You can also press F7 to turn this on or off
 prefs.5552d28: Hide advanced mobile overrides
 prefs.5554c99: Add a delegate
 prefs.558287d: Midnight
+prefs.559efe9: Spellcheck languages
 prefs.55a21e7: Also sent to conversation
 prefs.55ca5fd: Input options
 prefs.55d2c90: Send Verification Email
@@ -24590,17 +24591,12 @@ prefs.574ff9b: Display
 prefs.57c8eea: Save & Reload
 prefs.58160e0: Looking to change the font of Slack? Check out {fontSelectionLink} under Appearance preferences. 
 prefs.58160e0: M12.25 3.5a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1v.75a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2V3.5a1 1 0 0 1 1-1h2.5a1 1 0 0 1 1 1v.75h1z
-prefs.5858b9a: Unread conversations, plus your Starred section
 prefs.5860691: As soon as I’m inactive
-prefs.5892474: {vipModalLink} to enable sound
 prefs.5894841: The last message you sent will be selected and in editing mode
 prefs.58a66e6: Immediately, even if I’m active
-prefs.58bda7b: Notification sound (messages)
 prefs.59cdce6: Unreads only
 prefs.5a313ba: Paste in a theme string
-prefs.5a70b13: Notification sound (receiving a message while in the conversation)
 prefs.5ab3d12: Includes external people who can see you in Slack.
-prefs.5b1df7d: Add some cool to your workspace with this jazz-inspired Slack theme: {hexCodes}
 prefs.5b31933: Choose if Slack’s appearance should be light or dark, or follow your computer’s settings.
 prefs.5bb74f8: You’ve stopped receiving Slack Connect invitations from these people.
 prefs.5c59f3f: If you want to be notified about <strong>everything</strong>, you’ll need to turn desktop or mobile notifications on.
@@ -24621,7 +24617,6 @@ prefs.6491e3d: View your organization’s policies.
 prefs.661fa7e: Collaborate with your team on sales, support and marketing at no extra cost.
 prefs.6662c40: Keyboard
 prefs.6766354: <span className="p-prefs_modal--quick_reactions_radio_and_text">Click below to choose the emoji you’d like.</span>
-prefs.678704f: Notification sound (VIP messages only)
 prefs.689626f: DMs and group DMs
 prefs.68c2cc7: Model
 prefs.68e94e7: Slackbot Mini keyboard shortcuts
@@ -24658,7 +24653,6 @@ prefs.767d650: Learn more about Slack Connect
 prefs.7684c07: Just mentions
 prefs.77dfd21: Cancel
 prefs.7998913: You’re in a lot of channels. So we changed your notification default to help you focus. You’ll only be notified about <strong>mentions, direct messages, and keywords</strong> from here on out.
-prefs.7a01828: The following conditions might be preventing them from appearing how they should:
 prefs.7a77991: Fangtastic
 prefs.7ab74ab: This section will appear at the top of your sidebar so you never miss a mention or message.
 prefs.7b0aa6d: Does Slack feel noisy?
@@ -24679,16 +24673,13 @@ prefs.81ae19f: These appear as a banner on your desktop or mobile device.
 prefs.81b886d: Customize your screen reader experience
 prefs.824d76b: Learn more
 prefs.8283e01: When you’re not active on desktop…
-prefs.8312655: You have {numSections, plural, =1 {a custom filter} other {custom filters}} for {numSections, plural, =1 {# section} other {# sections}} in your channel list
 prefs.83445b6: Add a channel
 prefs.83edd91: Indicates a reply in a thread has also been sent to the conversation.
 prefs.85e12bc: Mentions
-prefs.8646df6: Custom, depending on the section
 prefs.8709fdd: Link count
 prefs.872d1b4: Mobile notifications
 prefs.8743143: Privacy & visibility
 prefs.87b56ec: Are you sure you want to set your verbosity settings to default?
-prefs.8801bc8: Choose your settings for each section from the sidebar
 prefs.8807c2b: Turn off
 prefs.8811a58: User group channels and sections
 prefs.886cbff: Priority
@@ -24700,12 +24691,12 @@ prefs.8900ce1: Show full action menu on hover only
 prefs.89b86ab: Language
 prefs.89e2391: Applies to emoji animation, GIFs, and reactions & effects in huddles and across Slack
 prefs.89efa12: We can automatically prompt you to add alt text to your images before sending messages. You can always turn these reminders on or off in the Accessibility section of Preferences.
-prefs.89fd697: All your conversations
 prefs.8a1fc72: Edit channels
 prefs.8a7ec82: Include a preview of the message in each notification <span class="sk_dark_gray">(disable this for extra privacy)</span>
 prefs.8ad8302: Translations
 prefs.8ae5815: Mentions, direct messages, and keywords
 prefs.8b02f3d: Not connected
+prefs.8c815a9: We spellcheck the languages specified in your system settings. You can find those under System Preferences > Keyboard > Text.
 prefs.8e3df45: Copied
 prefs.8e59f88: Collaborate with your team on sales, support and marketing.
 prefs.8ec6f7d: Enable Notifications
@@ -24716,6 +24707,7 @@ prefs.93a5a0c: Doesn’t support one click reactions
 prefs.944b88d: VIP
 prefs.94a3e70: You can only add delegates in channels.
 prefs.94d5186: Themes
+prefs.95643e8: Automatic by language
 prefs.9622983: Caret browsing
 prefs.9747db9: Disconnect Einstein Activity Capture?
 prefs.9764196: Muted channels are greyed out at the bottom of your channel list. You’ll still see a badge in the sidebar if you’ve been mentioned.
@@ -24743,7 +24735,6 @@ prefs.a1e71ee: message components
 prefs.a20bf93: mobile device notifications
 prefs.a2a8a8e: Remind Me Later
 prefs.a306bf7: Show activity
-prefs.a361366: Looks like there might be an issue with your notifications
 prefs.a36ef8a: Light
 prefs.a488d0b: <strong>Note:</strong> You can set notification keywords and change your workspace-wide settings in your <a>Preferences</a>.
 prefs.a49698c: Recap
@@ -24758,6 +24749,7 @@ prefs.aa0aa33: Would you like reminders to add alt text?
 prefs.aad317c: Screen reader
 prefs.aaeb3b6: Note: You can always press {modifier_key} + {up_arrow_key} to edit your last message.
 prefs.aba62d0: Anyone with your email address <strong>({email})</strong>
+prefs.ac08cd4: Spellcheck
 prefs.ad824e8: Slime Time
 prefs.ae1ef01: Dark
 prefs.ae79993: Message is saved for later or set as a reminder.
@@ -24771,7 +24763,6 @@ prefs.b1e5359: Not Now
 prefs.b2222e7: Einstein Activity Capture
 prefs.b36ca24: Locked by an Admin
 prefs.b36ed0c: All new posts
-prefs.b47bd31: Celebrate the music of Miles Davis
 prefs.b50460c: Has draft reply
 prefs.b5921f7: Follow all thread replies in this conversation
 prefs.b65463c: Connect
@@ -24805,7 +24796,6 @@ prefs.c0d9bc1: Manage your customers, right in Slack
 prefs.c11adfd: @you, @channel, @here
 prefs.c127a5b: Get broadcast messages
 prefs.c1ee860: Mark as read
-prefs.c264f3c: Same as messages sound
 prefs.c327edf: You can now manage the Slack Connect invitations you’ve blocked.
 prefs.c38872a: Show one-click reactions on messages
 prefs.c38c6a2: Custom Font
@@ -24854,7 +24844,6 @@ prefs.d6c9d9d: You’ve muted this channel
 prefs.d6fbc9d: Import
 prefs.d780393: You haven’t blocked any invitations from anyone yet.
 prefs.d7925e8: Halloween
-prefs.d7b6631: Get help
 prefs.d87b600: Reply count
 prefs.d8fe45f: Paste your legacy theme colors
 prefs.d936cac: Frankenstein
@@ -24875,6 +24864,7 @@ prefs.df9983f: Einstein Activity Capture already logs your email.
 prefs.dfc8309: Sounds & appearance
 prefs.dff1854: Image alt text
 prefs.e0e816d: You’ll see a banner when new messages come in.
+prefs.e3d6ba0: Enable spellcheck on your messages and canvases
 prefs.e3dcfd8: Change your notification default: 
 prefs.e54eb7b: <span className="p-prefs_modal--quick_reactions_label_text p-prefs_modal--quick_reactions_radio_and_text">Custom</span>
 prefs.e572837: Choose the default language you’d like to translate into.
@@ -24889,7 +24879,6 @@ prefs.e9fdd16: Save Preferences
 prefs.ea8b9ad: Create VIP unreads section
 prefs.ea948eb: Privacy Mode
 prefs.eb07e10: We’ve turned down the noise
-prefs.ec1cfad: Notification sound (huddles)
 prefs.ed28e06: Disconnect
 prefs.ee1abaf: Contact sharing
 prefs.ee4ff35: We noticed you’re in a lot channels. You’re also getting notified about every message in every channel. Want to change that?
@@ -24909,11 +24898,9 @@ prefs.f3d580e: Permanently show hover actions
 prefs.f535054: Follow every thread
 prefs.f65b78c: Alt text reminders
 prefs.f73c820: Search for a person to add as a delegate
-prefs.f76ca59: Notification sound
 prefs.f81d5dc: Unable to update your notification preferences. Please try again later.
 prefs.f85d29f: Send notifications to my <t1>mobile devices</t1>:
 prefs.f931216: Pinned
-prefs.f9afcf8: Add to your VIP list
 prefs.f9c56b4: System navigation
 prefs.f9c9a74: Use commas to separate each keyword. Keywords are not case sensitive.
 prefs.fa15332: Mute all messaging sounds from Slack
@@ -25032,7 +25019,6 @@ private_message_forwarding.b0a9821: Ok
 private_message_forwarding.bda6078: This link opens a message or conversation that you don’t have access to, or that’s been deleted.
 private_message_forwarding.dff6215: This link opens a template that you don’t have access to, or that’s been deleted.
 pro_upgrade_ny_promo.05a4e85: Upgrade Plan
-pro_upgrade_ny_promo.1b6c64e: <b>{discountedPrice} per person/month</b> at {promoDiscountPercent}% off for {promoDuration, plural, =1 {# month} other {# months}}
 pro_upgrade_ny_promo.36ef7d2: Limited offer
 pro_upgrade_ny_promo.3b31cd9: Everything in Pro, and:
 pro_upgrade_ny_promo.40b07ed: Get Business+ {discountPercent}% Off
@@ -25041,10 +25027,10 @@ pro_upgrade_ny_promo.5b7f7f2: Slackbot (personal AI agent)
 pro_upgrade_ny_promo.754843b: SAML-based single sign-on
 pro_upgrade_ny_promo.935af2c: Upgrade Now
 pro_upgrade_ny_promo.a152353: Offer ends {offerEndDate}
-pro_upgrade_ny_promo.ae84869: Get the premium features of the Business+ plan and start to work at scale
 pro_upgrade_ny_promo.d738853: AI conversation summaries
 pro_upgrade_ny_promo.e1b9001: See plan details
 pro_upgrade_ny_promo.eae7c5b: {promoDaysRemaining, plural, =1 {# day} other {# days}} left on your Business+ offer
+pro_upgrade_ny_promo.f8cddf5: Get the premium features of our most popular plan at {discountedPrice} per person/month at {promoDiscountPercent}% off for {promoDuration, plural, =1 {# month} other {# months}}.
 productivity_emojis.06dca1d: Say good job to someone with "{emoji}"
 productivity_emojis.0723758: Celebrate success or strong performance with "{emoji}"
 productivity_emojis.13cf34e: Cool
@@ -28425,10 +28411,8 @@ setup_straight_to_paid.28f6464: Purchase Business+
 setup_straight_to_paid.29061b9: Purchase Pro
 setup_straight_to_paid.2a72e25: Get {discountPercent}% off {plan}
 setup_straight_to_paid.2d0b764: gift box
-setup_straight_to_paid.35ce2be: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}.
 setup_straight_to_paid.3a4c24b: Work with people at other organizations
 setup_straight_to_paid.3bcef9a: Not ready for a paid plan?
-setup_straight_to_paid.3d96a35: Choose the plan that’s right for your team
 setup_straight_to_paid.490990f: {daysRemaining, plural, =1 {# day} other {# days}} left on your {plan} Offer
 setup_straight_to_paid.4db39fa: Get {discountPercent}% off paid plans
 setup_straight_to_paid.4eeb9d7: Work with {invitingTeamName} and other orgs
@@ -28455,11 +28439,9 @@ setup_straight_to_paid.971cdc5: *Limited-time offer subject to change at Slack�
 setup_straight_to_paid.9ef9375: Recommended
 setup_straight_to_paid.a2479aa: Get {discountPercent}% off Slack {plan} on your first {discountDuration, plural, =1 {month} other {# months}}.
 setup_straight_to_paid.a4c41c6: Compare plans
-setup_straight_to_paid.a7b7eb7: Save {discountPercent}% for the first {discountDuration, plural, =1 {month} other {# months}}. {daysLeft, plural, =1 {Today is the last day of this offer.} other {Offer ends in # days.}}
 setup_straight_to_paid.aa8c6b5: Members connect to Slack securely through a cloud, which unlocks.
 setup_straight_to_paid.abdbedf: {discountPercent}% off*
 setup_straight_to_paid.bbe4494: Save {discountPercentage}% for the first {discountDuration, plural, =1 {# month} other {# months}}
-setup_straight_to_paid.bcad272: Or start with the basics for free, and upgrade any time.
 setup_straight_to_paid.bf87494: Huddle window with six people talking over audio and video
 setup_straight_to_paid.c2769bf: Get {discountPercent}% off 3 months
 setup_straight_to_paid.c31cc73: Start with the Limited Free Version
@@ -32063,7 +32045,6 @@ slackbot-ai-paywall.1cb29b8: I’ve got guardrails against overuse, so I can cat
 slackbot-ai-paywall.1d44796: Slackbot’s AI abilities are not available on {planName}.
 slackbot-ai-paywall.1e82a06: You’ve reached your Slackbot limit.
 slackbot-ai-paywall.22c637a: Start Free Trial
-slackbot-ai-paywall.2485ee9: Hi there, you’ve used up your Slackbot previews
 slackbot-ai-paywall.25a0e16: Upgrade to Business+ and keep asking, drafting, and summarizing.
 slackbot-ai-paywall.2736f86: Slackbot’s AI isn’t available to guests. To use it, ask your admin to make you a full member.
 slackbot-ai-paywall.27688e7: Want higher usage limits? Upgrade your plan.
@@ -32089,7 +32070,6 @@ slackbot-ai-paywall.53bf5e4: You’ve reached this week’s Slackbot overuse gua
 slackbot-ai-paywall.5512d82: I’m catching my breath! Come back later today and I’ll be ready to go.
 slackbot-ai-paywall.570374e: Google Calendar
 slackbot-ai-paywall.58b94e3: You’ve reached your Slackbot limit for this week. Come back tomorrow.
-slackbot-ai-paywall.58e1988: Explore your chats
 slackbot-ai-paywall.5c58c3a: You’ve reached your Slackbot limit for this week. Come back on {day} or <link>request a higher limit</link>.
 slackbot-ai-paywall.5d31774: Hide Slackbot in the navigation bar
 slackbot-ai-paywall.5f3744c: What were my biggest wins so far this year?
@@ -32103,11 +32083,13 @@ slackbot-ai-paywall.7a0a9bd: Contact Sales
 slackbot-ai-paywall.7b10966: What needs my attention today?
 slackbot-ai-paywall.7c40771: You’ve reached your Slackbot limit for this week. Come back tomorrow or <link>request a higher limit</link>.
 slackbot-ai-paywall.7de5ef2: Upgraded
+slackbot-ai-paywall.7e0f78b: Upgrade to use the full range of my AI abilities, like finding something, summarizing what needs your attention, or prepping for a meeting.
 slackbot-ai-paywall.8074e23: I’m catching my breath! Come back on {day} and I’ll be ready to go.
 slackbot-ai-paywall.824d76b: Learn more
 slackbot-ai-paywall.82843a5: You’ve reached Slackbot’s overuse guardrail for this week. Come back tomorrow.
 slackbot-ai-paywall.89e0907: Your Slackbot preview has ended.
 slackbot-ai-paywall.8f28690: Slackbot is hidden
+slackbot-ai-paywall.91783fb: Hi there, want to see more Slackbot?
 slackbot-ai-paywall.9327172: You’ve hit your usage limit. Come back later today or <link>request a higher limit</link>.
 slackbot-ai-paywall.935af2c: Upgrade Now
 slackbot-ai-paywall.9489954: Want higher Slackbot limits? I can send your team owner a friendly nudge to upgrade.
@@ -32157,7 +32139,6 @@ slackbot-ai-paywall.ecd740b: Success! Your request will be shared with your team
 slackbot-ai-paywall.ed33682: Other prompts to try
 slackbot-ai-paywall.ee51011: Liked what you saw?
 slackbot-ai-paywall.ef6490b: Hi {firstName}, here’s your Slackbot preview
-slackbot-ai-paywall.efe41ad: Liked what you saw? Upgrade to Business+ and keep asking, drafting, and summarizing.
 slackbot-ai-paywall.f2a405d: Slackbot’s full AI abilities are available with Business+.
 slackbot-ai-paywall.f64cb9f: I Want This
 slackbot-ai-paywall.f849265: You’re testing out Slackbot
@@ -32253,7 +32234,6 @@ slackbot-ai.1fd6a88: Cc
 slackbot-ai.20c7c55: Ready
 slackbot-ai.22638f9: Your task is running. Its results will appear in your DM with Slackbot.
 slackbot-ai.22bb647: {title}, automation
-slackbot-ai.239dce6: Customize
 slackbot-ai.24345a1: Today
 slackbot-ai.24da7bb: Draft email
 slackbot-ai.255ce2a: Get action plan
@@ -32265,7 +32245,6 @@ slackbot-ai.28b21d1: Put repetitive work on autopilot
 slackbot-ai.2978959: View all in Slackbot history
 slackbot-ai.2a6acbf: Can’t save project memory. Try again.
 slackbot-ai.2c1ca4e: You’re previewing Slackbot’s AI abilities. Upgrade to Business+ to give your whole team access.
-slackbot-ai.2caff60: View Skill
 slackbot-ai.2cf6c19: Write tools
 slackbot-ai.2db3fd5: What happened in Slack recently?
 slackbot-ai.2e429f0: App status
@@ -32740,6 +32719,7 @@ slackbot-home.43e305a: Good evening, {firstName}!
 slackbot-home.45b6ed3: Slackbot can also search:
 slackbot-home.490528f: there
 slackbot-home.495d18e: listItemAvatar__umF2Q
+slackbot-home.4c7912e: New week, {firstName}. Where do we start?
 slackbot-home.4cf1aa1: Help me organize my sidebar
 slackbot-home.5222cc7: Learn how your team uses Slack
 slackbot-home.52357fa: Stop using {label} as context
@@ -32818,6 +32798,7 @@ slackbot-home.b68899f: Loading calendar
 slackbot-home.b90b3ae: Help me write a follow-up for my last meeting
 slackbot-home.ba5b467: Hey, {firstName} — Slackbot skills are here.
 slackbot-home.babd626: What should I do next?
+slackbot-home.bc1fdeb: Getting a head start on Monday?
 slackbot-home.bf49bb2: + {count} More
 slackbot-home.bf8499e: Anything for me?
 slackbot-home.bf93215: Summarize any decisions or open questions in this group conversation
@@ -35783,6 +35764,7 @@ trials.0ecece2: Explore all the premium features of our most popular plan, Slack
 trials.1134ab6: Wait ‘til you try it with more people. Upgrade to a paid plan to get even more done together in group huddles — whether at your desk or on the go.
 trials.11c2bd2: Dismiss trial countdown
 trials.17887aa: Are you sure you want to continue with the Pro trial?
+trials.1e2c90e: Connect your tools
 trials.1f9c9c4: Highlights
 trials.20e5427: Trial tasks
 trials.22c637a: Start Free Trial
@@ -35817,6 +35799,7 @@ trials.66d0c5e: Pro
 trials.675005c: {daysRemaining, plural, =1 {# day} other {# days}} left
 trials.68b6bf5: Huddles with more than two people are a paid feature, available with your free trial
 trials.6c155f6: Show all trial tasks
+trials.6f0f946: Power Slackbot with your tools
 trials.70afe9e: Dismiss
 trials.7515d05: per person/month after trial ends
 trials.754843b: SAML-based single sign-on
@@ -35824,6 +35807,7 @@ trials.75e0687: Explore the premium features of our most popular plan with a fre
 trials.7617a7b: This is a paid feature, available with an upgrade
 trials.77dfd21: Cancel
 trials.7884d02: Show fewer trial tasks
+trials.7b10966: What needs my attention today?
 trials.7d52fec: With unlimited message history and AI channel summaries.
 trials.801d002: Group meetings
 trials.8107773: Get the premium features of our most popular plan for {formattedPrice} {perPersonPerMonth}
@@ -35840,7 +35824,9 @@ trials.9398938: Do even more with Slack Pro
 trials.94fbe99: Work with external partners
 trials.965e551: Start Pro Trial
 trials.982a95b: Try Pro for {featureTrialLength} days
+trials.9869e50: Expand
 trials.9986b37: Paid benefits link
+trials.9cf188d: Collapse
 trials.9dff620: SCIM user management
 trials.9ef9375: Recommended
 trials.a018d39: Slackbot (personal AI companion)
@@ -35858,6 +35844,7 @@ trials.b6298ca: Everything in Pro, plus…
 trials.b7d2491: Explore your trial
 trials.b9dd32f: per person per month
 trials.bbe0a50: Ta-da! Your team’s on a free trial
+trials.bbfa773: Close
 trials.bc1a262: Make every integration seamless
 trials.bd408d7: Paid feature available with your free trial
 trials.c0899cf: Huddles with more than two people are a paid feature, available with a free, {trialLength}-day trial

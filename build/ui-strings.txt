@@ -781,7 +781,6 @@ A dock badge on Mac
 A draft for {name}
 A duck
 A feature I rely on was missing or moved
-A few Miles Davis tracks are here whenever you\u2019re ready to switch things up.
 A few demo members and channels, to try things against.
 A few more unreads didn\u2019t get summarized. Check them out in activity:
 A fictional freight software company across engineering, sales and finance.
@@ -880,7 +879,6 @@ A quiet heads-up in the island. Today is always a click away.
 A repeat step can only be added as the last step in a workflow or branch.
 A request was sent to the Salesforce admin. Next steps:
 A running list of the companies you sell to
-A safe space for early work. Ask Harry to join.
 A sales rep tagged you in #AI Customer App - New Product Launch with a question on segment targeting for the enterprise tier.
 A scan found potentially unsafe instructions in this skill. Review the full instructions carefully before making a copy.
 A second user requested one workspace key; caching is off for it
@@ -1748,6 +1746,7 @@ Add file as a tab?
 Add file from Slack
 Add file from computer
 Add file or link to folder
+Add file, canvas, or list
 Add files
 Add files and links to reference later
 Add files and tools
@@ -1880,7 +1879,6 @@ Add shortcut
 Add skill
 Add skills to this skill set
 Add slide here
-Add some cool to your workspace with this jazz-inspired Slack theme: {hexCodes}
 Add someone to huddle with
 Add someone to invite
 Add sort
@@ -3531,6 +3529,7 @@ Atlas profiles
 Attach
 Attach Screenshots or Recordings
 Attach Singer to the window where your meeting chat is open.
+Attach Without Sharing
 Attach a GIF
 Attach a GIF is not enabled.
 Attach a canvas
@@ -5023,7 +5022,6 @@ Caution
 Cayman Islands
 Cc
 Celebrate
-Celebrate the music of Miles Davis
 Celebration
 Celebration setting saved.
 Celebrations will stop showing on user profiles and need to be reconfigured.
@@ -5406,13 +5404,11 @@ Check back in on your lists, any time
 Check draft request
 Check facts
 Check for Salesforce users sharing the same email address or have the user manually log in to establish their identity.
-Check if user has Slackbot AI message history
 Check if users in a channel can join huddle
 Check list
 Check mark
 Check needed
 Check off your onboarding tasks :white_check_mark:
-Check out my Slack theme: {hexCodes}
 Check out these help articles about individual features. 
 Check out these premium features while your organization still has access.
 Check out what happened this week
@@ -6305,7 +6301,6 @@ Component that measures rendering performance
 Component unmounted
 Compose action button
 Compose action button_2
-Compose an array of ids for the elements containing message subcomponent labels
 Compose and reply to emails to contacts and leads from within Slack.
 Compose email
 Composer action bar
@@ -8755,7 +8750,6 @@ Dismiss suggestion
 Dismiss summary
 Dismiss the JP Pocket Guide V2 flow step
 Dismiss the agent suggestion row in the Focused sidebar Pinned section
-Dismiss themes banner
 Dismiss todo list
 Dismiss transcript generation prompt
 Dismiss trial countdown
@@ -9225,7 +9219,6 @@ Earliest date created
 Early connection closed; discarding signaling task.
 Early exit due to previous failures
 Early start, {firstName}. Let\u2019s get things going.
-Ease into some smooth collaboration with a Miles Davis tune, background, or effect.
 Easily @mention departments or teams all at once by bundling them into user groups.
 Easily add multiple Salesforce orgs to keep track of your deals in one place.
 Easily catch up on channels and threads in one click.
@@ -9546,7 +9539,6 @@ Either baseOptions.modelAssetPath or baseOptions.modelAssetBuffer must be set
 Either channelId or memberId must be provided
 Either this workspace doesn\u2019t exist, or you do not have access to it. If you need to be added to a workspace, contact the {orgName} IT team.
 El Salvador
-Electric Fusion
 Electric utility; a corporation organized under Arizona law
 Elevator
 Eligible teams that upgrade to Pro or Business+ will get the discounted rate for one year. After one year, their subscription will renew at the regular price for that plan. Teams can downgrade to use Slack\u2019s basic features for free at any time.
@@ -10458,7 +10450,6 @@ Explore the premium features of our most popular plan for free with a 30-day tri
 Explore the premium features of our most popular plan for free with a {trialDuration}-day trial. After that, you\u2019ll be charged {costPerMonth} per person/month.
 Explore trial
 Explore tutorials
-Explore your chats
 Explore your history
 Explore your premium AI features
 Explore your premium features
@@ -10604,6 +10595,7 @@ Failed to close the segmentation questionnaire
 Failed to collect screenshare stats
 Failed to convert markdown to canvas
 Failed to convert to canvas. Please try again.
+Failed to copy built-in skill
 Failed to copy email to clipboard
 Failed to copy image
 Failed to copy image to clipboard
@@ -10633,7 +10625,6 @@ Failed to create the meeting notes canvas. The recording could not be processed.
 Failed to create the screenshot capture overlay
 Failed to create vertex array
 Failed to create workflow
-Failed to delete activity views
 Failed to delete channel memory
 Failed to delete comment
 Failed to delete the MCP server. Please try again.
@@ -11016,7 +11007,6 @@ Feel free to move things around to your liking. We love an organized sidebar.
 Feeling great!
 Feeling stuck?
 Feels good to get organized!
-Fetch (emoji) reacji triggers for multiple channels
 Fetch Available Plans
 Fetch IMs from the API
 Fetch MCP servers
@@ -11053,6 +11043,7 @@ Fetch apps index list to be loaded as default apps
 Fetch boot API data when provisionally connected
 Fetch builtin skill metadata and re-map
 Fetch calendar events for days
+Fetch channel file counts in the admin workspace
 Fetch channel section suggestions on channel join
 Fetch company info for a team
 Fetch completed migrations
@@ -11078,7 +11069,6 @@ Fetch list of authed Salesforce orgs for the user, either from Redux or by fetch
 Fetch list of workflow templates from API
 Fetch list record subscriptions
 Fetch more users from a given directory
-Fetch multiple app profiles by combined IDs
 Fetch org-level retention settings
 Fetch page 1 of all search results for a given query and filters
 Fetch predefined apps for onboarding integration task
@@ -12030,7 +12020,6 @@ Fun facts
 Function not implemented.
 Function object expected for %s
 Function.prototype.bind called on incompatible 
-Funky Fresh
 Funnel chart
 Futura Bk BT
 Futura Md BT
@@ -12045,6 +12034,7 @@ GIFs will be right back
 GL: Failed to create buffer positionBuffer
 GL: Failed to create buffer texCoordBuffer
 GL: Failed to create shader
+GPT Live sessions keep failing; Slackbot is leaving
 GPT-6 Luna
 GPT-6 Luna (OpenAI)
 GPT-6 Sol
@@ -12305,7 +12295,7 @@ Get the mail extension
 Get the most out of Slack
 Get the power of AI in context when you use an app\u2019s AI-powered assistant alongside Slack conversations. Just click to open, and the assistant can proofread drafts, answer questions, and more.
 Get the premium features of Business+ for {costPerMonth} per person/month
-Get the premium features of the Business+ plan and start to work at scale
+Get the premium features of our most popular plan at {discountedPrice} per person/month at {promoDiscountPercent}% off for {promoDuration, plural, =1 {# month} other {# months}}.
 Get the premium features of the Business+ plan for {costPerMonth} per person/month.
 Get the profile for the current team
 Get the profile for the current team from the API
@@ -12453,7 +12443,6 @@ Give this agent a prompt and a schedule. It runs the prompt for you and sends yo
 Give your agent a name
 Give your approval to merge these changes.
 Give your channel a name to continue. You can always change the name later.
-Give your huddle a vibe
 Give your rule a name
 Give your sidekick a name
 Give your space a logo
@@ -13030,10 +13019,10 @@ Hi
 Hi everyone!
 Hi everyone. Here\u2019s a space for our {channelName} conversations!
 Hi there, here\u2019s your Slackbot preview
-Hi there, you\u2019ve used up your Slackbot previews
+Hi there, want to see more Slackbot?
 Hi {firstName}, I\u2019m Slackbot, your AI assistant.
 Hi {firstName}, here\u2019s your Slackbot preview
-Hi {firstName}, you\u2019ve used up your Slackbot previews
+Hi {firstName}, want to see more Slackbot?
 Hi {inviterName}! \u{1F44B} I\u2019m waiting on the channel to be connected, but I\u2019m excited to work together in channel soon.
 Hi {teamName}
 Hi! Good to meet you.
@@ -14532,9 +14521,6 @@ Java
 JavaScript
 JavaScript, DOM updates, Draw Frame
 Jay Reitmeyer
-Jazz Club
-Jazz Snaps
-Jazz themes
 Jeff Dasovich
 Jeff Hodge
 Jeff Hodge (January 2, 2001 email)
@@ -14721,6 +14707,7 @@ Kansas
 Karger-Stein must be run on a connected (sub)graph
 Kazakhstan
 Keep
+Keep Access
 Keep Adding
 Keep Editing
 Keep Going
@@ -14857,7 +14844,6 @@ Kim S. Ward
 Kim Ward
 Kim Ward (origination), Sara Shackleton (swaps legal), Jason R. Williams (credit)
 Kimberly Ward
-Kind of Blue
 Kindness always comes around
 Kinds of mention
 Kiribati
@@ -15284,7 +15270,6 @@ Like a virtual office, a workspace is where work happens in Slack. All your chan
 Like your sidebar
 Like your smarts, your search is unmatched.
 Liked what you saw?
-Liked what you saw? Upgrade to Business+ and keep asking, drafting, and summarizing.
 Likely error, unhandled 
 Lilypad green
 Limit
@@ -17125,7 +17110,6 @@ Metric
 Metrics collection sampling has been reset.
 Metrics may be delayed and use different reporting periods.
 Mexico
-Mic Drop
 Mic in use by voice call
 Michael Farmer
 Michael Westra
@@ -17177,7 +17161,6 @@ Migration in progress
 Migration in progress\u2026
 Migration results
 Migration status is only visible to owners and admins.
-Miles Davis
 Min
 Min value: 
 MinVersionPoll can only be started once
@@ -17411,6 +17394,7 @@ More sidekicks sidebar
 More skill set actions
 More than one list section container
 More thread actions
+More trial task options
 More types
 More unread threads
 More unreads
@@ -19662,6 +19646,7 @@ Open Viewer Modal
 Open Woodpecker
 Open Workflow Builder
 Open Workflows & tasks
+Open Your trial
 Open a Focused section quick read from its sidebar heading
 Open a Form
 Open a React.lazy modal
@@ -20439,6 +20424,7 @@ People from this external organization can:
 People from workspaces you select can be added to this channel.
 People from workspaces you select can find and be added to this channel.
 People in this channel will see the list tab, but only people with access to the list in Salesforce will be able to see the list content.
+People in this list may have access to this file through the list. You can remove that access, or keep it. Anyone who can see the file elsewhere in Slack keeps their access.
 People in your organization still see your profile photo.
 People in {channelDisplayName} will continue to have the option of starting AI huddle notes manually.
 People in {targetName} won\u2019t be able to add {appName} steps to their workflows.
@@ -22204,6 +22190,7 @@ Remove a saved message
 Remove a saved message in redux and optionally call the API
 Remove a saved reminder
 Remove access
+Remove access to this file?
 Remove agent
 Remove agent from channel
 Remove agent from channel?
@@ -22476,7 +22463,6 @@ Removes the owner role from a member and applies their previous roles
 Removes the placeholder tab of a canvas the server rejected
 Removes the user and removes them from any paginated list
 Removes the verified badge from the skill directory.
-Removes uiState for a view container in a product surface
 Removes view from the specified viewSet
 Removes view from the specified viewSet in a child window
 Removes view from the specified viewSet in the main window
@@ -24629,6 +24615,7 @@ Send to Slack <{emailForwardingAddress}>
 Send to Slackbot
 Send to a channel
 Send to a person
+Send to thread
 Send to your activity feed
 Send to {agentName}
 Send to {destinationStr} under these opportunity conditions: {conditionsStr}
@@ -25281,6 +25268,7 @@ Share this dashboard
 Share this document
 Share this event
 Share this file
+Share this file with the list?
 Share this file?
 Share this folder
 Share this item
@@ -25391,6 +25379,7 @@ Sharing and downloading are allowed in this channel.
 Sharing and downloading are not allowed in this channel.
 Sharing chart
 Sharing file in a thread
+Sharing gives everyone in this list access to the file. If you attach it without sharing, only people who can already see the file will be able to open it.
 Sharing info
 Sharing snippet in a thread
 Sharing the Sales Tracker with someone will add them as a Salesforce user. They\u2019ll also be able to access any other Salesforce record list.
@@ -25668,7 +25657,6 @@ Shows a verified badge in the skill directory.
 Shows as the sender of each lead message, and in Workflow Builder.
 Shows every loaded page of a kind
 Shows the flexpane profile for humans or messages for bots
-Shows the kanban board record update failed toast
 Showtime
 Shutdown already in progress, ignoring disconnect request
 Shutter priority
@@ -26233,6 +26221,7 @@ Slackbot follows your workspace\u2019s default instructions here
 Slackbot found info that could be used to set up your Sales Tracker.
 Slackbot found info that could be used to set up your Sales Tracker. Taking you there shortly.
 Slackbot found {count} records based on conversations in your workspace. Want to add them to the Sales Tracker? Your current conversation will be saved.
+Slackbot has an answer
 Slackbot has an answer for you
 Slackbot has responded
 Slackbot has responded. {context}
@@ -26280,9 +26269,11 @@ Slackbot permissions to create and update records
 Slackbot permissions to create, update, and delete records
 Slackbot posts each run in #{channelName}. Everyone in the channel can see it.
 Slackbot preview
+Slackbot raised its hand
 Slackbot records your mic and computer audio and transcribes it with AI until you press Stop\u2014even when folded or hidden. Let everyone in the meeting know before you start.
 Slackbot records your mic and computer audio until you press Stop.
 Slackbot replied.
+Slackbot said something about the wait; its hand stays down
 Slackbot saved these from your conversations to make future responses more relevant.
 Slackbot search handoff sent but navigation failed
 Slackbot sections
@@ -26304,6 +26295,7 @@ Slackbot uses this context across conversations in the project and may update it
 Slackbot uses this description to determine when to run this skill.
 Slackbot view
 Slackbot voice playback failed
+Slackbot was named
 Slackbot will ask you before it changes anything.
 Slackbot will automatically save relevant details from your Slack activity and update your saved memory every two weeks.
 Slackbot will be available on {date}.
@@ -26469,7 +26461,6 @@ Someone requested to join this channel.
 Someone you\u2019ve hidden
 Something
 Something about your file changed before it could be uploaded. This might happen if your file has been moved, edited, or deleted from your device.
-Something cooler is on the menu
 Something else
 Something else (use the open text to tell us more)
 Something else went wrong
@@ -27585,7 +27576,6 @@ Sunday
 Sunday Sailor
 Sundays
 Sunflower
-Sunglasses Inside
 Sunset
 Super admin access required. Share this link with your super admin to get set up.
 Supercharge your channel
@@ -30165,6 +30155,7 @@ Treatment group listing isn
 Trending
 Trial
 Trial Tester
+Trial checklist hidden
 Trial feature
 Trial tasks
 Tried rendering app in nonexistant child window
@@ -31256,7 +31247,6 @@ Updated {timeStr}
 Updated {time}
 Updated {when}
 Updates MCP server connection status for one or more servers
-Updates a channel tab
 Updates a draft locally and via API
 Updates a member
 Updates a user
@@ -31329,6 +31319,7 @@ Upgrade to manage sales in Slack
 Upgrade to reconnect this shared channel for your organization.
 Upgrade to unlock more insights
 Upgrade to use Slackbot\u2019s AI abilities
+Upgrade to use the full range of my AI abilities, like finding something, summarizing what needs your attention, or prepping for a meeting.
 Upgrade to view this Salesforce List
 Upgrade to {planName}
 Upgrade today and get {discountPercent}% off!
@@ -31916,7 +31907,6 @@ View Setting for {recommendation}
 View Settings
 View Settings for Slackbot
 View Shared Settings
-View Skill
 View Slack Marketplace
 View Slack Pro Features
 View Slack users with access to this org
@@ -32154,6 +32144,7 @@ View workflow details
 View workflow segment
 View workspace information
 View your calendar events
+View your day at a glance
 View your files
 View your message activity analytics
 View your organization\u2019s policies.
@@ -32616,7 +32607,6 @@ Weekly
 Weekly Sync
 Weekly Team Standup
 Weekly active people
-Weekly design critique: share work in progress, get feedback
 Weekly on Fridays
 Weekly on {dayOfWeek}
 Weekly on {dayOfWeek}s
@@ -40883,7 +40873,6 @@ theaters
 theatre
 theatres
 theme
-themes just dropped
 therapist
 therapy
 there

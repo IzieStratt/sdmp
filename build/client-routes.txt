@@ -359,6 +359,7 @@ ROUTE_FLEX_WHATS_NEW /:entityId/:viewName/whats_new
 ROUTE_FLEX_WHATS_NEW /:entityId/whats_new
 ROUTE_HUDDLE /:channelId/huddle
 ROUTE_INTEGRATIONS_A2A_AGENTS /integrations/a2a-agents
+ROUTE_INTEGRATIONS_A2A_AGENTS /integrations/a2a-agents/:selectedTabId
 ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId
 ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId/:appsProfileTabId
 ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId/:teamId

@@ -171,6 +171,9 @@ agentSandboxes.create
 agentSandboxes.createSigninLink
 agentSandboxes.delete
 agentSandboxes.list
+agents.bindings.add
+agents.bindings.draft
+agents.bindings.test
 agents.mcp.settings.list
 agents.mcp.settings.listTools
 agents.mcp.settings.setServerEnabled

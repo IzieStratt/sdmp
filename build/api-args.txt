@@ -683,6 +683,7 @@ saved.update: date_due, description, item_detail, item_id, item_type, mark, todo
 schemaless.getClientLock: unique_id, unique_id_type
 screenhero.rooms.info: room
 screenhero.rooms.join: regions, room, use_room_scoped_token
+screenhero.rooms.proxyLogs: app, channel, content_channel_id, content_message_ts, review_channel_id, review_message_ts
 screenhero.rooms.rename: room, room_name
 search.autocomplete.files: include_shares, query
 search.autocomplete.tags: element_id, query

@@ -189,7 +189,6 @@ Any owner or admin
 Any translation
 Anyone will be able to add replies to messages posted in this channel.
 Anyone with @{emailDomain} can join
-Anyone with view or edit access to a canvas can print it.
 App ID
 App activity metrics (aggregated only)
 App activity metrics (aggregated)
@@ -239,7 +238,6 @@ Assign role
 Audio clip plays
 Audio clips created
 Authenticate another way
-Authorization
 Auto
 Automatic acceptance
 Automatic user account mapping
@@ -300,9 +298,9 @@ Cancel all requests
 Cancel all requests?
 Cancel all {count, number} requests?
 Cancel this app request?
+Cannot add any more members
+Cannot add yourself to private channels
 Cannot remove yourself from the workspace.
-Canvas Retention
-Canvas and List Retention
 Canvas edits
 Canvas shares
 Canvas views
@@ -460,7 +458,6 @@ Creation date
 Crunching the numbers. We’ll show your data shortly.
 Crystal
 Currently in {numPrivateChannels, plural, =1 {a private channel} other {# private channels}}
-Customer acknowledgement required
 Cypher
 D
 Daily actions taken
@@ -531,7 +528,6 @@ Diff
 Disable 2FA
 Disable two-factor authentication
 Disable two-factor authentication?
-Disabling Member Overrides will remove all overrides currently in place on DMs, MPDMs and channels. When disabled they will default to the Org wide policy (or Workspace policy). Verify the customer has been informed and the appropriate actions have been taken. The customer can run a channel audit export to review all current member overrides.
 Disallowed objects
 Discard entered ranges?
 Disclaimer: Generative AI can produce inaccurate or harmful responses. Make sure people review the output for accuracy and safety. They assume responsibility for how the outcomes of this agent are applied.
@@ -643,6 +639,7 @@ External approval status
 External domains apply when rendering HTML in emails. By default, external content can be loaded from all domains.
 External people using workflows created by {orgName}
 External person
+External user cannot join this channel
 F#
 Failed to add workspaces. Please try again.
 Failed to delete the MCP server. Please try again.
@@ -657,7 +654,6 @@ Failed to save settings. Please try again later.
 Failed to update Slackbot setting. Please try again.
 Failed to update integration. Before changing Salesforce organizations, a Sales Admin needs to disconnect this integration in Sales settings.
 Failed to update setting. Please try again later.
-File Retention
 File download settings updated
 File summaries viewed
 File summary translation
@@ -837,7 +833,6 @@ Limit of {limit} addresses exceeded
 Limit of {limit} addresses exceeeded
 Limited access group updated
 Lisp
-List Retention
 List edits
 List shares
 Lists created
@@ -928,7 +923,6 @@ Membership - Last 30 Days
 Membership limit updated
 Menu actions for 
 Menu actions for {name}
-Message Retention
 Message explanations viewed
 Message history settings updated
 Message translations generated
@@ -1025,6 +1019,7 @@ No workspaces matching {query} were found
 No workspaces selected
 No workspaces were found
 No, Wait
+Not a member of this workspace
 Not a valid email
 Not allowed
 Not available on this device
@@ -1135,7 +1130,6 @@ Pending verification
 People and groups
 People and groups for {objectLabel}
 People who posted
-People with their email address
 Perl
 Permanently delete {possessiveTargetName} profile?
 Permission
@@ -1156,9 +1150,7 @@ Please enter a valid URL.
 Please enter an App ID.
 Please enter at least one letter for your Workspace URL.
 Please enter up to 21 characters for your Workspace URL.
-Please enter your full name
 Please fill in a username.
-Please include information about who is requesting this update, and your name.
 Please select a list.
 Posting messages in channels helps make information more discoverable and transparent. This is the number of messages that a member posted to a public or private channel in the last 30 days.
 Posting permissions updated
@@ -1253,7 +1245,6 @@ Reorder Automation Rules
 Reorder list
 Reorder table menu actions for {rule}
 Reports if a member was considered billable for at least one day in the selected time period. This only applies to invoiced customers.
-Request Submitted
 Request for {appName} resolved and removed from the list
 Request type
 Request was not {invalidApprovalsText}
@@ -1445,6 +1436,7 @@ Sign this person out of Slack?
 Sign user out of
 Since you only have permission to manage private channels, public channels are hidden.
 Since you only have permission to manage public channels, private channels are hidden.
+Single-Channel Guest already in a channel
 Single-Channel Guests
 Single-channel guests
 Skip this
@@ -1519,6 +1511,7 @@ Something went wrong, so your changes weren’t saved. Please try again.
 Something went wrong. Please refresh and try again
 Something went wrong. Please refresh the page and try again.
 Something went wrong. Please try again in a moment.
+Something went wrong. Please try inviting users again.
 Something went wrong. Sorry about that — please try again later, and contact Slack if this problem persists.
 Something went wrong. We’re unable to continue with your install at the moment. Please try again later.
 Something went wrong. We’re unable to continue with your revoke at the moment. Please try again later.
@@ -1579,7 +1572,6 @@ The average number of unique members who either read a message or replied from a
 The average number of unique members who had at least one automation completed on their behalf by a specific app per day
 The average number of unique users who interacted with a specific app at least once per day
 The categories of personal information that Slack collects from you to create a Workspace account include:
-The customer has acknowledged that enabling this option will disable their current file retention settings. Files with no active shares will be deleted after a 30-day grace period.
 The email that was associated with this deactivated account will be available. When this account is reactivated, the user will need to verify the updated email address.
 The following {count, plural, =1 {member} other {members}} could not be removed from {channelName}:
 The member will no longer be able to sign in to the workspace. 

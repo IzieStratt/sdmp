@@ -2,7 +2,7 @@
  "$schema": "../../packages/slack-client-surface/schema/components.v1.schema.json",
  "schemaVersion": 1,
  "kind": "components",
- "build": "409df3eb78e8",
+ "build": "0972f2bca77d",
  "capturedDate": "2026-11-25",
  "count": 12185,
  "components": {

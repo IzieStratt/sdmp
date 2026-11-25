@@ -47,7 +47,6 @@ canvas-mermaid
 canvas-model-browser
 canvas-share-dialog
 channel-join-requests-debug
-channel-preview-fixture
 child-window-slackbot-jellyfish
 client-about-ai-app-view
 client-activity-agent-sessions
@@ -514,8 +513,6 @@ lottie-huddles-gift.json
 lottie-huddles-gong.json
 lottie-huddles-hearts.json
 lottie-huddles-jackolantern.json
-lottie-huddles-jazz-snaps.json
-lottie-huddles-mic-drop.json
 lottie-huddles-moneybag.json
 lottie-huddles-mummy.json
 lottie-huddles-page-hero
@@ -940,6 +937,7 @@ megaphone-education-share-channel-section-coachmark
 megaphone-email-to-case-setup-promo-banner
 megaphone-end-upgrade-banner
 megaphone-enterprise-search-hero-banner
+megaphone-eoy-biz-plus-gift-trial-tasklist-sidebar-menu-header
 megaphone-ergo-builder-edu-triggers-coachmark
 megaphone-external-connection-questionnaire
 megaphone-find-workflows-education-coachmark
@@ -987,7 +985,6 @@ megaphone-matching-domain-signup-welcome-coachmark
 megaphone-message-list-banner
 megaphone-message-pane-input-channel-archive-banner
 megaphone-message-pane-input-channel-join-banner
-megaphone-miles-davis-alert
 megaphone-mobile-social-proof-banner
 megaphone-muted-channels-reactive-coachmark
 megaphone-nested-branches-awareness-banner
@@ -1859,7 +1856,6 @@ vendors-legacy-node_modules_shikijs_themes_dist_rose-pine_mjs
 vendors-legacy-node_modules_shikijs_themes_dist_snazzy-light_mjs
 vendors-legacy-node_modules_shikijs_themes_dist_tokyo-night_mjs
 vendors-legacy-node_modules_tinyspeck-generated_get-analytics-embedding-sdk_js-node_modules_t-59ba79
-vendors-legacy-node_modules_tinyspeck_design-tokens_output_web_tokens_ts
 vendors-legacy-node_modules_zod_v4_index_js
 vendors-node_modules_bidi-js_dist_bidi_mjs
 vendors-node_modules_codemirror_addon_mode_overlay_js-node_modules_codemirror_addon_mode_simp-9e4109

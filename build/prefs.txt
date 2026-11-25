@@ -472,8 +472,6 @@ user: huddles_autoinvite
 user: huddles_cc_by_default
 user: huddles_disconnect_on_lock
 user: huddles_global_mute
-user: huddles_miles_davis_effects_highlight_seen
-user: huddles_miles_davis_songs_seen
 user: huddles_music_player_song_key
 user: huddles_mute_by_default
 user: huddles_play_music_timeout
@@ -528,7 +526,6 @@ user: meeting_assistant_auto_play_consent
 user: mentions_exclude_reactions
 user: mentions_real_names_override
 user: messages_theme
-user: miles_davis_theme_cta_dismissed
 user: msg_input_formatting_bar_state
 user: msg_input_send_btn
 user: msg_input_send_btn_auto_set

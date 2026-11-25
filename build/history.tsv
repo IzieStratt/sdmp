@@ -1310,7 +1310,7 @@ ai-features	huddle_participant_agent_badge	2026-11-11
 ai-features	huddle_remove_agent_menu_item	2026-11-11		
 ai-features	huddle_slackbot	2026-11-10		
 ai-features	huddle_slackbot_voice_add_menu_item	2026-11-24		
-ai-features	huddle_slackbot_voice_ask_menu_item	2026-11-24		
+ai-features	huddle_slackbot_voice_ask_menu_item	2026-11-24	2026-11-25	2026-11-25
 ai-features	huddle_slackbot_voice_remove_menu_item	2026-11-24		
 ai-features	huddle_thread_summary_complete_slackbot_reply	2026-11-10		
 ai-features	huddle_thread_summary_complete_slackbot_reply_impression	2026-11-10		
@@ -1846,13 +1846,13 @@ ai-features	skill_suggestion_copy_link	2026-11-14
 ai-features	skill_suggestion_create	2026-11-11		
 ai-features	skill_suggestion_create_scheduled	2026-11-11		
 ai-features	skill_suggestion_create_task	2026-11-11		
-ai-features	skill_suggestion_customize	2026-11-20		
+ai-features	skill_suggestion_customize	2026-11-20	2026-11-25	2026-11-25
 ai-features	skill_suggestion_dismiss	2026-11-13		
 ai-features	skill_suggestion_report_copy_link	2026-11-20		
 ai-features	skill_suggestion_report_customize	2026-11-20	2026-11-23	2026-11-24
 ai-features	skill_suggestion_report_share	2026-11-20		
 ai-features	skill_suggestion_share	2026-11-14		
-ai-features	skill_suggestion_view_skill	2026-11-20		
+ai-features	skill_suggestion_view_skill	2026-11-20	2026-11-25	2026-11-25
 ai-features	skill_support_disabled	2026-11-10		
 ai-features	skill_unpublish_from_catalog_failed	2026-11-10		
 ai-features	skills	2026-11-10		
@@ -2283,7 +2283,12 @@ ai-features	slackbot_free_teams_segmented_offer	2026-11-10
 ai-features	slackbot_growth_nux_reengagement_sparkle	2026-11-10	2026-11-13	2026-11-13
 ai-features	slackbot_history	2026-11-10		
 ai-features	slackbot_history_opened	2026-11-10		
+ai-features	slackbot_huddle_activity	2026-11-25		
 ai-features	slackbot_huddle_face	2026-11-24		
+ai-features	slackbot_huddle_raised_hand	2026-11-25		
+ai-features	slackbot_huddle_raised_hand_menu	2026-11-25		
+ai-features	slackbot_huddle_raised_hand_say	2026-11-25		
+ai-features	slackbot_huddle_raised_hand_send	2026-11-25		
 ai-features	slackbot_huddle_voice	2026-11-24		
 ai-features	slackbot_ia_prototype	2026-11-10	2026-11-20	2026-11-20
 ai-features	slackbot_im	2026-11-10		
@@ -2537,7 +2542,7 @@ ai-features	slackbot_upgrade_invite_members	2026-11-10
 ai-features	slackbot_view_reasoning_trace	2026-11-10		
 ai-features	slackbot_voice	2026-11-10		
 ai-features	slackbot_voice_add	2026-11-24		
-ai-features	slackbot_voice_ask	2026-11-24		
+ai-features	slackbot_voice_ask	2026-11-24	2026-11-25	2026-11-25
 ai-features	slackbot_voice_remove	2026-11-24		
 ai-features	slackbot_web_search_enable_description	2026-11-10		
 ai-features	slackbot_web_search_enable_disclaimer	2026-11-10		
@@ -4840,7 +4845,7 @@ analytics-events	component: huddles_join_speedbump_modal	2026-11-10
 analytics-events	component: huddles_join_switch_device_button	2026-11-10		
 analytics-events	component: huddles_kte_request_modal	2026-11-10		
 analytics-events	component: huddles_mic_settings_menu	2026-11-10		
-analytics-events	component: huddles_miles_davis_huddle_page_banner	2026-11-10		
+analytics-events	component: huddles_miles_davis_huddle_page_banner	2026-11-10	2026-11-25	2026-11-25
 analytics-events	component: huddles_mini_panel	2026-11-10		
 analytics-events	component: huddles_notification	2026-11-10		
 analytics-events	component: huddles_page_sidebar_link	2026-11-10		
@@ -6701,7 +6706,7 @@ analytics-events	element: huddles_mic_device_select	2026-11-10
 analytics-events	element: huddles_microphone_troubleshooting_option_no	2026-11-10		
 analytics-events	element: huddles_microphone_troubleshooting_option_yes	2026-11-10		
 analytics-events	element: huddles_microphone_troubleshooting_page	2026-11-10		
-analytics-events	element: huddles_miles_davis_coachmark	2026-11-10		
+analytics-events	element: huddles_miles_davis_coachmark	2026-11-10	2026-11-25	2026-11-25
 analytics-events	element: huddles_mini_panel_mute_button	2026-11-10		
 analytics-events	element: huddles_mini_player_invite_button	2026-11-10		
 analytics-events	element: huddles_mini_player_placeholder_for_child_window	2026-11-10		
@@ -6981,9 +6986,9 @@ analytics-events	element: microphone_no_devices_alert	2026-11-10
 analytics-events	element: microphone_permission_denied_alert	2026-11-10		
 analytics-events	element: microsoft_signin_success	2026-11-10		
 analytics-events	element: migrate_list	2026-11-10		
-analytics-events	element: miles-davis-alert-dismiss	2026-11-10		
-analytics-events	element: miles-davis-theme-cta	2026-11-10		
-analytics-events	element: miles-davis-theme-cta-dismiss	2026-11-10		
+analytics-events	element: miles-davis-alert-dismiss	2026-11-10	2026-11-25	2026-11-25
+analytics-events	element: miles-davis-theme-cta	2026-11-10	2026-11-25	2026-11-25
+analytics-events	element: miles-davis-theme-cta-dismiss	2026-11-10	2026-11-25	2026-11-25
 analytics-events	element: mini_player	2026-11-10		
 analytics-events	element: mini_player_open_window_button	2026-11-10		
 analytics-events	element: mini_player_thread_button	2026-11-10		
@@ -8316,6 +8321,7 @@ analytics-events	entry_point: email_preview	2026-11-10
 analytics-events	entry_point: embedded_message_header	2026-11-10		
 analytics-events	entry_point: emoji_picker	2026-11-10		
 analytics-events	entry_point: empty_drop_zone	2026-11-10		
+analytics-events	entry_point: eoy_biz_plus_gift_trial_tasklist	2026-11-25		
 analytics-events	entry_point: expanded_window	2026-11-10		
 analytics-events	entry_point: explore_paid_features_page	2026-11-10		
 analytics-events	entry_point: external_huddle_link	2026-11-10		
@@ -11015,6 +11021,9 @@ api-methods	admin.users.session.reset	2026-10-23
 api-methods	admin.workflows.search	2026-10-23		
 api-methods	admin.workflows.triggers.types.list	2026-10-23		
 api-methods	admin.workflows.unpublish	2026-10-23		
+api-methods	agents.bindings.add	2026-11-25		
+api-methods	agents.bindings.draft	2026-11-25		
+api-methods	agents.bindings.test	2026-11-25		
 api-methods	agents.mcp.settings.list	2026-10-19		
 api-methods	agents.mcp.settings.listTools	2026-10-19		
 api-methods	agents.mcp.settings.setServerEnabled	2026-10-19		
@@ -12744,6 +12753,9 @@ api-methods-upstream	agentSandboxes.create	2026-11-24
 api-methods-upstream	agentSandboxes.createSigninLink	2026-11-24		
 api-methods-upstream	agentSandboxes.delete	2026-11-24		
 api-methods-upstream	agentSandboxes.list	2026-11-24		
+api-methods-upstream	agents.bindings.add	2026-11-25		
+api-methods-upstream	agents.bindings.draft	2026-11-25		
+api-methods-upstream	agents.bindings.test	2026-11-25		
 api-methods-upstream	agents.mcp.settings.list	2026-11-10		
 api-methods-upstream	agents.mcp.settings.listTools	2026-11-10		
 api-methods-upstream	agents.mcp.settings.setServerEnabled	2026-11-10		
@@ -16204,6 +16216,7 @@ client-routes	ROUTE_FLEX_WHATS_NEW /:entityId/:viewName/whats_new	2026-11-10
 client-routes	ROUTE_FLEX_WHATS_NEW /:entityId/whats_new	2026-11-10		
 client-routes	ROUTE_HUDDLE /:channelId/huddle	2026-11-10		
 client-routes	ROUTE_INTEGRATIONS_A2A_AGENTS /integrations/a2a-agents	2026-11-10		
+client-routes	ROUTE_INTEGRATIONS_A2A_AGENTS /integrations/a2a-agents/:selectedTabId	2026-11-25		
 client-routes	ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId	2026-11-10		
 client-routes	ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId/:appsProfileTabId	2026-11-10		
 client-routes	ROUTE_INTEGRATIONS_APPS_PROFILE /integrations/profile/:appId/:teamId	2026-11-10		
@@ -33362,6 +33375,7 @@ enums	LISTS_DUE_DATE_NOTIFICATIONS=LISTS_DUE_DATE_NOTIFICATIONS	2026-10-23
 enums	LISTS_DUE_DATE_SUMMARIES=LISTS_DUE_DATE_SUMMARIES	2026-10-23		
 enums	LISTS_EPHEMERAL_MESSAGE_ACTIONS=lists_ephemeral_message_actions	2026-10-21		
 enums	LISTS_ERROR_BANNER=lists_error_banner	2026-10-21		
+enums	LISTS_FILE_FIELD=lists_file_field	2026-11-25		
 enums	LISTS_FREEMIUM_UPGRADE=lists_freemium_upgrade	2026-10-21		
 enums	LISTS_MAIN_EMBED=lists_main_embed	2026-10-21		
 enums	LISTS_NEW_WINDOW_EMBED=lists_new_window	2026-10-21		
@@ -33545,8 +33559,8 @@ enums	MIDDLE=middle	2026-10-23	2026-11-05	2026-11-05
 enums	MIDPAGE_CTA=midpage_cta	2026-10-21		
 enums	MID_TRIAL=mid_trial	2026-10-21		
 enums	MIGRATION_REAUTH=migration_reauth	2026-10-21		
-enums	MILES_DAVIS_EFFECTS_HIGHLIGHT_SHOWN=miles_davis_effects_highlight_shown	2026-10-21		
-enums	MILES_DAVIS_SONGS_HIGHLIGHT_SHOWN=miles_davis_songs_highlight_shown	2026-10-21		
+enums	MILES_DAVIS_EFFECTS_HIGHLIGHT_SHOWN=miles_davis_effects_highlight_shown	2026-10-21	2026-11-25	2026-11-25
+enums	MILES_DAVIS_SONGS_HIGHLIGHT_SHOWN=miles_davis_songs_highlight_shown	2026-10-21	2026-11-25	2026-11-25
 enums	MINIMIZED_SELF=minimized_self	2026-10-23		
 enums	MINIMUM_APP_VERSION=minimum_app_version	2026-10-21		
 enums	MINI_PLAYER_OPEN_WINDOW_BUTTON=mini_player_open_window_button	2026-10-21		
@@ -38971,8 +38985,8 @@ experiments	forward_message_attachments	2026-10-23
 experiments	forward_message_card	2026-10-23		
 experiments	forward_message_flow_modernizations	2026-10-23		
 experiments	forwarding_save_as_draft	2026-10-23		
-experiments	free_pro_sampling_big_mode_bug_fixes	2026-10-23		
-experiments	free_pro_sampling_big_mode_fast_follows	2026-10-23		
+experiments	free_pro_sampling_big_mode_bug_fixes	2026-10-23	2026-11-25	2026-11-25
+experiments	free_pro_sampling_big_mode_fast_follows	2026-10-23	2026-11-25	2026-11-25
 experiments	free_team_data_deletion_notifications	2026-10-23	2026-11-07	2026-11-07
 experiments	friendly_channel_names	2026-10-23		
 experiments	frontline_translations_fast_follow	2026-11-13	2026-11-20	2026-11-20
@@ -39175,6 +39189,7 @@ experiments	lists_done_checkbox	2026-10-23
 experiments	lists_enable_freemium_access	2026-10-23		
 experiments	lists_export_enrichment	2026-10-23		
 experiments	lists_file_backed_templates	2026-10-23		
+experiments	lists_file_field_unified_picker	2026-11-25		
 experiments	lists_filter_groups	2026-10-23		
 experiments	lists_friends_of	2026-10-23		
 experiments	lists_friends_of_teams	2026-10-23		
@@ -39243,7 +39258,7 @@ experiments	message_unfurl_interleaving	2026-10-23
 experiments	messaging_max_width	2026-10-23		
 experiments	meta_huddle_events_consent	2026-11-21		
 experiments	miles_davis_content_translations	2026-10-23	2026-10-27	2026-10-27
-experiments	miles_davis_themes	2026-10-23		
+experiments	miles_davis_themes	2026-10-23	2026-11-25	2026-11-25
 experiments	ml_autocomplete_ignore_file_fuzzy_score	2026-10-23		
 experiments	ml_autocomplete_nav_query_history	2026-10-23		
 experiments	ml_autocomplete_search_filter_self_boost	2026-11-14		
@@ -40590,6 +40605,7 @@ experiments-upstream	enterprise_search_multiauth_ui: on	2026-11-10
 experiments-upstream	enterprise_search_onedrive_rebrand: on	2026-11-10	2026-11-20	2026-11-20
 experiments-upstream	enterprise_search_rtm_events: on	2026-11-10		
 experiments-upstream	enterprise_search_use_feature_policy: on	2026-11-10		
+experiments-upstream	eoy_biz_plus_gift_trial: control, treatment	2026-11-25		
 experiments-upstream	ep_app_connection_user_flow_fe: on	2026-11-10		
 experiments-upstream	ep_productivity_suite_wfb_es_bulk: on	2026-11-10		
 experiments-upstream	etf_escal_permission_fe_logs: on	2026-11-10		
@@ -40658,8 +40674,8 @@ experiments-upstream	forward_message_attachments: on	2026-11-10
 experiments-upstream	forward_message_card: on	2026-11-10		
 experiments-upstream	forward_message_flow_modernizations: on	2026-11-10		
 experiments-upstream	forwarding_save_as_draft: on	2026-11-10		
-experiments-upstream	free_pro_sampling_big_mode_bug_fixes: on	2026-11-10		
-experiments-upstream	free_pro_sampling_big_mode_fast_follows: on	2026-11-10		
+experiments-upstream	free_pro_sampling_big_mode_bug_fixes: on	2026-11-10	2026-11-25	2026-11-25
+experiments-upstream	free_pro_sampling_big_mode_fast_follows: on	2026-11-10	2026-11-25	2026-11-25
 experiments-upstream	free_team_data_deletion_notifications: on	2026-11-10		
 experiments-upstream	friendly_channel_names: on	2026-11-10		
 experiments-upstream	frontline_translations_fast_follow: on	2026-11-12	2026-11-20	2026-11-20
@@ -40840,6 +40856,7 @@ experiments-upstream	lists_done_checkbox: on	2026-11-10
 experiments-upstream	lists_enable_freemium_access: on	2026-11-10		
 experiments-upstream	lists_export_enrichment: on	2026-11-10		
 experiments-upstream	lists_file_backed_templates: on	2026-11-10		
+experiments-upstream	lists_file_field_unified_picker: on	2026-11-25		
 experiments-upstream	lists_filter_groups: on	2026-11-10		
 experiments-upstream	lists_friends_of: on	2026-11-10		
 experiments-upstream	lists_friends_of_teams: on	2026-11-10		
@@ -40901,7 +40918,7 @@ experiments-upstream	message_stash: treatment	2026-11-10
 experiments-upstream	message_unfurl_interleaving: on	2026-11-10		
 experiments-upstream	messaging_max_width: on	2026-11-10		
 experiments-upstream	meta_huddle_events_consent: on	2026-11-21		
-experiments-upstream	miles_davis_themes: on	2026-11-10		
+experiments-upstream	miles_davis_themes: on	2026-11-10	2026-11-25	2026-11-25
 experiments-upstream	ml_autocomplete_ignore_file_fuzzy_score: treatment	2026-11-10		
 experiments-upstream	ml_autocomplete_nav_query_history: treatment	2026-11-10		
 experiments-upstream	ml_autocomplete_search_filter_self_boost: treatment	2026-11-14		
@@ -43441,8 +43458,8 @@ lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-ani
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-gong.json	2026-11-10		
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-hearts.json	2026-11-10		
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-jackolantern.json	2026-11-10		
-lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-jazz_snaps.json	2026-11-10		
-lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-mic_drop.json	2026-11-10		
+lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-jazz_snaps.json	2026-11-10	2026-11-25	2026-11-25
+lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-mic_drop.json	2026-11-10	2026-11-25	2026-11-25
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-moneybag.json	2026-11-10		
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-mummy.json	2026-11-10		
 lottie-animations	lottie-gantry-v2-modern-components-huddle-canvas-reactions-animations-rocket.json	2026-11-10		
@@ -43619,10 +43636,10 @@ lottie-animations	lottie-huddles-gift.json	2026-11-10
 lottie-animations	lottie-huddles-gong.json	2026-11-10		
 lottie-animations	lottie-huddles-hearts.json	2026-11-10		
 lottie-animations	lottie-huddles-jackolantern.json	2026-11-10		
-lottie-animations	lottie-huddles-jazz-snaps.json	2026-11-10		
-lottie-animations	lottie-huddles-jazz_snaps.json	2026-11-10		
-lottie-animations	lottie-huddles-mic-drop.json	2026-11-10		
-lottie-animations	lottie-huddles-mic_drop.json	2026-11-10		
+lottie-animations	lottie-huddles-jazz-snaps.json	2026-11-10	2026-11-25	2026-11-25
+lottie-animations	lottie-huddles-jazz_snaps.json	2026-11-10	2026-11-25	2026-11-25
+lottie-animations	lottie-huddles-mic-drop.json	2026-11-10	2026-11-25	2026-11-25
+lottie-animations	lottie-huddles-mic_drop.json	2026-11-10	2026-11-25	2026-11-25
 lottie-animations	lottie-huddles-moneybag.json	2026-11-10		
 lottie-animations	lottie-huddles-mummy.json	2026-11-10		
 lottie-animations	lottie-huddles-new_year.json	2026-11-10		
@@ -43700,8 +43717,8 @@ lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animat
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-gong.json	2026-11-10		
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-hearts.json	2026-11-10		
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-jackolantern.json	2026-11-10		
-lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-jazz_snaps.json	2026-11-10		
-lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-mic_drop.json	2026-11-10		
+lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-jazz_snaps.json	2026-11-10	2026-11-25	2026-11-25
+lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-mic_drop.json	2026-11-10	2026-11-25	2026-11-25
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-moneybag.json	2026-11-10		
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-mummy.json	2026-11-10		
 lottie-animations	lottie-legacy-modern-components-huddle-canvas-reactions-animations-rocket.json	2026-11-10		
@@ -44218,8 +44235,8 @@ megaphones	notification: huddle_trial_start_coachmark	2026-11-10
 megaphones	notification: huddles_home_trial_last_day_left_notification	2026-11-10		
 megaphones	notification: huddles_home_trial_seven_days_left_notification	2026-11-10		
 megaphones	notification: huddles_home_trial_start_notification	2026-11-10		
-megaphones	notification: huddles_miles_davis_coachmark	2026-11-10		
-megaphones	notification: huddles_miles_davis_huddle_page_banner	2026-11-10		
+megaphones	notification: huddles_miles_davis_coachmark	2026-11-10	2026-11-25	2026-11-25
+megaphones	notification: huddles_miles_davis_huddle_page_banner	2026-11-10	2026-11-25	2026-11-25
 megaphones	notification: huddles_nux_preview_banner	2026-11-10		
 megaphones	notification: huddles_reactji_explosion_coachmark	2026-11-10		
 megaphones	notification: huddles_schedule_external_edu_banner	2026-11-10		
@@ -45942,7 +45959,7 @@ message-subtypes	multi_static_select	2026-11-11
 message-subtypes	multi_users_select	2026-11-11		
 message-subtypes	multiple	2026-11-10		
 message-subtypes	mummy	2026-11-10		
-message-subtypes	musical_note	2026-11-10		
+message-subtypes	musical_note	2026-11-10	2026-11-25	2026-11-25
 message-subtypes	mute	2026-11-10		
 message-subtypes	muted	2026-11-10		
 message-subtypes	name	2026-11-10		
@@ -47881,8 +47898,8 @@ prefs	user: huddles_autoinvite	2026-11-10
 prefs	user: huddles_cc_by_default	2026-11-10		
 prefs	user: huddles_disconnect_on_lock	2026-11-10		
 prefs	user: huddles_global_mute	2026-11-10		
-prefs	user: huddles_miles_davis_effects_highlight_seen	2026-11-10		
-prefs	user: huddles_miles_davis_songs_seen	2026-11-10		
+prefs	user: huddles_miles_davis_effects_highlight_seen	2026-11-10	2026-11-25	2026-11-25
+prefs	user: huddles_miles_davis_songs_seen	2026-11-10	2026-11-25	2026-11-25
 prefs	user: huddles_music_player_song_key	2026-11-10		
 prefs	user: huddles_mute_by_default	2026-11-10		
 prefs	user: huddles_play_music_timeout	2026-11-10		
@@ -47937,7 +47954,7 @@ prefs	user: meeting_assistant_auto_play_consent	2026-11-10
 prefs	user: mentions_exclude_reactions	2026-11-10		
 prefs	user: mentions_real_names_override	2026-11-10		
 prefs	user: messages_theme	2026-11-10		
-prefs	user: miles_davis_theme_cta_dismissed	2026-11-10		
+prefs	user: miles_davis_theme_cta_dismissed	2026-11-10	2026-11-25	2026-11-25
 prefs	user: msg_input_formatting_bar_state	2026-11-10		
 prefs	user: msg_input_send_btn	2026-11-10		
 prefs	user: msg_input_send_btn_auto_set	2026-11-10		
@@ -57656,6 +57673,7 @@ slackbot-entry-points	SidebarTopSection: top-sidebar	2026-11-10
 slackbot-entry-points	SkillCreation: skill-creation	2026-11-10		
 slackbot-entry-points	SkillRunDayZeroAnnouncement: skill-run-day-zero-announcement	2026-11-10		
 slackbot-entry-points	SkillRunDetail: skill-run-detail	2026-11-10		
+slackbot-entry-points	SkillRunEoyBizPlusGiftTrialTasklist: skill-run-eoy-biz-plus-gift-trial-tasklist	2026-11-25		
 slackbot-entry-points	SkillRunGallery: skill-run-gallery	2026-11-10		
 slackbot-entry-points	SkillRunLibrary: skill-run-library	2026-11-10		
 slackbot-entry-points	SkillRunPermalinkUnfurl: skill-run-permalink-unfurl	2026-11-10		
