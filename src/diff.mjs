@@ -33,6 +33,19 @@ export function similarity(a, b) {
   return d > max ? 0 : 1 - d / len; // past the cutoff the exact distance is unknown, and it no longer matters
 }
 
+const words = (s) => s.replace(/([a-z0-9])([A-Z])/g, '$1 $2').replace(/([A-Z]+)([A-Z][a-z])/g, '$1 $2').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+const AFFIX_MIN_WORDS = 2; // the shared part has to be at least this many words, so `Base` + `Avatar` is not a rename of `Avatar`
+const AFFIX_SCORE = 0.84; // ranks below any real edit-distance match
+// A leading or trailing word added or dropped (BaseBroadcastPreamble -> BroadcastPreamble, Foo -> FooV2): too far apart for the edit distance
+// but almost always the same thing. At most 2 words may differ.
+export function affixRename(a, b) {
+  const x = words(a), y = words(b), [short, long] = x.length <= y.length ? [x, y] : [y, x];
+  const extra = long.length - short.length;
+  if (!extra || extra > 2 || short.length < AFFIX_MIN_WORDS) return false;
+  const lead = long.slice(extra).join(' ') === short.join(' '), tail = long.slice(0, short.length).join(' ') === short.join(' ');
+  return lead || tail;
+}
+
 export const RENAME_MIN = 0.85; // below this two names are just two names
 const MIN_LEN = 6; // short values (`get`, `list`) are similar to too much
 const MAX_PAIRS = 250_000; // added × removed above this is a mass change (a regenerated list); skip the comparison
@@ -48,6 +61,7 @@ export function detectRenames(added, removed, { min = RENAME_MIN } = {}) {
       if (a.length < MIN_LEN) continue;
       const s = similarity(r, a);
       if (s >= min) pairs.push({ from: r, to: a, score: s });
+      else if (affixRename(r, a)) pairs.push({ from: r, to: a, score: AFFIX_SCORE });
     }
   }
   pairs.sort((p, q) => q.score - p.score || p.from.localeCompare(q.from) || p.to.localeCompare(q.to));

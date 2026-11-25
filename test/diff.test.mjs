@@ -54,3 +54,9 @@ test('items with renames and signature changes parse and round-trip; old consume
   assert.equal(fullItemHtml(splitItem(html)), html.replace('→', '→'));
   assert.deepEqual(splitItem(html).cats[2].v, ['Foo → FooV2']);
 });
+
+test('detectRenames: a leading or trailing word added or dropped is a rename, a lone shared word is not', () => {
+  assert.deepEqual(detectRenames(['BroadcastPreamble'], ['BaseBroadcastPreamble']), [{ from: 'BaseBroadcastPreamble', to: 'BroadcastPreamble' }]);
+  assert.deepEqual(detectRenames(['Avatar'], ['BaseAvatar']), []);
+  assert.deepEqual(detectRenames(['ThreadBroadcastPreamble'], ['BaseBroadcastPreamble']), []);
+});

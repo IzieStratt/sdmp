@@ -67,7 +67,7 @@ test('buildInfo only ever yields a plain numeric or 12-hex build id', () => {
 
 import { checkHealth } from '../src/health.mjs';
 test('health: flags missing sources and collapsing categories, passes a healthy run', () => {
-  const ok = { entryScripts: 17, entryFetched: 17, iconGlyphs: 720, experimentsSelector: 1, apiMethods: 1553, chunks: 1800, mined: { 'ui-strings': 32000, scopes: 3 } };
+  const ok = { entryScripts: 17, entryFetched: 17, iconGlyphs: 720, experimentsSelector: 1, apiMethods: 1553, chunks: 1800, mined: { 'ui-strings': 32000, scopes: 3, components: 12000, redux: 20000 } };
   assert.deepEqual(checkHealth(ok, ok), []);
   assert.deepEqual(checkHealth(undefined, ok), []);
   assert.ok(checkHealth(ok, { ...ok, gantryPage: false }).join().includes('gantry client page'));
@@ -100,4 +100,12 @@ test('chunkMapFiles: reads the inline __cf map of the gantry client page', () =>
   const page = 'p.u=e=>{var __cf={"client-boot-vendors":"e6b038aec2795a05","lottie-x":"bf461b3a0c1d2e3f",plain_key:"8da0aaaaaaaa"};if(__cf[e])return "gantry-v2-async-"+e+"."+__cf[e]+".min.js"}';
   assert.deepEqual([...chunkMapFiles(page)].sort(), ['gantry-v2-async-client-boot-vendors.e6b038aec2795a05.min.js', 'gantry-v2-async-lottie-x.bf461b3a0c1d2e3f.min.js', 'gantry-v2-async-plain_key.8da0aaaaaaaa.min.js']);
   assert.equal(chunkMapFiles('nothing here').size, 0);
+});
+
+test('checkHealth: components or redux reading 0 is a problem even when the previous run was already 0', () => {
+  const base = { entryScripts: 1, entryFetched: 1, gantryPage: true, iconGlyphs: 1, experimentsSelector: 1 };
+  const prev = { mined: { components: 0, redux: 0 } };
+  const bad = checkHealth(prev, { ...base, mined: { components: 0, redux: 0 } });
+  assert.equal(bad.filter((p) => /components|redux/i.test(p)).length, 2);
+  assert.deepEqual(checkHealth(prev, { ...base, mined: { components: 5000, redux: 5000 } }), []);
 });

@@ -12,6 +12,9 @@ export function checkHealth(prev, cur) {
   if (cur.gantryPage === false) problems.push('The modern user agent no longer gets the gantry client page (no client-boot script or async chunk map): Slack probably raised its browser-version gate, so the boot bundle is not being mined.');
   if (!cur.iconGlyphs) problems.push('The icon glyph set was not found, so build/icons.json and the icons PDF were not refreshed.');
   if (!cur.experimentsSelector) problems.push('The experiments selector module was not found, so experiments were not refreshed.');
+  // absolute, not a drop: a list that reads 0 for two runs in a row is no longer "dropped", and its files stay frozen at the last good build
+  if (cur.mined && !cur.mined.components) problems.push('No React components were found (build/components.* were not refreshed): the `.displayName="Name"` shape probably changed.');
+  if (cur.mined && !cur.mined.redux) problems.push('No redux thunks, actions or fetchers were found (build/redux.* were not refreshed): the `.meta={name:...}` shape probably changed.');
   if (prev?.apiMethods && cur.apiMethods < prev.apiMethods * 0.85) problems.push(`API methods dropped from ${prev.apiMethods} to ${cur.apiMethods}.`);
   if (prev?.chunks && cur.chunks < prev.chunks * 0.8) problems.push(`Chunks fetched dropped from ${prev.chunks} to ${cur.chunks}.`);
   for (const [cat, before] of Object.entries(prev?.mined ?? {})) {

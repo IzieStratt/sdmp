@@ -295,13 +295,17 @@ async function main() {
     fs.writeFileSync(`${OUT}/experiments.txt`, Object.keys(exp.experiments).join('\n') + '\n');
   } else console.error('experiments: selector module not found, keeping previous experiments files');
   // components and redux (thunks, actions, fetchers, ...): lists for the changes feed, json with module ids/hashes and descriptions
-  const fe = finishFrontend(frontend);
-  if (fe.componentNames.length && fe.reduxNames.length) {
+  const prevRedux = (() => { try { return JSON.parse(fs.readFileSync(`${OUT}/redux.json`, 'utf8')); } catch { return {}; } })();
+  const fe = finishFrontend(frontend, prevRedux);
+  // each list is kept on its own: one coming back empty must not freeze the other (it did, for a week, when Slack dropped `key` from `.meta`)
+  if (fe.componentNames.length) {
     fs.writeFileSync(`${OUT}/components.txt`, fe.componentNames.join('\n') + '\n');
     fs.writeFileSync(`${OUT}/components.json`, JSON.stringify(fe.components) + '\n');
+  } else console.error('components: none found, keeping the previous files');
+  if (fe.reduxNames.length) {
     fs.writeFileSync(`${OUT}/redux.txt`, fe.reduxNames.join('\n') + '\n');
     fs.writeFileSync(`${OUT}/redux.json`, JSON.stringify(fe.redux) + '\n');
-  } else console.error('components/redux: none found, keeping the previous files');
+  } else console.error('redux: none found, keeping the previous files');
   if (watch.length) fs.writeFileSync(`${OUT}/taut-presence.json`, JSON.stringify(finishPresence(presence, watch), null, 1) + '\n');
   counts.components = fe.componentNames.length;
   counts.redux = fe.reduxNames.length;
