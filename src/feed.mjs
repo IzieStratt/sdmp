@@ -180,7 +180,7 @@ const dayPage = (i, p) => `<!doctype html>
 kept.forEach((i, n) => fs.writeFileSync(path.join(daysDir, `${itemSlug(i)}.html`), dayPage(i, parts[n])));
 const client = fs.readFileSync(new URL('./feed-client.js', import.meta.url), 'utf8');
 const has = (f) => fs.existsSync(path.join(site, f));
-const links = [['feed.xml', 'RSS feed'], ...(has('icons.html') ? [['icons', 'Slack icons']] : []), ...(has('platforms/index.html') ? [['platforms', 'Native clients']] : []), ['https://vs.izie.top/redocumented', 'ReDocumented'], ['https://github.com/IzieStratt/slack-datamine-plus', 'Source']];
+const links = [['feed.xml', 'RSS feed'], ...(has('icons.html') ? [['icons', 'Slack icons']] : []), ...(has('platforms/index.html') ? [['platforms', 'Native clients']] : []), ['https://vs.izie.top/redocumented', 'ReDocumented'], ['https://github.com/IzieStratt/sdmp', 'Source']];
 fs.writeFileSync(path.join(site, 'index.html'), `<!doctype html>
 <html lang="en">
   <head>
@@ -265,7 +265,7 @@ function publishPlatforms() {
     <main>
       <h1>Slack native clients</h1>
       <p>What slack-datamine-plus mines from Slack's desktop and Android apps, the App Store, and the release notes. Each list is plain text, one value per line; changes show up in the <a href="../">daily feed</a> as <code>&lt;target&gt;/&lt;category&gt;</code>.</p>
-      ${pills([['../', 'Changes feed'], ['../icons', 'Slack icons'], ['https://github.com/IzieStratt/slack-datamine-plus/tree/main/build/platforms', 'Source']])}
+      ${pills([['../', 'Changes feed'], ['../icons', 'Slack icons'], ['https://github.com/IzieStratt/sdmp/tree/main/build/platforms', 'Source']])}
       ${body}
     </main>
   </body>

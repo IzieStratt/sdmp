@@ -20,7 +20,7 @@ const meta = JSON.parse(fs.readFileSync(arg('meta', 'build/meta.json'), 'utf8'))
 const by = new Map(data.methods.map((m) => [m.name, m]));
 // names the existence oracle said are not live dispatch targets (see ReDocumented datamine-2026-09.md)
 const exclude = new Set(fs.readFileSync(new URL('./exclude.txt', import.meta.url), 'utf8').split('\n').filter(Boolean));
-const OURS = 'IzieStratt/slack-datamine-plus (own miner)';
+const OURS = 'IzieStratt/sdmp (own miner)';
 // The build id is NOT written into every entry: an entry seen in the latest mined build says so generically and follows the single
 // datamine_latest_build.build value. An entry whose call sites were not found in the latest build keeps its own older build and
 // date explicitly, so a method we no longer see is never described as seen in the current build.
@@ -42,7 +42,7 @@ for (const [name, e] of Object.entries(state)) {
     };
     data.methods.push(m); by.set(name, m); added.push(name);
   }
-  if (e.ours && !String(m.source).includes('slack-datamine-plus')) m.source = `${m.source} + ${OURS}`;
+  if (e.ours && !String(m.source).includes('IzieStratt/sdmp')) m.source = `${m.source} + ${OURS}`;
 
   const wasAbsent = !!(m.not_in_client || m.removed);
   delete m.removed; delete m.removed_note; // legacy names

@@ -27,7 +27,7 @@ const CACHE = arg('--cache', path.join(os.tmpdir(), 'sdmp-platforms'));
 const OUT = 'build/platforms', STATE = 'state/platforms.json';
 // Google Play App Signing key Slack's APKs have been signed with since 2021 (checked across APKPure releases 26.04 → 26.11)
 const ANDROID_CERT = process.env.ANDROID_CERT || '33533619756e8701a82e7887565b152dc348188711ebb5c48d073b2c942f7e41';
-const UA = { 'user-agent': 'slack-datamine-plus (+https://github.com/IzieStratt/slack-datamine-plus)' };
+const UA = { 'user-agent': 'slack-datamine-plus (+https://github.com/IzieStratt/sdmp)' };
 
 // versions only (no timestamps), so a run that finds nothing new leaves the file untouched and makes no commit
 const state = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) : {};
