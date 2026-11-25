@@ -11,6 +11,7 @@ conditional_keyboard_focus_reads
 defer_window_focus_work
 desktop_message_consistency_metric
 desktop_override_has_focus
+detach_right_clicked_nodes
 disable_span_report_limit
 dont_delay_marks_for_old_messages
 emoji_search_worker

@@ -594,6 +594,7 @@ logo_drive_2026q2_color_2x_web_96dp.png
 logo_gmail_2026q2_color_2x_web_32dp.png
 longpipe_medium.f16.bin
 magnifying-glass.svg
+main-features-comparison.{locale}.pdf
 meeting.svg
 meetings_huddle.svg
 megaphone.png

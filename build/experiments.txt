@@ -123,7 +123,6 @@ ai_apps_animated_streaming_roots_fe
 ai_apps_featured_workflows_in_thread
 ai_apps_final_i18n
 ai_apps_list_fe_killswitch
-ai_apps_loading
 ai_apps_loading_no_shimmer
 ai_apps_tabs_fix
 ai_channel_exclusions
@@ -799,9 +798,7 @@ plan_block_sidebar
 platform_3p_steps_distribution
 platform_tech_arch_ema_oidc
 platform_tech_arch_slackbot_mcp_client_ema
-platform_ts_conversion_batch_1
 pnp_session_duration_device_settings
-pointerdown_history_prefetch
 portable_content_composer
 portable_content_i18n
 post_wfb_ga_content
@@ -966,7 +963,6 @@ sharable_threads
 sharable_threads_view
 share_and_copy_blocks
 shareable_folders
-shortcuts_gallery_templates
 show_as_agent
 show_known_issues_on_help
 sidebar_app_nux
@@ -1032,7 +1028,6 @@ slack6_clogging_visit_attribution
 slack6_cmdk_thread_recents
 slack6_search_find_in_channel_popover
 slack6_search_srp_polish
-slack6_search_switcher_over_sidebar
 slack6_todo_badging
 slackbot_3p_handoff
 slackbot_admin_enablement

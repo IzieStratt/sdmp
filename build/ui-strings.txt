@@ -595,13 +595,12 @@ $ {amount} USD
 9:30
 : Rebooting...
 :(F?(0,v.SR)(t,D):void 0)??
-:(L?(0,C.SR)(t,!1):void 0)??
+:(L?(0,v.SR)(i,P):void 0)??
 :(M?(0,I.SR)(t,P):void 0)??
+:(P?(0,C.SR)(t,!1):void 0)??
 :(P?(0,b.SR)(i,R):void 0)??
-:(P?(0,v.SR)(i,L):void 0)??
 :(R?(0,k.SR)(t,!1):void 0)??
 :(ad?(0,eL.SR)(ej,ac):void 0)??
-:(ad?(0,eO.SR)(ej,ac):void 0)??
 :(eB?(0,eT.SR)(z,!1):void 0)??
 :(eU?(0,ew.SR)(Z,eB):void 0)??
 :(ez?(0,ew.SR)(z,eV):void 0)??
@@ -1567,6 +1566,7 @@ Add a prompt describing what you\u2019d like the agent to do.
 Add a prompt to test your agent.
 Add a prompt to test your sidekick.
 Add a reaction
+Add a reason.
 Add a record to a list
 Add a record to the list to get started.
 Add a reminder
@@ -4679,6 +4679,7 @@ Can\u2019t load your tasks.
 Can\u2019t move a record to a deleted stage
 Can\u2019t move a record to a deleted status
 Can\u2019t open this canvas right now
+Can\u2019t open this request here. Review it on the Requests page.
 Can\u2019t pause more than 100 workflows. Resume one first.
 Can\u2019t post messages
 Can\u2019t reach the MCP server to check its tools. Try again in a few minutes.
@@ -5474,7 +5475,6 @@ Checklist of {itemCount, plural, =1 {# item} other {# items}}, {checkedCount} ch
 Checklist style
 Checkmark
 Checks
-Checks external file permissions for a tab
 Checks failed
 Checks failing
 Checks passed
@@ -5782,6 +5782,7 @@ Clear group by
 Clear highlight column in the item flexpane
 Clear history
 Clear item
+Clear local filters
 Clear meeting transcript
 Clear oauth token
 Clear read messages
@@ -5909,10 +5910,8 @@ Clog clicks to search Salesforce record results
 Clog composer dictation message send
 Clog custom status duration selection
 Clog escape hatch query click
-Clog file details item clicked
 Clog filter completer click
 Clog filter completer impression
-Clog go button action for keyboard Enter
 Clog member context item click
 Clog only search result page channel result clicks
 Clog only search result page file result clicks
@@ -7107,7 +7106,6 @@ Could not load {fieldName}.
 Could not locate DOMPurify to sanitize content. This warning will only show once.
 Could not locate submit user variable in step
 Could not locate trigger event timestamp
-Could not look up the request on the admin list
 Could not measure the persistence write
 Could not open Mini after Singer was unavailable
 Could not open Slack from the menu bar icon
@@ -7132,6 +7130,7 @@ Could not refetch channel sections
 Could not refresh your sandboxes. Try again.
 Could not remove license assignment from Salesforce org. { errorMessage }
 Could not report write validation time
+Could not request the app again
 Could not resolve the Slackbot DM for the day-one skills announcement redirect
 Could not restore lead.
 Could not restore opportunity.
@@ -8396,7 +8395,6 @@ Deleted {slugType}
 Deletes Slackbot\u2019s saved browser profile, including sign-ins and site data for every site.
 Deletes a draft
 Deletes a file
-Deletes a message
 Deletes a scheduled custom status
 Deletes a today item using today.items.delete API and optimistically updates the store
 Deletes saved sign-ins and site data for every site. Open browsers can stay signed in, but won\u2019t save those sign-ins again. This can\u2019t be undone.
@@ -9211,6 +9209,8 @@ EU: DE (Group B + isEurope)
 EXPERIMENTAL
 Each boost adds to a conversation\u2019s score when its signal is present.
 Each form can have a maximum of {maxQuestionCount} questions
+Each group can have up to 20 conditions
+Each group can have up to {count} conditions
 Each guest needs to be in at least one channel.
 Each line needs to be a domain, such as example.com, or a URL prefix that starts with https://.
 Each link or QR code works for up to 400 people. To keep your workspace secure, only share the invite with people in your organization.
@@ -9717,7 +9717,6 @@ Enable smart quotes and symbols
 Enable smart quotes and symbols. Type quotation marks to create curly ones. Type two hyphens to create an em-dash. Type three periods to create an ellipsis. Type a hyphen and a greater-than sign, or a less-than sign and a hyphen, to create arrows.
 Enable spellcheck on your messages and canvases
 Enable the 
-Enable the direct-contents-write feature of Squirrel.Mac on Mac SSB
 Enable the keyboard shortcut
 Enable the right people on your team to gain access to the correct Salesforce products and services.
 Enable uploading and sharing files in conversations with external people.
@@ -10400,6 +10399,7 @@ Experience AI, CRM, and advanced security
 Experience the premium AI features of Business+ for {costPerMonth} per person/month.
 Experiment name
 Experiment not enabled for team, skipping
+Experiment overrides
 Experimental
 Expiration Date
 Expiration date
@@ -10593,7 +10593,6 @@ Failed to capture screen
 Failed to capture screenshot. Please try again.
 Failed to change who can manage agent.
 Failed to check IP
-Failed to check Slackbot DM history for existing summary
 Failed to check Slackbot Mini for menu bar icon
 Failed to check accessibility permissions
 Failed to check accessibility permissions for modifier capture
@@ -11043,9 +11042,6 @@ Fetch and open the initialization URL for an identity link
 Fetch and set team targeting info from CDS
 Fetch and sort leave channels recommendations
 Fetch and upsert What
-Fetch and upsert app info
-Fetch and upsert app submission info
-Fetch and upsert beta app info
 Fetch and upsert canvas sections
 Fetch and upsert channel latest timestamp
 Fetch and upsert file download allowed
@@ -11071,6 +11067,7 @@ Fetch external records via files.external.searchConnector
 Fetch failed
 Fetch failed.
 Fetch field references
+Fetch focus mode recap
 Fetch help categories into the store
 Fetch help sections into the store
 Fetch if a user has submitted their review indicated by a pending status served from the backend
@@ -11135,6 +11132,7 @@ Fetches Org and Team Permissions
 Fetches Salesforce org assignment for searched users
 Fetches SlackCRM onboarding state machines
 Fetches a list of Salesforce organizations from sfdc.integration.listOrgs and puts them to the store
+Fetches a list of insights display info for a user
 Fetches a members role assignments
 Fetches a range of messages
 Fetches a team pref by team id
@@ -11461,6 +11459,8 @@ Filtered Fields
 Filtering from recent notifications.
 Filters
 Filters Applied
+Filters can have up to 10 groups
+Filters can have up to {count} groups
 Filters channels by workspace, private, archived, etc
 Filters must be a valid array
 Filters reset
@@ -11515,7 +11515,6 @@ Find any messages where someone asked me a question but I haven\u2019t responded
 Find context from past decisions and get new team members up to speed faster by searching across people, channels and files.
 Find context from past decisions and get new team members up to speed faster by searching across people, channels, and files.
 Find everything you need from a single place. Surface data from all of your organization\u2019s connected applications, databases, and business systems with enterprise search.
-Find existing work object summary in Slackbot history
 Find files and images your team has shared
 Find files that match a search query
 Find form settings and your code snippet by clicking on the channel name and opening the Integrations tab.
@@ -12926,6 +12925,7 @@ Hello, {firstName}!
 Help
 Help (opens in new tab)
 Help Center
+Help admins understand why you need this app.
 Help categories
 Help center
 Help me add new leads and opportunities to my pipeline.
@@ -16599,7 +16599,6 @@ Maryland
 Massachusetts
 Master agreements
 Match all conditions
-Match any
 Match any condition
 Match columns to contact fields
 Match columns to lead fields
@@ -17049,7 +17048,6 @@ Message summary not available
 Message theme
 Message to Slackbot
 Message to administrators
-Message to contents string
 Message to private channel {channelName}, scheduled to send {date} at {time}
 Message to public channel {channelName}, scheduled to send {date} at {time}
 Message to shared channel {channelName}, scheduled to send {date} at {time}
@@ -17800,7 +17798,6 @@ Navigate side effect to transition focus to the right view in the right containe
 Navigate to a channel tab
 Navigate to a channel tab from a channel-tab slug
 Navigate to a code channel view
-Navigate to ai explain
 Navigate to an ID with optional params using the multi-view architecture
 Navigate to next section to explore AI options or browse templates
 Navigate to sign-in, if the user is not booted into the foregrounded team
@@ -17811,8 +17808,6 @@ Navigate toMessage() got redirected since it was a file channel
 Navigates the floating view to the primary view, then closes the floating view
 Navigates the floating view to the split view, leaving the floating view open
 Navigates to Slackbot
-Navigates to either the Slack Connect hub or the External Connections browser, depending on ECB experiment assignment
-Navigates to the log activity view
 Navigating out of Slack Connect invitation to activity list
 Navigating out of message list to activity list
 Navigating to sign-in
@@ -18927,6 +18922,7 @@ Not opening DM browser because user is editing a message
 Not opening channel browser because user is editing a message
 Not opening composer because user is editing a message
 Not opening prefs dialog because it
+Not opening search because user is editing a message
 Not possible to find intersection inside of the rectangle
 Not posted: the same failure already sent an alert in the last hour. The next alert will count it. Saving a change here sends the next failure right away.
 Not posted: this workflow reached its limit of alerts for the hour.
@@ -19665,7 +19661,6 @@ Open To-dos in split view
 Open Viewer Modal
 Open Woodpecker
 Open Workflow Builder
-Open Workflow Builder shortcut - launches Workflow Builder
 Open Workflows & tasks
 Open a Focused section quick read from its sidebar heading
 Open a Form
@@ -19935,7 +19930,6 @@ Opens the FileViewer
 Opens the Find More Workspaces modal.
 Opens the Help flexpane
 Opens the PR tab a PR comment link names, scrolled to the comment
-Opens the Quip doc comment thread in the side or flexpane
 Opens the Share External Record Modal
 Opens the Share Search Answer Modal
 Opens the Slackbot AI feedback modal
@@ -21693,6 +21687,7 @@ Real-time data is available when selecting a range of last 24 hours and is an ap
 Real-time macOS notifications check on toggle
 Real-time messaging
 Reapply
+Reason
 Reason for deactivating
 Reason for denial
 Reason for request
@@ -22086,6 +22081,7 @@ Reload data
 Reload failed
 Reload files
 Reload required
+Reload the app
 Reload this channel
 Reload this conversation
 Reload this thread
@@ -22464,14 +22460,10 @@ Removed {reaction} reaction
 Removed:
 Removes
 Removes a custom skill category, moving its skills to another category or none
-Removes a file channel tab
 Removes a piece
 Removes a related channel from a record
 Removes a remote camera video element that unmounted
 Removes a slash command
-Removes a workspace from the list of previously-known workspaces
-Removes a workspace from the list of workspaces pending auth
-Removes a workspace from the list of workspaces pending auth and from the pending auth cookie
 Removes all highlight related information after a set time period
 Removes an MCP server by server_key
 Removes an existing Salesforce organization
@@ -22666,6 +22658,7 @@ Republic of the Congo
 Request
 Request Access
 Request Access to Today
+Request Again
 Request Calendar Access
 Request Changes
 Request Comment Access
@@ -22695,6 +22688,7 @@ Request access
 Request access to Elevate
 Request access to customer management in Slack
 Request access to see this task
+Request again
 Request already closed
 Request already sent
 Request an Upgrade
@@ -22746,6 +22740,7 @@ Request upgrade
 Request was cancelled
 Request was not {invalidApprovalsText}
 Request {appName} access
+Request {appName} again
 Request {appName} steps
 Request {appName} triggers
 Request {name}, opens in your browser
@@ -22993,6 +22988,7 @@ Retrieve search autocomplete model.
 Retrieve search autocomplete offline features.
 Retrieved {date}
 Retry
+Retry Approval
 Retry Deny
 Retry Passkey
 Retry Send
@@ -23589,7 +23585,6 @@ Saved {time}
 Saves channel account type permissions
 Saves updates states for recap channels (adds, removes, mutes, unmutes). Will trigger muted channel NUX, add channel clogs.
 Saving
-Saving 'Match any' filters is not supported
 Saving Changes\u2026
 Saving audio.
 Saving changes
@@ -24563,6 +24558,7 @@ Send a password reset email
 Send a reaction
 Send a recap after focus mode ends
 Send a regular nudge to keep opportunity details up to date
+Send a request to use 
 Send a request to your team for access to sales, service and marketing features in Slack.
 Send a reviewed Singer message to its selected Slack destination
 Send a scheduled message
@@ -25040,6 +25036,7 @@ Sets current channel tab for TabbedChannelContext to read on history navigation
 Sets error message for related channels fetch
 Sets fetch status for related channels
 Sets fetched state of agent sessions
+Sets insights for user
 Sets last fetched timestamp for related channels
 Sets mcp servers stale flag
 Sets meeting prep blocks for a calendar event
@@ -26494,6 +26491,7 @@ Something went wrong and the message wasn\u2019t moved. Try again.
 Something went wrong and we can\u2019t save your changes. Try again in a few minutes.
 Something went wrong and we couldn\u2019t load a preview
 Something went wrong and we weren\u2019t able to send your access request. Try again in a few minutes.
+Something went wrong and {appName} wasn\u2019t approved. Your selections are still here. Try again in a few minutes.
 Something went wrong catching you up on the conversation.
 Something went wrong creating the channel, please try again.
 Something went wrong creating the code channel. Please try again.
@@ -28190,6 +28188,7 @@ The TXT record for {recordName} hasn\u2019t appeared yet. DNS changes can take u
 The URL will be created after you save this information.
 The access requested for this app can\u2019t be applied. It might include someone or a user group you can\u2019t give access to. Try again. If the problem continues, deny the request and ask for a new one.
 The admin approval request couldn\u2019t be submitted. Try again.
+The admin list refused to look the request up
 The admin who turned this skill off isn\u2019t available. Ask another admin or Skill Manager to turn it back on.
 The agent is added to this channel when you create it.
 The agent may have been uninstalled or you do not have permission to view it.
@@ -28407,6 +28406,7 @@ The request does not belong to this Salesforce org.
 The request has already been reviewed.
 The request timed out. You can compose the email manually.
 The request was aborted.
+The requested apps list said a reason was optional, but create required one
 The resources in this channel are AI generated and visible to everyone who joins the channel. Feel free to personalize it to your team.
 The restore didn\u2019t finish, so some of the list may already be restored. Review the list, then try again.
 The results are helpful
@@ -28963,6 +28963,7 @@ This connection needs more permissions.
 This connection needs to be set up again in the {appName} app.
 This connector doesn\u2019t use authentication.
 This connector doesn\u2019t use authentication. You can block individual tools instead.
+This connector is built by Slack, so it can only be approved for the whole organization. Nothing was approved. Approve it from your organization\u2019s settings, or ask an org admin.
 This connector is built by Slack, so it can only be denied for the whole organization. Nothing was denied. Deny it from your organization\u2019s settings, or ask an org admin.
 This connector uses your Slack identity for authentication.
 This connector uses your Slack identity for authentication. You can block individual tools instead.
@@ -29341,6 +29342,7 @@ This record was updated in Salesforce after you started editing. Saving now will
 This record was updated in Salesforce. Sync the latest version to continue.
 This record will be updated to match the version last edited by {author} {date} at {time}
 This request has already been handled.
+This request was already handled, so nothing changed.
 This restore preview is no longer valid. Please close and try again.
 This result may be incomplete because the AI answer is blocked by guardrails
 This result may be incomplete because the AI answering failed
@@ -29911,7 +29913,6 @@ Toggle saved for later state on a list record
 Toggle screen share
 Toggle task active state
 Toggle tools for {server}
-Toggle unread DMs
 Toggle view-only mode
 Toggle {workflowTitle} notifications
 Togo
@@ -30160,6 +30161,7 @@ Trash
 Travel & Places
 Traveling this week in Asia
 Travis McCullough
+Treatment group listing isn
 Trending
 Trial
 Trial Tester
@@ -33693,6 +33695,7 @@ You can\u2019t add one of these lists. Check that you can still view it.
 You can\u2019t add this step with this starting action.
 You can\u2019t add yourself as a delegate.
 You can\u2019t add {channelName}. Check that you still have access to it.
+You can\u2019t approve apps here. Nothing was approved. Ask an admin who can manage apps.
 You can\u2019t change how the workflow starts in view-only mode
 You can\u2019t change these settings.
 You can\u2019t change this channel
@@ -34750,6 +34753,7 @@ Your recently viewed or updated lists will be shown here.
 Your recently viewed or updated surfaces will be shown here.
 Your recording has stopped. Slack is transcribing the audio and preparing your canvas.
 Your recording transcript is saved: 
+Your request couldn\u2019t be sent. Try again.
 Your request has already been submitted.
 Your request is pending
 Your request to join the huddle is approved. Welcome! Join whenever you\u2019re ready.

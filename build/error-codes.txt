@@ -34,6 +34,7 @@ already_locked
 already_marked
 already_pinned
 already_published
+already_resolved
 already_reviewed
 already_saved
 already_starred
@@ -41,6 +42,7 @@ another_knock_pending
 api_disabled
 app_access_restricted
 app_creation_failed
+app_dir_only_fail
 app_edit_disabled
 app_error
 app_install_failure
@@ -162,6 +164,7 @@ cka_token_mint_failed
 client_update_required
 code_request_limit_reached
 collision_detected
+comment_required
 communication_disabled
 composer_suggestions_not_enabled
 compute_failed
@@ -181,6 +184,7 @@ connection_failed
 connection_limit_exceeded
 connection_limit_exceeded_pending
 connector_not_found
+connector_requests_disabled
 contact_card_not_found
 contacts_and_leads_not_enabled
 content_document_not_found
@@ -270,6 +274,7 @@ emoji_limit_reached
 empty_permissions
 enable_server_failed
 endpoint_unavailable
+enterprise_is_restricted
 entities_not_supported
 error_bad_format
 error_bad_name_i18n
@@ -855,7 +860,14 @@ proposed_acl_apply_failed
 proposed_acl_channel_not_found
 proposed_acl_channel_restrictions_not_available
 proposed_acl_channels_not_permitted
+proposed_acl_invalid
+proposed_acl_invalid_channels
+proposed_acl_invalid_named_entities
+proposed_acl_not_allowed
 proposed_acl_not_permitted
+proposed_acl_too_large
+proposed_acl_too_many_channels
+proposed_acl_too_many_named_entities
 provider_access_blocked
 provider_not_connected
 provider_not_found
@@ -916,7 +928,6 @@ rich_text_conversion_unavailable
 room_not_found
 runtime_unavailable
 sales_home_user_config_not_found
-salesforce_not_connected
 salesforce_org_blocked
 salesforce_org_ids_do_not_match
 salesforce_org_not_auto_provisioned
@@ -1008,9 +1019,11 @@ team_not_eligible
 team_not_eligible_for_sales_tracker
 team_not_eligible_for_slack_crm
 team_not_found
+team_not_on_enterprise
 team_not_org
 template_not_visible
 test_connection_already_exists
+tester_tokens_not_allowed_on_enterprise
 thread_not_found
 time_in_past
 time_too_far
@@ -1122,6 +1135,7 @@ url_in_message
 url_restriction_not_supported
 use_auth_url
 user_already_exists
+user_already_requested
 user_already_team_member
 user_auth_required
 user_cannot_create_channel

@@ -373,9 +373,6 @@
  "ai_apps_list_fe_killswitch": [
   "on"
  ],
- "ai_apps_loading": [
-  "on"
- ],
  "ai_apps_loading_no_shimmer": [
   "on"
  ],
@@ -2484,14 +2481,8 @@
  "platform_tech_arch_slackbot_mcp_client_ema": [
   "on"
  ],
- "platform_ts_conversion_batch_1": [
-  "on"
- ],
  "pnp_session_duration_device_settings": [
   "on"
- ],
- "pointerdown_history_prefetch": [
-  "treatment"
  ],
  "portable_content_composer": [
   "treatment"
@@ -3018,9 +3009,6 @@
  "shareable_folders": [
   "on"
  ],
- "shortcuts_gallery_templates": [
-  "on"
- ],
  "show_as_agent": [
   "on"
  ],
@@ -3218,9 +3206,6 @@
   "on"
  ],
  "slack6_search_srp_polish": [
-  "on"
- ],
- "slack6_search_switcher_over_sidebar": [
   "on"
  ],
  "slack6_todo_badging": [

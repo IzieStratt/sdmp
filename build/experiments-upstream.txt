@@ -112,7 +112,6 @@ ai_apps_animated_streaming_roots_fe: on
 ai_apps_featured_workflows_in_thread: on
 ai_apps_final_i18n: on
 ai_apps_list_fe_killswitch: on
-ai_apps_loading: on
 ai_apps_loading_no_shimmer: on
 ai_apps_tabs_fix: on
 ai_channel_exclusions: on
@@ -786,9 +785,7 @@ pilot_feedback_collector_strings: on
 plan_block_coding_enhancements: on
 plan_block_sidebar: on
 platform_tech_arch_slackbot_mcp_client_ema: on
-platform_ts_conversion_batch_1: on
 pnp_session_duration_device_settings: on
-pointerdown_history_prefetch: treatment
 portable_content_composer: treatment
 portable_content_i18n: on
 post_wfb_ga_content: on
@@ -941,7 +938,6 @@ sharable_threads: on
 sharable_threads_view: on
 share_and_copy_blocks: on
 shareable_folders: on
-shortcuts_gallery_templates: on
 show_as_agent: on
 show_known_issues_on_help: on
 sidebar_app_nux: control, treatment
@@ -974,7 +970,6 @@ slack6_clogging_visit_attribution: on
 slack6_cmdk_thread_recents: on
 slack6_search_find_in_channel_popover: on
 slack6_search_srp_polish: on
-slack6_search_switcher_over_sidebar: on
 slack6_todo_badging: on
 slack_ai_file_summaries: on
 slack_ai_search_fus_migration: on
@@ -1194,7 +1189,6 @@ snake_case_view_apis: on
 spaceship_posts_migration: on
 spreadsheet_viewer_translations: on
 spreadsheet_xml_rendering: on
-squirrel_mac_direct_contents_write: on
 ssb_dogfood_automatic_promotion: on
 ssb_dogfood_friends: on
 standalone_huddles_copy_link: on

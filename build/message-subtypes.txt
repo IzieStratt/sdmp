@@ -274,6 +274,7 @@ c50
 ca_central_1
 cake
 calendar
+calendar_not_connected
 call_id
 callout
 campfire
@@ -627,10 +628,12 @@ elisp
 em
 em_close
 email
+email_client_picker
 email_domain_changed
 email_first_create
 email_first_signin
 email_shared
+email_template
 email_text_input
 embed
 eml
@@ -1204,6 +1207,8 @@ ml
 mm
 mmd
 mobile_login_required
+mobile_team_setup_invite_sheet
+mobile_team_setup_invite_step
 mobile_web_create
 mod
 modal
@@ -1604,6 +1609,7 @@ sales
 salesforce
 salesforce__access
 salesforce_app
+salesforce_not_connected
 salesforce_seamless_auth__access
 salt
 sandwich
@@ -1894,6 +1900,7 @@ tcp
 tea
 team
 team_added_to_org
+team_creation_invite_step
 team_disabled
 team_id
 team_joiner_invite

@@ -472,7 +472,6 @@ ai_apps_list_change
 ai_apps_list_fe_killswitch
 ai_apps_list_pagination
 ai_apps_list_truncated
-ai_apps_loading
 ai_apps_loading_no_shimmer
 ai_apps_menu
 ai_apps_menu_item

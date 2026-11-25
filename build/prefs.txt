@@ -136,6 +136,7 @@ org: onedrive_enabled_team
 org: read_only_canvas_subteam_ids
 org: saml_enable
 org: sensitivity_labels
+org: sign_in_with_slack_disabled
 org: single_user_exports
 org: slack_ai_disabled
 org: slack_ai_image_alt_text_automatic_opt_out

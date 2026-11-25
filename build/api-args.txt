@@ -180,7 +180,7 @@ apps.actions.v2.list: action_type, resource_id, resource_type
 apps.activities.list: app_id, component_id, trace_id
 apps.approvals.requestedApps.list: app_ids, cursor, team_id
 apps.approvals.requests.cancel: request_id, team_id
-apps.approvals.requests.create: reason
+apps.approvals.requests.create: app, originating_team_id, reason
 apps.auth.external.authMapping.update: app_id, external_token_id, mapping_owner_type, provider_key, workflow_id
 apps.auth.external.delete: external_token_id
 apps.auth.external.getFunctionAuth: app_id, step, trigger, workflow_id
@@ -303,7 +303,6 @@ conversations.acceptSharedInvite: channel_name, free_trial_accepted, invite_id, 
 conversations.addTab: after, channel_id, data, label, target_team_id, type
 conversations.archive.recommendations: num_inactive_days
 conversations.archive: channel
-conversations.badgeCount: channel
 conversations.bulkArchive: channel_ids
 conversations.bulkFetchMetadata: channel_ids
 conversations.bulkLeave: channels
@@ -855,7 +854,7 @@ tractorChannelSetupTour.addResources: channel_id, file_ids
 transcripts.feedback: additional_feedback, file_id, rating, reasons
 unread.collapse: channel
 unread.expand: channel
-unread.markRead: markers
+unread.markRead: app_id, channel_id, id, markers
 userAlerts.ack: alert_type
 usergroups.create: name, team_id
 usergroups.search: count, cursor_mark, include_disabled, include_hidden, keyword, search_only_team, sort, sort_dir

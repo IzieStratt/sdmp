@@ -125,9 +125,11 @@ eye-closed
 eye-open
 file
 file-browser
+file-download
 file-upload
 files
 filters
+flag
 folder
 formatting
 full
