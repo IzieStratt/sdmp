@@ -19,3 +19,19 @@ test('frontend: merging chunks keeps one entry per name', () => {
   scanFrontend(js, into); scanFrontend(js, into);
   assert.equal(finishFrontend(into).componentNames.length, 1);
 });
+
+test('frontend: bare .meta={name} entries take their kind from the previous redux.json, new names are "unknown"', () => {
+  const bare = 'Ab12(e,t,n){"use strict";a.meta={name:"sendLogs"};b.meta={name:"brandNew"};c.meta={name:"canDo",key:"createSelectorCanDo"};}';
+  const previous = { 'thunk:sendLogs': { key: 'createThunkSendLogs', description: 'Send logs', modules: ['x:00000000'] } };
+  const r = finishFrontend(scanFrontend(bare), previous);
+  assert.deepEqual(r.reduxNames, ['selector:canDo', 'thunk:sendLogs', 'unknown:brandNew']);
+  assert.equal(r.redux['thunk:sendLogs'].key, 'createThunkSendLogs');
+  assert.equal(r.redux['thunk:sendLogs'].description, 'Send logs');
+  assert.match(r.redux['thunk:sendLogs'].modules[0], /^Ab12:/);
+  assert.equal('key' in r.redux['unknown:brandNew'], false);
+});
+
+test('frontend: a component declared as X.displayName="X" is found next to a thunk without a key', () => {
+  const r = finishFrontend(scanFrontend('Ab12(e,t,n){"use strict";let BroadcastPreamble=()=>1;BroadcastPreamble.displayName="BroadcastPreamble";a.meta={name:"x1"}}'));
+  assert.deepEqual(r.componentNames, ['BroadcastPreamble']);
+});

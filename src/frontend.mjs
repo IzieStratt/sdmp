@@ -8,12 +8,13 @@ import crypto from 'node:crypto';
 import { modules } from './extras.mjs';
 
 const DISPLAY = /\.displayName="([A-Za-z_$][\w$]{2,80})"/g;
-const META = /\.meta=\{name:"(\w{2,80})",key:"(\w+)"(?:,description:"((?:[^"\\]|\\.)*)")?/g;
+// key and description are optional: since 2026-11 Slack ships bare `.meta={name:"x"}`, so the kind has to come from the previous redux.json
+const META = /\.meta=\{name:"(\w{2,80})"(?:,key:"(\w+)")?(?:,description:"((?:[^"\\]|\\.)*)")?/g;
 const KINDS = ['thunk', 'selector', 'action', 'fetcher', 'middleware', 'reducer'];
 const kindOf = (key) => KINDS.find((k) => key.startsWith(`create${k[0].toUpperCase()}${k.slice(1)}`));
 const hash = (src) => crypto.createHash('sha1').update(src).digest('hex').slice(0, 8);
 
-export const emptyFrontend = () => ({ components: new Map(), redux: new Map() });
+export const emptyFrontend = () => ({ components: new Map(), redux: new Map(), keyless: new Map() });
 
 export function scanFrontend(js, into = emptyFrontend()) {
   for (const { id, src } of modules(js)) {
@@ -26,6 +27,12 @@ export function scanFrontend(js, into = emptyFrontend()) {
       set.add(at());
     }
     for (const m of src.matchAll(META)) {
+      if (!m[2]) {
+        const set = into.keyless.get(m[1]) ?? new Set();
+        into.keyless.set(m[1], set);
+        set.add(at());
+        continue;
+      }
       const kind = kindOf(m[2]);
       if (!kind) continue;
       const k = `${kind}:${m[1]}`;
@@ -37,8 +44,23 @@ export function scanFrontend(js, into = emptyFrontend()) {
 }
 
 // plain objects for build/components.json and build/redux.json, plus the sorted lists the changes feed diffs
-export function finishFrontend({ components, redux }) {
+// `previous` is the last redux.json: bare `.meta={name}` entries take the kind, key and description it recorded for that name, or kind
+// "unknown" when the name is new (the entry still counts, so additions and removals keep showing in the feed)
+export function finishFrontend({ components, redux, keyless }, previous = {}) {
+  const known = new Map();
+  for (const [id, v] of Object.entries(previous)) {
+    const name = id.slice(id.indexOf(':') + 1);
+    (known.get(name) ?? known.set(name, []).get(name)).push([id.slice(0, id.indexOf(':')), v]);
+  }
+  redux = new Map(redux);
+  for (const [name, mods] of keyless ?? []) {
+    for (const [kind, v] of known.get(name) ?? [['unknown', {}]]) {
+      const k = `${kind}:${name}`;
+      if (redux.has(k)) { for (const m of mods) redux.get(k).modules.add(m); continue; }
+      redux.set(k, { key: v.key, description: v.description, modules: new Set(mods) });
+    }
+  }
   const cmp = Object.fromEntries([...components].sort(([a], [b]) => a.localeCompare(b)).map(([n, set]) => [n, [...set].sort().slice(0, 3)]));
-  const red = Object.fromEntries([...redux].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, { key: v.key, ...(v.description ? { description: v.description } : {}), modules: [...v.modules].sort().slice(0, 3) }]));
+  const red = Object.fromEntries([...redux].sort(([a], [b]) => a.localeCompare(b)).map(([k, v]) => [k, { ...(v.key ? { key: v.key } : {}), ...(v.description ? { description: v.description } : {}), modules: [...v.modules].sort().slice(0, 3) }]));
   return { components: cmp, redux: red, componentNames: Object.keys(cmp), reduxNames: Object.keys(red) };
 }
