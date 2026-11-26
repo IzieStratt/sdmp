@@ -36,6 +36,7 @@ build_workflow
 cannot_fetch_function_execution
 cannot_trip_non_workflow_function
 canvas_in_workflow_builder
+canvas_in_workflow_builder_other_rich_text
 canvas_in_workflow_builder_plain_text
 canvas_in_workflow_builder_rich_text
 canvas_in_workflow_builder_ui_inputs
@@ -311,7 +312,6 @@ wfb_ai_step_debug_mode
 wfb_ai_step_file_pref
 wfb_ai_step_mcp_manage
 wfb_ai_step_nux
-wfb_ai_step_private_channel_access_on_off
 wfb_ai_step_prompt_writer
 wfb_ai_step_translations
 wfb_ai_test_run_mcp_tester_creds
@@ -320,7 +320,6 @@ wfb_ambient_agent
 wfb_ambient_agent_cost_optimizations
 wfb_auto_hitl
 wfb_automations_tab_in_channel
-wfb_back_to_basics_jalapeno_release
 wfb_back_to_basics_lasagna_release
 wfb_back_to_basics_muhallebi_release
 wfb_back_to_basics_nanaimo_release
@@ -445,6 +444,7 @@ workflow_builder_link_trigger_modal
 workflow_builder_list_header
 workflow_builder_metadata_edit_modal
 workflow_builder_next
+workflow_builder_other_rich_text
 workflow_builder_plain_text
 workflow_builder_publish
 workflow_builder_publish_success_modal

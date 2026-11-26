@@ -593,6 +593,7 @@ logo_calendar_2026q2_color_2x_web_64dp.png
 logo_drive_2026q2_color_2x_web_96dp.png
 logo_gmail_2026q2_color_2x_web_32dp.png
 longpipe_medium.f16.bin
+longpipe_medium_stateful.f16.bin
 magnifying-glass.svg
 main-features-comparison.{locale}.pdf
 meeting.svg
@@ -992,6 +993,7 @@ slackbot_sad_surprise_48.png
 slackbot_sad_surprise_512.png
 slackbot_sad_surprise_72.png
 slackbot_sleeping.svg
+slackbot_voice_mode_512.png
 slackhelp.png
 slackiversary-speed-bump-header.png
 slackvot.png

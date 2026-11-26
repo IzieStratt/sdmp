@@ -457,7 +457,6 @@ lottie-today-all-paused-animation.json
 lottie-today-day-one-coachmark.json
 lottie-today-welcome-animation.json
 lottie-tractor-channel.json
-lottie-trial-celebration-confetti.json
 lottie-trial-end-card-orbit-loop.json
 lottie-trial-fallback-envelope-lottie.json
 lottie-trial-greeting-card-confetti.json

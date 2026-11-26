@@ -227,7 +227,6 @@ config_required
 connect_app_modal
 connected_app_blocked
 connection_failed
-connection_limit_exceeded
 content_too_long
 context_bar_action
 context_menu
@@ -835,6 +834,7 @@ slackbot_ai_remove_thread_from_project
 slackbot_ai_rename_conversation
 slackbot_ai_skill_set_opened
 slackbot_ai_thread_view
+slackbot_ai_voice_nux
 slackbot_apps_view_detail
 slackbot_badge_redirect
 slackbot_bypass_page_layout_updated

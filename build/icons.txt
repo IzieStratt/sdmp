@@ -122,7 +122,6 @@ cloud-offline
 cloud-offline-filled
 cloud-upload
 code
-cog
 comment
 comment-filled
 compose
@@ -305,6 +304,7 @@ security
 send
 send-filled
 settings
+settings-filled
 sf-account
 sf-account-filled
 sf-case-filled

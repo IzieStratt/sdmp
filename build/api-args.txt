@@ -223,7 +223,7 @@ bookmarks.preview: channel, link
 bookmarks.remove: bookmark, channel
 bookmarks.reorder: bookmark_type, center, channel, entity_id, left, parent_id, right
 bots.info: bots
-calendar.event.copy: channel, event_id, message_ts
+calendar.event.copy: channel, event_id, file_id, key, message_ts, scope
 calendar.event.create: attendee_user_ids, calendar_id, description, end, meeting_url, start, title
 calendar.event.getByEventLinkId: event_link_id
 calendar.event.info: event_id
@@ -312,17 +312,18 @@ conversations.canCreateSharedInvite: channel_id
 conversations.canSetProperties: channel_id, props
 conversations.channelPrefixes.list: team_id
 conversations.close: channel
-conversations.convertToPrivate: channel, name, user_ids, workspace
+conversations.convertToPrivate: channel, name, team, user_ids, workspace
 conversations.convertToPublic: channel
-conversations.createChild: channel, migrate_history_end_ts, migrate_history_start_ts, user_ids
+conversations.create: team
+conversations.createChild: channel, migrate_history_end_ts, migrate_history_start_ts, team, user_ids
 conversations.createFromDmMpdm: is_private, migrate_history_start_ts, name, source_channel_id, team_id, user_ids
 conversations.delete: channel
 conversations.emailaddresses.create: conversation_id
 conversations.emailaddresses.delete: address, conversation_id
 conversations.emailaddresses.info: app_user, channel, conversation_id, did_confirm, invite_message_ts, send_ephemeral_error_message
 conversations.emailaddresses.update: address, avatar_id, conversation_id, did_confirm, emoji, name, scopes, trigger_id, use_default_icon
-conversations.export: channel
-conversations.genericInfo: channels, updated_channels
+conversations.export: channel, num_minutes
+conversations.genericInfo: channels, updated_channels, users
 conversations.getRetention: channel
 conversations.history: channel, ignore_replies_and_broadcasts, inclusive, limit, oldest, slackbot_filter
 conversations.info: channel, display_counts, no_members, return_app_home, timezone_count
@@ -336,7 +337,7 @@ conversations.leave.recommendations: max_ts
 conversations.leave: channel
 conversations.list: exclude_archived, limit, types
 conversations.listPrefs: channel
-conversations.mark: channel, name, reason, ts
+conversations.mark: channel, reason, ts
 conversations.meetingnotes.getLock: channel
 conversations.meetingnotes.unlock: channel
 conversations.members: channel, limit
@@ -359,7 +360,7 @@ conversations.sharedInviteLinkCopied: invite_id
 conversations.teamConnections: channel
 conversations.unarchive: channel
 conversations.updateDefaultState: channel_id, set_as_default
-conversations.updateTab: channel_id, data, id, is_pinned, label
+conversations.updateTab: channel_id, data, id, label
 conversations.validateName: name, team_id
 conversations.view: channel
 dataResidency.status: mock_region_name
@@ -392,7 +393,7 @@ emoji.collections.list: installed_only
 emoji.getInfo: name
 emoji.removeCollection: collection_id
 enterprise.apps.search: limit, query
-enterprise.channels.admin.listDefault: limit
+enterprise.channels.admin.listDefault: file, limit
 enterprise.channels.admin.removeDefault: channel
 enterprise.channels.admin.removeMandatory: channel, prefs
 enterprise.channels.admin.setDefault: channel, prefs
@@ -436,7 +437,7 @@ files.collections.create: emoji, name
 files.collections.delete: collection
 files.collections.list: include_recently_viewed
 files.collections.update: collection, emoji, is_collapsed, name, sort
-files.completeUpload: context, room, room_name
+files.completeUpload: room, room_name
 files.createCanvas: loosen_validation, markdown, title
 files.createExternal: create_slack_file, filename, mime_type, open_edit, service_stub
 files.createSkillCanvas: markdown, title
@@ -683,7 +684,7 @@ saved.update: date_due, description, item_detail, item_id, item_type, mark, todo
 schemaless.getClientLock: unique_id, unique_id_type
 screenhero.rooms.info: room
 screenhero.rooms.join: regions, room, use_room_scoped_token
-screenhero.rooms.proxyLogs: app, channel, content_channel_id, content_message_ts, review_channel_id, review_message_ts
+screenhero.rooms.proxyLogs: content_channel_id, content_message_ts, review_channel_id, review_message_ts
 screenhero.rooms.rename: room, room_name
 search.autocomplete.files: include_shares, query
 search.autocomplete.tags: element_id, query
@@ -855,7 +856,7 @@ tractorChannelSetupTour.addResources: channel_id, file_ids
 transcripts.feedback: additional_feedback, file_id, rating, reasons
 unread.collapse: channel
 unread.expand: channel
-unread.markRead: app_id, channel_id, id, markers
+unread.markRead: markers
 userAlerts.ack: alert_type
 usergroups.create: name, team_id
 usergroups.search: count, cursor_mark, include_disabled, include_hidden, keyword, search_only_team, sort, sort_dir
@@ -917,7 +918,6 @@ workObjects.performDraftAction: action_id, channel_id, entity_id, message_ts, st
 workObjects.publishEntity: channel_id, entity_id, message_ts, state
 workflows.activity.export: filters, workflow_id
 workflows.activity.get: workflow_execution_id, workflow_id
-workflows.activity.list: filters, workflow_id
 workflows.ai.feedback: additional_feedback, rating, source, user_prompt, workflow_generation_id
 workflows.ai.generate: prompt
 workflows.ai.generateDetails: workflow_id

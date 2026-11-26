@@ -124,9 +124,6 @@
  "af_slackbot_connector": [
   "on"
  ],
- "agent_about_page": [
-  "on"
- ],
  "agent_access_restricted_add_copy": [
   "on"
  ],
@@ -540,9 +537,6 @@
  "automatic_reply_ooo_label": [
   "on"
  ],
- "automations_hub_recently_run_in_progress": [
-  "on"
- ],
  "availability_prefs_section": [
   "on"
  ],
@@ -781,6 +775,9 @@
  "canvas_in_workflow_builder": [
   "on"
  ],
+ "canvas_in_workflow_builder_other_rich_text": [
+  "on"
+ ],
  "canvas_in_workflow_builder_plain_text": [
   "on"
  ],
@@ -809,6 +806,9 @@
   "on"
  ],
  "canvas_read_only_role": [
+  "on"
+ ],
+ "canvas_render_mounted_control_updates": [
   "on"
  ],
  "canvas_salesforce_data_block": [
@@ -903,9 +903,6 @@
  "channel_ia_membership_secondary": [
   "on"
  ],
- "channel_ia_pinned_resources": [
-  "on"
- ],
  "channel_insights_echart": [
   "on"
  ],
@@ -928,6 +925,9 @@
   "on"
  ],
  "channel_knowledge_canvas": [
+  "on"
+ ],
+ "channel_managers_convert_to_public": [
   "on"
  ],
  "channel_resources_remove_tabs": [
@@ -964,9 +964,6 @@
   "on"
  ],
  "click_anywhere_opens_thread": [
-  "on"
- ],
- "client_admin_gear_menu": [
   "on"
  ],
  "client_counts_omit_unchanged_fe": [
@@ -1191,9 +1188,6 @@
  "desktop_command_center": [
   "on"
  ],
- "desktop_history_menu": [
-  "on"
- ],
  "desktop_history_recents_read": [
   "on"
  ],
@@ -1375,9 +1369,6 @@
   "on"
  ],
  "enterprise_search_mds_msteams_multidomain": [
-  "on"
- ],
- "enterprise_search_multiauth_ui": [
   "on"
  ],
  "enterprise_search_rtm_events": [
@@ -1598,6 +1589,9 @@
  "gantry_manage_channels": [
   "on"
  ],
+ "gantry_manage_email_domains_v2": [
+  "on"
+ ],
  "gantry_manage_quip_organizations_v2": [
   "on"
  ],
@@ -1653,9 +1647,6 @@
   "on"
  ],
  "hermes_3p_auth_callback_sfdc_org_validation": [
-  "on"
- ],
- "hermes_3p_auth_manage_auth_entrypoint": [
   "on"
  ],
  "hermes_3p_data_sources": [
@@ -2312,6 +2303,9 @@
  "mpdm_popover_convert_to_private": [
   "on"
  ],
+ "msft_file_unread_badge": [
+  "on"
+ ],
  "mute_channel_edu": [
   "on"
  ],
@@ -2513,9 +2507,6 @@
   "aa_treatment",
   "control",
   "treatment"
- ],
- "pricing_page_refactoring": [
-  "on"
  ],
  "pricing_paid_plan_escape_hatch": [
   "aa_control",
@@ -4132,6 +4123,9 @@
  "user_proposed_acls_during_approval": [
   "on"
  ],
+ "video_effects_stateful_longpipe": [
+  "on"
+ ],
  "view_header_overflow_borders": [
   "on"
  ],
@@ -4246,9 +4240,6 @@
  "wfb_ai_step_nux": [
   "on"
  ],
- "wfb_ai_step_private_channel_access_on_off": [
-  "on"
- ],
  "wfb_ai_step_prompt_writer": [
   "on"
  ],
@@ -4268,9 +4259,6 @@
   "on"
  ],
  "wfb_automations_tab_in_channel": [
-  "on"
- ],
- "wfb_back_to_basics_jalapeno_release": [
   "on"
  ],
  "wfb_back_to_basics_lasagna_release": [

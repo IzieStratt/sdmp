@@ -39,7 +39,6 @@ adoption_instant_slack_invitee
 advanced_security_launch_modal
 aer_potential_spam_anomaly
 af_slackbot_connector
-agent_about_page
 agent_access_restricted_add_copy
 agent_auto_thread_opening
 agent_automation_fe
@@ -179,7 +178,6 @@ auto_status_edu
 autocomplete_affinity_ml_model
 autocomplete_frequently_used_emojis_frecency
 automatic_reply_ooo_label
-automations_hub_recently_run_in_progress
 availability_prefs_section
 biz_plus_upgrade_pocket_guide_v2
 biz_trial_translations
@@ -257,6 +255,7 @@ canvas_in_composer_defer_post_insert
 canvas_in_composer_parity
 canvas_in_simple_text_inputs
 canvas_in_workflow_builder
+canvas_in_workflow_builder_other_rich_text
 canvas_in_workflow_builder_plain_text
 canvas_in_workflow_builder_rich_text
 canvas_in_workflow_builder_ui_inputs
@@ -267,6 +266,7 @@ canvas_pasted_markdown_conversion
 canvas_permalink_icon
 canvas_preserve_draft_comment_threads
 canvas_read_only_role
+canvas_render_mounted_control_updates
 canvas_salesforce_data_block
 canvas_sc_external_org_sharing_warning
 canvas_section_link_not_found_toast
@@ -297,7 +297,6 @@ channel_header_thread_panel
 channel_header_with_agents
 channel_ia_header_refinements
 channel_ia_membership_secondary
-channel_ia_pinned_resources
 channel_insights_echart
 channel_insights_membership_m3
 channel_items_open_in_secondary
@@ -306,6 +305,7 @@ channel_join_banner_first_view
 channel_join_banner_new_strings
 channel_join_experience_with_agents
 channel_knowledge_canvas
+channel_managers_convert_to_public
 channel_resources_remove_tabs
 channel_retention_changed_rtm
 channel_retention_warning_banner
@@ -318,7 +318,6 @@ channel_tabs_v5_i18n
 clear_notifications
 click_anywhere_closes_thread
 click_anywhere_opens_thread
-client_admin_gear_menu
 client_counts_omit_unchanged_fe
 clips_background_picker
 clips_pip
@@ -389,7 +388,6 @@ defer_message_input_content_update
 defer_notification_3p_streaming
 desktop_caret_browsing
 desktop_command_center
-desktop_history_menu
 desktop_history_recents_read
 desktop_notification_actions
 desktop_search_indexing
@@ -447,7 +445,6 @@ enterprise_productivity_email_in_today_view
 enterprise_retention_allow_override_on_org_level_channels
 enterprise_search
 enterprise_search_mds_msteams_multidomain
-enterprise_search_multiauth_ui
 enterprise_search_rtm_events
 enterprise_search_settings_ai_addon_admins
 enterprise_search_use_feature_policy
@@ -514,6 +511,7 @@ forwarding_save_as_draft
 friendly_channel_names
 frontline_users
 gantry_manage_channels
+gantry_manage_email_domains_v2
 gantry_manage_quip_organizations_v2
 gantry_manage_salesforce_organizations
 gantry_manage_security_settings
@@ -531,7 +529,6 @@ guest_app_user_auth
 hall_pass
 happy_emails
 hermes_3p_auth_callback_sfdc_org_validation
-hermes_3p_auth_manage_auth_entrypoint
 hermes_3p_data_sources
 hermes_builder_channel_created_trigger
 hermes_builder_next
@@ -745,6 +742,7 @@ mpdm_default_exclude_history_clients_webapp
 mpdm_naming
 mpdm_notifications_advanced_option
 mpdm_popover_convert_to_private
+msft_file_unread_badge
 mute_channel_edu
 mweb_signin_experience
 mweb_signin_experience_translations
@@ -807,7 +805,6 @@ preserve_omitted_user_change_member_fields
 prevent_downgrade_workspace_owner_text_translation
 prewarmed_huddles
 pricing_checkout_reorder
-pricing_page_refactoring
 pricing_paid_plan_escape_hatch
 print_pdf_ssb
 privacy_mode
@@ -1329,6 +1326,7 @@ updated_scheduled_sends_desktop
 url_shortener_invite_links
 user_expectations_survey
 user_proposed_acls_during_approval
+video_effects_stateful_longpipe
 view_header_overflow_borders
 vip_section_pref
 visits_changed_client
@@ -1367,7 +1365,6 @@ wfb_ai_step_connector_access
 wfb_ai_step_debug_mode
 wfb_ai_step_file_pref
 wfb_ai_step_nux
-wfb_ai_step_private_channel_access_on_off
 wfb_ai_step_prompt_writer
 wfb_ai_step_translations
 wfb_ai_test_run_mcp_tester_creds
@@ -1375,7 +1372,6 @@ wfb_ambient_agent
 wfb_ambient_agent_cost_optimizations
 wfb_auto_hitl
 wfb_automations_tab_in_channel
-wfb_back_to_basics_jalapeno_release
 wfb_back_to_basics_lasagna_release
 wfb_back_to_basics_muhallebi_release
 wfb_back_to_basics_nanaimo_release

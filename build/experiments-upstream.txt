@@ -169,7 +169,6 @@ auto_status_edu: on
 autocomplete_affinity_ml_model: on
 autocomplete_frequently_used_emojis_frecency: on
 automatic_reply_ooo_label: on
-automations_hub_recently_run_in_progress: on
 availability_prefs_section: on
 beacon_timing_client_sampling: on
 biz_plus_trial_pocket_guide_slackcrm: on
@@ -253,6 +252,7 @@ canvas_in_composer_defer_post_insert: on
 canvas_in_composer_parity: on
 canvas_in_simple_text_inputs: on
 canvas_in_workflow_builder: on
+canvas_in_workflow_builder_other_rich_text: on
 canvas_in_workflow_builder_plain_text: on
 canvas_in_workflow_builder_rich_text: on
 canvas_in_workflow_builder_ui_inputs: on
@@ -263,6 +263,7 @@ canvas_pasted_markdown_conversion: on
 canvas_permalink_icon: on
 canvas_preserve_draft_comment_threads: on
 canvas_read_only_role: on
+canvas_render_mounted_control_updates: on
 canvas_salesforce_data_block: on
 canvas_sc_external_org_sharing_warning: on
 canvas_section_link_not_found_toast: on
@@ -292,7 +293,6 @@ channel_header_thread_panel: on
 channel_header_with_agents: on
 channel_ia_header_refinements: on
 channel_ia_membership_secondary: on
-channel_ia_pinned_resources: on
 channel_insights_echart: on
 channel_insights_membership_m3: on
 channel_items_open_in_secondary: on
@@ -301,6 +301,7 @@ channel_join_banner_first_view: on
 channel_join_banner_new_strings: on
 channel_join_experience_with_agents: on
 channel_knowledge_canvas: on
+channel_managers_convert_to_public: on
 channel_resources_remove_tabs: on
 channel_retention_changed_rtm: on
 channel_retention_warning_banner: on
@@ -313,7 +314,6 @@ channel_tabs_v5_i18n: on
 clear_notifications: on
 click_anywhere_closes_thread: on
 click_anywhere_opens_thread: on
-client_admin_gear_menu: on
 client_counts_omit_unchanged_fe: on
 clips_background_picker: on
 clips_pip: on
@@ -367,7 +367,6 @@ cuddles_unset_property: on
 cust_acq_customer_mgmt: on
 custom_file_sections_collapsed_persist: on
 custom_file_sections_recents_limit_ab: treatment
-data_deletion_promo: on
 data_residency_downplan_germany: control, treatment
 data_visualization_copy_image: on
 day_glance_calendar_jit: on
@@ -380,7 +379,6 @@ defer_notification_3p_streaming: on
 desktop_caret_browsing: on
 desktop_channel_list_integrity_metric: on
 desktop_command_center: on
-desktop_history_menu: on
 desktop_history_recents_read: on
 desktop_notification_actions: on
 desktop_search_indexing: on
@@ -433,7 +431,6 @@ ent_request_to_purchase_translations_toggle: on
 enterprise_productivity_email_in_today_view: on
 enterprise_retention_allow_override_on_org_level_channels: on
 enterprise_search: on
-enterprise_search_multiauth_ui: on
 enterprise_search_rtm_events: on
 enterprise_search_use_feature_policy: on
 eoy_biz_plus_gift_trial: control, treatment
@@ -503,6 +500,7 @@ friendly_channel_names: on
 frontline_users: on
 gantry_manage_agentforce_v2: on
 gantry_manage_channels: on
+gantry_manage_email_domains_v2: on
 gantry_manage_enterprise_search_v2: on
 gantry_manage_quip_organizations_v2: on
 gantry_manage_salesforce_mcp_servers: on
@@ -737,6 +735,7 @@ mpdm_default_exclude_history_clients_webapp: on
 mpdm_naming: on
 mpdm_notifications_advanced_option: on
 mpdm_popover_convert_to_private: on
+msft_file_unread_badge: on
 mute_channel_edu: on
 native_cal: on
 native_cal_ui: on
@@ -794,7 +793,6 @@ presence_status_aria_label_strings: on
 preserve_omitted_user_change_member_fields: on
 prewarmed_huddles: on
 pricing_checkout_reorder: control, treatment
-pricing_page_refactoring: on
 pricing_paid_plan_escape_hatch: control, treatment
 print_pdf_ssb: on
 privacy_mode: on
@@ -1309,6 +1307,7 @@ updated_scheduled_sends_desktop: on
 url_shortener_invite_links: on
 user_expectations_survey
 user_proposed_acls_during_approval: on
+video_effects_stateful_longpipe: on
 view_header_overflow_borders: on
 views_submit_increased_timeout: on
 vip_section_pref: on
@@ -1345,7 +1344,6 @@ wfb_ai_step_combined_picker: on
 wfb_ai_step_connector_access: on
 wfb_ai_step_debug_mode: on
 wfb_ai_step_nux: on
-wfb_ai_step_private_channel_access_on_off: on
 wfb_ai_step_prompt_writer: on
 wfb_ai_step_translations: on
 wfb_ai_test_run_mcp_tester_creds: on
@@ -1353,7 +1351,6 @@ wfb_ambient_agent: on
 wfb_ambient_agent_cost_optimizations: on
 wfb_auto_hitl: on
 wfb_automations_tab_in_channel: on
-wfb_back_to_basics_jalapeno_release: on
 wfb_back_to_basics_lasagna_release: on
 wfb_back_to_basics_muhallebi_release: on
 wfb_back_to_basics_nanaimo_release: on

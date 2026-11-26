@@ -258,7 +258,6 @@ component: file_limit_error_modal
 component: file_preview
 component: file_storage_warning
 component: files_tab_nux_cloud_storage_hero_banner
-component: files_tab_nux_video_modal
 component: flexpane
 component: flexpane_header_more_button
 component: flexpane_record_tour
@@ -3704,6 +3703,7 @@ entry_point: filter-bar
 entry_point: flexpane_header_button
 entry_point: flexpane_header_overflow_menu
 entry_point: floating-view
+entry_point: flow_setup_tip
 entry_point: focus-item-thread
 entry_point: focused-sidebar-document-context-menu
 entry_point: focused_menu
@@ -3842,6 +3842,7 @@ entry_point: related-channels-add-or-create-channel-modal
 entry_point: remove_zone
 entry_point: reply-bar
 entry_point: request_to_purchase_modal
+entry_point: requester_dm
 entry_point: resend_confirmation_code
 entry_point: restore_last_closed_window
 entry_point: restore_windows
@@ -3873,6 +3874,7 @@ entry_point: sidebar-slack-connect-page-link
 entry_point: sidebar_channel_huddle_footer
 entry_point: sidebar_connect_apps
 entry_point: sidebar_huddle_invite
+entry_point: sidebar_link
 entry_point: sidebar_section_menu
 entry_point: signin
 entry_point: skill-overflow-actions
@@ -3952,6 +3954,7 @@ entry_point: unified_files_sidebar
 entry_point: unknown
 entry_point: unread_threads_popover
 entry_point: upgrade_email_v2
+entry_point: url
 entry_point: usage_callouts
 entry_point: usage_callouts_file_size
 entry_point: usage_callouts_messages_count
@@ -4611,6 +4614,7 @@ step_variant: has_downloads
 step_variant: has_workspaces
 step_variant: init_set_user_pref_step
 step_variant: inproduct_team_creation
+step_variant: invalid_recipient_team
 step_variant: later_actions_menu_open
 step_variant: legacy_connection_invalid_org
 step_variant: mention
