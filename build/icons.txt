@@ -122,6 +122,7 @@ cloud-offline
 cloud-offline-filled
 cloud-upload
 code
+cog
 comment
 comment-filled
 compose

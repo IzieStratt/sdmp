@@ -387,6 +387,8 @@
 --dt_color-theme-surf-ter
 --dt_color-theme-surf-ter-hover
 --dt_color-theme-surf-ter-pressed
+--dt_space-2
+--dt_space-5
 --dt_static_radius-base
 --dt_static_radius-large
 --dt_static_radius-none

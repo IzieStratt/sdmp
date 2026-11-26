@@ -360,7 +360,7 @@ conversations.sharedInviteLinkCopied: invite_id
 conversations.teamConnections: channel
 conversations.unarchive: channel
 conversations.updateDefaultState: channel_id, set_as_default
-conversations.updateTab: channel_id, data, id, label
+conversations.updateTab: channel_id, data, id, is_pinned, label
 conversations.validateName: name, team_id
 conversations.view: channel
 dataResidency.status: mock_region_name
@@ -918,6 +918,7 @@ workObjects.performDraftAction: action_id, channel_id, entity_id, message_ts, st
 workObjects.publishEntity: channel_id, entity_id, message_ts, state
 workflows.activity.export: filters, workflow_id
 workflows.activity.get: workflow_execution_id, workflow_id
+workflows.activity.list: filters, workflow_id
 workflows.ai.feedback: additional_feedback, rating, source, user_prompt, workflow_generation_id
 workflows.ai.generate: prompt
 workflows.ai.generateDetails: workflow_id

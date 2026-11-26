@@ -90,6 +90,7 @@ close-circle-filled
 close-filled
 cloud-offline
 code
+cog
 color
 comment
 compose
